@@ -10,7 +10,7 @@ To download the dataset [Event Narrative](https://www.kaggle.com/datasets/acolas
 
 
 ## DWIE:
-To download the dataset [DWIE] (https://www.sciencedirect.com/science/article/pii/S0306457321000662):
+To download the dataset [DWIE](https://www.sciencedirect.com/science/article/pii/S0306457321000662):
 ```
 python dwie_download.py
 ```
