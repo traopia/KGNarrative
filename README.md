@@ -31,6 +31,10 @@ TODO: py script for all the finetunings
 
 
 
+config deepspeed model parallelism : #https://github.com/pacman100/accelerate-deepspeed-test/blob/main/src/modeling/configs/zero2_config_accelerate.json
+
+
+
 
 ### Citations
 Should you use this code/dataset for your own research, please cite: 

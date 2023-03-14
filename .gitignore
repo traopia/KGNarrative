@@ -4,3 +4,6 @@ data/
 Experiment_DWIEgenerated_stories/LONGFormer_model_paramsInstancesInstances/
 EventNarrative/
 Event_KG/
+preprocess_event_narrative.ipynb/
+BRT4DIS.ipynb/
+
