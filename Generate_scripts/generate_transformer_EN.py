@@ -86,12 +86,15 @@ def main(argv, arc):
 
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
 
+    dataset['train'] = dataset['train'][:10000]
+    dataset['valid'] = dataset['valid'][:1000]
+    dataset['test'] = dataset['test'][:1000]
     ### let's check the data
 
-    print(len(dataset['valid'][0]['story']))
-    print(dataset['test'][0][f'{how}Knowledge Graph'])
+    # print(len(dataset['valid'][0]['story']))
+    # print(dataset['test'][0][f'{how}_Knowledge_Graph'])
 
-    print(dataset['test'][0][f'{how}Knowledge Graph'])
+    # print(dataset['test'][0][f'{how}_Knowledge_Graph'])
 
 
 
@@ -102,20 +105,20 @@ def main(argv, arc):
     #max_target = np.max([len(nltk.word_tokenize(dataset['test'][i]['story'])) for i in range(100)])+200
     max_target = 512
 
-    #max_input = int(np.max([len(nltk.word_tokenize(dataset['test'][i][f'{how}Knowledge Graph'])) for i in range(100)])+200)
+    #max_input = int(np.max([len(nltk.word_tokenize(dataset['test'][i][f'{how}_Knowledge_Graph'])) for i in range(100)])+200)
 
     max_input = 512
     tokenizer = AutoTokenizer.from_pretrained("allenai/led-base-16384")
-    print('max_target',max_target)
-    print('max_input',max_input)
-    print(np.max([len(nltk.word_tokenize(dataset['valid'][i]['story'])) for i in range(100)]))
-    print(np.max([len(nltk.word_tokenize(dataset['train'][i]['story'])) for i in range(600)]))
-    print(np.max([len(nltk.word_tokenize(dataset['valid'][i][f'{how}Knowledge Graph'])) for i in range(100)]))
-    print(np.max([len(nltk.word_tokenize(dataset['train'][i][f'{how}Knowledge Graph'])) for i in range(600)]))
+    # print('max_target',max_target)
+    # print('max_input',max_input)
+    # print(np.max([len(nltk.word_tokenize(dataset['valid'][i]['story'])) for i in range(100)]))
+    # print(np.max([len(nltk.word_tokenize(dataset['train'][i]['story'])) for i in range(600)]))
+    # print(np.max([len(nltk.word_tokenize(dataset['valid'][i][f'{how}_Knowledge_Graph'])) for i in range(100)]))
+    # print(np.max([len(nltk.word_tokenize(dataset['train'][i][f'{how}_Knowledge_Graph'])) for i in range(600)]))
 
     def process_data_to_model_inputs(data_to_process):
         #get the dialogue text
-        inputs = [graph for graph in data_to_process[f'{how}Knowledge Graph']]
+        inputs = [graph for graph in data_to_process[f'{how}_Knowledge_Graph']]
         #tokenize text
         model_inputs = tokenizer(inputs,  max_length=max_input, padding='max_length', truncation=True)
 
@@ -167,7 +170,7 @@ def main(argv, arc):
     # set generate hyperparameters
     model.config.num_beams = 2
     model.config.max_length = int(max_target) #300
-    model.config.min_length =  int(max_target)-100#120
+    #model.config.min_length =  int(max_target)-100#120
     model.config.length_penalty = 2
     model.config.early_stopping = True
     model.config.no_repeat_ngram_size = 3

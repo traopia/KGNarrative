@@ -7,7 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1tz9JSdMxfdBIlMw7jXTrrwqex07BAmhN
 """
 
-experiment_name = 'EventNarrative'
+#experiment_name = 'EventNarrative'
+experiment_name = 'short_Instances'
 method = 'EN'
 how = 'Instance'
 #experiment_name = '' and here you put baseline instance, baseline class etc etc 
@@ -29,6 +30,28 @@ import evaluate
 nltk.download('punkt')
 print(transformers.__version__)
 print(torch.__version__)
+import json 
+
+def check_nonASCI(file):
+    with open(file, 'r') as f:
+        data = json.load(f)
+
+    for value in data:
+        if isinstance(value, str):
+            for character in value:
+                if ord(character) > 127:
+                    print("JSON file contains non-ASCII character(s)")
+                    break
+            else:
+                continue
+            break
+    else:
+        print("JSON file does not contain non-ASCII characters")
+
+check_nonASCI('EventNarrative/short_Instances/EN_test.json')
+check_nonASCI('EventNarrative/short_Instances/EN_train.json')
+check_nonASCI('EventNarrative/short_Instances/EN_validation.json')  
+
 
 ### connect to the drive
 
@@ -59,8 +82,8 @@ dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_fil
 
 ### let's check the data
 
-print(len(dataset['valid'][0]['story']))
-print(dataset['valid'][0]['Instance Knowledge Graph'])
+# print(len(dataset['valid'][0]['story']))
+# print(dataset['valid'][0]['Instance_Knowledge_Graph'])
 
 ### data looks OK, let's continue with the tokenizer
 max_input = 512 #number of tokens we expect -DEPENDS ON size of inputs (for the tensor) - sentence and then it pads the rest - 
@@ -71,7 +94,7 @@ tokenizer = transformers.AutoTokenizer.from_pretrained(model_checkpoints)
 
 def preprocess_data(data_to_process):
   #get the dialogue text
-  inputs = [graph for graph in data_to_process['Instance Knowledge Graph']]
+  inputs = [graph for graph in data_to_process['Instance_Knowledge_Graph']]
   #tokenize text
   model_inputs = tokenizer(inputs,  max_length=max_input, padding='max_length', truncation=True)
 
@@ -86,14 +109,14 @@ def preprocess_data(data_to_process):
 
 tokenize_data = dataset.map(preprocess_data, batched = True) 
 
-print(tokenize_data['test']['story'][3])
-print(tokenize_data['test']['Instance Knowledge Graph'][3])
+# print(tokenize_data['test']['story'][3])
+# print(tokenize_data['test']['Instance_Knowledge_Graph'][3])
 
 ### let's drop the columns that we won't need
-tokenize_data = dataset.map(preprocess_data, batched = True, remove_columns=['story', 'Instance Knowledge Graph'])
-print(tokenize_data)
+tokenize_data = dataset.map(preprocess_data, batched = True, remove_columns=['story', 'Instance_Knowledge_Graph'])
+# print(tokenize_data)
 
-print(tokenize_data['train']['attention_mask'][0])
+# print(tokenize_data['train']['attention_mask'][0])
 
 ### load model
 model = transformers.AutoModelForSeq2SeqLM.from_pretrained(model_checkpoints)
@@ -157,7 +180,7 @@ trainer = transformers.Seq2SeqTrainer(
 )
 
 ### check GPU
-!nvidia-smi
+
 
 ### training time - takes around 15 mins
 
