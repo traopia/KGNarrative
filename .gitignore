@@ -8,3 +8,4 @@ preprocess_event_narrative.ipynb/
 BRT4DIS.ipynb/
 EN_trained/
 finetuned_BART_vanillaDWIE_on_EN_long/
+finetuned_BART_semanticsDWIE_on_EN_long/
