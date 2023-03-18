@@ -19,7 +19,7 @@ max_input = 512
 def main(argv, arc):
 
     if arc!=6:
-        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [type] [trainmode (parallel or else)] [Experiment_name]")
+        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [type] [trainmode (parallel or else)] [outputfolder/Experiment_name]")
         exit()
 
     dataset = argv[2]
@@ -28,9 +28,7 @@ def main(argv, arc):
     train_mode=argv[4]
     experiment_name=argv[5]
     model_name = 'facebook/bart-base'
-    #data_path= './'
-    #dataset = 'EN'
-    #typeKG = 'Instance'
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Device in use is ", device)
 
@@ -59,7 +57,7 @@ def main(argv, arc):
     print('Loading rouge')
     metric = load_metric('rouge')
 
-    def compute_rouge(pred):
+    def compute_rouge(pred): #UGLY AND DEPPRECATED
         predictions, labels = pred
         #decode the predictions
         decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
