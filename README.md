@@ -3,10 +3,12 @@ The goal of this research project is to combine Large Language Models with Knowl
 
 
 # DATASETS :
+Two datasets are used in this project and can be found in /Dataset folder. 
 
 ## Event Narrative:
-To download the dataset [Event Narrative](https://www.kaggle.com/datasets/acolas1/eventnarration):
-- download the folder and add it to the repository under the name EventNarrative
+To download the original dataset  [Event Narrative](https://www.kaggle.com/datasets/acolas1/eventnarration):
+The dataset has been preprocessed and the version in use can be downloaded from https://drive.google.com/drive/folders/1YuwHx6qRaOuf1Cfr87P2_445BdFMNqzr?usp=share_link
+- download and extract the train test validation in the EventNarrative folder
 
 
 ## DWIE:
