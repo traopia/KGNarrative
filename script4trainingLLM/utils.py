@@ -4,7 +4,7 @@ from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
     #get the dialogue text
-    inputs = [graph for graph in data_to_process[f'{typeKG}_Knowledge_Graph']]
+    inputs = [graph for graph in data_to_process[f'{typeKG}']]
     #tokenize text
     model_inputs = tokenizer(inputs,  max_length=max_input, padding='max_length', truncation=True)
 
@@ -24,7 +24,7 @@ def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
 
 
-def process_data(data_to_process,tokenizer,max_input,max_target,typeKG ):
+def process_data_LED(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
     #get the dialogue text
     inputs = [graph for graph in data_to_process[f'{typeKG}_Knowledge_Graph']]
@@ -59,6 +59,9 @@ def process_data(data_to_process,tokenizer,max_input,max_target,typeKG ):
     ]
 
     return data_to_process
+
+
+
 
 
 def tokenize_for_evaluation(tokenizer,preds,labels):
