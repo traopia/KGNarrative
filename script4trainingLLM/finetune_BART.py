@@ -79,7 +79,7 @@ def main(argv, arc):
     print("\nPREPARING FOR TRAINING...")
 
     if train_mode=="parallel":
-        fopen('config.json','r')
+        f=fopen('config.json','r')
         config = json.load(f)
 
         
