@@ -17,14 +17,14 @@ To download the dataset [DWIE](https://www.sciencedirect.com/science/article/pii
 python dwie_download.py
 ```
 
-# PREPROCESSING:
+### PREPROCESSING:
 To preprocess the DWIE dataset 
 ```
 python DWIE_preprocessing.py
 ```
 TODO: one py script with EventNarrative preprocessing 
 
-# DATA AUGMENTATION
+### DATA AUGMENTATION
 TOD0: make one py script with semantic augmentation pipeline
 
 
