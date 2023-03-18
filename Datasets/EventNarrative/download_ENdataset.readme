@@ -1,0 +1,5 @@
+A toy preview of our preprocessed EventNarrative (https://www.kaggle.com/datasets/acolas1/eventnarration) is shown in ./preview folder.
+Full preproccessed dataset can be download from here:
+https://drive.google.com/drive/folders/1YuwHx6qRaOuf1Cfr87P2_445BdFMNqzr?usp=share_link
+
+Extract train test and validation set in this folder.
