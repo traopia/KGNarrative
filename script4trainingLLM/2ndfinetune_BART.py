@@ -42,7 +42,7 @@ def main(argv, arc):
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
-    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=['story', 'Instances Knowledge Graph', 'Types Knowledge Graph', 'Subclass Knowledge Graph',"semantic_of_news",'InstancesKG+NewsKG'])
+    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=['Unnamed: 0','story', 'Instances Knowledge Graph', 'Types Knowledge Graph', 'Subclass Knowledge Graph',"semantic_of_news",'InstancesKG+NewsKG'])
 
     print("\nLoading MODEL")
     model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
