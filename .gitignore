@@ -2,7 +2,11 @@ synchronize.sh
 .idea/
 data/
 DWIE_trained_vanilla/LONGFormer_model_paramsInstancesInstances/
-EventNarrative/
+EventNarrative/EN_train.json
+EventNarrative/EN_test.json
+EventNarrative/EN_validation.json
+EventNarrative/short_Instances
+
 Event_KG/
 preprocess_event_narrative.ipynb/
 BRT4DIS.ipynb/
