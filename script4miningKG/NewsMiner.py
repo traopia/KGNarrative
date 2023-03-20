@@ -333,7 +333,7 @@ def get_csv_with_mined_semantic_concatenated_kginstances(df, path):
         lambda x: x[2:-1]) 
     df["Instances_NewsKG_noCore"] =  df["Instances Knowledge Graph"] + df["semantic_of_news_noCore"].apply(
         lambda x: x[2:-1]) 
-    df["Types_NewsKG_noCore"] =  df["Instance_NewsKG_noCore"] + df["Types Knowledge Graph"]
+    df["Types_NewsKG_noCore"] =  df["Instances_NewsKG_noCore"] + df["Types Knowledge Graph"]
     df["Subclass_NewsKG_noCore"] =  df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
     df["Subclass_NewsKG"] =  df["Instance_NewsKG"] + df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
 
