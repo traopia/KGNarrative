@@ -308,12 +308,13 @@ def extract_triples_from_tuples(df):
       new_triples.append(new_row)
 
   df['new_triples'] = new_triples
-  df['final_triples'] = ["{" + " | ".join([f"{triple[0]} - {triple[1]} - {triple[2]}" for triple in row]) + "}" for row in df['new_triples']]
+  df['final_triples'] = [" | ".join([f"{triple[0]} - {triple[1]} - {triple[2]}" for triple in row])  for row in df['new_triples']]
   return df
 
 def get_final_kg(df):
   df["final_triples"] = df["final_triples"].apply(lambda x: x[1:-1])
-  df["semantic_of_news"] = "{ "  + " news - type - " + df["predicted_label1"] + " | "+  df["final_triples"] + " | news - hasCore - " + "'" + df["core description"] + "'" + " }"
+  df["semantic_of_news_noCore"] =  " news - type - " + df["predicted_label1"] + " | "+  df["final_triples"] #+ " | news - hasCore - " + "'" + df["core description"] + "'" 
+  df["semantic_of_news"] =  " news - type - " + df["predicted_label1"] + " | "+  df["final_triples"] + " | news - hasCore - " + "'" + df["core description"] + "'"
   return df
 
 
@@ -335,8 +336,16 @@ def get_csv_with_mined_semantic_concatenated_kginstances(df, path):
              'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
              'final_triples'], axis=1, inplace=True)
 
-    df["InstancesKG+NewsKG"] = "{" + df["Instances Knowledge Graph"] + df["semantic_of_news"].apply(
-        lambda x: x[2:-1]) + "}"
+    df["Instance_NewsKG"] =  df["Instances Knowledge Graph"] + df["semantic_of_news"].apply(
+        lambda x: x[2:-1]) 
+    df["Instances_NewsKG_noCore"] =  df["Instances Knowledge Graph"] + df["semantic_of_news_noCore"].apply(
+        lambda x: x[2:-1]) 
+    df["Types_NewsKG_noCore"] =  df["Instance_NewsKG_noCore"] + df["Types Knowledge Graph"]
+    df["Subclass_NewsKG_noCore"] =  df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
+    df["Subclass_NewsKG"] =  df["Instance_NewsKG"] + df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
+
+    df.drop(['Instances Knowledge Graph', 'Types Knowledge Graph','Subclass Knowledge Graph', 'semantic_of_news', 'Instance_NewsKG', 'semantic_of_news','InstancesKG+NewsKG'], axis=1, inplace=True)
+    
 
     df.to_csv(path, index=False)
 
