@@ -429,6 +429,7 @@ def main(args):
 
     # getting the file
     get_csv_with_mined_semantic_concatenated_kginstances(df, "./MinedDF")
+    print("DONE")
 
 
 if __name__ == "__main__":
