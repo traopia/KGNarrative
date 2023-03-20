@@ -324,21 +324,7 @@ def get_csv_with_mined_semantic(df,path):
   df.to_csv(path, index=False)
 
 
-def get_csv_with_mined_semantic_concatenated_kginstances(df, path):
-    df.drop([ 'predicted_label1',
-             'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
-             'final_triples'], axis=1, inplace=True)
-    
-    df["Instance_NewsKG"] =  df["Instances Knowledge Graph"] + df["semantic_of_news"].apply(
-        lambda x: x[2:-1]) 
-    df["Instances_NewsKG_noCore"] =  df["Instances Knowledge Graph"] + df["semantic_of_news_noCore"].apply(
-        lambda x: x[2:-1]) 
-    df["Types_NewsKG_noCore"] =  df["Instances_NewsKG_noCore"] + df["Types Knowledge Graph"]
-    df["Subclass_NewsKG_noCore"] =  df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
-    df["Subclass_NewsKG"] =  df["Instance_NewsKG"] + df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
 
-    df.drop(['Instances Knowledge Graph', 'Types Knowledge Graph','Subclass Knowledge Graph', 'semantic_of_news', 'Instance_NewsKG', 'semantic_of_news','InstancesKG+NewsKG'], axis=1, inplace=True)
-    df.to_csv(path, index=False)
 
 def get_df_with_mined_semantic_concatenated_kginstances(df):
 
@@ -381,7 +367,7 @@ def get_df_with_mined_semantic_concatenated_kginstances(df):
     df["Instances_Types_subClasses_News"] = df["Instances_Types_subClasses"] + df["semantic_of_news"].apply(lambda x: x[2:-1]) 
 
 
-    df.drop(['semantic_of_news', 'Instance_NewsKG', 'semantic_of_news','InstancesKG+NewsKG'], axis=1, inplace=True)
+    df.drop(['semantic_of_news', 'Unnamed: 0','Instance_NewsKG', 'semantic_of_news_noCore','InstancesKG+NewsKG'], axis=1, inplace=True,errors='ignore')
     #df.to_csv(path, index=False)
     return df
 
