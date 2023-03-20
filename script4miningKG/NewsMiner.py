@@ -462,8 +462,8 @@ def main(args):
     df = get_df_with_mined_semantic_concatenated_kginstances(df)
     
     #save it into a json with same name of the original
-    final_json=csv_path.split("\\")[-1] 
-    df.to_json(final_json, orient='records', lines=False,indent=1)   
+    #final_json=csv_path.split("\\")[-1] 
+    df.to_json(csv_path, orient='records', lines=False,indent=1)   
 
     print("DONE")
 
