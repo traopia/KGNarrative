@@ -45,7 +45,7 @@ import sys
 
 def check_gpu_availability():
     # Check if CUDA is available
-    print(f"Cuda is available: {torch.cuda.is_available()}")
+    print(f'Cuda is available: {torch.cuda.is_available()}')
 
 
 def getting_device(gpu_prefence=True) -> torch.device:
