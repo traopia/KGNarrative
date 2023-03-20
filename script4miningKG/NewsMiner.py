@@ -328,7 +328,7 @@ def get_csv_with_mined_semantic_concatenated_kginstances(df, path):
     df.drop([ 'predicted_label1',
              'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
              'final_triples'], axis=1, inplace=True)
-
+    
     df["Instance_NewsKG"] =  df["Instances Knowledge Graph"] + df["semantic_of_news"].apply(
         lambda x: x[2:-1]) 
     df["Instances_NewsKG_noCore"] =  df["Instances Knowledge Graph"] + df["semantic_of_news_noCore"].apply(
@@ -338,14 +338,59 @@ def get_csv_with_mined_semantic_concatenated_kginstances(df, path):
     df["Subclass_NewsKG"] =  df["Instance_NewsKG"] + df["Types_NewsKG_noCore"] + df["Subclass Knowledge Graph"]
 
     df.drop(['Instances Knowledge Graph', 'Types Knowledge Graph','Subclass Knowledge Graph', 'semantic_of_news', 'Instance_NewsKG', 'semantic_of_news','InstancesKG+NewsKG'], axis=1, inplace=True)
-    
-
     df.to_csv(path, index=False)
 
+def get_df_with_mined_semantic_concatenated_kginstances(df):
+
+    df.drop([ 'predicted_label1',
+             'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
+             'final_triples'], axis=1, inplace=True)
+
+   
+   
+    #Only instances (vanilla)
+    df["Instances"] = df["Instances Knowledge Graph"]
+
+    #Instances and types
+    df["Instances_Types"]=df["Instances Knowledge Graph"]+df['Types Knowledge Graph']
+
+    #Instances types and subclasses
+    df["Instances_Types_subClasses"]=df["Instances_Types"]+df["Subclass Knowledge Graph"]
+
+    
+    df.drop(['Instances Knowledge Graph', 'Types Knowledge Graph','Subclass Knowledge Graph'], axis=1, inplace=True)
+              
+    #Instances and news structure (NO core)
+    df["Instances_News_noCore"] =  df["Instances"] + df["semantic_of_news_noCore"].apply(lambda x: x[2:-1]) 
+
+    #Instances and news structure (with core)
+    df["Instance_News"] =  df["Instances"] + df["semantic_of_news"].apply(lambda x: x[2:-1]) 
+    
+    #=========================================
+    #Instances+types and news structure (NO core)
+    df["Instances_Types_News_noCore"] =  df["Instances_Types"] + df["semantic_of_news_noCore"].apply(lambda x: x[2:-1]) 
+
+    #Instances+types and news structure (with core)
+    df["Instance_Types_News"] =  df["Instances_Types"] + df["semantic_of_news"].apply(lambda x: x[2:-1]) 
+    
+    #=========================================
+    #Instances+types+subClasses and news (No core)    
+    df["Instances_Types_subClasses_News_noCore"] = df["Instances_Types_subClasses"] + df["semantic_of_news_noCore"].apply(lambda x: x[2:-1]) 
+
+    #Instances+types+subClasses and news (with core)    
+    df["Instances_Types_subClasses_News"] = df["Instances_Types_subClasses"] + df["semantic_of_news"].apply(lambda x: x[2:-1]) 
+
+
+    df.drop(['semantic_of_news', 'Instance_NewsKG', 'semantic_of_news','InstancesKG+NewsKG'], axis=1, inplace=True)
+    #df.to_csv(path, index=False)
+    return df
+
 def to_json_format(json_filename, csv_filename):
+
     with open(csv_filename, newline='') as csvfile:
       reader = csv.reader(csvfile)
       columns = next(reader)
+      
     with open(json_filename, "w") as jsonfile:
         jsonfile.write('[')
         for row in csv.DictReader(open(csv_filename), fieldnames=columns):
@@ -427,8 +472,13 @@ def main(args):
     # mixing in final kg
     df = get_final_kg(df)
 
-    # getting the file
-    get_csv_with_mined_semantic_concatenated_kginstances(df, "./MinedDF")
+    # getting the final df
+    df = get_df_with_mined_semantic_concatenated_kginstances(df)
+    
+    #save it into a json with same name of the original
+    final_json=csv_path.split("\\")[-1] 
+    df.to_json(final_json, orient='records', lines=False,indent=1)   
+
     print("DONE")
 
 
