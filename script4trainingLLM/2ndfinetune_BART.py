@@ -122,7 +122,7 @@ def main(argv, arc):
 
 
     print("\nPREDICTING..")
-    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=450, no_repeat_ngram_size=2, early_stopping=True)
+    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=1024, no_repeat_ngram_size=2, early_stopping=True)
 
     predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
