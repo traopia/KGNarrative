@@ -11,12 +11,12 @@ import time
 os.environ['TQDM_DISABLE'] = 'true'
 
 max_target = 1024
-max_input = 1024
+max_input = 2048
 
 def main(argv, arc):
 
     if arc!=6:
-        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [type] [model checkpoint (folder)] [Experiment_name]")
+        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
         exit()
 
     dataset = argv[2]
@@ -30,19 +30,21 @@ def main(argv, arc):
     print("Device in use is ", device)
 
 
-    train_file = datapath +'/'+'train_1024.json'
-    dev_file = datapath +'/' + 'validation_1024.json'
-    test_file = datapath +'/'  + 'test_1024.json'
+    train_file = datapath +'/'+'train.json'
+    dev_file = datapath +'/' + 'validation.json'
+    test_file = datapath +'/'  + 'test.json'
 
     print("Loading dataset from",train_file)
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
-
+    
+    todrop=list(set(dataset['test'].column_names)-set([typeKG,'story'])) #This line returns a list of all the columns to drop (all columns minus the ones we need (input typeKG and story))
+  
     print("Loading tokenizer")
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
-    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=['Unnamed: 0','story', 'Instances Knowledge Graph', 'Types Knowledge Graph', 'Subclass Knowledge Graph',"semantic_of_news",'InstancesKG+NewsKG'])
+    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=todrop)
 
     print("\nLoading MODEL")
     model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
