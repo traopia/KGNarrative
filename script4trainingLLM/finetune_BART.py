@@ -41,7 +41,7 @@ def main(argv, arc):
 
 
     print("\nLoading Tokenizer")
-    tokenizer = AutoTokenizer.from_pretrained(model_name,add_eos_token=True,)
+    tokenizer = AutoTokenizer.from_pretrained(model_name,add_eos_token=True)
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
