@@ -16,7 +16,7 @@ max_input = 2048
 def main(argv, arc):
 
     if arc!=6:
-        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
+        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_DWIE_LED.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
         exit()
 
     dataset = argv[2]
@@ -95,7 +95,7 @@ def main(argv, arc):
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
         num_train_epochs=3,
         predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
-        generation_max_length = 1024, #max number of tokens per generation 
+        generation_max_length = 2048, #max number of tokens per generation 
         generation_num_beams=5, #decoding strategy! greedy search, beam search 
         eval_accumulation_steps=1, #backprop  
         fp16=True, #memory management
@@ -129,7 +129,7 @@ def main(argv, arc):
 
 
     print("\nPREDICTING..")
-    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=1024, no_repeat_ngram_size=2, early_stopping=True)
+    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=2048, no_repeat_ngram_size=2, early_stopping=True)
 
     predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
