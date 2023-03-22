@@ -56,11 +56,19 @@ def main(argv, arc):
     print('Loading rouge')
     rouge = evaluate.load('rouge')
 
-    def compute_rouge(pred):
-        predictions, labels = pred
-        results = rouge.compute(predictions=predictions,references=labels)
-        return results
 
+    def compute_rouge(pred): #UGLY AND DEPPRECATED
+        predictions, labels = pred
+        #decode the predictions
+        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+        #decode labels
+        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+        #compute results
+        res = rouge.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
+        #get %
+        return res
+    
 
     print("\nPREPARING FOR TRAINING...")
 
