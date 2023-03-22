@@ -40,7 +40,7 @@ def main(argv, arc):
     todrop=list(set(dataset['test'].column_names)-set([typeKG,'story'])) #This line returns a list of all the columns to drop (all columns minus the ones we need (input typeKG and story))
   
     print("Loading tokenizer")
-    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
+    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint,add_eos_token=True)
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
@@ -54,24 +54,12 @@ def main(argv, arc):
     collator = DataCollatorForSeq2Seq(tokenizer, model=model) #this is necessary for diving in batch for training
 
     print('Loading rouge')
-    metric = load_metric('rouge')
+    rouge = evaluate.load('rouge')
 
-    def compute_rouge(pred): #UGLY AND DEPPRECATED
+    def compute_rouge(pred):
         predictions, labels = pred
-        #decode the predictions
-        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-        #decode labels
-        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-
-        #compute results
-        res = metric.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
-        #get %
-        res = {key: value.mid.fmeasure * 100 for key, value in res.items()}
-
-        pred_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
-        res['gen_len'] = np.mean(pred_lens)
-
-        return {k: round(v, 4) for k, v in res.items()}
+        results = rouge.compute(predictions=predictions,references=labels)
+        return results
 
 
     print("\nPREPARING FOR TRAINING...")
