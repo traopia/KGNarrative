@@ -57,7 +57,7 @@ def main(argv, arc):
     rouge = evaluate.load('rouge')
 
 
-    def compute_rouge(pred): #UGLY AND DEPPRECATED
+    def compute_rouge(pred): 
         predictions, labels = pred
         #decode the predictions
         decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
