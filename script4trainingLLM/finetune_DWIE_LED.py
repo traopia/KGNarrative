@@ -10,8 +10,8 @@ import json
 import time
 os.environ['TQDM_DISABLE'] = 'true'
 
-max_target = 2048
-max_input = 2048
+max_target = 1640
+max_input = 416
 
 def main(argv, arc):
 
@@ -59,6 +59,12 @@ def main(argv, arc):
 
     print("\nLoading MODEL")
     model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
+    model.config.num_beams = 2
+    model.config.max_length = 2048
+    model.config.min_length = 100
+    model.config.length_penalty = 1.0
+    model.config.early_stopping = True
+    model.config.no_repeat_ngram_size = 3
     model.to(device)
 
     print("Collator for batches")
