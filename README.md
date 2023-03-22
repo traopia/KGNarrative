@@ -30,8 +30,10 @@ TOD0: make one py script with semantic augmentation pipeline
 
 
 # MODELS
-TODO: py script for all the finetunings 
+FOR THE FIRST FINETUNING ON EVENT NARRATIVE (parallel training not implemented yet)
+python3 finetune_BART.py Datasets/EventNarrative EN Instance_Knowledge_Graph nonparallel megaBART2
 
+FOR THE SECOND FINETUNING 
 
 
 config deepspeed model parallelism : #https://github.com/pacman100/accelerate-deepspeed-test/blob/main/src/modeling/configs/zero2_config_accelerate.json
