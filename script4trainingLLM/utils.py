@@ -27,7 +27,37 @@ def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
 def process_data_LED(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
     #get the dialogue text
-    inputs = [graph for graph in data_to_process[f'{typeKG}_Knowledge_Graph']]
+    inputs = [graph for graph in data_to_process[f'{typeKG}']]
+    #tokenize text
+    model_inputs = tokenizer(inputs,  max_length=max_input, padding='max_length', truncation=True)
+
+    #tokenize labels
+    #with tokenizer.as_target_tokenizer():
+    targets = [target for target in data_to_process['story']]
+    model_targets = tokenizer(targets, max_length=max_target, padding='max_length', truncation=True)
+    
+
+    #reuturns input_ids, attention_masks, labels
+    
+    data_to_process["input_ids"] = model_inputs.input_ids
+    data_to_process["attention_mask"] = model_inputs.attention_mask
+    data_to_process["labels"] = model_targets.input_ids
+
+
+    # create 0 global_attention_mask lists
+    data_to_process["global_attention_mask"] = len(data_to_process["input_ids"]) * [
+        [0 for _ in range(len(data_to_process["input_ids"][0]))]
+    ]
+
+    # since above lists are references, the following line changes the 0 index for all samples
+    data_to_process["global_attention_mask"][0][0] = 1
+
+    return data_to_process
+
+
+def process_data_to_model_inputs_OLD(data_to_process,tokenizer,max_input,max_target,how):
+    #get the dialogue text
+    inputs = [graph for graph in data_to_process[f'{how}Knowledge Graph']]
     #tokenize text
     model_inputs = tokenizer(inputs,  max_length=max_input, padding='max_length', truncation=True)
 
@@ -59,8 +89,6 @@ def process_data_LED(data_to_process,tokenizer,max_input,max_target,typeKG ):
     ]
 
     return data_to_process
-
-
 
 
 
