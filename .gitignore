@@ -16,3 +16,4 @@ finetuned_BART_semanticsDWIE_on_EN_long/
 finetuned_models/
 ouput_runs/
 finetunedDWIE_BART/
+EventNarrative/
