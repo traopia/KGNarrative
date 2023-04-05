@@ -45,8 +45,7 @@ def merge_xmls(input_file, output_file):
 
 
 
-def get_entity_class(entity):
-    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+def get_entity_class(entity, subclass=False):
     # construct the SPARQL query to retrieve the class of the entity
     query = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -71,9 +70,44 @@ def get_entity_class(entity):
     if len(bindings) > 0:
         class_uri = bindings[0]['class']['value']
         class_label = bindings[0]['label']['value']
-        return class_label
+        if subclass:
+            return class_uri
+        else:
+            return class_label
     else:
         return None
+
+def get_entity_subclass(entity):
+    clas = get_entity_class(entity, subclass = True)
+    print(clas)
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    # construct the SPARQL query to retrieve the class of the entity
+    query = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT ?class ?label WHERE {
+        <%s> rdfs:subClassOf ?class .
+        ?class rdfs:subClassOf* owl:Thing .
+        ?class rdfs:label ?label .
+        FILTER (lang(?label) = "en")
+    }
+    """ % clas
+
+    # set the SPARQL endpoint and query string
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+
+    # execute the query and retrieve the results
+    results = sparql.query().convert()
+    bindings = results['results']['bindings']
+
+    # extract the class label from the results
+    if len(bindings) > 0:
+        class_uri = bindings[0]['class']['value']
+        class_label = bindings[0]['label']['value']
+        return class_label
+    else:
+        return None    
 
 
 def create_dict_file(tree):
@@ -103,20 +137,27 @@ def create_dict_file(tree):
         # Join the otriples list into a single string, with each triple separated by '-'
         
         entry_dict['story'] = entry.find('.//lex').text
-        entry_dict['Instances KG'] = ' - '.join(otriples)
+        entry_dict['Instances_KG'] = ' - '.join(otriples)
         entities = [triple.split(' | ')[2] for triple in otriples]
         entities.append(str(otriples[0].split(' | ')[0]))
         print(entities)
         entities = [entity.replace(" ", "_") for entity in entities]
         # a = [get_entity_class('http://dbpedia.org/resource/'+entity) for entity in entities if '"' not in entity]
-        entry_dict['Types KG'] =  ' - '.join([f"{entity.replace(' ', '_')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity])
+        # entry_dict['Types KG'] =  ' - '.join([f"{entity.replace(' ', '_')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity])
+        # entry_dict['Subclasses KG'] =  ' - '.join([f"{entity.replace(' ', '_')} | subclass | {get_entity_subclass('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity])
 
-        print(entry_dict['Types KG'])
+        entry_dict['Types_KG'] =  ' - '.join(set([f"{entity.replace(' ', '_')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity]))
+        print(entry_dict['Types_KG'])
+        #entry_dict['Subclasses KG'] =  ' - '.join([f"{entity.replace(' ', '_')} | subclass | {get_entity_subclass('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity])
+        entry_dict['Subclasses_KG'] =  ' - '.join(set([f"{get_entity_class('http://dbpedia.org/resource/'+entity)} | subclass | {get_entity_subclass('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity]))
+        entry_dict['Subclasses_KG'] =  entry_dict['Types_KG'] + ' - ' + entry_dict['Subclasses_KG']
+        #print(entry_dict['Types KG'])
+        print(entry_dict['Subclasses_KG'])
         
 
         # Append the entry dictionary to the results list
         results.append(entry_dict)
-        return results
+    return results
 
 
 
@@ -145,6 +186,10 @@ def main(file_to_preprocess, output_file):
 
 
 if __name__ == "__main__":
-    main("WebNLG/release_v3.0/en/test/rdf-to-text-generation-test-data-with-refs-en.xml", "Datasets/WebNLG/test_1.json")
+    # merge_xmls("WebNLG/release_v3.0/en/dev/triples_dev_57", "WebNLG/release_v3.0/en/dev/dev_57triples.xml")
+    # merge_xmls("WebNLG/release_v3.0/en/train/triples_train_57", "WebNLG/release_v3.0/en/train/train_57triples.xml")
+
+    #main("WebNLG/release_v3.0/en/test/rdf-to-text-generation-test-data-with-refs-en.xml", "Datasets/WebNLG/test_1.json")
+    main("WebNLG/release_v3.0/en/train/train_57triples.xml", "Datasets/WebNLG/train_57_1.json")
 
 
