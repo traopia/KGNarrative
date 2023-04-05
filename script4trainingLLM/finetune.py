@@ -98,7 +98,7 @@ def main(argv, arc):
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
         num_train_epochs=3,
         predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
-        generation_max_length = 2048, #max number of tokens per generation 
+        generation_max_length = 512, #max number of tokens per generation 
         generation_num_beams=5, #decoding strategy! greedy search, beam search 
         eval_accumulation_steps=1, #backprop  
         fp16=True, #memory management
