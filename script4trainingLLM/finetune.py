@@ -19,7 +19,7 @@ def main(argv, arc):
         print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
         exit()
 
-    dataset = argv[2]
+    dataprefix = argv[2]
     datapath = argv[1] 
     typeKG = argv[3]
     model_checkpoint=argv[4]
@@ -44,9 +44,9 @@ def main(argv, arc):
 
 
 
-    train_file = datapath +'/'+'train.json'
-    dev_file = datapath +'/' + 'validation.json'
-    test_file = datapath +'/'  + 'test.json'
+    train_file = datapath +'/'+ dataprefix +'_train.json'
+    dev_file = datapath +'/'+  dataprefix + '_validation.json'
+    test_file = datapath +'/'  + dataprefix + '_test.json'
 
     print("Loading dataset from",train_file)
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
