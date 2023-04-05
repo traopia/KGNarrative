@@ -10,8 +10,8 @@ import json
 import time
 os.environ['TQDM_DISABLE'] = 'true'
 
-max_target = 1024
-max_input = 1024
+max_target = 512
+max_input = 512
 
 def main(argv, arc):
 
@@ -19,7 +19,7 @@ def main(argv, arc):
         print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
         exit()
 
-    dataset = argv[2]
+    dataprefix = argv[2]
     datapath = argv[1] 
     typeKG = argv[3]
     model_checkpoint=argv[4]
@@ -29,10 +29,24 @@ def main(argv, arc):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Device in use is ", device)
 
+    if model_checkpoint=="led":
+        print("Model selected: LED")
+        model_checkpoint="allenai/led-base-16384"
+    elif model_checkpoint=="bart":
+        print("Model selected: BART")
+        model_checkpoint="facebook/bart-base"
+    elif os.path.exists(model_checkpoint):
+        print(f"Model checkpoint selected from {model_checkpoint} ")
+    else:
+        print("Model checkpoint is not valid")
+        exit()
+       
 
-    train_file = datapath +'/'+'train.json'
-    dev_file = datapath +'/' + 'validation.json'
-    test_file = datapath +'/'  + 'test.json'
+
+
+    train_file = datapath +'/'+ dataprefix +'_train.json'
+    dev_file = datapath +'/'+  dataprefix + '_validation.json'
+    test_file = datapath +'/'  + dataprefix + '_test.json'
 
     print("Loading dataset from",train_file)
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
@@ -84,7 +98,7 @@ def main(argv, arc):
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
         num_train_epochs=3,
         predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
-        generation_max_length = 2048, #max number of tokens per generation 
+        generation_max_length = 512, #max number of tokens per generation 
         generation_num_beams=5, #decoding strategy! greedy search, beam search 
         eval_accumulation_steps=1, #backprop  
         fp16=True, #memory management
@@ -114,7 +128,7 @@ def main(argv, arc):
     print("tranining time was:",training_duration)
 
     print("Saving model")
-    trainer.save_model(experiment_name+"/finetunedLED_DWIE")
+    trainer.save_model(experiment_name+"/saved_model")
 
 
     print("\nPREDICTING..")

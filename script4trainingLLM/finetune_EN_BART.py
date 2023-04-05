@@ -142,7 +142,7 @@ def main(argv, arc):
     print("tranining time was:",training_duration)
 
     print("Saving model")
-    trainer.save_model(experiment_name+"/finetuned_BART_EventNarrative")
+    trainer.save_model(experiment_name+"saved_model")
 
 
 
