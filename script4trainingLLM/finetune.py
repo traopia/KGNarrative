@@ -10,8 +10,8 @@ import json
 import time
 os.environ['TQDM_DISABLE'] = 'true'
 
-max_target = 1024
-max_input = 1024
+max_target = 512
+max_input = 512
 
 def main(argv, arc):
 
@@ -28,6 +28,20 @@ def main(argv, arc):
     #CUDA CHECK
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Device in use is ", device)
+
+    if model_checkpoint=="led":
+        print("Model selected: LED")
+        model_checkpoint="allenai/led-base-16384"
+    elif model_checkpoint=="bart":
+        print("Model selected: BART")
+        model_checkpoint="facebook/bart-base"
+    elif os.path.exists(model_checkpoint):
+        print(f"Model checkpoint selected from {model_checkpoint} ")
+    else:
+        print("Model checkpoint is not valid")
+        exit()
+       
+
 
 
     train_file = datapath +'/'+'train.json'
