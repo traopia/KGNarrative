@@ -10,8 +10,8 @@ import json
 import time
 os.environ['TQDM_DISABLE'] = 'true'
 
-max_target = 512
-max_input = 512
+max_target = 1640
+max_input = 416
 
 def main(argv, arc):
 
