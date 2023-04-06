@@ -1,0 +1,12 @@
+{'test_loss': 3.0791175365448, 'test_rouge1': 0.4311005387687985, 'test_rouge2': 0.24047822020582985, 'test_rougeL': 0.31860222427209545, 'test_rougeLsum': 0.31872841390852713, 'test_runtime': 939.747, 'test_samples_per_second': 1.33, 'test_steps_per_second': 0.112}
+
+{'bleu': 0.11659785665180868, 'precisions': [0.2978537725383466, 0.15136308151363081, 0.08318613973919856, 0.04928198944516654], 'brevity_penalty': 1.0, 'length_ratio': 2.1116629185407296, 'translation_length': 67607, 'reference_length': 32016}
+
+{'google_bleu': 0.14611334872003742}
+
+{'precision': 0.7966069904804229, 'recall': 0.8577582545757294, 'f1': 0.8248567321777344}
+
+{'time(s)': 999.9635052680969}
+
+{'gpu': 18766}
+
