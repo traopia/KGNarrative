@@ -142,7 +142,7 @@ def main(argv, arc):
 
     bertscore = evaluate.load("bertscore")
     results_bert = bertscore.compute(predictions=predicted_text, references=golden_labels, model_type="distilbert-base-uncased")
-    results_bert={i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
+    results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
 
     print(f'{results_bert=}')
 
