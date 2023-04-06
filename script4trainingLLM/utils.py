@@ -125,9 +125,9 @@ def write_predictions(outpath,preds,labels):
     for gen, gold in zip(preds, labels):
         #print(f'Generated text: {gen}')
         outfile.write('{')
-        outfile.write(f'"Generated text":"{gen}"\n')
+        outfile.write(f'"Generated_text":"{gen}"\n')
         outfile.write(',')
-        outfile.write(f'"Reference text":"{gold}"\n\n')
+        outfile.write(f'"Reference_text":"{gold}"\n\n')
         outfile.write('}')
         outfile.write(',')
 
