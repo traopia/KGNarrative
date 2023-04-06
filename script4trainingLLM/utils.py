@@ -140,7 +140,7 @@ def write_predictions_andGraph(outpath,preds,labels,test_data):
     for graph,label,generated in zip(test_data,labels,preds):
         output.append({'graph':graph,'target':label,'generated_story':generated})
     
-    with open(outpath + 'stories.json', 'w') as outfile:
+    with open(outpath + 'stories_withInput.json', 'w') as outfile:
         json.dump(output, outfile)
       
 
