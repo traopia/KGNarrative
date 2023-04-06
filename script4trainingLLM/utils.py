@@ -112,7 +112,7 @@ def tokenize_for_evaluation(tokenizer,preds,labels):
 def write_scores_outputfile(outpath,score_list):
     outfile = open(outpath + 'output_metrics.txt', "a", encoding='utf-8')
     for s in score_list:
-        outfile.write(f'{s}\n\n')
+        outfile.write(f'{s=}\n')
 
     outfile.close()
 
