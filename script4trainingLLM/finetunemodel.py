@@ -168,6 +168,7 @@ def main(argv, arc):
 
     print(f"Writing predicted text in {outpath}stories.json")
     write_predictions(outpath,predicted_text,golden_labels)
+    write_predictions_andGraph(outpath,predicted_text,golden_labels,dataset['test'][typeKG])
 
 
     print("DONE")

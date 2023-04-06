@@ -1,5 +1,5 @@
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
-
+import json
 
 def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
@@ -133,6 +133,16 @@ def write_predictions(outpath,preds,labels):
 
     outfile.write(']')
     outfile.close()
+
+def write_predictions_andGraph(outpath,preds,labels,test_data):
+
+    output=[]
+    for graph,label,generated in zip(test_data,labels,preds):
+        output.append({'graph':graph,'target':label,'generated_story':generated})
+    
+    with open(outpath + 'stories.json', 'w') as outfile:
+        json.dump(output, outfile)
+      
 
 
 # Define a function to print GPU memory utilization
