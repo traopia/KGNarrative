@@ -1,4 +1,5 @@
 # INSTALLING
+'''
 !pip
 install
 inltk
@@ -20,6 +21,7 @@ sentencepiece
 !pip
 install
 flair
+'''
 
 # IMPORTING
 import transformers
@@ -163,9 +165,10 @@ def get_final_kg(df):
 
 
 def get_csv_with_mined_semantic(df, path):
-    # df.drop(['Unnamed: 0','predicted_label1',
-    #     'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
-    #    'final_triples'], axis = 1, inplace = True)
+    df.drop(['predicted_label1',
+        'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
+        'final_triples'], axis = 1, inplace = True) 
+  
     df.to_csv(path, index=False)
 
 
