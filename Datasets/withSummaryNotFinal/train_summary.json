@@ -1,11 +1,4 @@
-[{
-    "story": "story",
-    "Types_KG": "Types_KG",
-    "Instances_KG": "Instances_KG",
-    "Subclasses_KG": "Subclasses_KG",
-    "predicted_label1": "predicted_label1",
-    "core description": "core description"
-},
+[
 {
     "story": "Alan Bean was born in Wheeler, Texas and is from the U.S. He graduated in 1955 from UT Austin with a B.S. He worked as a test pilot and for NASA in 1963. He spent 100305 minutes in space and is now retired.",
     "Types_KG": "1963 | type | time period - Test_pilot | type | person - Alan_Bean | type | person - Wheeler,_Texas | type | place - United_States | type | person",

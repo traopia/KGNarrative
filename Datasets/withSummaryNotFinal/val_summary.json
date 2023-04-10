@@ -1,11 +1,4 @@
-[{
-    "story": "story",
-    "Types_KG": "Types_KG",
-    "Instances_KG": "Instances_KG",
-    "Subclasses_KG": "Subclasses_KG",
-    "predicted_label1": "predicted_label1",
-    "core description": "core description"
-},
+[
 {
     "story": "Bananaman was shown on the BBC, first airing on 3 October 1983 and the final broadcast being 15 April 1986. It was created by John Geering and starred Tim Brooke-Taylor.",
     "Types_KG": "Bananaman | type | fictional character - Tim_Brooke-Taylor | type | person - John_Geering | type | person - BBC | type | company",

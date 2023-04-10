@@ -162,16 +162,16 @@ def create_dict_file(tree):
 
 
 
-def to_json(results, output_json):
-    #with open('Datasets/WebNLG/dev_7triples.json', 'w') as f:
-    with open(output_json, 'w') as f:
-        f.write('[')
-        for i in results:
-            json.dump(i, f)
-            f.write(',')
-            f.write('\n')
-        f.write('{}')    
-        f.write(']')
+# def to_json(results, output_json):
+#     #with open('Datasets/WebNLG/dev_7triples.json', 'w') as f:
+#     with open(output_json, 'w') as f:
+#         f.write('[')
+#         for i in results:
+#             json.dump(i, f)
+#             f.write(',')
+#             f.write('\n')
+#         f.write('{}')    
+#         f.write(']')
 
 
 def get_entity_class(entity, subclass=False,multiple=False):
@@ -280,23 +280,18 @@ def get_onec_class(data, output_file):
         print(data[i]['Subclasses_KG'])
         data[i]['Instances_KG'] = data[i]['Instances_KG'].replace('_', ' ')
         print(data[i]['Instances_KG'])
-
+        data[i]['story'] = data[i]['story'].replace('"',' ')
 
 
     with open(output_file, 'w') as f:
-        f.write('[')
-        for i in data:
-            json.dump(i, f)
-            f.write(',')
-            f.write('\n')
-        f.write('{}')    
-        f.write(']')
+        json.dump(data, f, indent = 4)
 
 
-def get_multiple_class(data, outputfile):
+
+def get_multiple_class(data, output_file):
     for i in tqdm(range(len(data))):
         #entities
-        entities = [triple.split(' | ')[2] for triple in data[i]['Instances_KG'].split(' - ')]
+        entities = [triple.split(' - ')[2] for triple in data[i]['Instances_KG'].split(' | ')]
         entities.append(str(data[i]['Instances_KG'].split(' | ')[0]))
         entities = [entity.replace(' ', '_') for entity in entities]
         #print(entities)
@@ -310,6 +305,9 @@ def get_multiple_class(data, outputfile):
         classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity ]
         classes_uri = list(filter(lambda item: item is not None, classes_uri))
 
+        print(classes_uri)
+        print(classes)
+
 
         #KG
         data[i]['Types_KG'] = ' - '.join(set([f"{entity.replace('_', ' ')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)[i]}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None for i in range(len(get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)))]))
@@ -319,17 +317,12 @@ def get_multiple_class(data, outputfile):
         data[i]['Subclasses_KG'] =  ' - '.join(set([f"{s} | subclass | {get_entity_subclass(t)}" for i,j in zip(classes, classes_uri) for s,t in zip(i,j)]))
         print(data[i]['Subclasses_KG'])
         data[i]['Instances_KG'] = data[i]['Instances_KG'].replace('_', ' ')
+        data[i]['story'] = data[i]['story'].replace('"',' ')
 
 
 
-    with open(outputfile, 'w') as f:
-        f.write('[')
-        for i in data:
-            json.dump(i, f)
-            f.write(',')
-            f.write('\n')
-        f.write('{}')    
-        f.write(']')
+    with open(output_file, 'w') as f:
+        json.dump(data, f, indent = 4)
 
 
 def trattini(file_to_preprocess, output_file):
@@ -342,15 +335,11 @@ def trattini(file_to_preprocess, output_file):
         data[i]['Types_KG'] = data[i]['Types_KG'].replace('-',' - ').replace('|',' | ')
         data[i]['Subclasses_KG'] = data[i]['Subclasses_KG'].replace(' - ','|').replace(' | ','-')
         data[i]['Subclasses_KG'] = data[i]['Subclasses_KG'].replace('-',' - ').replace('|',' | ')
+        data[i]['story'] = data[i]['story'].replace('"',' ')
     
     with open(output_file, 'w') as f:
-        f.write('[')
-        for i in data:
-            json.dump(i, f)
-            f.write(',')
-            f.write('\n')
-        f.write('{}')    
-        f.write(']')
+        json.dump(data, f, indent = 4)
+
 
 
 def main(file_to_preprocess, output_file):
@@ -362,15 +351,19 @@ def main(file_to_preprocess, output_file):
 
     # tree = ET.parse(file_to_preprocess)
     # root = tree.getroot()
-    # results = create_dict_file(tree)
-    # to_json(results, output_file)
+    #  data = create_dict_file(tree)
+
+    # with open(output_file, 'w') as f:
+    #     json.dump(data, f, indent = 4)
 
     #get one class
-    # with open(file_to_preprocess, "r") as jsonFile:
-    #     data = json.load(jsonFile)
+    with open(file_to_preprocess, "r") as jsonFile:
+        data = json.load(jsonFile)
     # get_onec_class(data, output_file)
+    #get multiple class
+    get_multiple_class(data, output_file)
 
-    trattini(file_to_preprocess, output_file)
+    #trattini(file_to_preprocess, output_file)
 
 
 
@@ -387,7 +380,7 @@ if __name__ == "__main__":
 
 
     #main("Datasets/WebNLG/57_triples/dev_57.json", "Datasets/WebNLG/57_triples/dev_57_oneClass.json")
-    main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
-
+    #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
+    main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/test_57_oneClass.json")
 
 
