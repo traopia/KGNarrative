@@ -46,7 +46,7 @@ from transformers import pipeline
 
 # IMPORT DATAFRAME run with each of the file here "KGNarrative2\Datasets\withSummaryNotFinal"
 
-train = pd.read_json("KGNarrative/Datasets/withSummaryNotFinal/train_summary.json")
+train = pd.read_json("KGNarrative2/Datasets/withSummaryNotFinal/train_summary.json")
 train = train.head()
 
 # FUNCTIONS FOR MINING
