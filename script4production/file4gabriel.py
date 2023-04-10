@@ -46,8 +46,8 @@ from transformers import pipeline
 
 # IMPORT DATAFRAME run with each of the file here "KGNarrative2\Datasets\withSummaryNotFinal"
 
-train = pd.read_json("/content/train_summary.json")
-
+train = pd.read_json("KGNarrative/Datasets/withSummaryNotFinal/train_summary.json")
+train = train.head()
 
 # FUNCTIONS FOR MINING
 
@@ -196,5 +196,5 @@ df3 = extract_triples_from_tuples(df3)
 df3 = get_final_kg(df3)
 df3 = df3.drop(df3.index[0])
 
-get_csv_with_mined_semantic(df3, "/train_complete.csv")  # here the path where to save
-to_json_format("/ttrain_complete.json", "/train_complete.csv")
+get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
+to_json_format("./train_complete.json", "./train_complete.csv")
