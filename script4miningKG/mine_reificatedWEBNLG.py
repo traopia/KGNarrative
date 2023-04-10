@@ -202,7 +202,7 @@ def to_json_format(json_filename, csv_filename):
 def main(argv, argc):
 
     
-    for d in ["train"]:#,"test","val"]:
+    for d in ["train","test","val"]:
         data = pd.read_json(f"./Datasets/withSummaryNotFinal/{d}_summary.json")
 
         data=data.head(4)#REMOVE THIS LINE
