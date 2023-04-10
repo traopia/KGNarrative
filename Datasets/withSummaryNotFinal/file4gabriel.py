@@ -199,7 +199,8 @@ def main(argv, argc):
 
     get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     to_json_format("./train_complete.json", "./train_complete.csv")
-    json.dump(df3, open("./train_complete.json", "w"), indent=4)
-
+    with open("./train_complete.json", "w") as f:
+        json.dump(df3.to_dict('records'), f)
+        
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))
