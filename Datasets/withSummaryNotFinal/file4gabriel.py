@@ -46,8 +46,8 @@ from transformers import pipeline
 
 # IMPORT DATAFRAME run with each of the file here "KGNarrative2\Datasets\withSummaryNotFinal"
 
-train = pd.read_json("KGNarrative2/Datasets/withSummaryNotFinal/train_summary.json")
-train = train.head()
+#train = pd.read_json("KGNarrative2/Datasets/withSummaryNotFinal/train_summary.json")
+#train = train.head()
 
 # FUNCTIONS FOR MINING
 
@@ -190,17 +190,20 @@ def to_json_format(json_filename, csv_filename):
 
 def main(argv, argc):
 
-    df3 = mining_entites(train)
-    df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
-    df3 = column_extracting_triples(df3)
-    df3 = extract_triples_from_tuples(df3)
-    df3 = get_final_kg(df3)
-    df3 = df3.drop(df3.index[0])
+    for d in ["train","test","val"]:
+        data = pd.read_json(f"KGNarrative2/Datasets/withSummaryNotFinal/{d}_summary.json")
 
-    get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
-    to_json_format("./train_complete.json", "./train_complete.csv")
-    with open("./train_complete.json", "w") as f:
-        json.dump(df3.to_dict('records'), f, indent=4)
+        df3 = mining_entites(train)
+        df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
+        df3 = column_extracting_triples(df3)
+        df3 = extract_triples_from_tuples(df3)
+        df3 = get_final_kg(df3)
+        df3 = df3.drop(df3.index[0])
+
+        #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
+        #to_json_format("./train_complete.json", "./train_complete.csv")
+        with open(f"./{d}_complete.json", "w") as f:
+            json.dump(df3.to_dict('records'), f, indent=4)
 
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))
