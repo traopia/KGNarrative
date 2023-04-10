@@ -56,8 +56,8 @@ def extract_named_unique_entities_with_filters(text, ner_name='ner-ontonotes-lar
     taggerNer = SequenceTagger.load(ner_name)
     taggerPos = SequenceTagger.load(pos_name)
     sentence = Sentence(text)
-    taggerNer.predict(sentence)
-    taggerPos.predict(sentence)
+    taggerNer.predict(sentence,verbose=False)
+    taggerPos.predict(sentence,verbose=False)
     entities = []
     for entity in sentence.get_spans('ner'):
         entity_text = entity.text
@@ -160,7 +160,9 @@ def extract_triples_from_tuples(df):
 
 def get_final_kg(df):
     df["final_triples"] = df["final_triples"].apply(lambda x: x[1:-1])
-    df["semantic_of_news"] = "{ " + " news - type - " + df["predicted_label1"] + " | " + df["final_triples"] + " }"
+    #df["semantic_of_news"] = "{ " + " news - type - " + df["predicted_label1"] + " | " + df["final_triples"] + " }"
+    df["semantic_of_news"] = "news - type - " + df["predicted_label1"] + " | " + df["final_triples"]
+
     return df
 
 
@@ -170,6 +172,15 @@ def get_csv_with_mined_semantic(df, path):
         'final_triples'], axis = 1, inplace = True) 
   
     df.to_csv(path, index=False)
+
+def dump_json_with_mined_semantic(df, path):
+    df.drop(['predicted_label1',
+        'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
+        'final_triples'], axis = 1, inplace = True) 
+    with open(path, "w") as f:
+            json.dump(df.to_dict('records'), f, indent=4)
+  
+    
 
 
 def to_json_format(json_filename, csv_filename):
@@ -190,9 +201,12 @@ def to_json_format(json_filename, csv_filename):
 
 def main(argv, argc):
 
-    for d in ["train","test","val"]:
-        data = pd.read_json(f"KGNarrative2/Datasets/withSummaryNotFinal/{d}_summary.json")
-        data=data.head()
+    
+    for d in ["train"]:#,"test","val"]:
+        data = pd.read_json(f"./Datasets/withSummaryNotFinal/{d}_summary.json")
+
+        data=data.head(4)#REMOVE THIS LINE
+        
         df3 = mining_entites(data)
         df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
         df3 = column_extracting_triples(df3)
@@ -202,8 +216,7 @@ def main(argv, argc):
 
         #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
         #to_json_format("./train_complete.json", "./train_complete.csv")
-        with open(f"./{d}_complete.json", "w") as f:
-            json.dump(df3.to_dict('records'), f, indent=4)
+        dump_json_with_mined_semantic(df3, f"./Datasets/withSummaryNotFinal/{d}_summary_with_mined_kg.json")
 
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))
