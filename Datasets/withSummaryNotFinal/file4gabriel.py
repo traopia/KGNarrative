@@ -192,8 +192,8 @@ def main(argv, argc):
 
     for d in ["train","test","val"]:
         data = pd.read_json(f"KGNarrative2/Datasets/withSummaryNotFinal/{d}_summary.json")
-
-        df3 = mining_entites(train)
+        data=data.head()
+        df3 = mining_entites(data)
         df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
         df3 = column_extracting_triples(df3)
         df3 = extract_triples_from_tuples(df3)
