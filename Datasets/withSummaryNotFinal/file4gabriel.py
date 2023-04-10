@@ -188,13 +188,18 @@ def to_json_format(json_filename, csv_filename):
 
 # ACTION TIME
 
+def main(argv, argc):
 
-df3 = mining_entites(train)
-df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
-df3 = column_extracting_triples(df3)
-df3 = extract_triples_from_tuples(df3)
-df3 = get_final_kg(df3)
-df3 = df3.drop(df3.index[0])
+    df3 = mining_entites(train)
+    df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
+    df3 = column_extracting_triples(df3)
+    df3 = extract_triples_from_tuples(df3)
+    df3 = get_final_kg(df3)
+    df3 = df3.drop(df3.index[0])
 
-get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
-to_json_format("./train_complete.json", "./train_complete.csv")
+    get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
+    to_json_format("./train_complete.json", "./train_complete.csv")
+    json.dump(df3, open("./train_complete.json", "w"), indent=4)
+
+if __name__ == '__main__':
+    main(sys.argv, len(sys.argv))
