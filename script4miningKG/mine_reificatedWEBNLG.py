@@ -165,6 +165,10 @@ def get_final_kg(df):
 
     return df
 
+def extract_entities(triples_column):
+    entities_list = [triple[0] for triple in triples_column]
+    return entities_list
+
 
 def get_csv_with_mined_semantic(df, path):
     df.drop(['predicted_label1',
@@ -213,7 +217,7 @@ def main(argv, argc):
         df3 = extract_triples_from_tuples(df3)
         df3 = get_final_kg(df3)
         df3 = df3.drop(df3.index[0])
-
+        df3['entities_list'] = df3['triple_column'].apply(extract_entities)
         #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
         #to_json_format("./train_complete.json", "./train_complete.csv")
         dump_json_with_mined_semantic(df3, f"./Datasets/withSummaryNotFinal/{d}_summary_with_mined_kg.json")
