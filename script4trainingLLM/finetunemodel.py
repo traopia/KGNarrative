@@ -45,7 +45,7 @@ def main(argv, arc):
 
 
     train_file = datapath +'/' + 'train_' + dataprefix +'.json'
-    dev_file = datapath +'/'+  'val_' + dataprefix +'.json'
+    dev_file = datapath +'/'+  'dev__' + dataprefix +'.json'
     test_file = datapath +'/'  'test_'+ dataprefix +'.json'
 
 
