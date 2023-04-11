@@ -160,8 +160,9 @@ def extract_triples_from_tuples(df):
 
 def get_final_kg(df):
     df["final_triples"] = df["final_triples"].apply(lambda x: x[1:-1])
-    #df["semantic_of_news"] = "{ " + " news - type - " + df["predicted_label1"] + " | " + df["final_triples"] + " }"
-    df["semantic_of_news"] = "news - type - " + df["predicted_label1"] + " | " + df["final_triples"]
+    #df["semantic_of_news"] = "news - type - " + df["predicted_label1"] + " | " + df["final_triples"] # <------ THIS IS THE GOOD ONE BUT THERE IS NO LABEL
+    df["semantic_of_news"] =  df["final_triples"]
+
 
     return df
 
@@ -172,14 +173,13 @@ def extract_entities(triples_column):
 
 def get_csv_with_mined_semantic(df, path):
     df.drop(['predicted_label1',
-        'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
+        'core_description', 'mined_kg_entities', 'triple_column', 'new_triples',
         'final_triples'], axis = 1, inplace = True) 
   
     df.to_csv(path, index=False)
 
 def dump_json_with_mined_semantic(df, path):
-    df.drop(['predicted_label1',
-        'core description', 'mined_kg_entities', 'triple_column', 'new_triples',
+    df.drop(['core_description', 'mined_kg_entities', 'triple_column', 'new_triples', #predicted_label
         'final_triples'], axis = 1, inplace = True) 
     with open(path, "w") as f:
             json.dump(df.to_dict('records'), f, indent=4)
@@ -207,7 +207,7 @@ def main(argv, argc):
 
     
     for d in ["train","test","val"]:
-        data = pd.read_json(f"./Datasets/withSummaryNotFinal/{d}_summary.json")
+        data = pd.read_json(f"./Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
 
         data=data.head(4)#REMOVE THIS LINE
         
