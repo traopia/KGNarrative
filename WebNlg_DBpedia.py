@@ -305,8 +305,8 @@ def get_multiple_class(data, output_file):
         classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity ]
         classes_uri = list(filter(lambda item: item is not None, classes_uri))
 
-        print(classes_uri)
-        print(classes)
+        # print(classes_uri)
+        # print(classes)
 
 
         #KG
@@ -381,6 +381,6 @@ if __name__ == "__main__":
 
     #main("Datasets/WebNLG/57_triples/dev_57.json", "Datasets/WebNLG/57_triples/dev_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
-    main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/test_57_MultipleClass.json")
+    main("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/train_57_MultipleClass.json")
 
 

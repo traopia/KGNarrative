@@ -2,7 +2,7 @@
     {
         "story": "Bananaman was shown on the BBC, first airing on 3 October 1983 and the final broadcast being 15 April 1986. It was created by John Geering and starred Tim Brooke-Taylor.",
         "Types_KG": "Bananaman - type - fictional character | John Geering - type - person | BBC - type - company | Tim Brooke - Taylor - type - person",
-        "Instances_KG": "Bananaman - starring - Tim Brooke - Taylor | Bananaman - network - BBC | Bananaman - creator - John Geering | Bananaman - firstAired - \"1983 - 10 - 03\"^^xsd:date | Bananaman - lastAired - \"1986 - 04 - 15\"^^xsd:date",
+        "Instances_KG": "Bananaman - starring - Tim Brooke - Taylor | Bananaman - network - BBC | Bananaman - creator - John Geering | Bananaman - firstAired - \"\"1983 - 10 - 03\"\"^^xsd:date | Bananaman - lastAired - \"\"1986 - 04 - 15\"\"^^xsd:date",
         "Subclasses_KG": "person - subclass - animal | fictional character - subclass - agent | company - subclass - organisation",
         "core_description": "Bananaman (Bananaman) was a British television drama"
     },
@@ -23,7 +23,7 @@
     {
         "story": "Alan Shepard, born in New Hampshire on November 18, 1923, graduated from NWC in 1957 with an M.A. He died in California on July 21, 1998.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - deathDate - \"1998 - 07 - 21\"^^xsd:date | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - deathDate - \"\"1998 - 07 - 21\"\"^^xsd:date | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard, 88, died in California on July 21, 1998"
     },
@@ -51,7 +51,7 @@
     {
         "story": "Alan Shepard (born November 18th, 1923, New Hampshire) was awarded the United States Navy Distinguished Service Medal which is higher than the department of commerce gold medal has died in California.",
         "Types_KG": "Department of Commerce Gold Medal - type - award | Distinguished Service Medal (United States Navy) - type - award | California - type - place | New Hampshire - type - place",
-        "Instances_KG": "Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing",
         "core_description": "Alan Shepard (born November 18th, 1923, New Hampshire) was awarded the United States Navy Distinguished Service Medal"
     },
@@ -65,7 +65,7 @@
     {
         "story": "Elliot See, a graduate of the University of Texas at Austin, passed away on 28th February 1966 in St. Louis. He was born in Dallas.",
         "Types_KG": "University of Texas at Austin - type - university | Dallas - type - place | Elliot See - type - person | St. Louis - type - place",
-        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"1966 - 02 - 28\"^^xsd:date",
+        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"\"1966 - 02 - 28\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Elliot See, a graduate of the University of Texas at Austin"
     },
@@ -86,7 +86,7 @@
     {
         "story": "William Anders was a member of the Apollo 8 crew (operated by NASA) and he retired on September 1st, 1969. Frank Borman was the commander of Apollo 8 and Buzz Aldrin was a back up pilot.",
         "Types_KG": "Frank Borman - type - person | NASA - type - company | William Anders - type - person | Buzz Aldrin - type - person | Apollo 8 - type - societal event",
-        "Instances_KG": "William Anders - dateOfRet - \"1969 - 09 - 01\"^^xsd:date | Apollo 8 - crew1Up - Frank Borman | William Anders - mission - Apollo 8 | Apollo 8 - crew2Up - Buzz Aldrin | Apollo 8 - operator - NASA",
+        "Instances_KG": "William Anders - dateOfRet - \"\"1969 - 09 - 01\"\"^^xsd:date | Apollo 8 - crew1Up - Frank Borman | William Anders - mission - Apollo 8 | Apollo 8 - crew2Up - Buzz Aldrin | Apollo 8 - operator - NASA",
         "Subclasses_KG": "person - subclass - animal | societal event - subclass - event | company - subclass - organisation",
         "core_description": "On September 1st, 1969 William Anders retired"
     },
@@ -464,7 +464,7 @@
     {
         "story": "The Antares rocket is 3.9 metres in diametre and is manufactured by the Yuzhnoye Design Office. Its launch site was the Mid-Atlantic Regional Spaceport Launch Pad 0. The Antares rocket made its first flight on October 28th, 2014 and its final flight on September 18th, 2013.",
         "Types_KG": "Antares (rocket) - type - mean of transportation | Yuzhnoye Design Office - type - company | Mid - Atlantic Regional Spaceport Launch Pad 0 - type - infrastructure",
-        "Instances_KG": "Antares (rocket) - manufacturer - Yuzhnoye Design Office | Antares (rocket) - maidenFlight - \"2014 - 10 - 28\"^^xsd:date | Antares (rocket) - sites - Mid - Atlantic Regional Spaceport Launch Pad 0 | Antares (rocket) - MeanOfTransportation/diameter - \"3.9\"^^<http://dbpedia.org/datatype/metre> | Antares (rocket) - finalFlight - \"2013 - 09 - 18\"^^xsd:date",
+        "Instances_KG": "Antares (rocket) - manufacturer - Yuzhnoye Design Office | Antares (rocket) - maidenFlight - \"\"2014 - 10 - 28\"\"^^xsd:date | Antares (rocket) - sites - Mid - Atlantic Regional Spaceport Launch Pad 0 | Antares (rocket) - MeanOfTransportation/diameter - \"3.9\"^^<http://dbpedia.org/datatype/metre> | Antares (rocket) - finalFlight - \"\"2013 - 09 - 18\"\"^^xsd:date",
         "Subclasses_KG": "infrastructure - subclass - Bauwerk | company - subclass - organisation | mean of transportation - subclass - Thing",
         "core_description": "The Antares rocket is 3.9 metres in diametre and was launched on September 18th, 2013"
     },
@@ -478,14 +478,14 @@
     {
         "story": "The Ariane 5 had its first voyage August 11, 2005 and its last flight on December 18, 2009. It was manufactured by Airbus Defence and Space and launched from the Guiana Space Centre. Its diameter is 5.4 metres.",
         "Types_KG": "Airbus Defence and Space - type - company | Ariane 5 - type - mean of transportation | Guiana Space Centre - type - company",
-        "Instances_KG": "Ariane 5 - finalFlight - \"2009 - 12 - 18\"^^xsd:date | Ariane 5 - maidenFlight - \"2005 - 08 - 11\"^^xsd:date | Ariane 5 - manufacturer - Airbus Defence and Space | Ariane 5 - sites - Guiana Space Centre | Ariane 5 - MeanOfTransportation/diameter - \"5.4\"^^<http://dbpedia.org/datatype/metre>",
+        "Instances_KG": "Ariane 5 - finalFlight - \"\"2009 - 12 - 18\"\"^^xsd:date | Ariane 5 - maidenFlight - \"\"2005 - 08 - 11\"\"^^xsd:date | Ariane 5 - manufacturer - Airbus Defence and Space | Ariane 5 - sites - Guiana Space Centre | Ariane 5 - MeanOfTransportation/diameter - \"5.4\"^^<http://dbpedia.org/datatype/metre>",
         "Subclasses_KG": "company - subclass - organisation | mean of transportation - subclass - Thing",
         "core_description": "The Ariane 5 was launched from the Guiana Space Centre on December 18, 2009"
     },
     {
         "story": "The Ariane 5's maiden flight was on the 2nd March 2004 and its last flight being on Sept. 27, 2003. It was made by the European Space Agency and took off from ELA-3. It is 5.4 m in diameter.",
         "Types_KG": "European Space Agency - type - company | ELA - 3 - type - infrastructure | Ariane 5 - type - mean of transportation",
-        "Instances_KG": "Ariane 5 - sites - ELA - 3 | Ariane 5 - maidenFlight - \"2004 - 03 - 02\"^^xsd:date | Ariane 5 - manufacturer - European Space Agency | Ariane 5 - MeanOfTransportation/diameter - \"5.4\"^^<http://dbpedia.org/datatype/metre> | Ariane 5 - finalFlight - \"2003 - 09 - 27\"^^xsd:date",
+        "Instances_KG": "Ariane 5 - sites - ELA - 3 | Ariane 5 - maidenFlight - \"\"2004 - 03 - 02\"\"^^xsd:date | Ariane 5 - manufacturer - European Space Agency | Ariane 5 - MeanOfTransportation/diameter - \"5.4\"^^<http://dbpedia.org/datatype/metre> | Ariane 5 - finalFlight - \"\"2003 - 09 - 27\"\"^^xsd:date",
         "Subclasses_KG": "mean of transportation - subclass - Thing | infrastructure - subclass - Bauwerk | company - subclass - organisation",
         "core_description": "The Ariane 5's maiden flight was on the 2nd March 2004"
     },
@@ -499,7 +499,7 @@
     {
         "story": "From the United States the Atlas II (3.04 m diameter) was sent from Vandenberg Air Force Base and Spaceport Florida Launch Complex 36. March 16, 1998 was its final lift off.",
         "Types_KG": "United States - type - person | Atlas II - type - person | Spaceport Florida Launch Complex 36 - type - launch pad",
-        "Instances_KG": "Atlas II - countryOrigin - United States | Atlas II - finalFlight - \"1998 - 03 - 16\"^^xsd:date | Atlas II - sites - Vandenberg Air Force Base | Atlas II - diameter - \"3.04 m\"@en | Atlas II - launchSite - Spaceport Florida Launch Complex 36",
+        "Instances_KG": "Atlas II - countryOrigin - United States | Atlas II - finalFlight - \"\"1998 - 03 - 16\"\"^^xsd:date | Atlas II - sites - Vandenberg Air Force Base | Atlas II - diameter - \"3.04 m\"@en | Atlas II - launchSite - Spaceport Florida Launch Complex 36",
         "Subclasses_KG": "person - subclass - animal | launch pad - subclass - infrastructure",
         "core_description": "A final liftoff of the Atlas II from Vandenberg Air Force Base and Spaceport Florida"
     },
@@ -569,21 +569,21 @@
     {
         "story": "The celestial body known as (66063) 1998 RO1, which has the epoch date 13 January 2016, was formerly called 1999 SN5 and has an orbital period of 360.29 days. Its apoapsis measurement is 254989570.60815 kms and the escape velocity is 0.0999 km per sec.",
         "Types_KG": "(66063) 1998 RO1 - type - place",
-        "Instances_KG": "(66063) 1998 RO1 - escapeVelocity - \"359.64\"^^xsd:double | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - epoch - \"2013 - 11 - 04\"^^xsd:date | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - epoch - \"2013 - 11 - 04\"^^xsd:date | (66063) 1998 RO1 - escapeVelocity - \"0.0999\"^^xsd:double | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - epoch - \"November 4, 2013\" | (66063) 1998 RO1 - escapeVelocity - \"359.64\"^^xsd:double | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - epoch - \"November 4, 2013\" | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - escapeVelocity - \"0.0999\"^^xsd:double | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre>",
+        "Instances_KG": "(66063) 1998 RO1 - escapeVelocity - \"359.64\"^^xsd:double | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - epoch - \"\"\"2013 - 11 - 04\"\"\"^^xsd:date | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - epoch - \"\"\"2013 - 11 - 04\"\"\"^^xsd:date | (66063) 1998 RO1 - escapeVelocity - \"0.0999\"^^xsd:double | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - epoch - \"November 4, 2013\" | (66063) 1998 RO1 - escapeVelocity - \"359.64\"^^xsd:double | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre> | (66063) 1998 RO1 - epoch - \"November 4, 2013\" | (66063) 1998 RO1 - formerName - \"1999 SN5\"@en | (66063) 1998 RO1 - orbitalPeriod - 3.11291e+07 | (66063) 1998 RO1 - escapeVelocity - \"0.0999\"^^xsd:double | (66063) 1998 RO1 - Planet/apoapsis - \"2.5498957060815E8\"^^<http://dbpedia.org/datatype/kilometre>",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "The apoapsis of the (66063) 1998 RO1 and the escape velocity"
     },
     {
         "story": "The celestial body known as (66391) 1999 KW4 has an epoch date of 14 July 2004 and an escape velocity of zero. It has a density of 2 gms per cu cm, an orbital period of 16244700 and an apoapsis of 162164091.8388 km.",
         "Types_KG": "(66391) 1999 KW4 - type - planet",
-        "Instances_KG": "(66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - epoch - \"2004 - 07 - 14\"^^xsd:date | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - escapeVelocity - 0 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - epoch - \"2004 - 07 - 14\"^^xsd:date | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - escapeVelocity - 0 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre>",
+        "Instances_KG": "(66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - epoch - \"\"\"2004 - 07 - 14\"\"\"^^xsd:date | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - escapeVelocity - 0 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - density - \"2000.0\"^^xsd:double | (66391) 1999 KW4 - escapeVelocity - \"0.0\"^^xsd:double | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - epoch - \"\"\"2004 - 07 - 14\"\"\"^^xsd:date | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre> | (66391) 1999 KW4 - epoch - \"July 14, 2004 (JD2453200.5)\" | (66391) 1999 KW4 - orbitalPeriod - 1.62447e+07 | (66391) 1999 KW4 - density - \"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre> | (66391) 1999 KW4 - escapeVelocity - 0 | (66391) 1999 KW4 - Planet/apoapsis - \"1.621640918388E8\"^^<http://dbpedia.org/datatype/kilometre>",
         "Subclasses_KG": "planet - subclass - celestial body",
         "core_description": "(66391) 1999 KW4: A celestial body with an escape velocity of zero"
     },
     {
         "story": "James Craig Watson, who discovered 101 Helena on 15th August 1868, is a Canadian national who attended the University of Michigan. He died in Madison, Wisconsin.",
         "Types_KG": "Canada - type - place | University of Michigan - type - agent | 101 Helena - type - planet | James Craig Watson - type - person | Madison, Wisconsin - type - place",
-        "Instances_KG": "101 Helena - discoverer - James Craig Watson | James Craig Watson - education - University of Michigan | 101 Helena - discovered - \"1868 - 08 - 15\"^^xsd:date | James Craig Watson - nationality - Canada | James Craig Watson - deathPlace - Madison, Wisconsin",
+        "Instances_KG": "101 Helena - discoverer - James Craig Watson | James Craig Watson - education - University of Michigan | 101 Helena - discovered - \"\"1868 - 08 - 15\"\"^^xsd:date | James Craig Watson - nationality - Canada | James Craig Watson - deathPlace - Madison, Wisconsin",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | agent - subclass - Thing | planet - subclass - celestial body",
         "core_description": "Watson discovered 101 Helena on 15th August 1868"
     },
@@ -618,7 +618,7 @@
     {
         "story": "107 Camilla, was discovered on 17 November 1868, by N.R. Pogson, an English national, who was born in Nottingham and died in Chennai.",
         "Types_KG": "107 Camilla - type - place | Nottingham - type - place | Chennai - type - place | England - type - musical artist | N. R. Pogson - type - person",
-        "Instances_KG": "107 Camilla - discoverer - N. R. Pogson | N. R. Pogson - deathPlace - Chennai | N. R. Pogson - birthPlace - Nottingham | 107 Camilla - discovered - \"1868 - 11 - 17\"^^xsd:date | N. R. Pogson - nationality - England",
+        "Instances_KG": "107 Camilla - discoverer - N. R. Pogson | N. R. Pogson - deathPlace - Chennai | N. R. Pogson - birthPlace - Nottingham | 107 Camilla - discovered - \"\"1868 - 11 - 17\"\"^^xsd:date | N. R. Pogson - nationality - England",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | musical artist - subclass - artist",
         "core_description": "Discovered on 17 November 1868 by N.R. Pogson, an English national, in Chennai"
     },
@@ -632,14 +632,14 @@
     {
         "story": "The epoch date of 1097 Vicia is 2006.12.31. 1097 Vicia has an escape velocity of 0.0112 km/sec, a mass of 9.8 kgs, an orbital period of 135589000.0, and an apoapsis of 511592000.0 km.",
         "Types_KG": "1097 Vicia - type - place",
-        "Instances_KG": "1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"2006 - 12 - 31\"^^xsd:date | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"2006 - 12 - 31\"^^xsd:date | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"2006 - 12 - 31\"^^xsd:date | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"2006 - 12 - 31\"^^xsd:date | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre>",
+        "Instances_KG": "1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"\"\"\"\"2006 - 12 - 31\"\"\"\"\"^^xsd:date | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"\"\"\"\"2006 - 12 - 31\"\"\"\"\"^^xsd:date | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - mass - \"9800.0\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"\"\"\"\"2006 - 12 - 31\"\"\"\"\"^^xsd:date | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - epoch - \"December 31, 2006 (JD2454100.5)\" | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - escapeVelocity - \"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre> | 1097 Vicia - escapeVelocity - \"40.32\"^^xsd:double | 1097 Vicia - orbitalPeriod - 1.35589e+08 | 1097 Vicia - epoch - \"\"\"\"\"2006 - 12 - 31\"\"\"\"\"^^xsd:date | 1097 Vicia - mass - \"9.8\"^^<http://dbpedia.org/datatype/kilogram> | 1097 Vicia - Planet/apoapsis - \"5.11592E8\"^^<http://dbpedia.org/datatype/kilometre>",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "The epoch date of 1097 Vicia is 2006.12.31"
     },
     {
         "story": "The surface area of the asteroid 10 Hygiea is 837,080.744 square kilometres while its temperatures is 164 degrees Kelvin. The asteroid has an epoch date of June 27th, an escape velocity of 0.21 kilometres a second and an apoapsis of 523,951,582.33968 kilometres.",
         "Types_KG": "10 Hygiea - type - place",
-        "Instances_KG": "10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - epoch - \"2015 - 06 - 27\"^^xsd:date | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - escapeVelocity - \"756.0\"^^xsd:double | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - epoch - \"2015 - 06 - 27\"^^xsd:date | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - escapeVelocity - \"756.0\"^^xsd:double | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre>",
+        "Instances_KG": "10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - epoch - \"\"\"2015 - 06 - 27\"\"\"^^xsd:date | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - escapeVelocity - \"756.0\"^^xsd:double | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"247.0\"^^xsd:double | 10 Hygiea - epoch - \"\"\"2015 - 06 - 27\"\"\"^^xsd:date | 10 Hygiea - escapeVelocity - \"0.21\"^^<http://dbpedia.org/datatype/kilometrePerSecond> | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre> | 10 Hygiea - epoch - \"27 June 2015 (JD2457200.5)\" | 10 Hygiea - escapeVelocity - \"756.0\"^^xsd:double | 10 Hygiea - surfaceArea - 8.37081e+11 | 10 Hygiea - temperature - \"164.0\"^^xsd:double | 10 Hygiea - Planet/apoapsis - \"5.2395158233968E8\"^^<http://dbpedia.org/datatype/kilometre>",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "The surface area of 10 Hygiea is 837,080.744 square kilometres"
     },
@@ -737,14 +737,14 @@
     {
         "story": "The Asilomar Conference Grounds were constructed in 1913. They are located in Pacific Grove, California and they were added to the National Register of Historic Places on February 27th 1987 (with reference number 87000823). The grounds are in the architectural style of the Arts and Crafts Movement.",
         "Types_KG": "Arts and Crafts movement - type - organisation | Pacific Grove, California - type - place | Asilomar Conference Grounds - type - architectural structure",
-        "Instances_KG": "Asilomar Conference Grounds - location - Pacific Grove, California | Asilomar Conference Grounds - added - \"1987 - 02 - 27\"^^xsd:date | Asilomar Conference Grounds - architecturalStyle - Arts and Crafts movement | Asilomar Conference Grounds - nrhpReferenceNumber - \"87000823\" | Asilomar Conference Grounds - yearOfConstruction - \"1913\"^^xsd:gYear",
+        "Instances_KG": "Asilomar Conference Grounds - location - Pacific Grove, California | Asilomar Conference Grounds - added - \"\"1987 - 02 - 27\"\"^^xsd:date | Asilomar Conference Grounds - architecturalStyle - Arts and Crafts movement | Asilomar Conference Grounds - nrhpReferenceNumber - \"87000823\" | Asilomar Conference Grounds - yearOfConstruction - \"1913\"^^xsd:gYear",
         "Subclasses_KG": "place - subclass - Thing | architectural structure - subclass - Thing | organisation - subclass - agent",
         "core_description": "The Asilomar Conference Grounds were constructed in 1913"
     },
     {
         "story": "Asser Levy Public Baths, built in 1904 in a Romanesque Revival style, is located at 23rd Street (Manhattan). The site was added to the National Register of Historic Places on 1980-04-23, with Reference Number 80002709.",
         "Types_KG": "Asser Levy Public Baths - type - building | 23rd Street (Manhattan) - type - infrastructure",
-        "Instances_KG": "Asser Levy Public Baths - location - 23rd Street (Manhattan) | Asser Levy Public Baths - architecturalStyle - Romanesque Revival architecture | Asser Levy Public Baths - nrhpReferenceNumber - \"80002709\" | Asser Levy Public Baths - yearOfConstruction - \"1904\"^^xsd:gYear | Asser Levy Public Baths - added - \"1980 - 04 - 23\"^^xsd:date",
+        "Instances_KG": "Asser Levy Public Baths - location - 23rd Street (Manhattan) | Asser Levy Public Baths - architecturalStyle - Romanesque Revival architecture | Asser Levy Public Baths - nrhpReferenceNumber - \"80002709\" | Asser Levy Public Baths - yearOfConstruction - \"1904\"^^xsd:gYear | Asser Levy Public Baths - added - \"\"1980 - 04 - 23\"\"^^xsd:date",
         "Subclasses_KG": "building - subclass - Bauwerk | infrastructure - subclass - Bauwerk",
         "core_description": "The Asser Levy Public Baths in New York City"
     },
@@ -996,21 +996,21 @@
     {
         "story": "Chinabank, a publicly traded company with 295 banking centers, was founded in Manila on the 16th of August, 1920. The net income of Chinabank is $15,100,000,000.",
         "Types_KG": "Manila - type - place | Chinabank - type - company | 295 - type - time period | Public company - type - company",
-        "Instances_KG": "Chinabank - foundingDate - 1920 - 08 - 16 | Chinabank - netIncome - 1.51E10 | Chinabank - numberOfLocations - 295 | Chinabank - foundationPlace - Manila | Chinabank - type - Public company | Chinabank - foundingYear - 1920 - 01 - 01 | Chinabank - netIncome - 1.51E10 | Chinabank - numberOfLocations - 295 | Chinabank - foundationPlace - Manila | Chinabank - type - Public company",
+        "Instances_KG": "Chinabank - foundingDate - \"1920 - 08 - 16\" | Chinabank - netIncome - 1.51E10 | Chinabank - numberOfLocations - 295 | Chinabank - foundationPlace - Manila | Chinabank - type - Public company | Chinabank - foundingYear - \"1920 - 01 - 01\" | Chinabank - netIncome - 1.51E10 | Chinabank - numberOfLocations - 295 | Chinabank - foundationPlace - Manila | Chinabank - type - Public company",
         "Subclasses_KG": "place - subclass - Thing | company - subclass - organisation | time period - subclass - Thing",
         "core_description": "Chinabank: A Public Company with 295 Banking Centers"
     },
     {
         "story": "GMA New Media, a maker of mobile applications founded on 01-01-2000, is a mass media industry with headquarters in the GMA Network Center. Felipe Gozon is a key person in GMA New Media.",
         "Types_KG": "Felipe Gozon - type - person | Mass Media - type - person function | GMA Network Center - type - place | GMA New Media - type - company",
-        "Instances_KG": "GMA New Media - foundingYear - 2000 - 01 - 01 | GMA New Media - product - Mobile Applications | GMA New Media - industry - Mass Media | GMA New Media - keyPerson - Felipe Gozon | GMA New Media - location - GMA Network Center",
+        "Instances_KG": "GMA New Media - foundingYear - \"2000 - 01 - 01\" | GMA New Media - product - Mobile Applications | GMA New Media - industry - Mass Media | GMA New Media - keyPerson - Felipe Gozon | GMA New Media - location - GMA Network Center",
         "Subclasses_KG": "place - subclass - Thing | person function - subclass - Thing | company - subclass - organisation | person - subclass - animal",
         "core_description": "Felipe Gozon is the CEO of GMA New Media"
     },
     {
         "story": "Hypermarcas was founded January 1, 2001 as a pharmaceutical company primarily focusing on cosmetics. It's located in Brazil, which has as population density of 23.8.",
         "Types_KG": "Cosmetics - type - chemical compound | Hypermarcas - type - company | Brazil - type - place",
-        "Instances_KG": "Hypermarcas - foundingYear - 2001 - 01 - 01 | Hypermarcas - product - Cosmetics | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - location - Brazil | Brazil - populationDensity - 23.8",
+        "Instances_KG": "Hypermarcas - foundingYear - \"2001 - 01 - 01\" | Hypermarcas - product - Cosmetics | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - location - Brazil | Brazil - populationDensity - 23.8",
         "Subclasses_KG": "place - subclass - Thing | chemical compound - subclass - \ud654\ud559 \ubb3c\uc9c8 | company - subclass - organisation",
         "core_description": "Hypermarcas (Hypermarcas) is a Cosmetics Company based in Brazil"
     },
@@ -1213,7 +1213,7 @@
     {
         "story": "Abdulsalami Abubakar served in the Nigerian Army and was in office whilst Mike Akhigbe (the successor to Oladipo Diya) was Vice President. His career ended on 29 May 1999 and he was succeeded by Olusegun Obasanjo.",
         "Types_KG": "Nigerian Army - type - agent | Olusegun Obasanjo - type - person | Abdulsalami Abubakar - type - person | Mike Akhigbe - type - person | Oladipo Diya - type - person",
-        "Instances_KG": "Abdulsalami Abubakar - successor - Olusegun Obasanjo | Abdulsalami Abubakar - vicePresident - Mike Akhigbe | Abdulsalami Abubakar - activeYearsEndDate - \"1999 - 05 - 29\"^^xsd:date | Abdulsalami Abubakar - militaryBranch - Nigerian Army | Mike Akhigbe - predecessor - Oladipo Diya",
+        "Instances_KG": "Abdulsalami Abubakar - successor - Olusegun Obasanjo | Abdulsalami Abubakar - vicePresident - Mike Akhigbe | Abdulsalami Abubakar - activeYearsEndDate - \"\"1999 - 05 - 29\"\"^^xsd:date | Abdulsalami Abubakar - militaryBranch - Nigerian Army | Mike Akhigbe - predecessor - Oladipo Diya",
         "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing",
         "core_description": "Abdulsalami Abubakar (born 29 May 1999) is a Nigerian politician."
     },
@@ -1234,7 +1234,7 @@
     {
         "story": "Adam Holloway was born in Kent and attended Magdalene College in Cambridge. He began his career on 5 May 2005 and served in the Grenadier Guards and became a member of parliament for Gravesham.",
         "Types_KG": "Grenadier Guards - type - agent | Adam Holloway - type - person | Kent - type - place | Magdalene College, Cambridge - type - agent",
-        "Instances_KG": "Adam Holloway - birthPlace - Kent | Adam Holloway - office - \"for Gravesham\"@en | Adam Holloway - activeYearsStartDate - \"2005 - 05 - 05\"^^xsd:date | Adam Holloway - branch - Grenadier Guards | Adam Holloway - almaMater - Magdalene College, Cambridge",
+        "Instances_KG": "Adam Holloway - birthPlace - Kent | Adam Holloway - office - \"for Gravesham\"@en | Adam Holloway - activeYearsStartDate - \"\"2005 - 05 - 05\"\"^^xsd:date | Adam Holloway - branch - Grenadier Guards | Adam Holloway - almaMater - Magdalene College, Cambridge",
         "Subclasses_KG": "place - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "Adam Holloway is a former Grenadier Guardsman"
     },
@@ -1283,14 +1283,14 @@
     {
         "story": "Alberto Teisaire, born on 20th May 1891 in Mendoza, Argentina was a Rear Admiral in the Argentine Navy. He worked as a Provisional President of the Argentine Senate and was succeeded by Isaac Rojas.",
         "Types_KG": "Alberto Teisaire - type - person | Mendoza, Argentina - type - place | Isaac Rojas - type - person",
-        "Instances_KG": "Alberto Teisaire - successor - Isaac Rojas | Alberto Teisaire - birthPlace - Mendoza, Argentina | Alberto Teisaire - office - List of Provisional Presidents of Argentine Senate | Alberto Teisaire - profession - \"Rear Admiral in the Argentine Navy\"@en | Alberto Teisaire - dateOfBirth - \"1891 - 05 - 20\"^^xsd:date | Alberto Teisaire - office - \"Provisional President of the Argentine Senate\" | Alberto Teisaire - successor - Isaac Rojas | Alberto Teisaire - birthPlace - Mendoza, Argentina | Alberto Teisaire - profession - \"Rear Admiral in the Argentine Navy\"@en | Alberto Teisaire - dateOfBirth - \"1891 - 05 - 20\"^^xsd:date",
+        "Instances_KG": "Alberto Teisaire - successor - Isaac Rojas | Alberto Teisaire - birthPlace - Mendoza, Argentina | Alberto Teisaire - office - List of Provisional Presidents of Argentine Senate | Alberto Teisaire - profession - \"Rear Admiral in the Argentine Navy\"@en | Alberto Teisaire - dateOfBirth - \"\"\"1891 - 05 - 20\"\"\"^^xsd:date | Alberto Teisaire - office - \"Provisional President of the Argentine Senate\" | Alberto Teisaire - successor - Isaac Rojas | Alberto Teisaire - birthPlace - Mendoza, Argentina | Alberto Teisaire - profession - \"Rear Admiral in the Argentine Navy\"@en | Alberto Teisaire - dateOfBirth - \"\"\"1891 - 05 - 20\"\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alberto Teisaire (* 20th May 1891) was a Rear Admiral in the Argentine Navy"
     },
     {
         "story": "Burlington is the largest city in Vermont, which is where Alvah Sabin is from. He started active service on 1853-03-04 and represented Vermont's 3rd Congressional District. Alvah Sabin died in Sycamore, Illinois.",
         "Types_KG": "Vermont - type - place | Sycamore, Illinois - type - place | Vermont's 3rd congressional district - type - administrative region | Burlington, Vermont - type - place | Alvah Sabin - type - person",
-        "Instances_KG": "Alvah Sabin - activeYearsStartDate - \"1853 - 03 - 04\"^^xsd:date | Alvah Sabin - region - Vermont's 3rd congressional district | Vermont - largestCity - Burlington, Vermont | Alvah Sabin - state - Vermont | Alvah Sabin - deathPlace - Sycamore, Illinois",
+        "Instances_KG": "Alvah Sabin - activeYearsStartDate - \"\"1853 - 03 - 04\"\"^^xsd:date | Alvah Sabin - region - Vermont's 3rd congressional district | Vermont - largestCity - Burlington, Vermont | Alvah Sabin - state - Vermont | Alvah Sabin - deathPlace - Sycamore, Illinois",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person - subclass - animal",
         "core_description": "Burlington, Vermont -- Alvah Sabin was born in Sycamore"
     },
@@ -1465,7 +1465,7 @@
     {
         "story": "Ace Wilder has a musical background as a solo singer was born on July 23rd, 1982, in Sweden.",
         "Types_KG": "Ace Wilder - type - person | Sweden - type - place | Singing - type - Band",
-        "Instances_KG": "Ace Wilder - birthYear - \"1982\"^^xsd:gYear | Ace Wilder - occupation - Singing | Ace Wilder - birthPlace - Sweden | Ace Wilder - birthDate - \"1982 - 07 - 23\"^^xsd:date | Ace Wilder - background - \"solo singer\"@en | Ace Wilder - background - \"solo singer\" | Ace Wilder - birthYear - \"1982\"^^xsd:gYear | Ace Wilder - occupation - Singing | Ace Wilder - birthPlace - Sweden | Ace Wilder - birthDate - \"1982 - 07 - 23\"^^xsd:date",
+        "Instances_KG": "Ace Wilder - birthYear - \"1982\"^^xsd:gYear | Ace Wilder - occupation - Singing | Ace Wilder - birthPlace - Sweden | Ace Wilder - birthDate - \"\"\"1982 - 07 - 23\"\"\"^^xsd:date | Ace Wilder - background - \"solo singer\"@en | Ace Wilder - background - \"solo singer\" | Ace Wilder - birthYear - \"1982\"^^xsd:gYear | Ace Wilder - occupation - Singing | Ace Wilder - birthPlace - Sweden | Ace Wilder - birthDate - \"\"\"1982 - 07 - 23\"\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | Band - subclass - group | person - subclass - animal",
         "core_description": "Ace Wilder (Ace Wilder) is a Swedish singer/songwriter"
     },
@@ -1584,7 +1584,7 @@
     {
         "story": "Allen Forrest is a hip hop artist who was born on February 4, 1981. Hip hop music originated from disco and funk music, and Drum and bass derives its sounds from hip hop music.",
         "Types_KG": "Funk - type - genre | Disco - type - genre | Hip hop music - type - genre | Drum and bass - type - genre",
-        "Instances_KG": "Hip hop music - stylisticOrigins - Disco | Allen Forrest - dateOfBirth - \"1981 - 02 - 04\"^^xsd:date | Allen Forrest - genre - Hip hop music | Hip hop music - stylisticOrigin - Funk | Hip hop music - derivative - Drum and bass",
+        "Instances_KG": "Hip hop music - stylisticOrigins - Disco | Allen Forrest - dateOfBirth - \"\"1981 - 02 - 04\"\"^^xsd:date | Allen Forrest - genre - Hip hop music | Hip hop music - stylisticOrigin - Funk | Hip hop music - derivative - Drum and bass",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique",
         "core_description": "Allen Forrest (born on February 4, 1981) is a hip hop artist and drummer."
     },
@@ -1668,7 +1668,7 @@
     {
         "story": "Alan Bean was born on March 15, 1932 in Wheeler, Texas and is American. He worked as a test pilot and was a member of Apollo 12, which was run by NASA. Bean is retired.",
         "Types_KG": "United States - type - person | Wheeler, Texas - type - place | NASA - type - company | Test pilot - type - person | Apollo 12 - type - societal event | Alan Bean - type - person",
-        "Instances_KG": "Alan Bean - mission - Apollo 12 | Alan Bean - nationality - United States | Apollo 12 - operator - NASA | Alan Bean - occupation - Test pilot | Alan Bean - birthPlace - Wheeler, Texas | Alan Bean - status - \"Retired\"@en | Alan Bean - birthDate - \"1932 - 03 - 15\"^^xsd:date",
+        "Instances_KG": "Alan Bean - mission - Apollo 12 | Alan Bean - nationality - United States | Apollo 12 - operator - NASA | Alan Bean - occupation - Test pilot | Alan Bean - birthPlace - Wheeler, Texas | Alan Bean - status - \"Retired\"@en | Alan Bean - birthDate - \"\"1932 - 03 - 15\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event | company - subclass - organisation",
         "core_description": "Alan Bean is a retired test pilot and member of Apollo 12"
     },
@@ -1682,21 +1682,21 @@
     {
         "story": "Alan Shepard was born on Nov 18, 1923 in New Hampshire, US. He graduated from NWC in 1957 with an M.A. In 1959 he began working for NASA and was a member of Apollo 14. He died in California.",
         "Types_KG": "United States - type - person | Apollo 14 - type - societal event | Alan Shepard - type - person | California - type - place | 1959 - type - time period | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - mission - Apollo 14 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - mission - Apollo 14 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard died on Nov 18, 1959, in California"
     },
     {
         "story": "Alan Shepard was born on Nov 18, 1923 in New Hampshire, USA. He graduated from NWC in 1957 with an M.A. He worked as a test pilot before passing away in California.",
         "Types_KG": "United States - type - person | Alan Shepard - type - person | California - type - place | Test pilot - type - person | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - occupation - Test pilot | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - occupation - Test pilot | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard was a test pilot and later in California"
     },
     {
         "story": "Alan Shepard was born on November 18, 1923 in New Hampshire and died in California. He was a test pilot rewarded with the Medal of Distinguished Service from the Navy of the United States. The medal of the United States Navy is higher than the Department of Commerce Gold Medal.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | Test pilot - type - person | Distinguished Service Medal (United States Navy) - type - award | Department of Commerce Gold Medal - type - award | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - occupation - Test pilot | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - occupation - Test pilot | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | award - subclass - Thing",
         "core_description": "Alan Shepard was a test pilot rewarded with the Navy Medal of Distinguished Service"
     },
@@ -1717,7 +1717,7 @@
     {
         "story": "Buzz Aldrin was born on Jan 20, 1930 in Glen Ridge, New Jersey. He graduated from MIT with an Sc. D in 1963. He began working for NASA in 1963 was a member of Apollo 11 which was run by NASA. He is now retired.",
         "Types_KG": "Apollo 11 - type - societal event | NASA - type - company | Glen Ridge, New Jersey - type - place | 1963 - type - time period | Buzz Aldrin - type - person",
-        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - status - \"Retired\"@en | Buzz Aldrin - birthDate - \"1930 - 01 - 20\"^^xsd:date | Buzz Aldrin - selection - 1963 | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Apollo 11 - operator - NASA",
+        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - status - \"Retired\"@en | Buzz Aldrin - birthDate - \"\"1930 - 01 - 20\"\"^^xsd:date | Buzz Aldrin - selection - 1963 | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Apollo 11 - operator - NASA",
         "Subclasses_KG": "company - subclass - organisation | societal event - subclass - event | place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Buzz Aldrin is a NASA astronaut and former astronaut"
     },
@@ -1731,21 +1731,21 @@
     {
         "story": "Elliot See was born on July 23, 1927 in Dallas. He graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a test pilot before he died in St. Louis.",
         "Types_KG": "Elliot See - type - person | University of Texas System - type - agent | Test pilot - type - person | University of Texas at Austin - type - university | St. Louis - type - place | Dallas - type - place",
-        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - occupation - Test pilot | Elliot See - birthDate - \"1927 - 07 - 23\"^^xsd:date | Elliot See - birthPlace - Dallas | University of Texas at Austin - affiliation - University of Texas System | Elliot See - deathPlace - St. Louis | Elliot See - status - \"Deceased\"@en",
+        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - occupation - Test pilot | Elliot See - birthDate - \"\"1927 - 07 - 23\"\"^^xsd:date | Elliot See - birthPlace - Dallas | University of Texas at Austin - affiliation - University of Texas System | Elliot See - deathPlace - St. Louis | Elliot See - status - \"Deceased\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | agent - subclass - Thing | university - subclass - Bildungseinrichtung",
         "core_description": "See died on July 23, 1927 in St. Louis, MO"
     },
     {
         "story": "Elliot See was born in Dallas on the 23rd of July in 1927 before attending the University of Texas at Austin. Elliot was a test pilot before passing away in St Louis in 1966.",
         "Types_KG": "Elliot See - type - person | Test pilot - type - person | University of Texas at Austin - type - university | St. Louis - type - place | Dallas - type - place",
-        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthDate - \"1927 - 07 - 23\"^^xsd:date | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"1966 - 02 - 28\"^^xsd:date | Elliot See - occupation - Test pilot",
+        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthDate - \"\"1927 - 07 - 23\"\"^^xsd:date | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"\"1966 - 02 - 28\"\"^^xsd:date | Elliot See - occupation - Test pilot",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Elliot See died in St Louis in 1966"
     },
     {
         "story": "William Anders (born on the 17th of October 1933 in British Hong Kong) graduated from AFIT, M.S. in 1962. He was a US National and served as a Fighter pilot before he retired on the 1st of September in 1969.",
         "Types_KG": "United States - type - person | William Anders - type - person | British Hong Kong - type - place | Fighter pilot - type - person",
-        "Instances_KG": "William Anders - dateOfRet - \"1969 - 09 - 01\"^^xsd:date | William Anders - nationality - United States | William Anders - status - \"Retired\"@en | William Anders - birthDate - \"1933 - 10 - 17\"^^xsd:date | William Anders - occupation - Fighter pilot | William Anders - birthPlace - British Hong Kong | William Anders - almaMater - \"AFIT, M.S. 1962\"@en",
+        "Instances_KG": "William Anders - dateOfRet - \"\"1969 - 09 - 01\"\"^^xsd:date | William Anders - nationality - United States | William Anders - status - \"Retired\"@en | William Anders - birthDate - \"\"1933 - 10 - 17\"\"^^xsd:date | William Anders - occupation - Fighter pilot | William Anders - birthPlace - British Hong Kong | William Anders - almaMater - \"AFIT, M.S. 1962\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "William Anders (born on the 17th of October 1933 in Hong Kong) graduated from AFIT, M.S."
     },
@@ -1829,42 +1829,42 @@
     {
         "story": "The American Alan Shepard was born on November 18, 1923, in New Hampshire. He graduated with an M.A. from NWC in 1957, and was hired by NASA in 1959. Shepard died in California.",
         "Types_KG": "United States - type - person | Alan Shepard - type - person | California - type - place | 1959 - type - time period | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - nationality - United States | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "The American Alan Shepard died in California on November 18, 1923"
     },
     {
         "story": "Alan Shepard was born on the 18th of November, 1923 in New Hampshire. He graduated from NWC with an M.A. in 1957 and was selected by NASA in 1959. His death place was California.",
         "Types_KG": "1959 - type - time period | Alan Shepard - type - person | California - type - place | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - status - \"Deceased\"@en | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - selection - 1959 | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard died in California on the 18th of November, 1923"
     },
     {
         "story": "Alan Shepard was born on November 18, 1923, in New Hampshire. He served as a crew member on NASA's Apollo 14 mission before retiring on August 1, 1974. Shepard passed away in California.",
         "Types_KG": "Apollo 14 - type - societal event | Alan Shepard - type - person | California - type - place | NASA - type - company | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - mission - Apollo 14 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - dateOfRet - \"1974 - 08 - 01\"^^xsd:date | Apollo 14 - operator - NASA | Alan Shepard - birthDate - \"1923 - 11 - 18\"^^xsd:date",
+        "Instances_KG": "Alan Shepard - mission - Apollo 14 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - dateOfRet - \"\"1974 - 08 - 01\"\"^^xsd:date | Apollo 14 - operator - NASA | Alan Shepard - birthDate - \"\"1923 - 11 - 18\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | company - subclass - organisation | person - subclass - animal",
         "core_description": "Alan Shepard died on August 1, 1974, in California"
     },
     {
         "story": "Alan Shepard was born in New Hampshire. He was won the American Defence Service Ribbon. The United States Navy also awarded him the Distinguished Service Medal, which is higher than the Department of Commerce Gold Medal. He died in California on July 21st, 1998.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | Distinguished Service Medal (United States Navy) - type - award | Department of Commerce Gold Medal - type - award | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - ribbon - \"American Defense Service ribbon.svg\"@en | Alan Shepard - deathDate - \"1998 - 07 - 21\"^^xsd:date | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - ribbon - \"American Defense Service ribbon.svg\"@en | Alan Shepard - deathDate - \"\"1998 - 07 - 21\"\"^^xsd:date | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard died in California on July 21st, 1998"
     },
     {
         "story": "Buzz Aldrin was a fighter pilot who was born in Glen Ridge, New Jersey om January 20th, 1930. His real name is Edwin E. Aldrin Jr. and after graduating from MIT with a doctorate in Science in 1963, he became a member of Apollo 11.",
         "Types_KG": "Apollo 11 - type - societal event | Glen Ridge, New Jersey - type - place | Buzz Aldrin - type - person | Fighter pilot - type - person",
-        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - alternativeNames - \"Edwin E. Aldrin, Jr.\"@en | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - occupation - Fighter pilot | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Buzz Aldrin - birthDate - \"1930 - 01 - 20\"^^xsd:date",
+        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - alternativeNames - \"Edwin E. Aldrin, Jr.\"@en | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - occupation - Fighter pilot | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Buzz Aldrin - birthDate - \"\"1930 - 01 - 20\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal",
         "core_description": "Buzz Aldrin Jr. (born in Glen Ridge, New Jersey) was a fighter pilot and astronaut."
     },
     {
         "story": "Buzz Aldrin was born in Glen Ridge New Jersey on 20 January, 1930. He graduated from MIT with a Doctor of Science in 1963 and was hired by NASA in the same year. He was a member of the Apollo 11 crew and is now retired.",
         "Types_KG": "Apollo 11 - type - societal event | Glen Ridge, New Jersey - type - place | Buzz Aldrin - type - person | 1963 - type - time period",
-        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - selection - 1963 | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Buzz Aldrin - birthDate - \"1930 - 01 - 20\"^^xsd:date | Buzz Aldrin - status - \"Retired\"@en",
+        "Instances_KG": "Buzz Aldrin - birthPlace - Glen Ridge, New Jersey | Buzz Aldrin - selection - 1963 | Buzz Aldrin - mission - Apollo 11 | Buzz Aldrin - almaMater - \"Massachusetts Institute of Technology, Sc.D. 1963\"@en | Buzz Aldrin - birthDate - \"\"1930 - 01 - 20\"\"^^xsd:date | Buzz Aldrin - status - \"Retired\"@en",
         "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Buzz Aldrin is a NASA astronaut and former NASA astronaut"
     },
@@ -1878,35 +1878,35 @@
     {
         "story": "Elliot See was born in Dallas as US national and graduated from the University of Texas at Austin. Elliot See has died on the 28th of February 1966 in St Louis.",
         "Types_KG": "United States - type - person | Elliot See - type - person | University of Texas at Austin - type - university | St. Louis - type - place | Dallas - type - place",
-        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"1966 - 02 - 28\"^^xsd:date | Elliot See - nationality - United States",
+        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | Elliot See - status - \"Deceased\"@en | Elliot See - deathPlace - St. Louis | Elliot See - birthPlace - Dallas | Elliot See - deathDate - \"\"1966 - 02 - 28\"\"^^xsd:date | Elliot See - nationality - United States",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Elliot See died on the 28th of February 1966 in St Louis"
     },
     {
         "story": "Elliot See was born on 07/23/1927 in Dallas and died in St. Louis. He attended the University of Texas at Austin which is a part of the university of Texas system.",
         "Types_KG": "Elliot See - type - person | University of Texas System - type - agent | University of Texas at Austin - type - university | St. Louis - type - place | Dallas - type - place",
-        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | University of Texas at Austin - affiliations - University of Texas System | Elliot See - birthDate - \"1927 - 07 - 23\"^^xsd:date | Elliot See - birthPlace - Dallas | Elliot See - deathPlace - St. Louis | Elliot See - status - \"Deceased\"@en",
+        "Instances_KG": "Elliot See - almaMater - University of Texas at Austin | University of Texas at Austin - affiliations - University of Texas System | Elliot See - birthDate - \"\"1927 - 07 - 23\"\"^^xsd:date | Elliot See - birthPlace - Dallas | Elliot See - deathPlace - St. Louis | Elliot See - status - \"Deceased\"@en",
         "Subclasses_KG": "place - subclass - Thing | agent - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Elliot See was born on 07/23/1927 in Dallas and died in St Louis"
     },
     {
         "story": "William Anders was born on October 17, 1933, in British Hong Kong. He graduated from AFIT in 1962 with an M.S., and would go on to serve as a fighter pilot, and as a crew member on Apollo 8. Anders retired on September 1, 1969.",
         "Types_KG": "Apollo 8 - type - societal event | William Anders - type - person | British Hong Kong - type - place | Fighter pilot - type - person",
-        "Instances_KG": "William Anders - dateOfRet - \"1969 - 09 - 01\"^^xsd:date | William Anders - birthDate - \"1933 - 10 - 17\"^^xsd:date | William Anders - occupation - Fighter pilot | William Anders - birthPlace - British Hong Kong | William Anders - mission - Apollo 8 | William Anders - almaMater - \"AFIT, M.S. 1962\"@en",
+        "Instances_KG": "William Anders - dateOfRet - \"\"1969 - 09 - 01\"\"^^xsd:date | William Anders - birthDate - \"\"1933 - 10 - 17\"\"^^xsd:date | William Anders - occupation - Fighter pilot | William Anders - birthPlace - British Hong Kong | William Anders - mission - Apollo 8 | William Anders - almaMater - \"AFIT, M.S. 1962\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event",
         "core_description": "William Anders (born October 17, 1933) is a United States Air Force veteran"
     },
     {
         "story": "Hypermarcas (whose main product is drugs), an S.A pharmaceutical corporation managed by their CEO and located in Brazil, was founded on January 1, 2001.",
         "Types_KG": "Drugs - type - person function | CEO - type - person function | Brazil - type - place | Hypermarcas - type - company | S.A. (corporation) - type - company",
-        "Instances_KG": "Hypermarcas - location - Brazil | Hypermarcas - product - Drugs | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - keyPerson - CEO | Hypermarcas - foundingYear - 2001 - 01 - 01 | Hypermarcas - type - S.A. (corporation)",
+        "Instances_KG": "Hypermarcas - location - Brazil | Hypermarcas - product - Drugs | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - keyPerson - CEO | Hypermarcas - foundingYear - \"2001 - 01 - 01\" | Hypermarcas - type - S.A. (corporation)",
         "Subclasses_KG": "place - subclass - Thing | person function - subclass - Thing | company - subclass - organisation",
         "core_description": "Hypermarcas (whose main product is drugs)"
     },
     {
         "story": "HVAC producer Trane, was founded in La Crosse, Wisconsin, on 1913-01-01. Trane employes 29000 people, and has a revenue of $10,264,000,000, and an operating income of 875.4 million USD.",
         "Types_KG": "Trane - type - company | La Crosse, Wisconsin - type - place | HVAC - type - company",
-        "Instances_KG": "Trane - revenue - 1.0264E10 | Trane - operatingIncome - 8.754E8 | Trane - foundingYear - 1913 - 01 - 01 | Trane - foundationPlace - La Crosse, Wisconsin | Trane - numberOfEmployees - 29000 | Trane - product - HVAC",
+        "Instances_KG": "Trane - revenue - 1.0264E10 | Trane - operatingIncome - 8.754E8 | Trane - foundingYear - \"1913 - 01 - 01\" | Trane - foundationPlace - La Crosse, Wisconsin | Trane - numberOfEmployees - 29000 | Trane - product - HVAC",
         "Subclasses_KG": "place - subclass - Thing | company - subclass - organisation",
         "core_description": "Trane HVAC Company, Inc."
     },
@@ -1969,7 +1969,7 @@
     {
         "story": "Ankara is the Turkish capital and the country's leader's name is Ahmet Davutoglu. The Atat\u00fcrk Monument (\u0130zmir) can be found in Turkey. Pietro Canonica designed the Monument and it is made of bronze. The Ataturk Monument was inaugurated on 27th July, 1932.",
         "Types_KG": "Atat\u00fcrk Monument (\u0130zmir) - type - place | Ahmet Davuto\u011flu - type - person | Turkey - type - person | Ankara - type - place | Pietro Canonica - type - person",
-        "Instances_KG": "Atat\u00fcrk Monument (\u0130zmir) - designer - Pietro Canonica | Turkey - leaderName - Ahmet Davuto\u011flu | Turkey - capital - Ankara | Atat\u00fcrk Monument (\u0130zmir) - material - \"Bronze\"@en | Atat\u00fcrk Monument (\u0130zmir) - open - \"1932 - 07 - 27\"^^xsd:date | Atat\u00fcrk Monument (\u0130zmir) - location - Turkey",
+        "Instances_KG": "Atat\u00fcrk Monument (\u0130zmir) - designer - Pietro Canonica | Turkey - leaderName - Ahmet Davuto\u011flu | Turkey - capital - Ankara | Atat\u00fcrk Monument (\u0130zmir) - material - \"Bronze\"@en | Atat\u00fcrk Monument (\u0130zmir) - open - \"\"1932 - 07 - 27\"\"^^xsd:date | Atat\u00fcrk Monument (\u0130zmir) - location - Turkey",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Atat\u00fcrk Monument in Ankara"
     },
@@ -1983,14 +1983,14 @@
     {
         "story": "The 14th New Jersey Volunteer Infantry Monument is located at the Monocacy National Battlefield near Frederick, Frederick County, Maryland. The monument was established 1907-07-11 and belongs to the category of Historic districts in the United States. The monument has been provided by the National Park Service.",
         "Types_KG": "Historic districts in the United States - type - Band | Monocacy National Battlefield - type - place | Frederick County, Maryland - type - place | National Park Service - type - agent | Frederick, Maryland - type - place",
-        "Instances_KG": "Monocacy National Battlefield - location - Frederick County, Maryland | 14th New Jersey Volunteer Infantry Monument - established - \"1907 - 07 - 11\"^^xsd:date | 14th New Jersey Volunteer Infantry Monument - category - Historic districts in the United States | 14th New Jersey Volunteer Infantry Monument - district - Monocacy National Battlefield | Monocacy National Battlefield - nearestCity - Frederick, Maryland | 14th New Jersey Volunteer Infantry Monument - owningOrganisation - National Park Service",
+        "Instances_KG": "Monocacy National Battlefield - location - Frederick County, Maryland | 14th New Jersey Volunteer Infantry Monument - established - \"\"1907 - 07 - 11\"\"^^xsd:date | 14th New Jersey Volunteer Infantry Monument - category - Historic districts in the United States | 14th New Jersey Volunteer Infantry Monument - district - Monocacy National Battlefield | Monocacy National Battlefield - nearestCity - Frederick, Maryland | 14th New Jersey Volunteer Infantry Monument - owningOrganisation - National Park Service",
         "Subclasses_KG": "place - subclass - Thing | Band - subclass - group | agent - subclass - Thing",
         "core_description": "The 14th New Jersey Volunteer Infantry Monument"
     },
     {
         "story": "The 14th New Jersey Volunteer Infantry Monument is located in the Monocacy National Battlefield, in Frederick County, Maryland, United States. The monument was established on July 11th, 1907. It is now categorized as a United States historic district and is owned by the National Park Service.",
         "Types_KG": "Frederick County, Maryland - type - place | Monocacy National Battlefield - type - place | Historic districts in the United States - type - Band | National Park Service - type - agent",
-        "Instances_KG": "Monocacy National Battlefield - location - Frederick County, Maryland | 14th New Jersey Volunteer Infantry Monument - established - \"1907 - 07 - 11\"^^xsd:date | 14th New Jersey Volunteer Infantry Monument - country - \"United States\"@en | 14th New Jersey Volunteer Infantry Monument - category - Historic districts in the United States | 14th New Jersey Volunteer Infantry Monument - district - Monocacy National Battlefield | 14th New Jersey Volunteer Infantry Monument - owningOrganisation - National Park Service",
+        "Instances_KG": "Monocacy National Battlefield - location - Frederick County, Maryland | 14th New Jersey Volunteer Infantry Monument - established - \"\"1907 - 07 - 11\"\"^^xsd:date | 14th New Jersey Volunteer Infantry Monument - country - \"United States\"@en | 14th New Jersey Volunteer Infantry Monument - category - Historic districts in the United States | 14th New Jersey Volunteer Infantry Monument - district - Monocacy National Battlefield | 14th New Jersey Volunteer Infantry Monument - owningOrganisation - National Park Service",
         "Subclasses_KG": "place - subclass - Thing | Band - subclass - group | agent - subclass - Thing",
         "core_description": "Historic District of the 14th New Jersey Volunteer Infantry Monument"
     }
