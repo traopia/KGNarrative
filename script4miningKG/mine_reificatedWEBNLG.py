@@ -208,7 +208,7 @@ def main(argv, argc):
         data=data.head(4)#REMOVE THIS LINE
         
         df3 = mining_entites(data)
-        df3["mined_kg_entities"] = df3["mined_kg_entities"].apply(lambda x: x[1:-1])
+        df3["mined_kg_entities"] = df3["mined_kg_entities"] # .apply(lambda x: x[1:-1]) <= fixed a problem, if create problems add it again
         df3 = column_extracting_triples(df3)
         df3 = extract_triples_from_tuples(df3)
         df3 = get_final_kg(df3)
