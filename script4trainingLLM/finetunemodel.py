@@ -44,9 +44,9 @@ def main(argv, arc):
 
 
 
-    train_file = datapath +'/' + 'train_' + datapredix +'.json'
-    dev_file = datapath +'/'+  'val_' + datapredix +'.json'
-    test_file = datapath +'/'  'test_'+ datapredix +'.json'
+    train_file = datapath +'/' + 'train_' + dataprefix +'.json'
+    dev_file = datapath +'/'+  'val_' + dataprefix +'.json'
+    test_file = datapath +'/'  'test_'+ dataprefix +'.json'
 
 
     print("Loading dataset from",train_file)
