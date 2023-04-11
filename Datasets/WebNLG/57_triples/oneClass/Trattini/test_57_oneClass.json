@@ -58,7 +58,7 @@
     {
         "story": "The Fellowship of the Ring was written by J.R.R. Tolkien and was released on July 29, 1954. The Fellowship of the Ring is considered fantasy and was published by George Allen & Unwin. The sequel to The Fellowship of the Ring was The Two Towers.",
         "Types_KG": "The Fellowship of the Ring - type - work | Fantasy (genre) - type - music genre | The Two Towers - type - work | J. R. R. Tolkien - type - person | George Allen & Unwin - type - publisher",
-        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - author - J. R. R. Tolkien | The Fellowship of the Ring - releaseDate - \"\"\"1954 - 07 - 29\"\"\"",
+        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - author - J. R. R. Tolkien | The Fellowship of the Ring - releaseDate - \"\"\"1954/07/29\"\"\"",
         "Subclasses_KG": "publisher - subclass - company | person - subclass - animal | music genre - subclass - genre | work - subclass - Thing",
         "core_description": "The Fellowship of the Ring and The Two Towers"
     },
@@ -93,7 +93,7 @@
     {
         "story": "The band Nord is a sludge metal band that releases post-metal. They have an album called the Year of No light that was released on June 9th 2006, and was under Crucial Blast Label.",
         "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - releaseDate - \"\"\"2006 - 09 - 06\"\"\"",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\"",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The band Nord is a sludge metal band released under Crucial Blast Label"
     },
@@ -135,7 +135,7 @@
     {
         "story": "Olga Nikolaevna Bondareva, (born April 27, 1937) died in Saint Petersburg. She was best known for the \"Bondareva-Shapley theorem.\"",
         "Types_KG": "Saint Petersburg - type - place | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Bondareva, Olga Nikolaevna Bondareva (born April 27, 1937)"
     },
@@ -149,7 +149,7 @@
     {
         "story": "Year of No Light produced an album called Nord on 6/9/2006 which is 58.41 minutes long. They came out with the Demo 2004 album first, followed by Nord, and then the album Live at Roadburn in 2008.",
         "Types_KG": "Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - releaseDate - \"\"\"2006 - 09 - 06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
+        "Instances_KG": "Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
         "Subclasses_KG": "agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Year of No Light released Nord on 6/10/2006"
     },
@@ -170,14 +170,14 @@
     {
         "story": "The BBC (located in Broadcasting House in London) last aired creator Steve Bright's Bananaman, starring Bill Oddie, on April 15th, 1986.",
         "Types_KG": "BBC - type - company | Broadcasting House - type - place | Bill Oddie - type - person | Steve Bright - type - person",
-        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bananaman - creator - Steve Bright | Bananaman - lastAired - \"\"\"\"1986 - 04 - 15\"\"\"\"^^xsd:date | Bananaman - network - BBC",
+        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bananaman - creator - Steve Bright | Bananaman - lastAired - \"\"\"\"1986/04/15\"\"\"\"^^xsd:date | Bananaman - network - BBC",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | company - subclass - organisation",
         "core_description": "Bananaman: The BBC's Last Airing of Bright's Bananaman"
     },
     {
         "story": "The sludge metal and post metal album Nord was produced and created by the artist Year of No Light and was released by the record label Crucial blast on 06-09-2006. It was followed by the album Live at Roadburn 2008.",
         "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007 - 04 - 23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord: A Sludge Metal and Post Metal Album"
     },
@@ -198,7 +198,7 @@
     {
         "story": "The train song Mermaid, released on Dec. 27th, 2012 and written by Amund Bjorklund and Espen Lind, was preceded by the song This'll Be My Year. Mermaid lasts 3.16 minutes.",
         "Types_KG": "Amund Bj\u00f8rklund - type - person | Espen Lind - type - person | Mermaid (Train song) - type - work",
-        "Instances_KG": "Mermaid (Train song) - releaseDate - \"\"\"2012 - 12 - 27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - writer - Amund Bj\u00f8rklund",
+        "Instances_KG": "Mermaid (Train song) - releaseDate - \"\"\"2012/12/27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - writer - Amund Bj\u00f8rklund",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "Mermaid: Train Song and Song Prelude to This'll Be My Year"
     },
@@ -212,21 +212,21 @@
     {
         "story": "BBC broadcast Bananaman, a show created by John Geering and starring Bill Oddie. Broadcasting House is a location owned by the BBC, the channel that broadcasts this show which first aired on 10/03/83.",
         "Types_KG": "BBC - type - company | John Geering - type - person | Broadcasting House - type - place | Bill Oddie - type - person",
-        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bananaman - creator - John Geering | Bananaman - network - BBC | Bananaman - firstAired - \"\"\"\"1983 - 10 - 03\"\"\"\"^^xsd:date",
+        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bananaman - creator - John Geering | Bananaman - network - BBC | Bananaman - firstAired - \"\"\"\"1983/10/03\"\"\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | company - subclass - organisation",
         "core_description": "Bananaman: The BBC Bananaman"
     },
     {
         "story": "Construction on Alan B Miller Hall began on March 30th, 2007. The building was designed by Robert A. M. Stern. Alan B Miller Hall is located on 101 Ukrop Way in Williamsburg, Virginia, United States. The current tenant is the Mason School of Business.",
         "Types_KG": "Mason School of Business - type - school | United States - type - person | Robert A. M. Stern - type - person | Williamsburg, Virginia - type - place | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Williamsburg, Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Williamsburg, Virginia | Mason School of Business - country - United States",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Williamsburg, Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Williamsburg, Virginia | Mason School of Business - country - United States",
         "Subclasses_KG": "place - subclass - Thing | school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | person - subclass - animal",
         "core_description": "Construction of Alan B Miller Hall began on March 30th 2007"
     },
     {
         "story": "Olga Bondareva (born Olga Nikolaevna Bondareva, on April 27, 1937, in Leningrad, USSR) graduated from Leningrad State University and is known for Bondareva-Shapley theorem.",
         "Types_KG": "Leningrad State University - type - university | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"1937 - 04 - 27\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University",
+        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"1937/04/27\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University",
         "Subclasses_KG": "person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Bondareva-Shapley Theorem and Bondareva-Bondareva-Shapley Theory"
     },
@@ -240,14 +240,14 @@
     {
         "story": "Terence Rattigan, who died in 1977, wrote the film English Without Tears in co-authorship with Anatole de Grunwald. The film was directed by Harold French, an actor whose career began in 1920.",
         "Types_KG": "English Without Tears - type - work | Anatole de Grunwald - type - person | Terence Rattigan - type - person | Harold French - type - person",
-        "Instances_KG": "English Without Tears - director - Harold French | Terence Rattigan - deathYear - \"\"\"1977 - 01 - 01\"\"\" | Harold French - activeYearsStartYear - \"\"\"1920 - 01 - 01\"\"\" | English Without Tears - writer - Anatole de Grunwald | English Without Tears - writer - Terence Rattigan",
+        "Instances_KG": "English Without Tears - director - Harold French | Terence Rattigan - deathYear - \"\"\"1977/01/01\"\"\" | Harold French - activeYearsStartYear - \"\"\"1920/01/01\"\"\" | English Without Tears - writer - Anatole de Grunwald | English Without Tears - writer - Terence Rattigan",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "Terence Rattigan and Anatole de Grunwald: English Without Tears"
     },
     {
         "story": "Hypermarcas is a drug maker in the pharmaceutical industry. They were founded in Brazil on January 1, 2001, and employ 10252 people. They are an S.A. corporation, and are managed by a CEO.",
         "Types_KG": "CEO - type - person function | Brazil - type - place | Drugs - type - person function | S.A. (corporation) - type - company | Hypermarcas - type - company",
-        "Instances_KG": "Hypermarcas - location - Brazil | Hypermarcas - product - Drugs | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - keyPerson - CEO | Hypermarcas - foundingYear - \"\"\"2001 - 01 - 01\"\"\" | Hypermarcas - type - S.A. (corporation) | Hypermarcas - numberOfEmployees - 10252",
+        "Instances_KG": "Hypermarcas - location - Brazil | Hypermarcas - product - Drugs | Hypermarcas - industry - Pharmaceuticals | Hypermarcas - keyPerson - CEO | Hypermarcas - foundingYear - \"\"\"2001/01/01\"\"\" | Hypermarcas - type - S.A. (corporation) | Hypermarcas - numberOfEmployees - 10252",
         "Subclasses_KG": "place - subclass - Thing | person function - subclass - Thing | company - subclass - organisation",
         "core_description": "Hypermarcas Pharmaceuticals Inc."
     },
@@ -296,14 +296,14 @@
     {
         "story": "Released on 2006-09-06, the Nord album was part of the post-metal genre of sludge metal. The Year of No Light produced the album and followed it up with Live at Roadburn 2008.",
         "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007 - 04 - 23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Nord album was released on 2006-09-06 and was a post-metal sludge metal masterpiece"
     },
     {
         "story": "Year of No Light self-produced their sludge-metal album Nord, and released it on September 6th, 2006. The band's next album was Live at Roadburn 2008.",
         "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007 - 04 - 23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Year of No Light self-produced their sludge-metal album Nord"
     },
@@ -317,7 +317,7 @@
     {
         "story": "English Without Tears is an 89 minute movie written by Terence Rattigan and released on July 28th, 1944. Alan Jaggs was the editor while Nicholas Brodszky wrote the music for the film.",
         "Types_KG": "English Without Tears - type - work | Nicholas Brodszky - type - person | Terence Rattigan - type - person | Alan Jaggs - type - person",
-        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944 - 07 - 28\"\"\" | English Without Tears - writer - Terence Rattigan | English Without Tears - runtime - 5340.0 | English Without Tears - editing - Alan Jaggs | English Without Tears - musicComposer - Nicholas Brodszky",
+        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944/07/28\"\"\" | English Without Tears - writer - Terence Rattigan | English Without Tears - runtime - 5340.0 | English Without Tears - editing - Alan Jaggs | English Without Tears - musicComposer - Nicholas Brodszky",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "Without Tears (1944) is a film based on the novel of Terence Rattigan"
     },
@@ -345,14 +345,14 @@
     {
         "story": "Aleksandr Prudnikov was born on February 24, 1989 and is 185 cm tall. He currently plays for FC Amkar Perm and also played for FC Terek Grozny, which is located in Grozny.",
         "Types_KG": "FC Amkar Perm - type - agent | FC Terek Grozny - type - soccer club | Grozny - type - place",
-        "Instances_KG": "FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - team - FC Terek Grozny | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre>",
+        "Instances_KG": "FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - team - FC Terek Grozny | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre>",
         "Subclasses_KG": "place - subclass - Thing | agent - subclass - Thing | soccer club - subclass - Sportverein",
         "core_description": "Aleksandr Prudnikov is 185 cm tall and plays for the Perm FC"
     },
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall at 101 Ukrop Way, which began construction on the 30th of March, 2007. The building was designed by Robert A M Stern and was completed on the 1st of June 2009. The Mason School of Business are the current tenants.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "The College of William and Mary is the owner of the Alan B. Miller Hall"
     },
@@ -380,7 +380,7 @@
     {
         "story": "Liselotte Grschebina, born in Karlsruhe on May 2, 1908, was a professional photographer. She is an Israeli national who died in Israel on June 14, 1994.",
         "Types_KG": "Israel - type - place | Photographer - type - person | Liselotte Grschebina - type - person | Karlsruhe - type - place",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908 - 05 - 02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994 - 06 - 14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - field - Photographer",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908/05/02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994/06/14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - field - Photographer",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina, a Photographer, died in Israel on June 14, 1994"
     },
@@ -394,14 +394,14 @@
     {
         "story": "The US national Alan Shepard was born in New Hampshire in 1923 and died in California. He was awarded the Distinguished Service Medal by the United States Navy.",
         "Types_KG": "Alan Shepard - type - person | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | award - subclass - Thing",
         "core_description": "Alan Shepard, a US national, died in California in 1923"
     },
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall which was completed on 1st June 2009, address is \"101 Ukrop Way\". The Mason School of Business are the current tenants of Alan B Miller Hall.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing",
         "core_description": "The College of William and Mary is the owner of Alan B Miller Hall"
     },
@@ -443,21 +443,21 @@
     {
         "story": "Liselotte Grschebina was born in Karlsruhe within the German Empire on May 2, 1908 and died on June 14, 1994 in Israel.",
         "Types_KG": "German Empire - type - place | Israel - type - place | Liselotte Grschebina - type - person | Karlsruhe - type - place",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908 - 05 - 02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994 - 06 - 14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - birthPlace - German Empire",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908/05/02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994/06/14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - birthPlace - German Empire",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina (* 12. Mai 1908 in Karlsruhe;  14. Juni 1994 in Jerusalem) war German-American"
     },
     {
         "story": "Lady Anne Monson, an English national, resided in India with spouse George Monson. With Botany as her professional field, she died on 1776-02-18.",
         "Types_KG": "Botany - type - work | India - type - place | Lady Anne Monson - type - person | Kingdom of England - type - place",
-        "Instances_KG": "Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\" | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India | Lady Anne Monson - spouse - George Monson | Lady Anne Monson - field - Botany",
+        "Instances_KG": "Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\" | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India | Lady Anne Monson - spouse - George Monson | Lady Anne Monson - field - Botany",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | work - subclass - Thing",
         "core_description": "Lady Anne Monson, a Botanist, died in India on 1776-02-18."
     },
     {
         "story": "Influenced by Andrzej Piotr Ruszczynski, Darinka Dentcheva (born Jan. 1st, 1958) has become widely known for her work in Stochastic Programming, working in the field of Mathematical Optimization; she is a citizen of the United States.",
         "Types_KG": "Mathematical optimization - type - cultivar (cultivated variety) | Stochastic programming - type - software | Andrzej Piotr Ruszczy\u0144ski - type - person | United States - type - person | Darinka Dentcheva - type - person",
-        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958 - 01 - 01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - knownFor - Stochastic programming",
+        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958/01/01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - knownFor - Stochastic programming",
         "Subclasses_KG": "cultivar (cultivated variety) - subclass - plant | person - subclass - animal | software - subclass - work",
         "core_description": "Darinka Dentcheva (born Jan. 1st, 1958) is a Stochastic Programming Expert"
     },
@@ -471,7 +471,7 @@
     {
         "story": "Born in Rochdale, the actor Bill Oddie starred in the Broadcasting House based BBC children's show Bananaman. The show aired in 1983.",
         "Types_KG": "BBC - type - company | Broadcasting House - type - place | Rochdale - type - place | Bill Oddie - type - person",
-        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bill Oddie - birthPlace - Rochdale | Bananaman - network - BBC | Bananaman - firstAired - \"\"\"\"1983 - 10 - 03\"\"\"\"^^xsd:date",
+        "Instances_KG": "BBC - locationCity - Broadcasting House | Bananaman - starring - Bill Oddie | Bill Oddie - birthPlace - Rochdale | Bananaman - network - BBC | Bananaman - firstAired - \"\"\"\"1983/10/03\"\"\"\"^^xsd:date",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | company - subclass - organisation",
         "core_description": "Bill Oddie is best known for playing in the children's show Bananaman"
     },
@@ -492,7 +492,7 @@
     {
         "story": "The Alan B Miller Hall, which is built in a Georgian style, is located in Virginia and is owned by The College of William and Mary. The building is currently occupied by The Mason School of Business and can be found at 101 Ukrop Way. It was designed by Robert A.M. Stern and began construction on the 30th of March 2007.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | Robert A. M. Stern - type - person | Virginia - type - place | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "person - subclass - animal | place - subclass - Thing | architectural structure - subclass - Thing | school - subclass - Bildungseinrichtung | agent - subclass - Thing",
         "core_description": "The Alan B Miller Hall in Virginia"
     },
@@ -541,14 +541,14 @@
     {
         "story": "After releasing their album Squeeze, music group the Velvet Underground produced and released rock music album Bootleg Series Volume 1: The Quine Tapes, which they recorded in St Louis Missouri, USA The album was released on 2001-10-16 under the Polydor and Universal Music Group record labels and has a total run time of 230:05 minutes.",
         "Types_KG": "Polydor Records - type - record label | Squeeze (The Velvet Underground album) - type - work | Universal Music Group - type - company | Bootleg Series Volume 1: The Quine Tapes - type - work | United States - type - person | St. Louis, Missouri - type - city",
-        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Polydor Records | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Universal Music Group | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001 - 10 - 16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
+        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Polydor Records | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Universal Music Group | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001/10/16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
         "Subclasses_KG": "person - subclass - animal | company - subclass - organisation | record label - subclass - company | work - subclass - Thing | city - subclass - settlement",
         "core_description": "The Velvet Underground's Bootleg Series Volume 1: The Quine Tapes"
     },
     {
         "story": "1147 Stavropolis discovered on June 11, 1929 with rotation period of 20378.5 has a periapsis of 260855000000.0 and apoapsis of 418476000000.0. The orbital period of the asteroid is 1249.6 days.",
         "Types_KG": "1147 Stavropolis - type - place",
-        "Instances_KG": "1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929 - 06 - 11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8",
+        "Instances_KG": "1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929/06/11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "Asteroid 1147 Stavropolis with rotation period 20378.5"
     },
@@ -562,14 +562,14 @@
     {
         "story": "The Pontiac Rageous, a coupe assembled in Michigan, was first and last produced in 1997. It had its assembly line in Detroit.",
         "Types_KG": "Michigan - type - place | Detroit - type - place | Pontiac Rageous - type - mean of transportation | Coupe - type - automobile",
-        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - bodyStyle - Coupe",
+        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - bodyStyle - Coupe",
         "Subclasses_KG": "place - subclass - Thing | mean of transportation - subclass - Thing | automobile - subclass - Moyen de transport",
         "core_description": "Pontiac Rageous Coupes on the Road"
     },
     {
         "story": "The construction of Alan B. Miller Hall lasted from March 30th, 2007 to June 1st, 2009. Robert A. M. Stern is the architect of the building. Alan B. Miller Hall is located at 101 Ukrop Way, Virginia, and the current tenant is the Mason School of Business.",
         "Types_KG": "Virginia - type - place | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia",
         "Subclasses_KG": "place - subclass - Thing | school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | person - subclass - animal",
         "core_description": "Construction of Alan B. Miller Hall in Virginia"
     },
@@ -583,7 +583,7 @@
     {
         "story": "Alan Shepard was born in New Hampshire, U.S.A., on November 18, 1923. He served in the U.S. Navy and earned the Distinguished Service Medal. He died on July 12, 1998, in California.",
         "Types_KG": "Alan Shepard - type - person | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998 - 07 - 21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998/07/21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | award - subclass - Thing",
         "core_description": "Alan Shepard died on July 12, 1998, in California"
     },
@@ -597,7 +597,7 @@
     {
         "story": "Liselotte Grschebina was born in Karlsruhe and died on June 14, 1994 in Petah Tikva, Israel, which is home to the Arab ethnic group.",
         "Types_KG": "Arab citizens of Israel - type - place | Petah Tikva - type - place | Israel - type - place | Karlsruhe - type - place | Liselotte Grschebina - type - person",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - deathDate - \"\"\"1994 - 01 - 01\"\"\" | Liselotte Grschebina - deathPlace - Petah Tikva | Israel - ethnicGroup - Arab citizens of Israel",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - deathDate - \"\"\"1994/01/01\"\"\" | Liselotte Grschebina - deathPlace - Petah Tikva | Israel - ethnicGroup - Arab citizens of Israel",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina was born in Karlsruhe and died on June 14, 1994 in Petah Tikva"
     },
@@ -646,7 +646,7 @@
     {
         "story": "Aleksandr Prudnikov was born on February 24, 1989. He played for FC Spartak Moscow's youth team and is now playing for FC Spartak Moscow.",
         "Types_KG": "Aleksandr Prudnikov - type - person | FC Spartak Moscow - type - agent",
-        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - team - FC Spartak Moscow | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - clubs - FC Spartak Moscow",
+        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - team - FC Spartak Moscow | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - clubs - FC Spartak Moscow",
         "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing",
         "core_description": "Aleksandr Prudnikov is a Russian footballer and former Spartak Moscow player"
     },
@@ -660,21 +660,21 @@
     {
         "story": "Alan B. Miller Hall, at 101 Ukrop Way, was designed by Robert A.M. Stern and was completed on 01/06/2009. The building is in the USA and is currently occupied by The Mason School of Business.",
         "Types_KG": "Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | United States - type - person | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Mason School of Business - country - United States | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Mason School of Business - country - United States",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Mason School of Business - country - United States | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Mason School of Business - country - United States",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | person - subclass - animal",
         "core_description": "Alan B. Miller Hall in the USA"
     },
     {
         "story": "Piotr Hallmann, who was born in Gdynia, Poland on the 25th of August 1987, is 175.26 cm tall and weighs 70.308 kg.",
         "Types_KG": "Gdynia - type - place | Piotr Hallmann - type - person",
-        "Instances_KG": "Piotr Hallmann - height - 175.26 | Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthPlace - Gdynia | Piotr Hallmann - birthDate - \"\"\"\"\"\"1987 - 08 - 25\"\"\"\"\"\" | Piotr Hallmann - height - 175.26 | Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthPlace - Gdynia, Poland | Piotr Hallmann - birthDate - \"\"\"\"\"\"1987 - 08 - 25\"\"\"\"\"\"",
+        "Instances_KG": "Piotr Hallmann - height - 175.26 | Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthPlace - Gdynia | Piotr Hallmann - birthDate - \"\"\"\"\"\"1987/08/25\"\"\"\"\"\" | Piotr Hallmann - height - 175.26 | Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthPlace - Gdynia, Poland | Piotr Hallmann - birthDate - \"\"\"\"\"\"1987/08/25\"\"\"\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Piotr Hallmann, who was born in Gdynia, Poland, on 25th of August 1987, is 17"
     },
     {
         "story": "Released on 28th July 1944 the 89 minutes long film, \"English Without Tears, \" was directed by Harold French, produced by Anatole de Grunwald, while the songs in the film were composed by Nicholas Brodszky.",
         "Types_KG": "English Without Tears - type - work | Anatole de Grunwald - type - person | Nicholas Brodszky - type - person | Harold French - type - person",
-        "Instances_KG": "English Without Tears - runtime - 5340.0 | English Without Tears - musicComposer - Nicholas Brodszky | English Without Tears - releaseDate - \"\"\"1944 - 07 - 28\"\"\" | English Without Tears - director - Harold French | English Without Tears - producer - Anatole de Grunwald",
+        "Instances_KG": "English Without Tears - runtime - 5340.0 | English Without Tears - musicComposer - Nicholas Brodszky | English Without Tears - releaseDate - \"\"\"1944/07/28\"\"\" | English Without Tears - director - Harold French | English Without Tears - producer - Anatole de Grunwald",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "\"English Without Tears\" (1944)"
     },
@@ -688,28 +688,28 @@
     {
         "story": "Alan Shepard was born on November 18th, 1923 in New Hampshire and later died in California. Shepard was the Chief of the Astronaut Office in 1963 and was awarded the Distinguished Service Medal by the United States Navy.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | Distinguished Service Medal (United States Navy) - type - award | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | award - subclass - Thing | time period - subclass - Thing",
         "core_description": "Alan Shepard, Astronaut of the Year, died on November 18th, 1923"
     },
     {
         "story": "English Without Tears is an 89-minute film that was released on July 28th, 1944. It was written by Anatole de Grunwald and directed by Harold French. Nicholas Brodszky was the music composer while Alan Jaggs was the film editor.",
         "Types_KG": "Nicholas Brodszky - type - person | Alan Jaggs - type - person | Anatole de Grunwald - type - person | English Without Tears - type - work | Harold French - type - person",
-        "Instances_KG": "English Without Tears - runtime - 5340.0 | English Without Tears - musicComposer - Nicholas Brodszky | English Without Tears - releaseDate - \"\"\"1944 - 07 - 28\"\"\" | English Without Tears - director - Harold French | English Without Tears - editing - Alan Jaggs | English Without Tears - writer - Anatole de Grunwald",
+        "Instances_KG": "English Without Tears - runtime - 5340.0 | English Without Tears - musicComposer - Nicholas Brodszky | English Without Tears - releaseDate - \"\"\"1944/07/28\"\"\" | English Without Tears - director - Harold French | English Without Tears - editing - Alan Jaggs | English Without Tears - writer - Anatole de Grunwald",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "Without Tears (1944): An Anatole de Grunwald film"
     },
     {
         "story": "Alan Shepard was born and died in the United States. His 1923 birthplace was New Hampshire and the place of his 1998 death was California.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | United States - type - person | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998 - 07 - 21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998/07/21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard was born and died in California"
     },
     {
         "story": "Olga Bondareva's alma matter was Leningrad State University, however she died not in Leningrad, but rather in the city of Saint Petersburg. Saint Petersburg was founded May 27, 1703.",
         "Types_KG": "Saint Petersburg - type - place | Leningrad State University - type - university | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - almaMater - Leningrad State University | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703 - 05 - 27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - almaMater - Leningrad State University | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703 - 05 - 27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg",
+        "Instances_KG": "Olga Bondareva - almaMater - Leningrad State University | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703/05/27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - almaMater - Leningrad State University | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703/05/27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "St. Petersburg as Olga Bondareva's alma matter"
     },
@@ -744,14 +744,14 @@
     {
         "story": "Alan Shepard was born in New Hampshire, United States, on November 18th, 1923. He was selected by NASA in 1959. He was also awarded the Distinguished Service Medal by the United States Navy. Shepard died in California.",
         "Types_KG": "Alan Shepard - type - person | 1959 - type - time period | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard died in California on November 18th, 1959"
     },
     {
         "story": "The Mason School of Business are the current residents of the Alan B Miller Hall which was designed by Robert A M Stern in a Georgian architectural style. This business is located in the United States at 101 Ukrop Way in a building which began construction on the 30th of March, 2007. The College of William and Mary is the current owner of the building.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | United States - type - person | Robert A. M. Stern - type - person | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "The Mason School of Business is the current owner of the Alan B Miller Hall"
     },
@@ -765,14 +765,14 @@
     {
         "story": "Olga Bondareva was born in Leningrad, USSR and died in Saint Petersburg. Saint Petersburg was founded on May 27, 1703 and is led by a governor.",
         "Types_KG": "Saint Petersburg - type - place | Governor - type - person function | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Saint Petersburg - leaderTitle - Governor | Olga Bondareva - birthPlace - Leningrad, USSR | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703 - 05 - 27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg | Saint Petersburg - leaderTitle - Governor | Olga Bondareva - birthPlace - Leningrad, USSR | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703 - 05 - 27\"\"\"\"\"\"",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Saint Petersburg - leaderTitle - Governor | Olga Bondareva - birthPlace - Leningrad, USSR | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703/05/27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg | Saint Petersburg - leaderTitle - Governor | Olga Bondareva - birthPlace - Leningrad, USSR | Saint Petersburg - foundingDate - \"\"\"\"\"\"1703/05/27\"\"\"\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person function - subclass - Thing | person - subclass - animal",
         "core_description": "Bondareva's daughter Olga Bondareva Bondareva"
     },
     {
         "story": "Lady Anne Monson was born on January 1, 1726 in Darlington located in the Kingdom of England. Her residence was in India and she later died on February 18, 1776.",
         "Types_KG": "Kingdom of England - type - place | India - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - residence - India",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - residence - India",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Lady Anne Monson was born on January 1, 1726 in Darlington, England"
     },
@@ -821,7 +821,7 @@
     {
         "story": "The song Mermaid, written by the pop-rock band Train, lasts 3.16 minutes. Columbia Records released the song on December 27, 2012.",
         "Types_KG": "Mermaid (Train song) - type - work | Columbia Records - type - record label | Train (band) - type - agent | Pop rock - type - music genre",
-        "Instances_KG": "Mermaid (Train song) - genre - Pop rock | Mermaid (Train song) - musicalBand - Train (band) | Mermaid (Train song) - recordLabel - Columbia Records | Mermaid (Train song) - runtime - 3.2666666666666666 | Mermaid (Train song) - releaseDate - \"\"\"2012 - 12 - 27\"\"\"",
+        "Instances_KG": "Mermaid (Train song) - genre - Pop rock | Mermaid (Train song) - musicalBand - Train (band) | Mermaid (Train song) - recordLabel - Columbia Records | Mermaid (Train song) - runtime - 3.2666666666666666 | Mermaid (Train song) - releaseDate - \"\"\"2012/12/27\"\"\"",
         "Subclasses_KG": "agent - subclass - Thing | music genre - subclass - genre | work - subclass - Thing | record label - subclass - company",
         "core_description": "Mermaid is a pop-rock song by Train"
     },
@@ -842,21 +842,21 @@
     {
         "story": "Nie Haisheng was born in Zaoyang, in the Hubei province of the People's Republic of China, on October 13th, 1964. He was part of the Shenzhou 6 mission and the Shenzhou 10 mission.",
         "Types_KG": "Hubei - type - place | Nie Haisheng - type - person | Zaoyang - type - place | Shenzhou 6 - type - societal event | People's Republic of China - type - country | Shenzhou 10 - type - societal event",
-        "Instances_KG": "Nie Haisheng - birthPlace - Zaoyang | Nie Haisheng - birthPlace - Hubei | Nie Haisheng - mission - Shenzhou 10 | Nie Haisheng - mission - Shenzhou 6 | Nie Haisheng - nationality - People's Republic of China | Nie Haisheng - birthDate - \"\"\"1964 - 10 - 13\"\"\"",
+        "Instances_KG": "Nie Haisheng - birthPlace - Zaoyang | Nie Haisheng - birthPlace - Hubei | Nie Haisheng - mission - Shenzhou 10 | Nie Haisheng - mission - Shenzhou 6 | Nie Haisheng - nationality - People's Republic of China | Nie Haisheng - birthDate - \"\"\"1964/10/13\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event | country - subclass - populated place",
         "core_description": "Nie Haisheng was born in Zaoyang, in the Hubei province, on October 13th, 1964"
     },
     {
         "story": "The album Nord by the Year of No Light whose record label is Crucial Blast was released on E-Vinyl record label on September 6, 2006 with a runtime of 58 minutes and 41 seconds.",
         "Types_KG": "Crucial Blast - type - record label | Nord (Year of No Light album) - type - work | E - Vinyl - type - record label | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007 - 04 - 23\"\"\" | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - recordLabel - E - Vinyl | Nord (Year of No Light album) - runtime - 58.416666666666664",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - recordLabel - E - Vinyl | Nord (Year of No Light album) - runtime - 58.416666666666664",
         "Subclasses_KG": "record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord by the Year of No Light whose record label is Crucial Blast"
     },
     {
         "story": "Nurhan Atasoy was born in Turkey on January 1st, 1934. He is a Turkish citizen and resides in Istanbul, Turkey.",
         "Types_KG": "Nurhan Atasoy - type - person | Istanbul - type - place | Turkey - type - person",
-        "Instances_KG": "Nurhan Atasoy - birthDate - \"\"\"1934 - 01 - 01\"\"\" | Nurhan Atasoy - residence - Istanbul | Nurhan Atasoy - citizenship - Turkey | Nurhan Atasoy - birthPlace - Turkey | Nurhan Atasoy - residence - Turkey",
+        "Instances_KG": "Nurhan Atasoy - birthDate - \"\"\"1934/01/01\"\"\" | Nurhan Atasoy - residence - Istanbul | Nurhan Atasoy - citizenship - Turkey | Nurhan Atasoy - birthPlace - Turkey | Nurhan Atasoy - residence - Turkey",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Nurhan Atasoy is a Turkish citizen and resides in Istanbul, Turkey"
     },
@@ -870,21 +870,21 @@
     {
         "story": "A film named \"English Without Tears\" was released on July 28th, 1944. The film was edited by Alan Jaggs and produced by Anatole de Grunwald. Interestingly enough, the script was also written by Anatole de Grunwald. Finally, film buffs should know that Bernard Knowles was the cinematographer responsible for the beauty of this movie.",
         "Types_KG": "English Without Tears - type - work | Anatole de Grunwald - type - person | Bernard Knowles - type - person | Alan Jaggs - type - person",
-        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944 - 07 - 28\"\"\" | English Without Tears - editing - Alan Jaggs | English Without Tears - producer - Anatole de Grunwald | English Without Tears - writer - Anatole de Grunwald | English Without Tears - cinematography - Bernard Knowles",
+        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944/07/28\"\"\" | English Without Tears - editing - Alan Jaggs | English Without Tears - producer - Anatole de Grunwald | English Without Tears - writer - Anatole de Grunwald | English Without Tears - cinematography - Bernard Knowles",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "\"English Without Tears\" was released on July 28th, 1944"
     },
     {
         "story": "The Mason School of Business are the current tenants of Alan B Miller Hall, which is currently owned by the College of William and Mary and which was designed by Robert A.M. Stern and completed June 1, 2009.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "The Mason School of Business are the current tenants of Alan B Miller Hall"
     },
     {
         "story": "The American born Alan Shepard was a test pilot selected in 1959 by NASA, who was raised in New Hampshire. He was born in that state in November of 1923 and died in California.",
         "Types_KG": "Alan Shepard - type - person | 1959 - type - time period | United States - type - person | New Hampshire - type - place | Test pilot - type - person | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - occupation - Test pilot",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - occupation - Test pilot",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard, a NASA Test Pilot, died in California on November 19, 1923"
     },
@@ -919,14 +919,14 @@
     {
         "story": "Liselotte Grschebina of Israeli nationality (pop. density of Israel - 387.63) is a photographer born within the German Empire that was founded on the first of January 1871.",
         "Types_KG": "German Empire - type - place | Israel - type - place | Photographer - type - person | Liselotte Grschebina - type - person",
-        "Instances_KG": "Liselotte Grschebina - nationality - Israel | Israel - populationDensity - 387.63 | German Empire - foundingDate - \"\"\"1871 - 01 - 01\"\"\" | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - field - Photographer",
+        "Instances_KG": "Liselotte Grschebina - nationality - Israel | Israel - populationDensity - 387.63 | German Empire - foundingDate - \"\"\"1871/01/01\"\"\" | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - field - Photographer",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina of Israeli nationality (pop. density of Israel - 387.63)"
     },
     {
         "story": "The band Train followed up \"This'll be my year\" with a 3 minutes, 16 seconds long pop rock song, entitled \"Mermaid.\" Mermaid, which is also considered an example of the reggae genre of music, was written by songwriter, Espen Lind and released on December, 27, 2012.",
         "Types_KG": "Espen Lind - type - person | Reggae - type - genre | Mermaid (Train song) - type - work | Pop rock - type - music genre",
-        "Instances_KG": "Mermaid (Train song) - genre - Pop rock | Mermaid (Train song) - releaseDate - \"\"\"2012 - 12 - 27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - genre - Reggae",
+        "Instances_KG": "Mermaid (Train song) - genre - Pop rock | Mermaid (Train song) - releaseDate - \"\"\"2012/12/27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - genre - Reggae",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | person - subclass - animal | music genre - subclass - genre | work - subclass - Thing",
         "core_description": "Train's \"This'll be my year\" and \"This'll be my year\" followed by \"Mermaid\""
     },
@@ -940,7 +940,7 @@
     {
         "story": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe and he died on June 14,1994 in Israel , he born in the German Empire, he is an Israeli national and professional photographer.",
         "Types_KG": "German Empire - type - place | Photographer - type - person | Israel - type - place | Karlsruhe - type - place | Liselotte Grschebina - type - person",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908 - 05 - 02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994 - 06 - 14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - field - Photographer",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908/05/02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994/06/14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - field - Photographer",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe and he died on June 14,1994 in Israel"
     },
@@ -954,7 +954,7 @@
     {
         "story": "Aleksandr Prudnikov was born on February 24th, 1989, played for FC Terek Grozny, managed by Rashid Rakhimov.",
         "Types_KG": "Rashid Rakhimov - type - person | FC Terek Grozny - type - soccer club | Aleksandr Prudnikov - type - person",
-        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - team - FC Terek Grozny | FC Terek Grozny - manager - Rashid Rakhimov | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en | FC Terek Grozny - manager - Rashid Rakhimov",
+        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - team - FC Terek Grozny | FC Terek Grozny - manager - Rashid Rakhimov | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en | FC Terek Grozny - manager - Rashid Rakhimov",
         "Subclasses_KG": "person - subclass - animal | soccer club - subclass - Sportverein",
         "core_description": "Aleksandr Prudnikov played for FC Terek Grozny, managed by Rashid Rakhimov"
     },
@@ -968,7 +968,7 @@
     {
         "story": "GMA New Media is located in Quezon, Philippines (a city dominated by the Liberal Party). Founded 12/06/1898, GMA New Media produces web services.",
         "Types_KG": "World Wide Web - type - music genre | Liberal Party (Philippines) - type - agent | Philippines - type - place | Quezon City - type - place | GMA New Media - type - company",
-        "Instances_KG": "GMA New Media - location - Philippines | Quezon City - leaderParty - Liberal Party (Philippines) | GMA New Media - location - Quezon City | GMA New Media - product - World Wide Web | Philippines - foundingDate - \"\"\"1898 - 06 - 12\"\"\"",
+        "Instances_KG": "GMA New Media - location - Philippines | Quezon City - leaderParty - Liberal Party (Philippines) | GMA New Media - location - Quezon City | GMA New Media - product - World Wide Web | Philippines - foundingDate - \"\"\"1898/06/12\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | agent - subclass - Thing | company - subclass - organisation | music genre - subclass - genre",
         "core_description": "GMA New Media was founded in Quezon City (12/06/1898)"
     },
@@ -1017,7 +1017,7 @@
     {
         "story": "Nurhan Atasoy was born in Istanbul on January 1, 1934. He is a Turkish citizen who resides in Istanbul which falls in the Eastern European Summer Time time zone.",
         "Types_KG": "Nurhan Atasoy - type - person | Istanbul - type - place | Turkey - type - person",
-        "Instances_KG": "Nurhan Atasoy - citizenship - Turkey | Istanbul - timeZone - Eastern European Summer Time | Istanbul - timeZone - Eastern European Time | Nurhan Atasoy - birthDate - \"\"\"1934 - 01 - 01\"\"\" | Nurhan Atasoy - residence - Istanbul",
+        "Instances_KG": "Nurhan Atasoy - citizenship - Turkey | Istanbul - timeZone - Eastern European Summer Time | Istanbul - timeZone - Eastern European Time | Nurhan Atasoy - birthDate - \"\"\"1934/01/01\"\"\" | Nurhan Atasoy - residence - Istanbul",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Nurhan Atasoy (born in Istanbul on January 1, 1934) is a Turkish citizen."
     },
@@ -1038,7 +1038,7 @@
     {
         "story": "The movie English Without Tears release date was July 28th, 1944. Anatole de Grunwald was the producer and also the writer of the movie along with Terence Rattigan. The cinematography was done by Bernard Knowles, and the movie runs for 89 minutes.",
         "Types_KG": "English Without Tears - type - work | Anatole de Grunwald - type - person | Terence Rattigan - type - person | Bernard Knowles - type - person",
-        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944 - 07 - 28\"\"\" | English Without Tears - producer - Anatole de Grunwald | English Without Tears - writer - Anatole de Grunwald | English Without Tears - cinematography - Bernard Knowles | English Without Tears - writer - Terence Rattigan | English Without Tears - runtime - 89.0",
+        "Instances_KG": "English Without Tears - releaseDate - \"\"\"1944/07/28\"\"\" | English Without Tears - producer - Anatole de Grunwald | English Without Tears - writer - Anatole de Grunwald | English Without Tears - cinematography - Bernard Knowles | English Without Tears - writer - Terence Rattigan | English Without Tears - runtime - 89.0",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "The movie English Without Tears release date was July 28th, 1944"
     },
@@ -1066,7 +1066,7 @@
     {
         "story": "Aleksandr Prudnikov was born on 1989-02-24 and plays for FC Amkar Perm. He was also a member of the youth side of FC Spartak Moscow.",
         "Types_KG": "Aleksandr Prudnikov - type - person | FC Amkar Perm - type - agent | FC Spartak Moscow - type - agent",
-        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - currentclub - FC Amkar Perm",
+        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - currentclub - FC Amkar Perm | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | Aleksandr Prudnikov - currentclub - FC Amkar Perm",
         "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing",
         "core_description": "Aleksandr Prudnikov was born on 1989-02-24 and plays for Amkar Perm"
     },
@@ -1094,7 +1094,7 @@
     {
         "story": "Olga Bondareva (born \"Olga Nikolaevna Bondareva\" in Leningrad, USSR) worked in the professional fields of economics and mathematics and died December 9, 1991.",
         "Types_KG": "Economics - type - work | Mathematics - type - book | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathDate - \"\"\"1991 - 12 - 09\"\"\" | Olga Bondareva - field - Economics | Olga Bondareva - field - Mathematics",
+        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathDate - \"\"\"1991/12/09\"\"\" | Olga Bondareva - field - Economics | Olga Bondareva - field - Mathematics",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing | book - subclass - geschreven werk",
         "core_description": "Born \"Olga Nikolaevna Bondareva\" in Leningrad"
     },
@@ -1108,14 +1108,14 @@
     {
         "story": "Stavropolis 1147 is an asteroid and has an apoapsis of 418476000000.0 AU and a rotation period of 20378.5. Its epoch is 31 July 2016 (JD2457600.5), its orbital period is 1249.6 and its periapsis is 260855000000.0.",
         "Types_KG": "1147 Stavropolis - type - place",
-        "Instances_KG": "1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929 - 06 - 11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8 | 1147 Stavropolis - epoch - 31 July 2016 (JD2457600.5) | 1147 Stavropolis - orbitalPeriod - 107965000.0",
+        "Instances_KG": "1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929/06/11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8 | 1147 Stavropolis - epoch - 31 July 2016 (JD2457600.5) | 1147 Stavropolis - orbitalPeriod - 107965000.0",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "Stavropolis 1147 is an asteroid with an orbital diameter of 418476000000.0 AU"
     },
     {
         "story": "1147 Stavropolis (discovered 11 June 1929) is an asteroid with an orbital period of 1249.6 and absolute magnitude of 11.5. The periapsis of this asteroid is 260855000000.0 and the epoch date is 31 July 2016 (JD2457600.5).",
         "Types_KG": "1147 Stavropolis - type - place",
-        "Instances_KG": "1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - absoluteMagnitude - 11.5 | 1147 Stavropolis - discovered - \"\"\"1929 - 06 - 11\"\"\" | 1147 Stavropolis - periapsis - 2.608545551289435E8 | 1147 Stavropolis - epoch - 31 July 2016 (JD2457600.5)",
+        "Instances_KG": "1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - absoluteMagnitude - 11.5 | 1147 Stavropolis - discovered - \"\"\"1929/06/11\"\"\" | 1147 Stavropolis - periapsis - 2.608545551289435E8 | 1147 Stavropolis - epoch - 31 July 2016 (JD2457600.5)",
         "Subclasses_KG": "place - subclass - Thing",
         "core_description": "1147 Stavropolis (discovered 11 June 1929) is an asteroid with an orbital period of 1249.6"
     },
@@ -1143,7 +1143,7 @@
     {
         "story": "The sludge and post-metal album Nord by Year of No Light was released September 6, 2006 after the album Demo (2004). It comprises of 58 minutes and 41 seconds of sound.",
         "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006 - 09 - 06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord: Sludge and Post-Metal Album by Year of No Light"
     },
@@ -1171,7 +1171,7 @@
     {
         "story": "The construction of Alan B. Miller Hall started on March 30th, 2007. Robert A. M. Stern is the architect of the building. Alan B. Miller Hall is located at 101 Ukrop Way, Virginia, and the current tenant is the Mason School of Business. The College of William and Mary owns the Hall.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | Robert A. M. Stern - type - person | Virginia - type - place | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "person - subclass - animal | place - subclass - Thing | architectural structure - subclass - Thing | school - subclass - Bildungseinrichtung | agent - subclass - Thing",
         "core_description": "Construction of Alan B. Miller Hall in Virginia"
     },
@@ -1192,14 +1192,14 @@
     {
         "story": "Lady Anne Monson was born in the Kingdom of England in Darlington, whose OS grid reference is NZ289147. Lady Anne Monson lived in the Kingdom of England, whose dissolution took place in 1707, and held British nationality.",
         "Types_KG": "Kingdom of England - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Kingdom of England - dissolutionYear - \"\"\"1707 - 01 - 01\"\"\" | Darlington - gridReference - NZ289147 | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Kingdom of England - dissolutionYear - \"\"\"1707/01/01\"\"\" | Darlington - gridReference - NZ289147 | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Lady Anne Monson was born in the Kingdom of England in Darlington in 1707"
     },
     {
         "story": "Brandon Carter was born on January 1, 1942 and worked professionally in the field of General Relativity. Brandon Carter was known for the Carter Constant and his contributions to the no-hair theorem. Dennis William Sciama was his doctoral advisor.",
         "Types_KG": "Brandon Carter - type - person | Dennis William Sciama - type - scientist",
-        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942 - 01 - 01\"\"\"",
+        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\"",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal",
         "core_description": "Brandon Carter (born January 1, 1942) was a General Relativity Professional"
     },
@@ -1255,35 +1255,35 @@
     {
         "story": "1147 Stavropolis has 418476000000.0 apoapsis, and it has an absolute magnitude of 11.5. It was discovered on June 11, 1929 by Grigory Neujmin. The asteroid has an orbital period of 1249.6 days. It has a periapsis of 260855000000.0.",
         "Types_KG": "Grigory Neujmin - type - person | 1147 Stavropolis - type - place",
-        "Instances_KG": "1147 Stavropolis - apoapsis - 418476000000.0 | 1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - discoverer - Grigory Neujmin | 1147 Stavropolis - absoluteMagnitude - 11.5 | 1147 Stavropolis - discovered - \"\"\"1929 - 06 - 11\"\"\" | 1147 Stavropolis - periapsis - 2.608545551289435E8",
+        "Instances_KG": "1147 Stavropolis - apoapsis - 418476000000.0 | 1147 Stavropolis - orbitalPeriod - 1249.6 | 1147 Stavropolis - discoverer - Grigory Neujmin | 1147 Stavropolis - absoluteMagnitude - 11.5 | 1147 Stavropolis - discovered - \"\"\"1929/06/11\"\"\" | 1147 Stavropolis - periapsis - 2.608545551289435E8",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "1147 Stavropolis is an asteroid with 418476000000.0 apoapsis"
     },
     {
         "story": "Grigory Neujmin discovered 1147 Stavropolis on June 11, 1929. 1147 Stavropolis has an apoapsis of 418476000000.0, a periapsis of 260855000000.0 and a rotation period of 20378.5.",
         "Types_KG": "Grigory Neujmin - type - person | 1147 Stavropolis - type - place",
-        "Instances_KG": "1147 Stavropolis - discoverer - Grigory Neujmin | 1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929 - 06 - 11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8",
+        "Instances_KG": "1147 Stavropolis - discoverer - Grigory Neujmin | 1147 Stavropolis - apoapsis - 4.184758084281966E8 | 1147 Stavropolis - discovered - \"\"\"1929/06/11\"\"\" | 1147 Stavropolis - rotationPeriod - 20378.5 | 1147 Stavropolis - periapsis - 2.608545551289435E8",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "On June 11, 1929, Grigory Neujmin discovered 1147 Stavropolis. The site is a major site"
     },
     {
         "story": "Aleksandr Prudnikov, who was born on Feb 24, 1989 and stands 185 cm tall, plays for FC Amkar Perm. Gadzhi Gadzhiyev is a manager of the club.",
         "Types_KG": "Gadzhi Gadzhiyev - type - person | FC Amkar Perm - type - agent | Aleksandr Prudnikov - type - person",
-        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | FC Amkar Perm - manager - Gadzhi Gadzhiyev | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | FC Amkar Perm - manager - Gadzhi Gadzhiyev",
+        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | FC Amkar Perm - manager - Gadzhi Gadzhiyev | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | FC Amkar Perm - manager - Gadzhi Gadzhiyev",
         "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing",
         "core_description": "Aleksandr Prudnikov, 185 cm tall, plays for FC Amkar Perm. Gadzhi Ga"
     },
     {
         "story": "The Year of No Light band released the sludge metal, post-metal album Nord on September 6, 2006 after its album Demo in 2004. The album is 58 minutes and 41 seconds long.",
         "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006 - 09 - 06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Year of No Light released the album Nord on September 6, 2006"
     },
     {
         "story": "The album entitled Nord, followed by Year of No Light's album Live at Roadburn 2008, was released by the artist Year of No Light on the Crucial Blast label on the date 2006-09-06 and produced by Year of No Light.",
         "Types_KG": "Crucial Blast - type - record label | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007 - 04 - 23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast",
         "Subclasses_KG": "record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The album Nord, followed by Year of No Light's album Live at Roadburn 2008, was released by the artist Year of No Light on"
     },
@@ -1297,14 +1297,14 @@
     {
         "story": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe, German Empire and belongs to the Israeli nation. Liselotte Grschebina died on June 14, 1994 in Petah Tikva, Israel.",
         "Types_KG": "Petah Tikva - type - place | German Empire - type - place | Israel - type - place | Karlsruhe - type - place | Liselotte Grschebina - type - person",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908 - 05 - 02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994 - 06 - 14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - deathPlace - Petah Tikva",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908/05/02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994/06/14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - nationality - Israel | Liselotte Grschebina - birthPlace - German Empire | Liselotte Grschebina - deathPlace - Petah Tikva",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe, Germany"
     },
     {
         "story": "George Allen & Unwin published The Fellowship of the Ring, a fantasy, on July 29th, 1954. The Fellowship of the Ring is preceded by the Hobbit and followed by The Two Towers.",
         "Types_KG": "The Fellowship of the Ring - type - work | Fantasy (genre) - type - music genre | The Two Towers - type - work | George Allen & Unwin - type - publisher | The Hobbit - type - work",
-        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - releaseDate - \"\"\"1954 - 07 - 29\"\"\" | The Fellowship of the Ring - previousWork - The Hobbit",
+        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - releaseDate - \"\"\"1954/07/29\"\"\" | The Fellowship of the Ring - previousWork - The Hobbit",
         "Subclasses_KG": "publisher - subclass - company | music genre - subclass - genre | work - subclass - Thing",
         "core_description": "The Fellowship of the Ring: a fantasy"
     },
@@ -1325,7 +1325,7 @@
     {
         "story": "Prior to his death in California, Alan Shepard was born on November 18, 1923 in New Hampshire, United States. He served as Chief of the Astronaut Office in 1963 and was awarded the Distinguished Service Medal by the United States Navy.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - status - \"Deceased\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - status - \"Deceased\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard died on November 18, 1923 in California"
     },
@@ -1360,7 +1360,7 @@
     {
         "story": "Owned by The College of William and Mary, Alan B. Miller Hall was completed on June 1st, 2009 and hosts tenants including the Mason School of Business.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing",
         "core_description": "The College of William and Mary, Alan B. Miller Hall"
     },
@@ -1409,7 +1409,7 @@
     {
         "story": "Released on October 16, 2001, The Bootleg Series Volume I: The Quine Tapes was recorded in St. Louis, Missouri, in the United States. The album, which follows the previous Velvet Underground release Squeeze, is 230:05 long.",
         "Types_KG": "Squeeze (The Velvet Underground album) - type - work | Bootleg Series Volume 1: The Quine Tapes - type - work | United States - type - person | St. Louis, Missouri - type - city",
-        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001 - 10 - 16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
+        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001/10/16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
         "Subclasses_KG": "city - subclass - settlement | person - subclass - animal | work - subclass - Thing",
         "core_description": "The Bootleg Series Volume I: The Quine Tapes"
     },
@@ -1430,42 +1430,42 @@
     {
         "story": "The Mason School of Business is located at the Alan B. Miller Hall in Virginia at 101 Ukrop Way. The architect of the building was Robert A M Stern and the building completion date was 01/06/2007.",
         "Types_KG": "Virginia - type - place | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia",
         "Subclasses_KG": "place - subclass - Thing | school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | person - subclass - animal",
         "core_description": "The Mason School of Business is located at 101 Ukrop Way"
     },
     {
         "story": "Music group the Velvet Underground released their self-produced Rock music album Bootleg Series Volume 1: The Quine Tapes on 2001-10-16. The album has a total runtime of 230.05 minutes and was recorded in St. Louis Missouri, USA. It was preceded by the band\u2019s album Squeeze.",
         "Types_KG": "Rock music - type - genre | Squeeze (The Velvet Underground album) - type - work | Bootleg Series Volume 1: The Quine Tapes - type - work | United States - type - person | St. Louis, Missouri - type - city",
-        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - genre - Rock music | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001 - 10 - 16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
+        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - recordedIn - United States | Bootleg Series Volume 1: The Quine Tapes - recordedIn - St. Louis, Missouri | Bootleg Series Volume 1: The Quine Tapes - genre - Rock music | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001/10/16\"\"\" | Bootleg Series Volume 1: The Quine Tapes - runtime - 230.05",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | city - subclass - settlement | person - subclass - animal | work - subclass - Thing",
         "core_description": "The Velvet Underground's Bootleg Series Volume 1: The Quine Tapes"
     },
     {
         "story": "Ankara is the capital of Turkey, whose official language is Turkish. Nurhan Atasoy is a citizen of turnkey who was born January 1, 1934. He has also won the State Award for Superior Achievement.",
         "Types_KG": "Turkish language - type - language | Nurhan Atasoy - type - person | Ankara - type - place | Turkey - type - person",
-        "Instances_KG": "Nurhan Atasoy - citizenship - Turkey | Turkey - capital - Ankara | Nurhan Atasoy - birthDate - \"\"\"1934 - 01 - 01\"\"\" | Nurhan Atasoy - award - State Award for Superior Achievement | Turkey - officialLanguage - Turkish language",
+        "Instances_KG": "Nurhan Atasoy - citizenship - Turkey | Turkey - capital - Ankara | Nurhan Atasoy - birthDate - \"\"\"1934/01/01\"\"\" | Nurhan Atasoy - award - State Award for Superior Achievement | Turkey - officialLanguage - Turkish language",
         "Subclasses_KG": "place - subclass - Thing | language - subclass - Thing | person - subclass - animal",
         "core_description": "Nurhan Atasoy is a citizen of turnkey"
     },
     {
         "story": "Darinka Dentcheva was born on January 1st, 1958. She is a mathematician working in the field of mathematical optimization, and is known for her work with stochastic programming. One of her theories was influenced by Andrzej Piotr Ruszczy\u0144ski. She is a citizen of the United States and resides in New Jersey.",
         "Types_KG": "Mathematical optimization - type - cultivar (cultivated variety) | Stochastic programming - type - software | Andrzej Piotr Ruszczy\u0144ski - type - person | New Jersey - type - place | United States - type - person | Darinka Dentcheva - type - person",
-        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958 - 01 - 01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - knownFor - Stochastic programming | Darinka Dentcheva - residence - New Jersey",
+        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958/01/01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - knownFor - Stochastic programming | Darinka Dentcheva - residence - New Jersey",
         "Subclasses_KG": "place - subclass - Thing | cultivar (cultivated variety) - subclass - plant | person - subclass - animal | software - subclass - work",
         "core_description": "Darinka Dentcheva (born on January 1st, 1958) is a mathematician"
     },
     {
         "story": "Lady Anne Monson, a British national was born in Darlington, Kingdom of England, on January 1, 1726. She resided in India for most of her life with spouse George Monson and died on February 18th, 1776.",
         "Types_KG": "Kingdom of England - type - place | India - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India | Lady Anne Monson - spouse - George Monson",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India | Lady Anne Monson - spouse - George Monson",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Lady Anne Monson, a British national, died on February 18th, 1776"
     },
     {
         "story": "Liselotte Grschebina, born May 2, 1908 in Karlsruhe studied at the School of Applied Arts in Stuttgart before her death in Israel on June 14, 1994.",
         "Types_KG": "Israel - type - place | School of Applied Arts in Stuttgart - type - university | Liselotte Grschebina - type - person | Karlsruhe - type - place",
-        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908 - 05 - 02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994 - 06 - 14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - training - School of Applied Arts in Stuttgart",
+        "Instances_KG": "Liselotte Grschebina - birthPlace - Karlsruhe | Liselotte Grschebina - birthDate - \"\"\"1908/05/02\"\"\" | Liselotte Grschebina - deathDate - \"\"\"1994/06/14\"\"\" | Liselotte Grschebina - deathPlace - Israel | Liselotte Grschebina - training - School of Applied Arts in Stuttgart",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Liselotte Grschebina, b.1908 in Karlsruhe; died in Israel in June 1994"
     },
@@ -1479,7 +1479,7 @@
     {
         "story": "Aleksandr Prudnikov, who was born on 1989-02-24, plays for FC Terek Grozny who have their ground at Grozny.",
         "Types_KG": "FC Terek Grozny - type - soccer club | Grozny - type - place | Aleksandr Prudnikov - type - person",
-        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - team - FC Terek Grozny | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en",
+        "Instances_KG": "Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - team - FC Terek Grozny | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | FC Terek Grozny - ground - Grozny | Aleksandr Prudnikov - clubs - \"\u2192 Terek Grozny\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | soccer club - subclass - Sportverein",
         "core_description": "Aleksandr Prudnikov for FC Terek Grozny"
     },
@@ -1493,7 +1493,7 @@
     {
         "story": "Lady Anne Monson was born in Darlington, in the Kingdom of England, on January 1st, 1726. Her nationality was with the Kingdom of England, but her residence was in India. She passed away on February 18th, 1776.",
         "Types_KG": "Kingdom of England - type - place | India - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - nationality - Kingdom of England | Lady Anne Monson - residence - India",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Lady Anne Monson died on February 18th, 1776"
     },
@@ -1507,7 +1507,7 @@
     {
         "story": "The Pontiac Rageous was a car with a coupe body style manufactured by Pontiac. Assembled in both Michigan and Detroit, it went into production in 1997, ending in the same year.",
         "Types_KG": "Detroit - type - place | Pontiac Rageous - type - mean of transportation | Pontiac - type - company | Coupe - type - automobile | Michigan - type - place",
-        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - bodyStyle - Coupe | Pontiac Rageous - manufacturer - Pontiac",
+        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - bodyStyle - Coupe | Pontiac Rageous - manufacturer - Pontiac",
         "Subclasses_KG": "place - subclass - Thing | mean of transportation - subclass - Thing | automobile - subclass - Moyen de transport | company - subclass - organisation",
         "core_description": "Pontiac Rageous: The Pontiac Rageous Coupe"
     },
@@ -1528,7 +1528,7 @@
     {
         "story": "India's total population is 1,293,057,000 and the country\u2019s demonym is Indian. Lady Anne Monson, born January 1, 1726, known for her study of botany, resided here most of her life.",
         "Types_KG": "Botany - type - work | India - type - place | Lady Anne Monson - type - person",
-        "Instances_KG": "Lady Anne Monson - residence - India | India - demonym - Indian | India - populationTotal - 1293057000 | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - field - Botany",
+        "Instances_KG": "Lady Anne Monson - residence - India | India - demonym - Indian | India - populationTotal - 1293057000 | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - field - Botany",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | work - subclass - Thing",
         "core_description": "Lady Anne Monson, a botanist in India"
     },
@@ -1542,14 +1542,14 @@
     {
         "story": "Alan Shepard is an American who was born on November 18, 1923 in New Hampshire, went to school at NWC and graduated with an MA in 1957, was selected by NASA in 1959, was the Chief of the Astronaut Office in 1963 and died in California.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | 1959 - type - time period | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - selection - 1959 | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard (Alison) Shepard (Alison Shepard) is an American who died in California"
     },
     {
         "story": "American Alan Shepard, who was the Chief of the Astronaut Office in 1963, and a member of the Apollo 14 crew, was awarded the Distinguished Service Medal in the United States Navy. He was born in New Hampshire on Nov 18, 1923 and died in California.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | Apollo 14 - type - societal event | United States - type - person | New Hampshire - type - place | Distinguished Service Medal (United States Navy) - type - award | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14 | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14 | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "person - subclass - animal | award - subclass - Thing | societal event - subclass - event | place - subclass - Thing | time period - subclass - Thing",
         "core_description": "Alan Shepard, a member of the Apollo 14 crew, was awarded the Distinguished Service Medal in the United States Navy"
     },
@@ -1612,7 +1612,7 @@
     {
         "story": "Olga Bondareva who was born on April 27, 1937 in Leningrad, USSR, died in Saint Petersburg.",
         "Types_KG": "Saint Petersburg - type - place | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\"",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Bondareva's daughter Olga Bondareva died on April 27, 1937"
     },
@@ -1633,7 +1633,7 @@
     {
         "story": "Alan Shepard was an American who was was born on November 18, 1923 in New Hampshire, graduated from NWC in 1957 with an M.A and died in California.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | United States - type - person | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - dateOfRet - \"\"\"\"1974 - 08 - 01\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - dateOfRet - \"\"\"\"1974/08/01\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard (Alison) Shepard (Alison) Shepard (Alison) She"
     },
@@ -1675,7 +1675,7 @@
     {
         "story": "Piotr Hallmann currently weighs 70.308 kg and was born on August 25, 1987 in Gdynia, Poland, which has a total area of 135,000,000.0 and was founded on February 10, 1926.",
         "Types_KG": "Gdynia - type - place | Piotr Hallmann - type - person",
-        "Instances_KG": "Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthDate - \"\"\"1987 - 01 - 01\"\"\" | Piotr Hallmann - birthPlace - Gdynia | Gdynia - areaTotal - 135000000.0 | Gdynia - foundingDate - \"\"\"1926 - 02 - 10\"\"\"",
+        "Instances_KG": "Piotr Hallmann - weight - 70.308 | Piotr Hallmann - birthDate - \"\"\"1987/01/01\"\"\" | Piotr Hallmann - birthPlace - Gdynia | Gdynia - areaTotal - 135000000.0 | Gdynia - foundingDate - \"\"\"1926/02/10\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Piotr Hallmann is 70.308 kg and is a native of Gdynia, Poland"
     },
@@ -1710,7 +1710,7 @@
     {
         "story": "Contributor to the no-hair theorem and developer of the Carter Constant, Brandon Carter, works in the field of General Relativity. He was born in England on January, 1 1942. He graduated from the University of Cambridge where he was under the doctoral advisement of Dennis William Sciama.",
         "Types_KG": "University of Cambridge - type - agent | Brandon Carter - type - person | England - type - musical artist | Dennis William Sciama - type - scientist",
-        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - birthDate - \"\"\"1942 - 01 - 01\"\"\" | Brandon Carter - almaMater - University of Cambridge",
+        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\" | Brandon Carter - almaMater - University of Cambridge",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal | agent - subclass - Thing | musical artist - subclass - artist",
         "core_description": "Brandon Carter, Contributor to the Carter Constant and the No-Hair Theorem"
     },
@@ -1759,7 +1759,7 @@
     {
         "story": "The Pontiac Rageous was a car manufactured by Pontiac. It went into production in 1997 and ended the same year. It was assembled in Detroit, Michigan.",
         "Types_KG": "Michigan - type - place | Detroit - type - place | Pontiac - type - company | Pontiac Rageous - type - mean of transportation",
-        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997 - 01 - 01\"\"\"\"\"\" | Pontiac Rageous - manufacturer - Pontiac",
+        "Instances_KG": "Pontiac Rageous - productionStartYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - assembly - Michigan | Pontiac Rageous - assembly - Detroit | Pontiac Rageous - productionEndYear - \"\"\"\"\"\"1997/01/01\"\"\"\"\"\" | Pontiac Rageous - manufacturer - Pontiac",
         "Subclasses_KG": "place - subclass - Thing | mean of transportation - subclass - Thing | company - subclass - organisation",
         "core_description": "Pontiac Rageous: A Pontiac Rageous"
     },
@@ -1780,7 +1780,7 @@
     {
         "story": "Olga Bondareva, born in Leningrad of the USSR, is an economist and mathematician who died in Saint Petersburg on December 9, 1991.",
         "Types_KG": "Economics - type - work | Mathematics - type - book | Saint Petersburg - type - place | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - deathDate - \"\"\"1991 - 12 - 09\"\"\" | Olga Bondareva - field - Economics | Olga Bondareva - field - Mathematics",
+        "Instances_KG": "Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - deathDate - \"\"\"1991/12/09\"\"\" | Olga Bondareva - field - Economics | Olga Bondareva - field - Mathematics",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | work - subclass - Thing | book - subclass - geschreven werk",
         "core_description": "Born in Leningrad of the USSR, Bondareva died in Saint Petersburg on December 9, 1991."
     },
@@ -1794,7 +1794,7 @@
     {
         "story": "George Allen & Unwin published the Fellowship of the Ring. The Fellowship of the Ring belongs to the fantasy literary genre and was followed by The Two Towers. The Fellowship author is J.R.R Tolkien, and it was released on July 29, 1954. But the Hobbit came before The Fellowship of the Ring.",
         "Types_KG": "The Fellowship of the Ring - type - work | Fantasy (genre) - type - music genre | The Two Towers - type - work | J. R. R. Tolkien - type - person | George Allen & Unwin - type - publisher | The Hobbit - type - work",
-        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - author - J. R. R. Tolkien | The Fellowship of the Ring - releaseDate - \"\"\"1954 - 07 - 29\"\"\" | The Fellowship of the Ring - previousWork - The Hobbit",
+        "Instances_KG": "The Fellowship of the Ring - publisher - George Allen & Unwin | The Fellowship of the Ring - literaryGenre - Fantasy (genre) | The Fellowship of the Ring - subsequentWork - The Two Towers | The Fellowship of the Ring - author - J. R. R. Tolkien | The Fellowship of the Ring - releaseDate - \"\"\"1954/07/29\"\"\" | The Fellowship of the Ring - previousWork - The Hobbit",
         "Subclasses_KG": "publisher - subclass - company | person - subclass - animal | music genre - subclass - genre | work - subclass - Thing",
         "core_description": "The Fellowship of the Ring was released on July 29, 1954"
     },
@@ -1815,14 +1815,14 @@
     {
         "story": "The Mason School of Business are the current tenants of Alan B Miller Hall which is a building in the Georgian architectural style. The building is owned by The College of William and Mary and was designed by Robert A.M. Stern. The address of the hall is 101 Ukrop Way and the construction start date was the 30th of March 2007.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - architecturalStyle - Georgian architecture | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "The Mason School of Business are tenants of Alan B Miller Hall"
     },
     {
         "story": "The architect of Alan B Miller Hall, owned by The College of William and Mary, is Robert A M Stern and it is situated at 101 Ukrop Way, Virginia, USA. They started to build the Alan B Miller Hall on the 30th of March, 2007 and The Mason School of Business are now its tenants.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | United States - type - person | Robert A. M. Stern - type - person | Virginia - type - place | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - location - Virginia | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "person - subclass - animal | place - subclass - Thing | architectural structure - subclass - Thing | school - subclass - Bildungseinrichtung | agent - subclass - Thing",
         "core_description": "The Mason School of Business are tenants of Alan B Miller Hall"
     },
@@ -1836,14 +1836,14 @@
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall at 101 Ukrop Way in Virginia, which was the design of Robert A.M. Stern. The building of the hall started on the 30th of March 2007 and completed on the 1st of June 2009. The Mason School of Business are the current tenants of the building.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | Robert A. M. Stern - type - person | Virginia - type - place | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007 - 03 - 30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009 - 06 - 01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"\"\"\"2009/06/01\"\"\"\"\"\"\"^^xsd:date | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - location - Virginia | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "person - subclass - animal | place - subclass - Thing | architectural structure - subclass - Thing | school - subclass - Bildungseinrichtung | agent - subclass - Thing",
         "core_description": "The College of William and Mary is the current tenant of the Alan B. Miller Hall"
     },
     {
         "story": "The Mason School of Business is located in the United States at the Alan B Miller Hall which is owned by The College of William and Mary. The hall is located at 101 Ukrop Way and its build began on the 30th of March, 2007 after being designed by architect Robert A M Stern.",
         "Types_KG": "Mason School of Business - type - school | College of William & Mary - type - agent | United States - type - person | Robert A. M. Stern - type - person | Alan B. Miller Hall - type - architectural structure",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Mason School of Business - country - United States | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "The Mason School of Business is located at the Alan B Miller Hall"
     },
@@ -1871,7 +1871,7 @@
     {
         "story": "John Mills, died in 2005, played leading role in the 1956 film It' Great to be young which was directed by Cyril Frankel. Cecil Parker also had a main role in the movie which was written by Ted Willis.",
         "Types_KG": "It's Great to Be Young (1956 film) - type - work | Ted Willis - type - person | Cyril Frankel - type - person | Cecil Parker - type - person | John Mills - type - person",
-        "Instances_KG": "It's Great to Be Young (1956 film) - starring - Cecil Parker | It's Great to Be Young (1956 film) - writer - Ted Willis | It's Great to Be Young (1956 film) - starring - John Mills | It's Great to Be Young (1956 film) - director - Cyril Frankel | John Mills - deathYear - \"\"\"2005 - 01 - 01\"\"\"",
+        "Instances_KG": "It's Great to Be Young (1956 film) - starring - Cecil Parker | It's Great to Be Young (1956 film) - writer - Ted Willis | It's Great to Be Young (1956 film) - starring - John Mills | It's Great to Be Young (1956 film) - director - Cyril Frankel | John Mills - deathYear - \"\"\"2005/01/01\"\"\"",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "Mills played leading role in the 1956 film It's great to be young"
     },
@@ -1913,7 +1913,7 @@
     {
         "story": "Darinka Dentcheva was born January 1, 1958. She attended Humboldt University and is a US citizen. Darinka Dentcheva is a mathematician who developed a theory influenced by Andrzej Piotr Ruszczynski in the field of mathematical optimization.",
         "Types_KG": "Mathematical optimization - type - cultivar (cultivated variety) | Humboldt University - type - university | Andrzej Piotr Ruszczy\u0144ski - type - person | United States - type - person | Darinka Dentcheva - type - person",
-        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958 - 01 - 01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - almaMater - Humboldt University",
+        "Instances_KG": "Darinka Dentcheva - influencedBy - Andrzej Piotr Ruszczy\u0144ski | Darinka Dentcheva - citizenship - United States | Darinka Dentcheva - birthDate - \"\"\"1958/01/01\"\"\" | Darinka Dentcheva - field - Mathematical optimization | Darinka Dentcheva - almaMater - Humboldt University",
         "Subclasses_KG": "cultivar (cultivated variety) - subclass - plant | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Darinka Dentcheva (Dentcheva) was born January 1, 1958"
     },
@@ -1934,14 +1934,14 @@
     {
         "story": "Nie Haisheng was born in Zaoyang, Hubei on October 13, 1964, was part of the mission Shenzhou 10 and took part in the Shenzhou 6 mission.",
         "Types_KG": "Hubei - type - place | Shenzhou 10 - type - societal event | Nie Haisheng - type - person | Shenzhou 6 - type - societal event | Zaoyang - type - place",
-        "Instances_KG": "Nie Haisheng - mission - Shenzhou 10 | Nie Haisheng - mission - Shenzhou 6 | Nie Haisheng - birthDate - \"\"\"1964 - 10 - 13\"\"\" | Nie Haisheng - birthPlace - Zaoyang | Nie Haisheng - birthPlace - Hubei",
+        "Instances_KG": "Nie Haisheng - mission - Shenzhou 10 | Nie Haisheng - mission - Shenzhou 6 | Nie Haisheng - birthDate - \"\"\"1964/10/13\"\"\" | Nie Haisheng - birthPlace - Zaoyang | Nie Haisheng - birthPlace - Hubei",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event",
         "core_description": "Nie Haisheng was born in Zaoyang, Hubei on October 13, 1964"
     },
     {
         "story": "Construction on Alan B. Miller Hall, which was designed by Robert A. M. Stern, began on March 30th, 2007. The building is located at 101 Ukrop Way and is owned by the College of William and Mary. The Mason School of Business is the Alan B. Miller Hall's current tenant.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007 - 03 - 30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - tenant - Mason School of Business | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - tenant - Mason School of Business | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - startDate - \"\"\"\"2007/03/30\"\"\"\"^^xsd:date | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - tenant - Mason School of Business | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - buildingStartDate - \"30 March 2007\" | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - tenant - Mason School of Business | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "Construction of Alan B. Miller Hall began on March 30th, 2007"
     },
@@ -1955,7 +1955,7 @@
     {
         "story": "Olga Bondareva who was born in Leningrad, USSR on April 27, 1937 is known for Bondareva-Shapley theorem. She died in Saint Petersburg.",
         "Types_KG": "Saint Petersburg - type - place | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthPlace - Leningrad, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Bondareva-Shapley theorem and her death in Saint Petersburg"
     },
@@ -2004,14 +2004,14 @@
     {
         "story": "American national Alan Shepard was born in New Hampshire in November of 1923 and died in California in July of 1998. He was educated at NWC and graduated in 1957 with an MA.",
         "Types_KG": "Alan Shepard - type - person | California - type - place | United States - type - person | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998 - 07 - 21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - deathDate - \"\"\"\"1998/07/21\"\"\"\"^^xsd:date | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Alan Shepard, a New Hampshire native, died in California in July 1998"
     },
     {
         "story": "Born on 24th February 1989, Aleksandr Prudnikov trained with the youth football club FC Spartak, Moscow. He now plays for the FC Amkar Perm team, which is managed by Gadzhi Gadzhiyev.",
         "Types_KG": "Gadzhi Gadzhiyev - type - person | FC Amkar Perm - type - agent | Aleksandr Prudnikov - type - person | FC Spartak Moscow - type - agent",
-        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | FC Amkar Perm - manager - Gadzhi Gadzhiyev | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989 - 02 - 24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | FC Amkar Perm - manager - Gadzhi Gadzhiyev",
+        "Instances_KG": "Aleksandr Prudnikov - team - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | FC Amkar Perm - manager - Gadzhi Gadzhiyev | Aleksandr Prudnikov - clubs - FC Amkar Perm | Aleksandr Prudnikov - dateOfBirth - \"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date | Aleksandr Prudnikov - youthclubs - FC Spartak Moscow | FC Amkar Perm - manager - Gadzhi Gadzhiyev",
         "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing",
         "core_description": "Aleksandr Prudnikov (Aleksandr) Prudnikov (Aleksandr) Pru"
     },
@@ -2032,28 +2032,28 @@
     {
         "story": "Alan Shepard was born in New Hampshire on November 18, 1923 and later died in California. Shepard served as a crew member of Apollo 14 and served as Chief of the Astronaut Office in 1963.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | Apollo 14 - type - societal event | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event | time period - subclass - Thing",
         "core_description": "Alan Shepard (Alan Shepard) was born in New Hampshire on November 18, 1923"
     },
     {
         "story": "Alan Shepard was born November 18th, 1923 in New Hampshire and his nationality is United States. Shepard graduated from NWC with an M.A. in 1957 and was awarded the Distinguished Service Medal by The United States Navy.",
         "Types_KG": "Alan Shepard - type - person | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | award - subclass - Thing",
         "core_description": "Alan Shepard was born November 18th, 1923 in New Hampshire and his nationality is United States"
     },
     {
         "story": "Alan Shepard was born November 18th, 1923 in New Hampshire and later died in California. Shepard graduated from NWC with an M.A. in 1957 and was also the Chief of the Astronaut Office in 1963.",
         "Types_KG": "1963 - type - time period | Alan Shepard - type - person | California - type - place | New Hampshire - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard (born November 18th, 1923) died in California on November 18th, 1957"
     },
     {
         "story": "Brandon Carter was born in England on January 1, 1942. He graduated from the University of Cambridge and the chancellor of the University was known as David Sainsbury. The doctoral advisor of Brandon Carter while he was at the University was Dennis William Sciama.",
         "Types_KG": "Brandon Carter - type - person | England - type - musical artist | Dennis William Sciama - type - scientist | University of Cambridge - type - agent | David Sainsbury, Baron Sainsbury of Turville - type - person",
-        "Instances_KG": "Brandon Carter - almaMater - University of Cambridge | University of Cambridge - chancellor - David Sainsbury, Baron Sainsbury of Turville | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942 - 01 - 01\"\"\" | Brandon Carter - birthPlace - England",
+        "Instances_KG": "Brandon Carter - almaMater - University of Cambridge | University of Cambridge - chancellor - David Sainsbury, Baron Sainsbury of Turville | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\" | Brandon Carter - birthPlace - England",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal | agent - subclass - Thing | musical artist - subclass - artist",
         "core_description": "Brandon Carter was a doctoral candidate at Cambridge University"
     },
@@ -2074,7 +2074,7 @@
     {
         "story": "Alan Shepard is an American who was born on November 18th, 1923 in New Hampshire, graduated from NWC with an M.A. in 1957, was the Chief of the Astronaut Office in 1963 and died in California.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard (Alison) Shepard (Alison Shepard) is an American Astronaut"
     },
@@ -2095,7 +2095,7 @@
     {
         "story": "Alan Shepard was an American who was born on November 18, 1923 in New Hampshire, served as a crew member of Apollo 14 and died in California.",
         "Types_KG": "Alan Shepard - type - person | Apollo 14 - type - societal event | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - mission - Apollo 14",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event",
         "core_description": "Alan Shepard (Alan Shepard) was an American who served as a crew member of Apollo 14 on November 18, 1923"
     },
@@ -2144,7 +2144,7 @@
     {
         "story": "The Bootleg Series Volume 1: The Quine Tapes by Velvet Underground, a rock music genre, was released on October, 16, 2001 by Universal Music Group and Polydor Records.The Quine Tapes was preceded by Squeeze by The Velvet Underground.",
         "Types_KG": "Polydor Records - type - record label | The Velvet Underground - type - agent | Squeeze (The Velvet Underground album) - type - work | Rock music - type - genre | Universal Music Group - type - company | Bootleg Series Volume 1: The Quine Tapes - type - work",
-        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - artist - The Velvet Underground | Bootleg Series Volume 1: The Quine Tapes - genre - Rock music | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Polydor Records | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Universal Music Group | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001 - 10 - 16\"\"\"",
+        "Instances_KG": "Bootleg Series Volume 1: The Quine Tapes - artist - The Velvet Underground | Bootleg Series Volume 1: The Quine Tapes - genre - Rock music | Bootleg Series Volume 1: The Quine Tapes - previousWork - Squeeze (The Velvet Underground album) | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Polydor Records | Bootleg Series Volume 1: The Quine Tapes - recordLabel - Universal Music Group | Bootleg Series Volume 1: The Quine Tapes - releaseDate - \"\"\"2001/10/16\"\"\"",
         "Subclasses_KG": "company - subclass - organisation | record label - subclass - company | work - subclass - Thing | genre - subclass - Concept th\u00e9matique | agent - subclass - Thing",
         "core_description": "Volume 1: The Quine Tapes by Velvet Underground"
     },
@@ -2165,14 +2165,14 @@
     {
         "story": "Alan Shepard was a United States national, born on November 18th, 1923 in New Hampshire. He was the Chief of the Astronaut Office in 1963. The United States Navy awarded him the Distinguished Service Medal, which is higher than the Department of Commerce gold medal. He died in California.",
         "Types_KG": "Department of Commerce Gold Medal - type - award | Alan Shepard - type - person | 1963 - type - time period | United States - type - person | New Hampshire - type - place | Distinguished Service Medal (United States Navy) - type - award | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Distinguished Service Medal (United States Navy) - higher - Department of Commerce Gold Medal | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard, a United States citizen, died in California on November 18th, 1963"
     },
     {
         "story": "Super Capers is a film starring Michael Rooker and Tom Sizemore, who began his career in 1989. The language of the movie Super Capers is English, which is the spoken language in Great Britain.",
         "Types_KG": "Great Britain - type - place | Super Capers - type - work | Michael Rooker - type - person | Tom Sizemore - type - person | English language - type - language",
-        "Instances_KG": "Super Capers - language - English language | English language - spokenIn - Great Britain | Super Capers - starring - Michael Rooker | Tom Sizemore - activeYearsEndYear - \"\"\"1989 - 01 - 01\"\"\" | Super Capers - starring - Tom Sizemore",
+        "Instances_KG": "Super Capers - language - English language | English language - spokenIn - Great Britain | Super Capers - starring - Michael Rooker | Tom Sizemore - activeYearsEndYear - \"\"\"1989/01/01\"\"\" | Super Capers - starring - Tom Sizemore",
         "Subclasses_KG": "place - subclass - Thing | language - subclass - Thing | person - subclass - animal | work - subclass - Thing",
         "core_description": "Super Capers is a film starring Michael Rooker and Tom Sizemore in Great Britain"
     },
@@ -2228,7 +2228,7 @@
     {
         "story": "Alan Shepard, a United States citizen, who graduated from NWC with an M.A. in 1957, was the Chief of the Astronaut Office in 1963. Shepard was awarded the Distinguished Service Medal by the United States Navy. He was born on November 18th, 1923 in New Hampshire and died in California.",
         "Types_KG": "Alan Shepard - type - person | 1963 - type - time period | Distinguished Service Medal (United States Navy) - type - award | United States - type - person | New Hampshire - type - place | California - type - place",
-        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923 - 11 - 18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
+        "Instances_KG": "Alan Shepard - birthDate - \"\"\"\"1923/11/18\"\"\"\"^^xsd:date | Alan Shepard - nationality - United States | Alan Shepard - years - 1963 | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - awards - Distinguished Service Medal (United States Navy)",
         "Subclasses_KG": "place - subclass - Thing | award - subclass - Thing | person - subclass - animal | time period - subclass - Thing",
         "core_description": "Alan Shepard, a United States citizen, was a Chief of the Astronaut Office in 1963"
     },
@@ -2291,14 +2291,14 @@
     {
         "story": "Nurhan Atasoy a Turkish national, residing in Tesvikiye, Turkey was born on January 1, 1934 in Turkey. He won the State Award for Superior Achievement.",
         "Types_KG": "Turkish people - type - Band | Nurhan Atasoy - type - person | Turkey - type - person | Te\u015fvikiye - type - settlement",
-        "Instances_KG": "Nurhan Atasoy - birthDate - \"\"\"1934 - 01 - 01\"\"\" | Nurhan Atasoy - citizenship - Turkey | Nurhan Atasoy - birthPlace - Turkey | Nurhan Atasoy - nationality - Turkish people | Nurhan Atasoy - residence - Turkey | Nurhan Atasoy - award - State Award for Superior Achievement | Nurhan Atasoy - residence - Te\u015fvikiye",
+        "Instances_KG": "Nurhan Atasoy - birthDate - \"\"\"1934/01/01\"\"\" | Nurhan Atasoy - citizenship - Turkey | Nurhan Atasoy - birthPlace - Turkey | Nurhan Atasoy - nationality - Turkish people | Nurhan Atasoy - residence - Turkey | Nurhan Atasoy - award - State Award for Superior Achievement | Nurhan Atasoy - residence - Te\u015fvikiye",
         "Subclasses_KG": "Band - subclass - group | settlement - subclass - populated place | person - subclass - animal",
         "core_description": "Nurhan Atasoy, a Turkish national, was born in Tesvikiye, Turkey"
     },
     {
         "story": "The address of Alan B. Miller Hall is 101 Ukrop Way and the property was designed by architect Robert A M Stern. The current owner of the building is the College of William and Mary and the building was completed on 01/06/2009. The Mason School of Business are currently based at the Hall and are current tenants.",
         "Types_KG": "College of William & Mary - type - agent | Mason School of Business - type - school | Alan B. Miller Hall - type - architectural structure | Robert A. M. Stern - type - person",
-        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009 - 06 - 01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
+        "Instances_KG": "Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - completionDate - \"\"\"\"2009/06/01\"\"\"\"^^xsd:date | Alan B. Miller Hall - owner - College of William & Mary | Alan B. Miller Hall - architect - Robert A. M. Stern | Alan B. Miller Hall - address - \"101 Ukrop Way\"@en | Alan B. Miller Hall - currentTenants - Mason School of Business | Alan B. Miller Hall - buildingEndDate - \"1 June 2009\" | Alan B. Miller Hall - owner - College of William & Mary",
         "Subclasses_KG": "school - subclass - Bildungseinrichtung | architectural structure - subclass - Thing | agent - subclass - Thing | person - subclass - animal",
         "core_description": "Alan B. Miller Hall and the Mason School of Business"
     },
@@ -2326,7 +2326,7 @@
     {
         "story": "Olga Bondareva, also known as Olga Nikolaevna Bondareva, was born on April 27, 1937 and died in Saint Petersburg.",
         "Types_KG": "Saint Petersburg - type - place | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - birthName - Olga Nikolaevna Bondareva",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - birthName - Olga Nikolaevna Bondareva",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Olga Bondareva (Olga Nikolaevna Bondareva) was born on April 27, 1937"
     },
@@ -2340,7 +2340,7 @@
     {
         "story": "Botanist Lady Anne Monson was born in Darlington in the Kingdom of England. She lived from January 1st, 1726 to February 18th, 1776.",
         "Types_KG": "Botany - type - work | Kingdom of England - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - field - Botany | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\"",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - field - Botany | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | work - subclass - Thing",
         "core_description": "Lady Anne Monson (1726-1776) was a Botanist and Gardener"
     },
@@ -2368,14 +2368,14 @@
     {
         "story": "Lady Anne Monson was born in Darlington in the Kingdom of England on January 1, 1726. She was the spouse of George Monson. Lady Anne Monson died on 1776-02-18.",
         "Types_KG": "Kingdom of England - type - place | Lady Anne Monson - type - person | Darlington - type - place",
-        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726 - 01 - 01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776 - 02 - 18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - spouse - George Monson",
+        "Instances_KG": "Lady Anne Monson - birthPlace - Darlington | Lady Anne Monson - birthDate - \"\"\"1726/01/01\"\"\" | Lady Anne Monson - deathDate - \"\"\"1776/02/18\"\"\" | Lady Anne Monson - birthPlace - Kingdom of England | Lady Anne Monson - spouse - George Monson",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Lady Anne Monson was born in Darlington, England on January 1, 1726"
     },
     {
         "story": "Olga Nikolaevna Bondareva, was born on April 27 1937 and died in St Petersburg on December 9 1991. A student of Leningrad State University, she was known for the Bondareva-Shapley theorem.",
         "Types_KG": "Saint Petersburg - type - place | Leningrad State University - type - university | Olga Bondareva - type - person",
-        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University | Olga Bondareva - deathDate - \"\"\"\"\"\"1991 - 12 - 09\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937 - 04 - 27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University | Olga Bondareva - deathDate - \"\"\"\"\"\"1991 - 12 - 09\"\"\"\"\"\"",
+        "Instances_KG": "Olga Bondareva - deathPlace - Saint Petersburg | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University | Olga Bondareva - deathDate - \"\"\"\"\"\"1991/12/09\"\"\"\"\"\" | Olga Bondareva - deathPlace - Saint Petersburg, USSR | Olga Bondareva - birthDate - \"\"\"\"\"\"1937/04/27\"\"\"\"\"\" | Olga Bondareva - knownFor - Bondareva\u2013Shapley theorem | Olga Bondareva - birthName - Olga Nikolaevna Bondareva | Olga Bondareva - almaMater - Leningrad State University | Olga Bondareva - deathDate - \"\"\"\"\"\"1991/12/09\"\"\"\"\"\"",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | university - subclass - Bildungseinrichtung",
         "core_description": "Bondareva-Shapley theorem, and her death in St Petersburg on December 9 1991"
     },
@@ -2389,7 +2389,7 @@
     {
         "story": "The song Mermaid by Train was written by Espen Lind and Amund Bjorklund and released on December 27, 2017. The song Mermaid is three minutes and sixteen seconds long. Mermaid is preceded by the song \"This'll Be My Year\" then after by John Lennon's \"Imagine\".",
         "Types_KG": "Amund Bj\u00f8rklund - type - person | Espen Lind - type - person | Mermaid (Train song) - type - work | Imagine (John Lennon song) - type - work",
-        "Instances_KG": "Mermaid (Train song) - releaseDate - \"\"\"2012 - 12 - 27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - writer - Amund Bj\u00f8rklund | Mermaid (Train song) - subsequentWork - Imagine (John Lennon song)",
+        "Instances_KG": "Mermaid (Train song) - releaseDate - \"\"\"2012/12/27\"\"\" | Mermaid (Train song) - previousWork - This'll Be My Year | Mermaid (Train song) - writer - Espen Lind | Mermaid (Train song) - runtime - 196.0 | Mermaid (Train song) - writer - Amund Bj\u00f8rklund | Mermaid (Train song) - subsequentWork - Imagine (John Lennon song)",
         "Subclasses_KG": "person - subclass - animal | work - subclass - Thing",
         "core_description": "The song Mermaid by Train is three minutes and sixteen seconds"
     }
