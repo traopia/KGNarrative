@@ -16,7 +16,7 @@
     {
         "story": "Ciudad Ayala is a city with population density and population of 1604 and 1777539 respectively, where the leader is called the City Manager. The government type in the city of Ciudad Ayala is council-manager.",
         "Types_KG": "City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council - manager government",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing",
         "core_description": "Ciudad Ayala is a city in the United Arab Emirates"
     },
@@ -78,8 +78,8 @@
     },
     {
         "story": "Aaron Turner is a post-metal musician from Massachusetts who plays the electric guitar. He started performing in 1995 and is a musician in the Lotus Eaters band.",
-        "Types_KG": "Massachusetts - type - place | Lotus Eaters (band) - type - agent | Electric guitar - type - agent | Post - metal - type - genre | Aaron Turner - type - person",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - associatedMusicalArtist - Lotus Eaters (band) | Aaron Turner - hometown - Massachusetts | Aaron Turner - instrument - Electric guitar | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post - metal | Aaron Turner - associatedBand - Lotus Eaters (band) | Aaron Turner - hometown - Massachusetts | Aaron Turner - instrument - Electric guitar | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
+        "Types_KG": "Massachusetts - type - place | Lotus Eaters (band) - type - agent | Electric guitar - type - agent | Post-metal - type - genre | Aaron Turner - type - person",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - associatedMusicalArtist - Lotus Eaters (band) | Aaron Turner - hometown - Massachusetts | Aaron Turner - instrument - Electric guitar | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post-metal | Aaron Turner - associatedBand - Lotus Eaters (band) | Aaron Turner - hometown - Massachusetts | Aaron Turner - instrument - Electric guitar | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | place - subclass - Thing | person - subclass - animal | agent - subclass - Thing",
         "core_description": "Aaron Turner is a post-metal musician from Massachusetts who plays the electric guitar"
     },
@@ -92,15 +92,15 @@
     },
     {
         "story": "The band Nord is a sludge metal band that releases post-metal. They have an album called the Year of No light that was released on June 9th 2006, and was under Crucial Blast Label.",
-        "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\"",
+        "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post-metal - type - genre | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post-metal | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\"",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The band Nord is a sludge metal band released under Crucial Blast Label"
     },
     {
         "story": "Ciudad Ayala is a metropolitan city which has population of 1,777,539 with its population density of 1604.0 and it falls into UTC offset -6 time zone. One of the leaders of Ciudad Ayala is the City Manager which uses council-manager government.",
         "Types_KG": "City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - utcOffset - \u22126",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - utcOffset - \u22126",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing",
         "core_description": "Ciudad Ayala is a city in UTC offset -6 time zone"
     },
@@ -176,8 +176,8 @@
     },
     {
         "story": "The sludge metal and post metal album Nord was produced and created by the artist Year of No Light and was released by the record label Crucial blast on 06-09-2006. It was followed by the album Live at Roadburn 2008.",
-        "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - recordLabel - Crucial Blast",
+        "Types_KG": "Crucial Blast - type - record label | Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post-metal - type - genre | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post-metal | Nord (Year of No Light album) - recordLabel - Crucial Blast",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord: A Sludge Metal and Post Metal Album"
     },
@@ -204,8 +204,8 @@
     },
     {
         "story": "US born Aaron Turner plays electric guitar for the post metal band Twilight.",
-        "Types_KG": "Twilight (band) - type - Band | Electric guitar - type - agent | United States - type - person | Post - metal - type - genre | Aaron Turner - type - person",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - hometown - United States | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - instrument - Electric guitar | Aaron Turner - genre - Post - metal | Aaron Turner - hometown - United States | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - instrument - Electric guitar",
+        "Types_KG": "Twilight (band) - type - Band | Electric guitar - type - agent | United States - type - person | Post-metal - type - genre | Aaron Turner - type - person",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - hometown - United States | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - instrument - Electric guitar | Aaron Turner - genre - Post-metal | Aaron Turner - hometown - United States | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - instrument - Electric guitar",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | agent - subclass - Thing | person - subclass - animal",
         "core_description": "US born Aaron Turner plays electric guitar for post metal band Twilight"
     },
@@ -295,8 +295,8 @@
     },
     {
         "story": "Released on 2006-09-06, the Nord album was part of the post-metal genre of sludge metal. The Year of No Light produced the album and followed it up with Live at Roadburn 2008.",
-        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal",
+        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Live at Roadburn 2008 (Year of No Light album) - type - work | Post-metal - type - genre | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - subsequentWork - Live at Roadburn 2008 (Year of No Light album) | Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post-metal",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Nord album was released on 2006-09-06 and was a post-metal sludge metal masterpiece"
     },
@@ -309,8 +309,8 @@
     },
     {
         "story": "Aaron Turner is a post metal musician who started performing in 1995 and played with the post metal band, Twilight.",
-        "Types_KG": "Aaron Turner - type - person | Post - metal - type - genre | Twilight (band) - type - Band",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post - metal | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
+        "Types_KG": "Aaron Turner - type - person | Post-metal - type - genre | Twilight (band) - type - Band",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post-metal | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | person - subclass - animal",
         "core_description": "Aaron Turner is a post metal musician and guitarist based in Los Angeles"
     },
@@ -428,8 +428,8 @@
     },
     {
         "story": "Aaron Turner starter performing in 1995 and began singing for a living. He performs under the genre of post-metal, and is noted to have played with the band Twilight.",
-        "Types_KG": "Aaron Turner - type - person | Post - metal - type - genre | Twilight (band) - type - Band | Singing - type - Band",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - instrument - Singing | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post - metal | Aaron Turner - instrument - Singing | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
+        "Types_KG": "Aaron Turner - type - person | Post-metal - type - genre | Twilight (band) - type - Band | Singing - type - Band",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - instrument - Singing | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post-metal | Aaron Turner - instrument - Singing | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | person - subclass - animal",
         "core_description": "Aaron Turner began singing under the genre of post-metal"
     },
@@ -506,7 +506,7 @@
     {
         "story": "Ciudad Ayala city has a population density of 1604.0 and its population in metropolitan area is 1,777,539. The city has an elevation of 1147.0 above sea level and uses the UTC offset -6 time zone. Ciudad Ayala uses a type of government called council-manager government and one of the leaders is called City Manager.",
         "Types_KG": "City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - elevation - 1147.0",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - elevation - 1147.0",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing",
         "core_description": "Ciudad Ayala is a city with council-manager government"
     },
@@ -610,8 +610,8 @@
     },
     {
         "story": "Aaron Turner was born in Massachusetts and is a post metal musician who plays electric guitar and played with the band Twilight.",
-        "Types_KG": "Massachusetts - type - place | Twilight (band) - type - Band | Electric guitar - type - agent | Post - metal - type - genre | Aaron Turner - type - person",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - instrument - Electric guitar | Aaron Turner - genre - Post - metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - instrument - Electric guitar",
+        "Types_KG": "Massachusetts - type - place | Twilight (band) - type - Band | Electric guitar - type - agent | Post-metal - type - genre | Aaron Turner - type - person",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - instrument - Electric guitar | Aaron Turner - genre - Post-metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - instrument - Electric guitar",
         "Subclasses_KG": "Band - subclass - group | person - subclass - animal | genre - subclass - Concept th\u00e9matique | place - subclass - Thing | agent - subclass - Thing",
         "core_description": "Aaron Turner is a post metal musician and electric guitar player."
     },
@@ -848,8 +848,8 @@
     },
     {
         "story": "The album Nord by the Year of No Light whose record label is Crucial Blast was released on E-Vinyl record label on September 6, 2006 with a runtime of 58 minutes and 41 seconds.",
-        "Types_KG": "Crucial Blast - type - record label | Nord (Year of No Light album) - type - work | E - Vinyl - type - record label | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - recordLabel - E - Vinyl | Nord (Year of No Light album) - runtime - 58.416666666666664",
+        "Types_KG": "Crucial Blast - type - record label | Nord (Year of No Light album) - type - work | E-Vinyl - type - record label | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - releaseDate - \"\"\"2007/04/23\"\"\" | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - recordLabel - Crucial Blast | Nord (Year of No Light album) - recordLabel - E-Vinyl | Nord (Year of No Light album) - runtime - 58.416666666666664",
         "Subclasses_KG": "record label - subclass - company | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord by the Year of No Light whose record label is Crucial Blast"
     },
@@ -982,7 +982,7 @@
     {
         "story": "Ciudad Ayala is a city located in Mexico with the population density of 1604.0 and its population of the metropolitan area is 1,777,539, where its UTC offset is -6.The government type of Ciudad Ayala is council-manager government and one of its leaders is called the City Manager.",
         "Types_KG": "Mexico - type - person | City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - country - Mexico",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - country - Mexico",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing | person - subclass - animal",
         "core_description": "Ciudad Ayala (Mexico) is a Mexican city"
     },
@@ -1142,8 +1142,8 @@
     },
     {
         "story": "The sludge and post-metal album Nord by Year of No Light was released September 6, 2006 after the album Demo (2004). It comprises of 58 minutes and 41 seconds of sound.",
-        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
+        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post-metal - type - genre | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - producer - Year of No Light | Nord (Year of No Light album) - genre - Post-metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "Nord: Sludge and Post-Metal Album by Year of No Light"
     },
@@ -1157,7 +1157,7 @@
     {
         "story": "Brandon Carter, best known for the Carter constant and the No-hair theorem, is a professional in the field of general relativity. He was born in England and studied at the University of Cambridge, where he was advised by Dennis William Sciama.",
         "Types_KG": "University of Cambridge - type - agent | Brandon Carter - type - person | England - type - musical artist | Dennis William Sciama - type - scientist",
-        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - almaMater - University of Cambridge",
+        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No-hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - almaMater - University of Cambridge",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal | agent - subclass - Thing | musical artist - subclass - artist",
         "core_description": "Brandon Carter is a general relativity expert"
     },
@@ -1199,7 +1199,7 @@
     {
         "story": "Brandon Carter was born on January 1, 1942 and worked professionally in the field of General Relativity. Brandon Carter was known for the Carter Constant and his contributions to the no-hair theorem. Dennis William Sciama was his doctoral advisor.",
         "Types_KG": "Brandon Carter - type - person | Dennis William Sciama - type - scientist",
-        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\"",
+        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No-hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\"",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal",
         "core_description": "Brandon Carter (born January 1, 1942) was a General Relativity Professional"
     },
@@ -1240,8 +1240,8 @@
     },
     {
         "story": "Aaron Turner, originally from the U.S., started performing in 1995 and played post-metal music with the band Twilight.",
-        "Types_KG": "Aaron Turner - type - person | Post - metal - type - genre | Twilight (band) - type - Band | United States - type - person",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - hometown - United States | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post - metal | Aaron Turner - hometown - United States | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
+        "Types_KG": "Aaron Turner - type - person | Post-metal - type - genre | Twilight (band) - type - Band | United States - type - person",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - hometown - United States | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post-metal | Aaron Turner - hometown - United States | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | person - subclass - animal",
         "core_description": "Aaron Turner, originally from the U.S., began playing post-metal music in 1995"
     },
@@ -1275,8 +1275,8 @@
     },
     {
         "story": "The Year of No Light band released the sludge metal, post-metal album Nord on September 6, 2006 after its album Demo in 2004. The album is 58 minutes and 41 seconds long.",
-        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post - metal - type - genre | Year of No Light - type - agent",
-        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post - metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
+        "Types_KG": "Sludge metal - type - genre | Nord (Year of No Light album) - type - work | Post-metal - type - genre | Year of No Light - type - agent",
+        "Instances_KG": "Nord (Year of No Light album) - genre - Sludge metal | Nord (Year of No Light album) - artist - Year of No Light | Nord (Year of No Light album) - genre - Post-metal | Nord (Year of No Light album) - releaseDate - \"\"\"2006/09/06\"\"\" | Nord (Year of No Light album) - runtime - 58.416666666666664 | Nord (Year of No Light album) - previousWork - Demo 2004 (Year of No Light album)",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | agent - subclass - Thing | work - subclass - Thing",
         "core_description": "The Year of No Light released the album Nord on September 6, 2006"
     },
@@ -1374,7 +1374,7 @@
     {
         "story": "Ciudad Ayala is a city which is part of Morelos in Mexico and the metropolitan area has a population of 1777539. Its government is council-manager and the city has a UTC offset of -6.",
         "Types_KG": "Morelos - type - place | Mexico - type - person | Ciudad Ayala - type - place",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - isPartOf - Morelos | Ciudad Ayala - country - Mexico",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - utcOffset - \u22126 | Ciudad Ayala - isPartOf - Morelos | Ciudad Ayala - country - Mexico",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Ciudad Ayala is a Mexican city in Morelos"
     },
@@ -1653,8 +1653,8 @@
     },
     {
         "story": "Aaron Turner is a performer in the post metal genre, in particular he earns his living by singing. He is originally from Massachusetts and played with the band Twilight.",
-        "Types_KG": "Massachusetts - type - place | Twilight (band) - type - Band | Post - metal - type - genre | Aaron Turner - type - person | Singing - type - Band",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - instrument - Singing | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - genre - Post - metal | Aaron Turner - instrument - Singing | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band)",
+        "Types_KG": "Massachusetts - type - place | Twilight (band) - type - Band | Post-metal - type - genre | Aaron Turner - type - person | Singing - type - Band",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - instrument - Singing | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - genre - Post-metal | Aaron Turner - instrument - Singing | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band)",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | person - subclass - animal | place - subclass - Thing",
         "core_description": "Aaron Turner is a performer in the post metal genre"
     },
@@ -1703,14 +1703,14 @@
     {
         "story": "The population of the Morelos metropolitan city of Ciudad Ayala (leader: City Manager; government type: council-manager government) is 1,777,539, resulting in a population density of 1604.0.",
         "Types_KG": "Morelos - type - place | City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
-        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - isPartOf - Morelos",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - isPartOf - Morelos",
         "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing",
         "core_description": "Morelos Metropolitan City of Ciudad Ayala (leader: Mayor; government type: council-manager government)"
     },
     {
         "story": "Contributor to the no-hair theorem and developer of the Carter Constant, Brandon Carter, works in the field of General Relativity. He was born in England on January, 1 1942. He graduated from the University of Cambridge where he was under the doctoral advisement of Dennis William Sciama.",
         "Types_KG": "University of Cambridge - type - agent | Brandon Carter - type - person | England - type - musical artist | Dennis William Sciama - type - scientist",
-        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No - hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\" | Brandon Carter - almaMater - University of Cambridge",
+        "Instances_KG": "Brandon Carter - field - General relativity | Brandon Carter - knownFor - Carter constant | Brandon Carter - knownFor - No-hair theorem | Brandon Carter - doctoralAdvisor - Dennis William Sciama | Brandon Carter - birthPlace - England | Brandon Carter - birthDate - \"\"\"1942/01/01\"\"\" | Brandon Carter - almaMater - University of Cambridge",
         "Subclasses_KG": "scientist - subclass - person | person - subclass - animal | agent - subclass - Thing | musical artist - subclass - artist",
         "core_description": "Brandon Carter, Contributor to the Carter Constant and the No-Hair Theorem"
     },
@@ -2067,7 +2067,7 @@
     {
         "story": "The leader of Ciudad Ayala is Juan Nolasco and it uses a council-manager type of government. The population density of Ciudad Ayala is 1604.0 and the time zone of Ciudad Ayala is the Pacific Standard Time Zone or Pacific Daylight Time depending on months of the year.",
         "Types_KG": "Ciudad Ayala - type - place | Juan Nolasco - type - person",
-        "Instances_KG": "Ciudad Ayala - governmentType - Council - manager government | Ciudad Ayala - populationDensity - 1603.87 | Ciudad Ayala - timeZone - Pacific Daylight Time | Ciudad Ayala - timeZone - Pacific Standard Time Zone | Ciudad Ayala - leaderName - Juan Nolasco",
+        "Instances_KG": "Ciudad Ayala - governmentType - Council-manager government | Ciudad Ayala - populationDensity - 1603.87 | Ciudad Ayala - timeZone - Pacific Daylight Time | Ciudad Ayala - timeZone - Pacific Standard Time Zone | Ciudad Ayala - leaderName - Juan Nolasco",
         "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
         "core_description": "Ciudad Ayala is governed by a council-manager type government"
     },
@@ -2080,8 +2080,8 @@
     },
     {
         "story": "Massachusetts-born musician Aaron Turner began performing in 1995. Turner is a post-metal musician who played with the band Twilight.",
-        "Types_KG": "Aaron Turner - type - person | Post - metal - type - genre | Massachusetts - type - place | Twilight (band) - type - Band",
-        "Instances_KG": "Aaron Turner - genre - Post - metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post - metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
+        "Types_KG": "Aaron Turner - type - person | Post-metal - type - genre | Massachusetts - type - place | Twilight (band) - type - Band",
+        "Instances_KG": "Aaron Turner - genre - Post-metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedBand - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear | Aaron Turner - genre - Post-metal | Aaron Turner - hometown - Massachusetts | Aaron Turner - associatedMusicalArtist - Twilight (band) | Aaron Turner - activeYearsStartYear - \"1995\"^^xsd:gYear",
         "Subclasses_KG": "genre - subclass - Concept th\u00e9matique | Band - subclass - group | person - subclass - animal | place - subclass - Thing",
         "core_description": "Aaron Turner is a post-metal musician and guitarist based in Boston"
     },

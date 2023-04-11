@@ -52,7 +52,10 @@ def main(argv, arc):
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
     
     todrop=list(set(dataset['test'].column_names)-set([typeKG,'story'])) #This line returns a list of all the columns to drop (all columns minus the ones we need (input typeKG and story))
-  
+    
+    #We need to add the references for the evaluation in parent score (a table-to-text generation metric )
+    graph_for_parent=dataset['test']['Instances_KG']
+
     print("Loading tokenizer")
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint,add_eos_token=True)
 
@@ -132,7 +135,7 @@ def main(argv, arc):
 
 
     print("\nPREDICTING..")
-    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=1024, no_repeat_ngram_size=2, early_stopping=True)
+    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=512, no_repeat_ngram_size=2, early_stopping=True)
 
     predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
@@ -140,13 +143,8 @@ def main(argv, arc):
 
     print("\nRESULT SCORES:")
 
-    bertscore = evaluate.load("bertscore")
-    results_bert = bertscore.compute(predictions=predicted_text, references=golden_labels, model_type="distilbert-base-uncased")
-    results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
-
-    print(f'{results_bert=}')
-
-
+    scores = metrics.items()
+    print(f'Results: {scores}')
 
     bleu = evaluate.load("bleu")
     result_bleu= bleu.compute(predictions=predicted_text, references=golden_labels)
@@ -156,14 +154,37 @@ def main(argv, arc):
     result_google_bleu = google_bleu.compute(predictions=predicted_text, references=golden_labels)
     print(f'{result_google_bleu=}')
 
-    scores = metrics.items()
-    print(f'Results: {scores}')
+    meteor = evaluate.load("meteor")
+    result_meteor= meteor.compute(predictions=predicted_text, references=golden_labels)
+    print(f'{result_meteor=}')
+
+    bertscore = evaluate.load("bertscore")
+    results_bert = bertscore.compute(predictions=predicted_text, references=golden_labels, model_type="distilbert-base-uncased")
+    results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
+    print(f'{results_bert=}')
+
+    bleurt = evaluate.load("bleurt")
+    result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
+    print(f'{result_bleurt=}')
+
+    parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
+    print(f'{parent_score=}')
+
+
+
+
+
+    #PARENT METRIC CALL IMPLEMENTATION
+    parent_path = experiment_name+'/parent'
+    os.mkdir(parent_path,exist_ok=True)
+
+
 
     gpuUSED={'gpu':print_gpu_utilization()}#this has a print instruction alredy
 
     outpath=experiment_name+'/'
     print(f'Writing  score report in {outpath}output_metrics.txt')
-    score_to_print=[metrics,result_bleu,result_google_bleu,results_bert,training_duration,gpuUSED]
+    score_to_print=[metrics,result_bleu,result_google_bleu,result_meteor,results_bert,result_bleurt,parent_score,training_duration,gpuUSED]
     write_scores_outputfile(outpath,score_to_print)
 
     print(f"Writing predicted text in {outpath}stories.json")

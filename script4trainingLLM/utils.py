@@ -1,5 +1,8 @@
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 import json
+from parent import parent
+from bleurt import score
+
 
 def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
 
@@ -167,3 +170,44 @@ def print_summary(result):
     # Print the GPU memory utilization
     print_gpu_utilization()
 
+
+def convert_graph_to_table(graph):
+    table = []
+    for i in range(len(graph)):
+        row = []
+        for j in range(len(graph[i])):
+            row.append(graph[i][j])
+        table.append(row)
+    return table
+
+
+
+def bleurt_metric(predictions,references):
+    checkpoint = "bleurt/bleurt/test_checkpoint"
+    scorer = score.BleurtScorer(checkpoint)
+    scores = scorer.score(references=references, candidates=predictions)
+    assert isinstance(scores, list) and len(scores) == len(predictions)
+    return {"BLEURT":scores}
+
+
+def parent_metric(predictions,references,tables):
+
+    predictions=[p.split() for p in predictions]
+    references=[r.split() for r in references]
+    tables =[[[p.split() for p in x.split(" - ")] for x in t.strip().split(" | ")] for t in tables]#THIS makes a list of lists of lists from triples. Removing the last element because it is hasCore.
+
+    #SANITY CHECK
+    for x in tables:
+        for t in x:
+            if len(t)!=3:
+                raise Exception("Triple is not 3 elements long. PARENT METRIC ERROR FORMAT: \n",t)
+
+    precision, recall, f_score = parent(
+    predictions,
+    references,
+    tables,
+    avg_results=True,
+    n_jobs=32,
+    use_tqdm='notebook'
+    )
+    return {"PARENT":{'precision':precision,'recall':recall,'f_score':f_score}}
