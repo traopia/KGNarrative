@@ -1,7 +1,6 @@
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 import json
 from parent import parent
-from bleurt import score
 
 
 def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):

@@ -25,7 +25,7 @@ for split in splits:
         #print(d.keys()) 
         # Concatenate the values of the merge_keys into a single string
 
-        d['core_descritpion'] = "Event | hasCore | "+ d['core description']
+        d['core_descritpion'] = "Event - hasCore - "+ d['core description']
         d.pop('core description', None)
 
         #print(d.keys())
