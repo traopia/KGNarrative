@@ -352,6 +352,23 @@ def trattini(file_to_preprocess, output_file):
         with open(output_file, 'w') as f:
             json.dump(data, f, indent = 4)
 
+def instance_list(input_file):
+    with open(input_file, "r") as f:
+        data = json.load(f)
+    for i in range(len(data)):
+        input_string = data[i]['Instances_KG']
+        triples = input_string.split(' | ')
+
+        # Loop through each triple and extract the first and third elements using the '-' delimiter
+        list_instances = []
+        for triple in triples:
+            elements = triple.split(' - ')
+            list_instances.append(elements[0])
+            list_instances.append(elements[2])
+        data[i]['Instances_list']  = list(set(list_instances))
+    with open(input_file, 'w') as f:
+            json.dump(data, f, indent = 4)            
+
 
 
 def main(file_to_preprocess, output_file):
@@ -375,7 +392,8 @@ def main(file_to_preprocess, output_file):
     # #get multiple class
     # get_multiple_class(data, output_file)
 
-    trattini(file_to_preprocess, output_file)
+    #trattini(file_to_preprocess, output_file)
+
 
 
 
@@ -393,6 +411,6 @@ if __name__ == "__main__":
 
     #main("Datasets/WebNLG/57_triples/dev_57.json", "Datasets/WebNLG/57_triples/dev_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
-    main("Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json")
-
+    #main("Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json")
+    instance_list("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json")
 
