@@ -12,7 +12,8 @@
             "Tim Brooke",
             "John Geering",
             "Bananaman"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Baymax is a character from the film Big Hero 6 starring Scott Adsit. He was created by Steven T Seagle and the American, Duncan Rouleau.",
@@ -27,7 +28,8 @@
             "Duncan Rouleau",
             "Scott Adsit",
             "Americans"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Alan Bean was an American born in Wheeler, Texas. He served as a test pilot and became a crew member of Apollo 12, which was operated by NASA.",
@@ -42,7 +44,8 @@
             "United States",
             "Wheeler, Texas",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard, born in New Hampshire on November 18, 1923, graduated from NWC in 1957 with an M.A. He died in California on July 21, 1998.",
@@ -57,7 +60,8 @@
             "\"NWC, M.A. 1957\"@en",
             "\"\"1923/11/18\"\"^^xsd:date",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard, born in New Hampshire, has died in California. After graduating from NWC, MA in 1957 he served as a test pilot.",
@@ -72,7 +76,8 @@
             "\"NWC, M.A. 1957\"@en",
             "Test pilot",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The late Alan Shepard was born in New Hampshire, and chosen by NASA in 1959 as a crew member of Apollo 14.",
@@ -87,7 +92,8 @@
             "Apollo 14",
             "\"Deceased\"@en",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Bean (born in Wheeler, Texas) was a crew member of Apollo 12 operated by NASA and was in space 100305 minutes. Apollo 12 was commanded by David Scott and Alfred Worden was a backup pilot.",
@@ -102,7 +108,8 @@
             "Alan Bean",
             "Alfred Worden",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard (born November 18th, 1923, New Hampshire) was awarded the United States Navy Distinguished Service Medal which is higher than the department of commerce gold medal has died in California.",
@@ -117,7 +124,8 @@
             "Distinguished Service Medal (United States Navy)",
             "\"\"1923/11/18\"\"^^xsd:date",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born in Dallas and later attended the University of Texas at Austin. The University of Texas at Austin is affiliated with University of Texas System and is competing in the Big 12 Conference. Nowadays, Gregory L. Fenves is the President of the University.",
@@ -132,7 +140,8 @@
             "Big 12 Conference",
             "University of Texas System",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Elliot See, a graduate of the University of Texas at Austin, passed away on 28th February 1966 in St. Louis. He was born in Dallas.",
@@ -147,7 +156,8 @@
             "\"Deceased\"@en",
             "\"\"1966/02/28\"\"^^xsd:date",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born in Dallas, which is a county in Texas. He attended the University of Texas at Austin, which is affiliated to the University of Texas system. The University of Texas at Austin will be part of the Big 12 Conference competition.",
@@ -162,7 +172,8 @@
             "Big 12 Conference",
             "University of Texas System",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Elliot See was born in Dallas and studied at the University of Texas in Austin (which is affiliated to the university of Texas system). He died in St. Louis.",
@@ -177,7 +188,8 @@
             "\"Deceased\"@en",
             "University of Texas System",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "William Anders was a member of the Apollo 8 crew (operated by NASA) and he retired on September 1st, 1969. Frank Borman was the commander of Apollo 8 and Buzz Aldrin was a back up pilot.",
@@ -192,7 +204,8 @@
             "Frank Borman",
             "Apollo 8",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abilene, Texas lies 524.0 above sea level and has the area code of 325 and a population density of 429.9 inhabitants per sq km. It has a total area of 286.5 sq km of which 14.2 sq km are water.",
@@ -212,7 +225,8 @@
             "\"524.0\"^^xsd:double",
             "Abilene, Texas",
             "\"286.4526850031616\"^^<http://dbpedia.org/datatype/squareKilometre>"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Abilene is part of Texas, where the capital is Austin and the largest city is Houston. One of the languages spoken in Texas, which is part of the United States, is Spanish.",
@@ -227,7 +241,8 @@
             "Houston",
             "Abilene, Texas",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "English is the language of the United States, where Asian Americans are an ethnic group and where the inhabitants are referred to as Americans. The US is home to Albany, which is found in the state of Georgia.",
@@ -242,7 +257,8 @@
             "United States",
             "Americans",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Albuquerque in New Mexico has a total area of 490.9 sq km, of which 486.2 is land. The population density is 1142.3 people per square kilometre. The area codes for Albuquerque are 505 and 575.",
@@ -260,7 +276,8 @@
             "\"505, 575\"",
             "\"1142.3\"^^<http://dbpedia.org/datatype/inhabitantsPerSquareKilometre>",
             "505575"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Anaheim is led by Tom Tait along with the United States House of Representatives located in the US Capitol. The city is located in California where the Spanish language is spoken.",
@@ -275,7 +292,8 @@
             "United States House of Representatives",
             "Anaheim, California",
             "California"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Anderson in the United States is led by the Democratic Party of the US who have their headquarters in Washington DC. Anderson is located in Indiana, where the state capital is Indianapolis.",
@@ -290,7 +308,8 @@
             "United States",
             "Anderson, Indiana",
             "Indiana"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Anderson, Indiana lies 268.0 above sea level, has an area code of 765 and a population density of 523.9 inhabitants for each of its 107.43 square kilometres.",
@@ -305,7 +324,8 @@
             "\"523.8634087103906\"^^<http://dbpedia.org/datatype/inhabitantsPerSquareKilometre>",
             "1.0743e+08",
             "\"765\""
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "California, where some parts speak Chinese, is home to Antioch, which covers 75.324 square kilometres of Contra Costa County in the San Francisco Bay area.",
@@ -321,7 +341,8 @@
             "Antioch, California",
             "7.53246e+07",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Attica, Indiana is in Fountain County, Indiana, U.S, where the capital is Washington DC. Covington is the County seat of Fountain County.",
@@ -336,7 +357,8 @@
             "United States",
             "Covington, Indiana",
             "Indiana"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Auburn is part of Lee County, Alabama, in the United States, the capital of which is Washington D.C. and where Asian Americans are an ethnic group.",
@@ -351,7 +373,8 @@
             "Alabama",
             "Auburn, Alabama",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Opelika is the county seat of Lee County, Alabama, The United States. Auburn is part of Lee County. African Americans are an ethnic group within the United States.",
@@ -366,7 +389,8 @@
             "African Americans",
             "United States",
             "Opelika, Alabama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Austin is in Williamson County Texas where Georgetown is the county seat and Round Rock is the largest city and spanish is spoken.",
@@ -381,7 +405,8 @@
             "Williamson County, Texas",
             "Austin, Texas",
             "Round Rock, Texas"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Austin is part of Williamson County in Texas which has the county seat of Georgetown. The largest city in Texas, which uses the Spanish language, is Houston.",
@@ -396,7 +421,8 @@
             "Houston",
             "Williamson County, Texas",
             "Austin, Texas"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alexandria is part of Madison County, Indiana, in the U.S. Anderson is the biggest city in that county. The capital of Indiana is Indianapolis.",
@@ -411,7 +437,8 @@
             "United States",
             "Anderson, Indiana",
             "Indiana"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The county seat of Tarrant County is Fort Worth, Texas where English is spoken. Arlington is part of Tarrant County and the state's largest city is Houston.",
@@ -426,7 +453,8 @@
             "Houston",
             "Fort Worth, Texas",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Arlington, Tarrant County, is in Texas where the largest city is Fort Worth. Austin is the capital of Texas but Houston is the largest city.",
@@ -441,7 +469,8 @@
             "Houston",
             "Fort Worth, Texas",
             "Austin, Texas"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Arlington is part of Tarrant County in Texas in the U.S. Austin is the capital in that state and Houston is its biggest city.",
@@ -456,7 +485,8 @@
             "Houston",
             "Austin, Texas",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The inhabitants of the United States are known as Americans and include the ethnic group of Asian Americans. The country is the location of Albany which is led by a Mayor and located in Dougherty County in Georgia.",
@@ -471,7 +501,8 @@
             "Dougherty County, Georgia",
             "Americans",
             "\"Mayor\"@en"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Albany is a city in Linn County, Oregon in the United States. The capital of the country is Washington, D.C. and its inhabitants are called Americans. African Americans are an ethnic group within the United States.",
@@ -486,7 +517,8 @@
             "United States",
             "Albany, Oregon",
             "Americans"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Akron, Summit County, Ohio is located within the United States. The capital of the U.S. is Washington, D.C. and its people are known as Americans. Native Americans are one ethnic group in that country.",
@@ -501,7 +533,8 @@
             "Summit County, Ohio",
             "United States",
             "Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The inhabitants of the United States are known as Americans and include the ethnic group of African Americans. The country is led by the President and is the location of Angola, part of Steuben County, Indiana.",
@@ -516,7 +549,8 @@
             "African Americans",
             "United States",
             "Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The United States uses the English language, has the capital of Washington DC, and includes the Asian Americans among its ethnic groups. The city of Albany is located within the country and is part of Benton County in Oregon.",
@@ -531,7 +565,8 @@
             "Albany, Oregon",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Asian Americans are an ethnic group in the US where the capital city is Washington DC and English is the spoken language. The country is the location of Albany in Oregon.",
@@ -546,7 +581,8 @@
             "United States",
             "English language",
             "Oregon"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Auburn, Alabama, is part of Lee County, which has Opelika as the county seat. Auburn is located in the US, where Native Americans are an ethnic group.",
@@ -561,7 +597,8 @@
             "Auburn, Alabama",
             "United States",
             "Opelika, Alabama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Albuquerque in New Mexico, U.S. is led by the Albuquerque City Council and English is the official language. The leader of the United States is Barack Obama and Native Americans are one of the ethnic groups in the country.",
@@ -576,7 +613,8 @@
             "Albuquerque City Council",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "English is the language spoken in the United States where the inhabitants are known as Americans and include the ethnic group of Native Americans. The country is the location of Angola, a city in Indiana.",
@@ -591,7 +629,8 @@
             "United States",
             "English language",
             "Indiana"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Albany, Georgia is found in the United States, where the leader is the president, Asian Americans are an ethnic group and where the inhabitants are referred to as Americans.",
@@ -606,7 +645,8 @@
             "United States",
             "President of the United States",
             "Americans"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Seattle is the largest city of Washington State and Olympia is the capital. Also located in the state is Auburn, part of King County, U.S.",
@@ -621,7 +661,8 @@
             "Washington (state)",
             "Seattle",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Faber and Faber are the publishers of The Secret Scripture, a sequel to A Long Long Way. That book comes from Ireland which is located in Europe and where there is an ethnic group of white people.",
@@ -636,7 +677,8 @@
             "Ireland",
             "White people",
             "The Secret Scripture"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The ethnic group of Ireland is White people and is where A Long Long Way comes from. It was preceded by Annie Dunne and followed by The Secret Scripture which is published by Faber and Faber.",
@@ -651,7 +693,8 @@
             "Ireland",
             "White people",
             "The Secret Scripture"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Above the Veil is an Australian novel and the sequel to Aenir and Castle. It was later followed by Into Battle and The Violet Keystone.",
@@ -666,7 +709,8 @@
             "Aenir",
             "Above the Veil",
             "Castle (novel)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Cornell University is in Ithaca, New York and is nicknamed Cornell Big Red. They are the publisher of Administrative Science Quarterly and are affiliated with the Association of American Universities.",
@@ -681,7 +725,8 @@
             "Cornell Big Red",
             "Administrative Science Quarterly",
             "New York"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Administrative Science Quarterly is published by Cornell University, Ithaca, in the state of New York. Cornell University (nicknamed 'Cornell Big Red') is affiliated with the Association of Public and Land-grant Universities.",
@@ -696,7 +741,8 @@
             "Cornell Big Red",
             "Administrative Science Quarterly",
             "New York"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The United States is home to the ethnic group of African Americans and is led by Barack Obama. The country is the origin of the book Alcatraz Versus the Evil Librarians. This book was written in English, as spoken in Great Britain.",
@@ -711,7 +757,8 @@
             "Great Britain",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "A Severed Wasp is from the United States which like Great Britain speaks English. The capital of the US is Washington D.C and one ethnic group is the African Americans.",
@@ -726,7 +773,8 @@
             "Great Britain",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "English is spoken in Great Britain and the United States where Joe Biden is leader, African Americans are an ethnic group and Alcatraz Versus the Evil Librarians is from there.",
@@ -741,7 +789,8 @@
             "Great Britain",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "David Cameron and Elizabeth II are leaders in the United Kingdom. The country, which uses the English language has the capital city of London and is where the AIDS journal originates.",
@@ -756,7 +805,8 @@
             "United Kingdom",
             "AIDS (journal)",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The leaders of the United Kingdom are Elizabeth II and David Cameron. The AIDS journal is published in the United Kingdom by Lippincott, Williams & Wilkins, whose parent company is Wolters Kluwer.",
@@ -771,7 +821,8 @@
             "David Cameron",
             "United Kingdom",
             "AIDS (journal)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The English language is spoken in Great Britain and A Severed Wasp was written in it even though it comes from the United States. Barack Obama is the leader of the United States where Native Americans are an ethnic group.",
@@ -786,7 +837,8 @@
             "Great Britain",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "A Severed Wasp is from the United States, where Barack Obama is the president. English is the main language of the U.S., and is also spoken in Great Britain. Native Americans are one of the national ethnic groups.",
@@ -801,7 +853,8 @@
             "Great Britain",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Akeem Dent made his debut with the Atlanta Falcons who play in Atlanta and are owned by Arthur Blank. He used to play in Houston for the Houston Texans.",
@@ -816,7 +869,8 @@
             "Houston Texans",
             "Atlanta",
             "Atlanta Falcons"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Alaa Abdul-Zahra's plays for the Shabab Al-Ordon Club and the AL Kharaitiyat SC. Al Kharaitiyat SC (home ground Al Khor) play in the Qatar Stars League and is managed by Amar Osim.",
@@ -832,7 +886,8 @@
             "clubs",
             "Qatar Stars League",
             "Al Khor"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aleksandr Chumakov, who died in Russia, belonged to FC Torpedo Moscow and the Soviet Union national football team. FC Torpedo is managed by Valery Petrakov. Valentina Matviyenko is a Russian leader.",
@@ -847,7 +902,8 @@
             "Russia",
             "FC Torpedo Moscow",
             "Aleksandr Chumakov"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aleksandr Prudnikov is an associate of the youth side of FC Spartak Moscow. He plays for the Amkar Perm football club and the Terek Grozny FC which is managed by Rashid Rakhimov. The latter football club is in Grozny.",
@@ -862,7 +918,8 @@
             "FC Spartak Moscow",
             "Grozny",
             "Rashid Rakhimov"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Alessio Romagnoli is connected to UC Sampdoria and plays for the club A.C. Milan. AC Milan, which is in Serie A league, is managed by Sini\u0161a Mihajlovi\u0107 and chaired by, Silvio Berlusconi.",
@@ -877,7 +934,8 @@
             "\"\u2192 Sampdoria\"@en",
             "Silvio Berlusconi",
             "Sini\u0161a Mihajlovi\u0107"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Alessio Romagnoli belongs to A.C. Milan and plays for U.C. Sampdoria and Italy's national under-17 football team. A C Milan is managed by Sini\u0161a Mihajlovi\u0107 and includes chairman Silvio Berlusconi.",
@@ -892,7 +950,8 @@
             "\"\u2192 Sampdoria\"@en",
             "Silvio Berlusconi",
             "Sini\u0161a Mihajlovi\u0107"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aleksandr Prudnikov played for FC Spartak Moscow's youth team and later for FC Dynamo Moscow. He has also been signed to Grozy based FC Terek Grozny, who are managed by Rashid Rakhimov.",
@@ -907,7 +966,8 @@
             "FC Dynamo Moscow",
             "Grozny",
             "Rashid Rakhimov"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Akeem Adams' former clubs include United Petrotrin FC, who play at Palo Seco, and Ferencvarosi TC, where Thomas Doll is the manager and Gabor Kubatov is the chairman.",
@@ -922,7 +982,8 @@
             "Palo Seco",
             "United Petrotrin F.C.",
             "Thomas Doll"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Akeem Ayers' former team was the Los Angeles Rams who are based in LA and play their home matches at the Los Angeles Memorial Coliseum. His debut team were the Tennessee Titans who are coached by Mike Mularkey.",
@@ -937,7 +998,8 @@
             "Los Angeles Rams",
             "Akeem Ayers",
             "Tennessee Titans"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "AIDAstella was built by Meyer Werft and is operated by AIDA Cruise Line. The AIDAstella has a beam of 32.2 m, is 253260.0 millimetres in length and has a top speed of 38.892.",
@@ -952,7 +1014,8 @@
             "AIDAstella",
             "\"38.892\"^^xsd:double",
             "\"32.2\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The ALCO RS-3, produced between May 1950 and August 1956 by the American Locomotive Company, has 12 cylinders and a V12 engine and its length is 17068.8 millimetres.",
@@ -967,7 +1030,8 @@
             "ALCO RS",
             "MeanOfTransportation/length",
             "cylindercount"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The AMC Matador (also known as the American Motors Matador) is assembled in Thames, New Zealand. Classified as a mid-size car, it features a wagon style body and an AMC V8 engine.",
@@ -982,7 +1046,8 @@
             "Mid",
             "AMC Matador",
             "\"American Motors Matador\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "P&O owns the Alhambra which has a Humphrys, Tennant and Dykes engine and is 63800.0 millimetres long. The Alhambra was made by the Samuda Brothers. Humphrys, Tennant and Dykes are located in Deptford.",
@@ -998,7 +1063,8 @@
             "Alhambra (1855)",
             "Samuda Brothers",
             "\"63800.0\"^^<http://dbpedia.org/datatype/millimetre>"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Antares rocket is 3.9 metres in diametre and is manufactured by the Yuzhnoye Design Office. Its launch site was the Mid-Atlantic Regional Spaceport Launch Pad 0. The Antares rocket made its first flight on October 28th, 2014 and its final flight on September 18th, 2013.",
@@ -1013,7 +1079,8 @@
             "Mid",
             "\"3.9\"^^<http://dbpedia.org/datatype/metre>",
             "\"\"2014/10/28\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Antares rocket is manufactured at the Yuzhnoye Design Office, and was launched from the Mid-Atlantic Regional Spaceport. It is comparable to the United States Delta II, which was launched at the Vandenberg Air Force Base.",
@@ -1028,7 +1095,8 @@
             "Delta II",
             "Vandenberg Air Force Base",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Ariane 5 had its first voyage August 11, 2005 and its last flight on December 18, 2009. It was manufactured by Airbus Defence and Space and launched from the Guiana Space Centre. Its diameter is 5.4 metres.",
@@ -1043,7 +1111,8 @@
             "Airbus Defence and Space",
             "\"\"2009/12/18\"\"^^xsd:date",
             "Guiana Space Centre"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Ariane 5's maiden flight was on the 2nd March 2004 and its last flight being on Sept. 27, 2003. It was made by the European Space Agency and took off from ELA-3. It is 5.4 m in diameter.",
@@ -1058,7 +1127,8 @@
             "Ariane 5",
             "\"\"2004/03/02\"\"^^xsd:date",
             "ELA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Aston Martin V8 is assembled in the United Kingdom governed by Elizabeth II. The next model of that vehicle was the Aston Martin Virage, which is related to Aston Martin DBS. Aston Martin is the manufacturer of the Aston Martin DBS.",
@@ -1073,7 +1143,8 @@
             "Aston Martin",
             "Aston Martin V8",
             "Aston Martin DBS"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "From the United States the Atlas II (3.04 m diameter) was sent from Vandenberg Air Force Base and Spaceport Florida Launch Complex 36. March 16, 1998 was its final lift off.",
@@ -1088,7 +1159,8 @@
             "\"\"1998/03/16\"\"^^xsd:date",
             "Vandenberg Air Force Base",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Audi A1 hatchback is a supermini vehicle made in Brussels, Belgium. It contains a 1.2 l front engine with a front wheel drive layout.",
@@ -1103,7 +1175,8 @@
             "Audi A1  2",
             "Hatchback",
             "Audi A1"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Douglas R. Oberhelman is the key person at Caterpillar Inc which was founded in the US and located in Illinois. The company provides the engine power to the AIDAluna owned by AIDA Cruises.",
@@ -1118,7 +1191,8 @@
             "Caterpillar Inc.",
             "Illinois",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Carnival Corporation & plc is the parent company of Costa Crociere in Genoa, who own the AIDAstella. AIDAstella was built by Meyer Werft and is operated by AIDA Cruises.",
@@ -1133,7 +1207,8 @@
             "Genoa",
             "Costa Crociere",
             "Carnival Corporation & plc"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Minotaur IV rocket and the Antares rocket were launched from the Mid-Atlantic Regional Spaceport Launch Pad 0 . The latter was similar to the Delta II from the United States that launched at Cape Canaveral Air Force Station.",
@@ -1148,7 +1223,8 @@
             "Mid",
             "Delta II",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The launch site of the rocket Antares was the Mid-Atlantic Regional Spaceport Launch Pad 0, which is associated with the Minotaur IV rocket. The Antares rocket is comparable with the Delta II, which originated from the United States, and was launched at Vandenberg Air Force Base.",
@@ -1163,7 +1239,8 @@
             "Delta II",
             "Vandenberg Air Force Base",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The A-Rosa Luna was built on the Neptun Werft, located in Rostock, Germany. Germany (whose capital city is Berlin) is led by Joachim Gauck.",
@@ -1179,7 +1256,8 @@
             "Joachim Gauck",
             "Rostock",
             "Germany"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The builder of the A-Rosa Luna is Neptun Werft, from Rostock, Germany. The leader of Germany is Stanislaw Tillich and the people are called Germans.",
@@ -1195,7 +1273,8 @@
             "Rostock",
             "Germany",
             "Stanislaw Tillich"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Delta II is from the United States and is comparable to the Antares rocket which was launched at the Mid-Atlantic Regional Spaceport Launch Pad 0. The Mid-Atlantic Regional Spaceport Launch Pad 0 is associated with the Rocket Minotaur V.",
@@ -1209,7 +1288,8 @@
             "Mid",
             "Delta II",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "ALV X-1 came from the U.S. whose people are American and whose capital is in Washington, D.C. White Americans are part of an ethnic group in the U.S. and their national anthem is known as The Star Spangled Banner.",
@@ -1225,7 +1305,8 @@
             "ALV X",
             "Americans",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The celestial body known as (66063) 1998 RO1, which has the epoch date 13 January 2016, was formerly called 1999 SN5 and has an orbital period of 360.29 days. Its apoapsis measurement is 254989570.60815 kms and the escape velocity is 0.0999 km per sec.",
@@ -1242,7 +1323,8 @@
             "3.11291e+07",
             "\"0.0999\"^^xsd:double",
             "(66063) 1998 RO1"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The celestial body known as (66391) 1999 KW4 has an epoch date of 14 July 2004 and an escape velocity of zero. It has a density of 2 gms per cu cm, an orbital period of 16244700 and an apoapsis of 162164091.8388 km.",
@@ -1260,7 +1342,8 @@
             "\"\"\"2004/07/14\"\"\"^^xsd:date",
             "(66391) 1999 KW4",
             "\"2.0\"^^<http://dbpedia.org/datatype/gramPerCubicCentimetre>"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "James Craig Watson, who discovered 101 Helena on 15th August 1868, is a Canadian national who attended the University of Michigan. He died in Madison, Wisconsin.",
@@ -1275,7 +1358,8 @@
             "\"\"1868/08/15\"\"^^xsd:date",
             "James Craig Watson",
             "101 Helena"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "101 Helena was discovered by James Craig Watson, a Canadian, whose Alma mater is the University of Michigan. He died of peritonitis in Madison, Wisconsin.",
@@ -1290,7 +1374,8 @@
             "Madison, Wisconsin",
             "James Craig Watson",
             "101 Helena"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Walter Baade was born in the German Empire, died in West Germany and discovered 1036 Ganymed. His Alma mater was the University of Gottingen and Allan Sandage was his doctoral student.",
@@ -1305,7 +1390,8 @@
             "1036 Ganymed",
             "University of G\u00f6ttingen",
             "Walter Baade"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Halton Arp and Allan Sandage were doctoral students of Walter Baade, the discoverer of 1036 Ganymed. Baade was born in the German Empire and graduated from the University of Gottingen.",
@@ -1320,7 +1406,8 @@
             "Halton Arp",
             "University of G\u00f6ttingen",
             "Walter Baade"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "107 Camilla, which has the epoch date 31 December 2006, was discovered by F Vilas and has an orbital period of 2368.05 days. The apoapsis and periapsis measurements are 560937000.0 kilometres and 479343000.0 kilometres respectively.",
@@ -1335,7 +1422,8 @@
             "107 Camilla",
             "\"December 31, 2006 (JD2454100.5)\"",
             "4.79343e+11"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "107 Camilla, was discovered on 17 November 1868, by N.R. Pogson, an English national, who was born in Nottingham and died in Chennai.",
@@ -1350,7 +1438,8 @@
             "107 Camilla",
             "England",
             "\"\"1868/11/17\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The epoch of 1089 Tama (whose former name was A919 HA; 1927 WB) is 2005-11-26. The escape velocity of 1089 Tama is 0.0068 km/sec, has an orbital period of 1202.846 days and an apoapsis of 373513000.0 (kilometres).",
@@ -1366,7 +1455,8 @@
             "1.03926e+08",
             "\"3.73513E8\"^^<http://dbpedia.org/datatype/kilometre>",
             "\"A919 HA; 1927 WB;\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The epoch date of 1097 Vicia is 2006.12.31. 1097 Vicia has an escape velocity of 0.0112 km/sec, a mass of 9.8 kgs, an orbital period of 135589000.0, and an apoapsis of 511592000.0 km.",
@@ -1384,7 +1474,8 @@
             "\"\"\"\"\"2006/12/31\"\"\"\"\"^^xsd:date",
             "\"0.0112\"^^<http://dbpedia.org/datatype/kilometrePerSecond>",
             "\"December 31, 2006 (JD2454100.5)\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The surface area of the asteroid 10 Hygiea is 837,080.744 square kilometres while its temperatures is 164 degrees Kelvin. The asteroid has an epoch date of June 27th, an escape velocity of 0.21 kilometres a second and an apoapsis of 523,951,582.33968 kilometres.",
@@ -1402,7 +1493,8 @@
             "\"164.0\"^^xsd:double",
             "\"247.0\"^^xsd:double",
             "\"756.0\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "20 Fenchurch Street is located within the United Kingdom, where London is the capital, and the currency is pounds sterling. Boris Johnson is the leader in London, and one of the leaders of the United Kingdom is Elizabeth II.",
@@ -1417,7 +1509,8 @@
             "London",
             "Boris Johnson",
             "United Kingdom"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "250 Delaware Avenue was built in Buffalo New York at a cost of 110 million dollars. Construction began in January 2014 and the building has 12 floors with an area of 30843.8 square metres.",
@@ -1433,7 +1526,8 @@
             "12",
             "\"1.1E8\"^^<http://dbpedia.org/datatype/usDollar>",
             "Buffalo, New York"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Rahm Emanuel is the leader of Chicago, DuPage County, Illinois, United States which is the location of the building at 300 North LaSalle which has 60 floors.",
@@ -1448,7 +1542,8 @@
             "300 North LaSalle",
             "\"60\"^^xsd:positiveInteger",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "3Arena (owned by Live Nation Entertainment) is located in Dublin, Republic of Ireland. D\u00e1il \u00c9ireann is a leader in Dublin, which is part of Leinster.",
@@ -1463,7 +1558,8 @@
             "Dublin",
             "Republic of Ireland",
             "Leinster"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Adisham Hall in Sri Lanka was constructed between 1927 and 1931 at St Benedict's Monastery, Adisham, Haputhale, Sri Lanka in the Tudor and Jacobean style of architecture.",
@@ -1478,7 +1574,8 @@
             "Adisham Hall",
             "\"Tudor and Jacabian\"@en",
             "\"St. Benedict's Monastery, Adisham, Haputhale, Sri Lanka\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adisham Hall is located in Haputale, Sri Lanka. The capital of Sri Lanka is Sri Jayawardenepura Kotte, the language used in the country is Tamil and the currency is the Sri Lankan Rupee.",
@@ -1493,7 +1590,8 @@
             "\"Haputale, Sri Lanka\"@en",
             "Sri Lankan rupee",
             "Sri Jayawardenepura Kotte"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ranil Wickremesinghe is the leader of Sri Lanka where the capital city is Sri Jayawardenepura Kotte and the currency is the Sri Lankan rupee. Adisham Hall is located in the country at Haputale.",
@@ -1508,7 +1606,8 @@
             "Haputale",
             "Sri Jayawardenepura Kotte",
             "Ranil Wickremesinghe"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The main ethnic group in Japan are the Japanese and the leader is Tar\u014d As\u014d. Akita Museum of Art is in Akita, Akita which is part of Japan and the Akita Prefecture.",
@@ -1523,7 +1622,8 @@
             "Japanese people",
             "Japan",
             "Akita Prefecture"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Amdavad ni Gufa is located in Gujarat, Ahmedabad, India. Gujarat's leader is known as the Gujarat Legislative Assembly, and the leader of India is Narendra Modi.",
@@ -1538,7 +1638,8 @@
             "Amdavad ni Gufa",
             "Narendra Modi",
             "Ahmedabad"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Amdavad ni Gufa is located in Ahmedabad, Gujarat, India; led by the Gujarat Legislative Assembly, including leader T S Thakur.",
@@ -1553,7 +1654,8 @@
             "T. S. Thakur",
             "Amdavad ni Gufa",
             "Ahmedabad"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The 476 bed Ampara Hospital is situated in the Eastern Province state of Sri Lanka where Austin Fernando is the leader. The country's leader is Ranil Wickremesinghe.",
@@ -1569,7 +1671,8 @@
             "Sri Lanka",
             "Eastern Province, Sri Lanka",
             "Ranil Wickremesinghe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Julia Morgan, who was born in California, designed the Asilomar Conference Grounds, the Los Angeles Herald examiner building, The Riverside Art Museum and Hearst Castle.",
@@ -1584,7 +1687,8 @@
             "Riverside Art Museum",
             "Asilomar Conference Grounds",
             "Los Angeles Herald"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Asilomar Conference Grounds were designed by Julia Morgan (born in California), who is known for a number of buildings, including Hearst Castle and The Riverside Art Museum, and her work in San Francisco's Chinatown.",
@@ -1599,7 +1703,8 @@
             "Chinatown, San Francisco",
             "Riverside Art Museum",
             "Asilomar Conference Grounds"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The Asilomar Conference Grounds were constructed in 1913. They are located in Pacific Grove, California and they were added to the National Register of Historic Places on February 27th 1987 (with reference number 87000823). The grounds are in the architectural style of the Arts and Crafts Movement.",
@@ -1614,7 +1719,8 @@
             "Asilomar Conference Grounds",
             "\"87000823\"",
             "Pacific Grove, California"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Asser Levy Public Baths, built in 1904 in a Romanesque Revival style, is located at 23rd Street (Manhattan). The site was added to the National Register of Historic Places on 1980-04-23, with Reference Number 80002709.",
@@ -1629,7 +1735,8 @@
             "\"\"1980/04/23\"\"^^xsd:date",
             "\"1904\"^^xsd:gYear",
             "Romanesque Revival architecture"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Asser Levy Public Baths are found in New York City, New York, United States. Another part of New York City is Manhattan where Gale Brewer is the leader.",
@@ -1644,7 +1751,8 @@
             "Gale Brewer",
             "New York",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "103 Colmore Row was designed by the architect John Madin, who was born in Birmingham, where the postal code is 'B'. Andrew Mitchell is the leader of the city and Birmingham City Council is the governing body.",
@@ -1659,7 +1767,8 @@
             "B postcode area",
             "John Madin",
             "Birmingham City Council"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hailemariam Desalegn and Mulatu Teshome are leaders within Ethiopia. The Addis Ababa Stadium and the Addis Ababa City Hall are both located within the country in Addis Ababa.",
@@ -1674,7 +1783,8 @@
             "Ethiopia",
             "Hailemariam Desalegn",
             "Mulatu Teshome"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The President is the primary leader of English language speaking United States, (includes leader John Roberts), has the ethnic African American group and is home to 250 Delaware Avenue.",
@@ -1689,7 +1799,8 @@
             "African Americans",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Joe Biden is a leader of the United States which is led by a President. The White Americans are one of the ethnic groups of the country which uses the English language and is where 250 Delaware Avenue is located.",
@@ -1704,7 +1815,8 @@
             "President of the United States",
             "United States",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "From Andalusia, Spain, Ajoblanco is made with bread, almonds, garlic, water and olive oil. Ajo blanco is an alternative name to Ajoblanco.",
@@ -1719,7 +1831,8 @@
             "\"Ajo blanco\"@en",
             "Andalusia",
             "\"Bread, almonds, garlic, water, olive oil\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Tomatoes, guanciale, cheese, and olive oil are main ingredients in the traditional Amatriciana sauce, which comes from the region of Lazio and can be found in an Italian meal.",
@@ -1734,7 +1847,8 @@
             "\"Tomatoes, guanciale, cheese , olive oil\"@en",
             "Lazio",
             "Amatriciana sauce"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Arem-arem, a Javanese dish, is commonly served in Indonesia where the leader is Joko Widodo. It is also where the currency is the Indonesian rupiah and where Indonesian language is the language spoken.",
@@ -1750,7 +1864,8 @@
             "Indonesia",
             "Joko Widodo",
             "country"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Sergio Mattarella is a leader in Italy, a country where Rome is the capital, and both the people and the language spoken are Italian. Arrabbiata sauce can be found in Italy.",
@@ -1765,7 +1880,8 @@
             "Arrabbiata sauce",
             "Italians",
             "Sergio Mattarella"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Ximo Puig is a leader of the Valencian Community which is where Arros negre comes from. It is a traditional dish from Spain, where the people are called Spaniards and the leader is Felipe VI of Spain.",
@@ -1780,7 +1896,8 @@
             "Felipe VI of Spain",
             "Ximo Puig",
             "Valencian Community"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Asam pedas is a food found in the Malay Peninsula of Malaysia, whose capital is Kuala Lumpur, and includes the Malaysian Chinese and Malaysian Indians.",
@@ -1795,7 +1912,8 @@
             "Malaysian Chinese",
             "Malaysia",
             "Asam pedas"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Malaysian Indian and Malaysian chinese are two of the ethnic groups in Malaysia where Arifin Zakaria is the leader. Asam pedas is found in Malaysia and is from the Malay Peninsula region.",
@@ -1810,7 +1928,8 @@
             "Malaysian Chinese",
             "Malaysia",
             "Asam pedas"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ayam penyet is a Javanese dish made nationwide, and can also be found in Malaysia and Singapore. It should be served hot and contains the main ingredients of squeezed or smashed fried chicken served with sambal.",
@@ -1825,7 +1944,8 @@
             "Fried chicken",
             "\"Hot\"",
             "\"\\\"Squeezed\\\" or \\\"smashed\\\"fried chickenserved withsambal\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Malaysian Chinese is an ethnic group from Malaysia and Ayam Penyet is from there. Ayam Penyet is also from Indonesia and it contains fried chicken as well as \"squeezed\" or \"smashed\" chicken served with sambal.",
@@ -1840,7 +1960,8 @@
             "Malaysian Chinese",
             "\"\\\"Squeezed\\\" or \\\"smashed\\\" fried chicken served with sambal\"@en",
             "Malaysia"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Malaysian chinese are an ethnic group from Malaysia which is where Ayam Penyet is from. Ayam Penyet can also be found in Indonesia and it contains fried chicken.",
@@ -1855,7 +1976,8 @@
             "Malaysian Chinese",
             "Malaysia",
             "Chicken"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bacon Explosion comes from the United States. The US president is Barack Obama, and the capital is in Washington, D.C. English is the language of the US, and white Americans are a major ethnic group.",
@@ -1870,7 +1992,8 @@
             "United States",
             "Bacon Explosion",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bacon Explosion is a dish from the United States, where Joe Biden is leader and the capital is Washington DC. English is the language spoken in the US and Asian Americans are an ethnic group there.",
@@ -1885,7 +2008,8 @@
             "United States",
             "Bacon Explosion",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Baked Alaska originates from France where the national language is French and one of the leader is Gerard Larcher. The dessert is served in Hong Kong as well where the leader is Carrie Lam.",
@@ -1900,7 +2024,8 @@
             "France",
             "Baked Alaska",
             "Carrie Lam (politician)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bandeja paisa is typical Colombian cuisine that originates from the Paisa region and contains lemon. The lemon belongs to the rutaceae family and the order of Rosids.",
@@ -1915,7 +2040,8 @@
             "Lemon",
             "Rosids",
             "Rutaceae"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Barny Cakes, which are made from sponge cake, are from France, where Gerard Larcher and Claude Bartolone are leaders and French is the language spoken.",
@@ -1930,7 +2056,8 @@
             "France",
             "Barny Cakes",
             "Sponge cake"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Created by Mondelez International (founded in Chicago), Barny Cakes come from France where Gerard Larcher is leader and they speak French.",
@@ -1945,7 +2072,8 @@
             "France",
             "Mondelez International",
             "Barny Cakes"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Indian people enjoy the dish bhajji, which originates from the Karnataka region of India. This nation is led by T.S. Thakur and Sumitra Mahajan.",
@@ -1960,7 +2088,8 @@
             "Bhajji",
             "Sumitra Mahajan",
             "T. S. Thakur"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Binignit is a dessert from the Visayas region of the Philippines. It contains sweet potato and banana.",
@@ -1975,7 +2104,8 @@
             "Binignit",
             "Banana",
             "Philippines"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Enrique Pena Nieto is the leader of Mexico which is where they speak Spanish and eat bionico, flavoured with honey, for dessert.",
@@ -1990,7 +2120,8 @@
             "Mexico",
             "Bionico",
             "Enrique Pe\u00f1a Nieto"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Bionico is a dish found in Mexico, where Spanish is spoken and the leader is Silvano Aureoles Conejo. Bionico is a dish served for dessert and a cookie can be served as a dessert too.",
@@ -2005,7 +2136,8 @@
             "Mexico",
             "Silvano Aureoles Conejo",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Honey can be used as a variation in the dish Bionico which is served for dessert. It is found in Guadalajara, Mexico where Silvano Aureoles Conejo is the leader.",
@@ -2020,7 +2152,8 @@
             "Guadalajara",
             "Silvano Aureoles Conejo",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Joko Widodo is the leader of Indonesia whose capital is Jakarta and its language is Indonesian. Bakso comes from Indonesia and is popular in Southeastern Asian countries.",
@@ -2035,7 +2168,8 @@
             "Bakso",
             "\"Nationwide in Indonesia, also popular in neighboring Southeast Asian countries\"@en",
             "Jakarta"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Bakso is a food found in Indonesia where the capital is Jakarta and the leaders are Jusuf Kalla and Joko Widodo.",
@@ -2050,7 +2184,8 @@
             "\"Indonesia, derived from Chinese meat ball\"@en",
             "Jakarta",
             "Jusuf Kalla"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The capital of Italy is Rome and is where Italians are from and Amatriciana is a traditional sauce. The leaders are Laura Boldrini and Pietro Grasso.",
@@ -2065,7 +2200,8 @@
             "Italians",
             "Amatriciana sauce",
             "Pietro Grasso"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "English is spoken in Singapore where the leader is Halimah Yacob. Ayam penyet is from the Singapore region of Java where the Banyumasan people are an ethnic group.",
@@ -2080,7 +2216,8 @@
             "Ayam penyet",
             "Halimah Yacob",
             "English language"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Halimah Yacob leads Singapore, where Standard Chinese is spoken and where Ayam penyet is from. This dish is a food found in Java; one of the ethnic groups there are the Banyumasan people.",
@@ -2095,7 +2232,8 @@
             "Ayam penyet",
             "Standard Chinese",
             "Halimah Yacob"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Philippines is the country the dish Batchoy comes from. The Ilocano and Igorot peoples are ethnic groups from the Philippines, where languages spoken include Arabic and Phillippine English.",
@@ -2110,7 +2248,8 @@
             "Igorot people",
             "Ilocano people",
             "Philippines"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Available nationwide in Indonesia and Singapore, Beef kway teow is a dish which comes from Singapore, where English is spoken. It is also where two of the leaders are Halimah Yacob and Tony Tan.",
@@ -2125,7 +2264,8 @@
             "Halimah Yacob",
             "English language",
             "Tony Tan"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ajoblanco is a Spanish dish that originates Andalusia, where the leader is Susana Diaz. Felipe VI is the leader of Spain, where the people that live there are called Spaniards.",
@@ -2140,7 +2280,8 @@
             "Felipe VI of Spain",
             "Susana D\u00edaz",
             "Andalusia"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Ajoblanco is a dish from Spain, where the currency is the euro, the leader is Felipe VI, the language spoken is Spanish and the people that live there are called Spaniards.",
@@ -2155,7 +2296,8 @@
             "Ajoblanco",
             "Felipe VI of Spain",
             "Euro"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Chinabank, a publicly traded company with 295 banking centers, was founded in Manila on the 16th of August, 1920. The net income of Chinabank is $15,100,000,000.",
@@ -2171,7 +2313,8 @@
             "295",
             "Manila",
             "Chinabank"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "GMA New Media, a maker of mobile applications founded on 01-01-2000, is a mass media industry with headquarters in the GMA Network Center. Felipe Gozon is a key person in GMA New Media.",
@@ -2186,7 +2329,8 @@
             "GMA Network Center",
             "GMA New Media",
             "Mass Media"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas was founded January 1, 2001 as a pharmaceutical company primarily focusing on cosmetics. It's located in Brazil, which has as population density of 23.8.",
@@ -2201,7 +2345,8 @@
             "23.8",
             "Pharmaceuticals",
             "Brazil"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Trane is a European subsidiary company located in Ireland that employs 29,000 people. The company was founded in La Crosse, Wisconsin.",
@@ -2216,7 +2361,8 @@
             "Europe",
             "Ireland",
             "Trane"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Trane is subsidiary in Swords, Dublin who produces building management systems, they have a net income of $556 million and a total revenue of $10,264,000,000.",
@@ -2231,7 +2377,8 @@
             "Building Management System",
             "Trane",
             "5.563E8"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "With a runway length of 2194.0, Abilene regional airport serves Abiliene, part of Jones County, Texas, in the United States.",
@@ -2246,7 +2393,8 @@
             "\"2193.95\"^^xsd:double",
             "Abilene, Texas",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Serving the city of Abilene in Texas, is Abilene Regional Airport. It has the ICAO location identifier KABI and the runway name 17R/35L. The airport is 546 metres above sea level and has a runway length of 2194.0.",
@@ -2261,7 +2409,8 @@
             "\"2193.95\"^^xsd:double",
             "Abilene, Texas",
             "\"KABI\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is operated by ENAIRE and can be found in Madrid. The airport is situated 610.0 meters above sea level and has a 4,349 kilometers long runway whose name is 14L/32R.",
@@ -2276,7 +2425,8 @@
             "\"609.6\"^^xsd:double",
             "\"14L/32R\"",
             "\"4348.89\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Agra Airport is in Uttar Pradesh, which is part of Bundelkhand and Awadh. Its ICAO location identifier is VIAG. The leader of Uttar Pradesh is Ram Naik.",
@@ -2292,7 +2442,8 @@
             "\"(Location of airport in India)\"",
             "Uttar Pradesh",
             "Ram Naik"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ram Naik is the leader of Uttar Pradesh which is part of Awadh and Bundelkhand. It is the location of Agra airport which has the native name of Kheria Air Force Station.",
@@ -2307,7 +2458,8 @@
             "Agra Airport",
             "Uttar Pradesh",
             "Ram Naik"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Al Asad airbase is operated by the United States Air Force. Some of its aircraft include the Boeing C-17 Globemaster III (transport aircraft), General Dynamics F-16 Fighting Falcon (aircraft fighter), and the Lockheed AC-130 which can be found on USAF aircraft carriers. The USAF was involved in the Invasion of Panama.",
@@ -2322,7 +2474,8 @@
             "Al Asad Airbase",
             "Boeing C",
             "United States invasion of Panama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The United States Air Force has fought in the Korean War. It is the operating organisation for Al Asad airbase. It has a Boeing C-17 Globemaster III transport aircraft and additionally, the Lockheed AC-130 can be found on USAF aircraft carriers. McDonnell Douglas F-15 Eagle was a Fighter Aircraft of the United States Air Force.",
@@ -2337,7 +2490,8 @@
             "Lockheed AC",
             "Al Asad Airbase",
             "Boeing C"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The transport aircraft for the United States Air Force is the Lockheed C-130 Hercules. And Lockheed AC-130 can be found on USAF aircraft carriers. Both the Korean War and the Invasion of Grenada involved the United States Air Force which currently operates the Al Asad Airbase.",
@@ -2352,7 +2506,8 @@
             "Lockheed AC",
             "Al Asad Airbase",
             "Lockheed C"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Invasions of Grenada and Panama in involved the United States Air Force which now operates the Al Asad airbase. The Air Force has several types of aircraft such as the Boeing C-17 Globemaster III transport aircraft and the Lockheed AC-130 which can be found on USAF aircraft carriers.",
@@ -2367,7 +2522,8 @@
             "Al Asad Airbase",
             "Boeing C",
             "United States invasion of Panama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Allama Iqbal International airport is located in Punjab Pakistan and serves Lahore, Pakistan. The Pakistan Civil Aviation Authority governs the Allama Iqbal International Airport. The country is led by Anwar Zaheer Jamali.",
@@ -2383,7 +2539,8 @@
             "Pakistan",
             "Lahore",
             "\"Punjab, Pakistan\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Pakistan Civil Aviation Authority is the operating organisation of the Allama Iqbal International Airport. The airport serves the city of Lahore, in Pakistan where Shehbaz Sharif is the leader. It is also where the Allama Iqbal International Airport is found, in Punjab, Pakistan.",
@@ -2398,7 +2555,8 @@
             "Allama Iqbal International Airport",
             "Pakistan",
             "Lahore"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Located in Texas, and serving Andrews, is Andrews County Airport. The airport is 973.0 above sea level, has a runway length of 896, and a runway with the name 11/29.",
@@ -2413,7 +2571,8 @@
             "\"973.0\"^^xsd:double",
             "Andrews County Airport",
             "\"11/29\""
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Andrews County Airport is in Texas in the U.S.A. where Spanish is one of the languages spoken. Houston is the largest city in the state and its capital is Austin.",
@@ -2428,7 +2587,8 @@
             "United States",
             "Austin, Texas",
             "Andrews County Airport"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Houston is the largest city in Texas, where Austin is the Capital city. Andrews County Airport is located in Texas and Some texans can speak Spanish.",
@@ -2443,7 +2603,8 @@
             "Houston",
             "Austin, Texas",
             "Andrews County Airport"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Angola International Airport is in \u00cdcolo e Bengo, (Luanda Province), The airport serves Luanda, and is 159 metres above sea level.",
@@ -2458,7 +2619,8 @@
             "\"159.0\"^^xsd:double",
             "Angola",
             "Luanda Province"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Angola International Airport is located in \u00cdcolo e Bengo, Luanda Province, Angola. The runway is 4000ft long and is 159m a.s.l.",
@@ -2475,7 +2637,8 @@
             "Angola",
             "\"159.106\"^^xsd:double",
             "Luanda Province"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Flemish department of Mobility and Public Works is the operating organisation of Antwerp International Airport which is owned by the Flemish Region. The airport serves the city of Antwerp, is 12.0 metres above sea level, and has a runway length of 600.0.",
@@ -2491,7 +2654,8 @@
             "\"600.0\"^^xsd:double",
             "\"12.0\"^^xsd:double",
             "\"11.8872\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The city of Appleton is served by Appleton International Airport located 280 metres above sea level in Greenville, Wisconsin. The runway at the airport is 3/21 and is 2439 in length.",
@@ -2507,7 +2671,8 @@
             "Appleton International Airport",
             "\"2439.01\"^^xsd:double",
             "Appleton, Wisconsin"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The city of Appleton is served by Appleton International Airport in Greenville (part of Menasha), Clayton Winnebago County, Wisconsin, United States.",
@@ -2522,7 +2687,8 @@
             "Appleton International Airport",
             "United States",
             "Appleton, Wisconsin"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ardmore Airport in New Zealand is operated by the Civil Aviation Authority of New Zealand and is 34 metres above sea level. It has a runway named 03R/21L which is 1,411 long and its third runway has a poaceae surface.",
@@ -2538,7 +2704,8 @@
             "Ardmore Airport (New Zealand)",
             "\"1411.0\"^^xsd:double",
             "\"03R/21L\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Turkmenistan Airlines operates Ashgabat International Airport in Ashgabat. The airport is 211 metres above sea level, has the runway length of 2989.0 and 12R/30L is the runway name.",
@@ -2554,7 +2721,8 @@
             "\"210.922\"^^xsd:double",
             "Ashgabat",
             "\"211.0\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Atlantic City International Airport has a runway length of 1,873 and is operated by the Port Authority of New York and New Jersey. It is situated 23 metres above sea level, has the runway name of 4/22 and is known by the ICAO location identifier KACY.",
@@ -2572,7 +2740,8 @@
             "\"KACY\"",
             "\"Port Authority of New York and New Jersey & SJTA\"@en",
             "\"23.0\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Antwerp International Airport serves the city of Antwerp which is Belgium. Two of the leaders of which, are Charles Michel and Philippe of Belgium. In Belgium, one of the languages is German.",
@@ -2587,7 +2756,8 @@
             "Philippe of Belgium",
             "Belgium",
             "Charles Michel"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Atlantic City International Airport is 23 metres above sea level and is located in Egg Harbor Township, Atlantic County, New Jersey, United States.",
@@ -2603,7 +2773,8 @@
             "Egg Harbor Township, New Jersey",
             "United States",
             "\"23.0\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The runway length at Adolfo Suarez Madrid-Barajas airport located in Madrid, part of the community of Madrid in Spain, is 3500.0 . The airport is 610 metres above sea level.",
@@ -2620,7 +2791,8 @@
             "\"3499.71\"^^xsd:double",
             "\"3500.0\"^^xsd:double",
             "\"610.0\"^^xsd:double"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The birth place of Abdul Taib Mahmud was the Kingdom of Sarawak and his residence was Demak Jaya, Jalan Bako, Kuching, Sarawak. He was a member of the Parti Pesaka Bumiputera Bersatu and was succeeded by Adenan Satem who had attended the University of Adelaide.",
@@ -2635,7 +2807,8 @@
             "Abdul Taib Mahmud",
             "Adenan Satem",
             "\"Demak Jaya, Jalan Bako, Kuching, Sarawak\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abdulsalami Abubakar served in the Nigerian Army and was in office whilst Mike Akhigbe (the successor to Oladipo Diya) was Vice President. His career ended on 29 May 1999 and he was succeeded by Olusegun Obasanjo.",
@@ -2650,7 +2823,8 @@
             "Olusegun Obasanjo",
             "Nigerian Army",
             "Oladipo Diya"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Abraham A Ribicoff was a US national born in Connecticut and dying in New York City. He was a member of the Democratic Party in the U.S.A. and worked as the United States Secretary of Health, Education, and Welfare.",
@@ -2666,7 +2840,8 @@
             "United States",
             "Democratic Party (United States)",
             "\"United States Secretary of Health, Education, and Welfare\""
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "American Abraham A. Ribicoff died in the United States and was married to Casey Ribicoff who was born in Chicago. Native Americans are one of several ethnic groups in the U.S.",
@@ -2681,7 +2856,8 @@
             "Casey Ribicoff",
             "\"American\"@en",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adam Holloway was born in Kent and attended Magdalene College in Cambridge. He began his career on 5 May 2005 and served in the Grenadier Guards and became a member of parliament for Gravesham.",
@@ -2696,7 +2872,8 @@
             "Grenadier Guards",
             "Adam Holloway",
             "\"for Gravesham\"@en"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Agnes Kant is a national of the Netherlands which is led by Mark Rutte. She worked at the House of Representatives and is a member of the Socialist Party led by Emile Roemer.",
@@ -2712,7 +2889,8 @@
             "House of Representatives (Netherlands)",
             "\"House of Representatives (Netherlands)\"@en",
             "Netherlands"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Agnes Kant, from the Netherlands, where the leader is Mark Rutte, worked as a Parliamentary group leader. She is a member of the Netherlands Socialist Party, whose leader is Emile Roemer.",
@@ -2727,7 +2905,8 @@
             "Emile Roemer",
             "Mark Rutte",
             "Netherlands"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Agnes Kant is a national of the Netherlands which is led by Mark Rutte. She is a member of the Socialist Party which uses the colour red and is led by Emile Roemer.",
@@ -2742,7 +2921,8 @@
             "Emile Roemer",
             "Mark Rutte",
             "Netherlands"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Albert B White was married to Agnes Ward White who was born in Marietta, Ohio . Before he died in Parkersburg, West Virginia he was succeeded by William M O Dawson whose birthplace was Bloomington Maryland.",
@@ -2757,7 +2937,8 @@
             "Marietta, Ohio",
             "William M. O. Dawson",
             "Bloomington, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alberto Teisaire was from Argentina where Spanish is spoken. He died in Buenos Aires, where the leader is Gabriela Michetti and the governing body is the Buenos Aires City Legislature.",
@@ -2772,7 +2953,8 @@
             "Buenos Aires",
             "Alberto Teisaire",
             "Buenos Aires City Legislature"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The governing body in Buenos Aires is the Buenos Aires City Legislature and the city is led by Horacio Rodr\u00edguez Larreta. It is the death place of the Alberto Teisaire who was from Argentina where the language spoken is Spanish.",
@@ -2787,7 +2969,8 @@
             "Horacio Rodr\u00edguez Larreta",
             "Alberto Teisaire",
             "Buenos Aires City Legislature"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alberto Teisaire, born on 20th May 1891 in Mendoza, Argentina was a Rear Admiral in the Argentine Navy. He worked as a Provisional President of the Argentine Senate and was succeeded by Isaac Rojas.",
@@ -2803,7 +2986,8 @@
             "List of Provisional Presidents of Argentine Senate",
             "Mendoza, Argentina",
             "Alberto Teisaire"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Burlington is the largest city in Vermont, which is where Alvah Sabin is from. He started active service on 1853-03-04 and represented Vermont's 3rd Congressional District. Alvah Sabin died in Sycamore, Illinois.",
@@ -2818,7 +3002,8 @@
             "Alvah Sabin",
             "Vermont's 3rd congressional district",
             "\"\"1853/03/04\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alvah Sabin, who was born in Georgia, Vermont, worked as the state's secretary and represented Vermont's 3rd Congressional District. Vermont's largest city is Burlington.",
@@ -2834,7 +3019,8 @@
             "Vermont",
             "Alvah Sabin",
             "Vermont's 3rd congressional district"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alvah Sabin represented Vermont and was a member of the Whig Party in the United States. The largest city in Vermont is Burlington. Alvah Sabin died in Sycamore, Illinois and Henry Clay was the leader of the Whig Party.",
@@ -2849,7 +3035,8 @@
             "Vermont",
             "Henry Clay",
             "Alvah Sabin"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Burlington is the largest city in Vermont, which is the state Alvah Sabin represented. Alvah Sabin (died in Sycamore, Illinois) was a member of the United States Whig Party, which was led by Daniel Webster.",
@@ -2864,7 +3051,8 @@
             "Vermont",
             "Daniel Webster",
             "Alvah Sabin"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Adonis Georgiadis, who was succeeded by Makis Voridis, was in office while Antonis Samaras was Prime Minister. Athens born Samaras, who had the deputy Evangelos Venizelos, was in office while Konstantinos Mitsotakis was Prime Minister.",
@@ -2879,7 +3067,8 @@
             "Evangelos Venizelos",
             "Makis Voridis",
             "Konstantinos Mitsotakis"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alfons Gorbach was born in Imst in Austria and died in Graz. Austrian German is the language of Austria and the leader there is Doris Bures.",
@@ -2894,7 +3083,8 @@
             "Austrian German",
             "Imst",
             "Austria"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ab Klink is a national of the Netherlands, where the currency is the Euro and Mark Rutte is the leader, Ab Klink was born in Stellendam and belongs to the Christian Democratic Appeal party.",
@@ -2909,7 +3099,8 @@
             "Mark Rutte",
             "Euro",
             "Netherlands"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The Accademia di Architettura di Mendrisio in Mendrisio, Switzerland had 100 academic staff and 600 students. Its dean is Mario Botta.",
@@ -2924,7 +3115,8 @@
             "\"100\"^^xsd:nonNegativeInteger",
             "Mendrisio",
             "Accademia di Architettura di Mendrisio"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Accademia di Architettura di Mendrisio is located in Ticino, Switzerland. It was established in 1996 and it has 600 students. The leader of Switzerland is Johann Schneider-Ammann.",
@@ -2939,7 +3131,8 @@
             "1996",
             "600",
             "Ticino"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology is affiliated with the Visvesvaraya Technological University and is located in Bangalore, Karnataka. To its northeast is Telangana and to its west is the Arabian Sea.",
@@ -2954,7 +3147,8 @@
             "Telangana",
             "Visvesvaraya Technological University",
             "Bangalore"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090, India. The School was established in 2000 and has 700 Postgraduate Students.",
@@ -2969,7 +3163,8 @@
             "\"700\"^^xsd:nonNegativeInteger",
             "Bangalore",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Acharya Institute of Technology was founded by Kempe Gowda I in Bangalore in the state of Karnataka. It has the Arabian Sea to its west and is affiliated with Visvesvaraya Technological University.",
@@ -2984,7 +3179,8 @@
             "Kempe Gowda I",
             "Visvesvaraya Technological University",
             "Bangalore"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 1 Decembrie 1918 University is in Alba Iulia, Romania. The country's capital is Bucharest and the prime minister is Klaus Iohannis.",
@@ -2999,7 +3195,8 @@
             "Romania",
             "Alba Iulia",
             "Klaus Iohannis"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The School of Business and Social Sciences at Aarhus University in Denmark is affiliated with the European University Association. It has 16,000 students, 737 employees. and was established in 1928.",
@@ -3016,7 +3213,8 @@
             "\"737\"^^xsd:nonNegativeInteger",
             "737",
             "Aarhus University, School of Business and Social Sciences"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Gordon Marsden is the leader of Blackpool where AFC Blackpool are located. Their manager is Stuart Parker who is a member of Chesterfield FC and plays for KV Mechelen.",
@@ -3031,7 +3229,8 @@
             "KV Mechelen",
             "A.F.C. Blackpool",
             "Chesterfield F.C."
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.",
@@ -3046,7 +3245,8 @@
             "Olympiacos F.C.",
             "AEK Athens F.C.",
             "Real Zaragoza"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Est\u00e1dio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense. It is located in Alagoas. Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league from Brazil. The Vila Nova Futebol Clube were champions at the S\u00e9rie C.",
@@ -3061,7 +3261,8 @@
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca",
             "Brazil",
             "Agremia\u00e7\u00e3o Sportiva Arapiraquense"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Vila Nova Futebol Clube have been champions of Campeonato Brasileiro S\u00e9rie C. league in Brazil. Agremia\u00e7\u00e3o Sportiva Arapiraquense also play in the league and have their home ground at Est\u00e1dio Municipal Coaracy da Mata Fonseca in Arapiraca.",
@@ -3076,7 +3277,8 @@
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca",
             "Brazil",
             "Agremia\u00e7\u00e3o Sportiva Arapiraquense"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The Vila Nova Futebol Clube were champions at the Campeonato Brasileiro S\u00e9rie C. in Brazil. Agremia\u00e7\u00e3o Sportiva Arapiraquense who also play in the league have 17000 members and are managed by Vica.",
@@ -3092,7 +3294,8 @@
             "Brazil",
             "Agremia\u00e7\u00e3o Sportiva Arapiraquense",
             "Vica"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aaron Bertram is a ska punk musician, a genre that originated from punk rock. He is an artist with Kids Imagine Nation and also plays for Suburban Legends Band. Brian Robertson plays the trombone for Suburban Legends.",
@@ -3107,7 +3310,8 @@
             "Aaron Bertram",
             "Suburban Legends",
             "Kids Imagine Nation"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "American Aaron Deer is an Indie rock musician from Indiana. He has a background as a solo singer and was part of the band Wee Giant.",
@@ -3123,7 +3327,8 @@
             "United States",
             "Indie rock",
             "Indiana"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Aaron Turner is an electric guitar player for the black metal genre who has performed for House of Low Culture and Mamiffer. Death metal is a musical fusion of black metal.",
@@ -3138,7 +3343,8 @@
             "House of Low Culture",
             "Aaron Turner",
             "Electric guitar"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Black metal musician Aaron Turner, who plays the electric guitar, has been part of the bands Twilight and Greymachine. Black metal has a musical fusion called Death metal.",
@@ -3153,7 +3359,8 @@
             "Aaron Turner",
             "Electric guitar",
             "Greymachine"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner was born in Massachusetts and started performing in 1995. He formerly played with the band Twilight and is now in the Lotus Eaters. He is is closely associated with the sludge metal genre.",
@@ -3168,7 +3375,8 @@
             "Lotus Eaters (band)",
             "\"1995\"^^xsd:gYear",
             "Aaron Turner"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The musician Abradab originates from Katowice, Poland, and he started performing in 1994. He played with the band Kaliber 44 and is associated with the rapper Magik.",
@@ -3183,7 +3391,8 @@
             "Abradab",
             "Poland",
             "\"1994\"^^xsd:gYear"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Ace Wilder has a musical background as a solo singer was born on July 23rd, 1982, in Sweden.",
@@ -3199,7 +3408,8 @@
             "Ace Wilder",
             "\"1982\"^^xsd:gYear",
             "\"solo singer\""
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Agustin Barboza was born in Asuncion, Paraguay and he is ethnic mestizo. Spanish is the official language of Paraguay and Juan Afara is the leader of the country.",
@@ -3214,7 +3424,8 @@
             "Asunci\u00f3n",
             "Paraguay",
             "Agust\u00edn Barboza"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Disco derives from rhythm and blues which originated from the blues. Rhythm and blues is the musical genre of Ahmet Ertegun who died in the United States where the African Americans are an ethnic group.",
@@ -3229,7 +3440,8 @@
             "African Americans",
             "Disco",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Ahmet Ertegun is a rhythm and blues artist whose background is non performing personnel, and was born 1923, in Washington D.C., the United States.",
@@ -3245,7 +3457,8 @@
             "Rhythm and blues",
             "\"non performing personnel\"",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Alan Frew, whose musical genre is Rock music, has a background as a solo singer. Rock music originated from country music and has its stylistic origins in the Blues. A musical fusion of rock music is bhangra music.",
@@ -3261,7 +3474,8 @@
             "Rock music",
             "\"solo singer\"",
             "Country music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Frew, who is from Newmarket, Ontario, Canada, was born in Coatbridge. He is a musician and solo singer.",
@@ -3276,7 +3490,8 @@
             "Newmarket, Ontario",
             "Musician",
             "Coatbridge"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Born in the London Borough of Havering, Alex Day, started performing in 2006. He plays with the band Chameleon Circuit and performs electronic music. Alex Day is associated with the musical artist Charlie McDonnell.",
@@ -3291,7 +3506,8 @@
             "London Borough of Havering",
             "Electronic music",
             "Charlie McDonnell"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Alfred Garth Jones was born in Manchester and died in Sidcup, London. The leader of London is the European Parliament, and the leader of Manchester is The Labour Party (UK).",
@@ -3306,7 +3522,8 @@
             "London",
             "Sidcup",
             "Manchester"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alfredo Zitarrosa performs Zamba music and has a background as a solo singer. He was signed to the RCA Records label, and has been associated with the musicians Ciro P\u00e9rez and H\u00e9ctor Numa Moraes.",
@@ -3321,7 +3538,8 @@
             "Ciro P\u00e9rez",
             "RCA Records",
             "\"solo singer\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alison O'Donnell began her music career in 1963. She has been a member of Flibbertigibbet and Mellow Candle Bands. She is a Irish folk singer signed to the Static Caravan record label.",
@@ -3336,7 +3554,8 @@
             "\"1963\"^^xsd:gYear",
             "Static Caravan Recordings",
             "Folk music of Ireland"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Anders Osborne's musical career began in 1989. His genre is Rhythm and blues and he is associated with the musical artists Billy Iuso and Tab Benoit. Anders Osborne is also associated with the band, Voice of the Wetlands All-Stars.",
@@ -3351,7 +3570,8 @@
             "Anders Osborne",
             "Billy Iuso",
             "Rhythm and blues"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Anders Osborne is a rock guitarist associated with Johnny Sansone and signed to Okeh records. Bhangra is a musical fusion of rock music.",
@@ -3366,7 +3586,8 @@
             "Okeh Records",
             "Rock music",
             "Johnny Sansone"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Solo singer, Andra, was born in 1986, in Romania. Andra is a rhythm and blues singer whose occupation is singing.",
@@ -3381,7 +3602,8 @@
             "Romania",
             "\"solo singer\"",
             "Andra (singer)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Singer, Andra, in C\u00e2mpia, Turzii, in 1986. With a carrer in singing, Andra is a solo singer, who performs rhythm and blues music.",
@@ -3396,7 +3618,8 @@
             "\"solo singer\"@en",
             "Rhythm and blues",
             "Andra (singer)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Andrew Rayel, who was born in Chisinau, Moldova, started his career in 2009 and his musical genre is trance music. He is associated with Christian Burns and Armin van Buuren.",
@@ -3411,7 +3634,8 @@
             "\"2009\"^^xsd:gYear",
             "Christian Burns",
             "\"Chi\u0219in\u0103u, Moldova\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The musician Andrew White is part of the Kaiser Chiefs and is signed to the record label B-Unique Records and Polydor Records. He started his musical career in 2003 and was associated with Marry Banilow.",
@@ -3426,7 +3650,8 @@
             "Andrew White (musician)",
             "\"2003\"^^xsd:gYear",
             "Marry Banilow"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Andrew Rayel wad a string instrumentalist who is associated with Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, house musician Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi.",
@@ -3441,7 +3666,8 @@
             "\"Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi\"@en",
             "String instrument",
             "Bobina"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Allen Forrest is a hip hop artist who was born on February 4, 1981. Hip hop music originated from disco and funk music, and Drum and bass derives its sounds from hip hop music.",
@@ -3456,7 +3682,8 @@
             "Funk",
             "Disco",
             "Drum and bass"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Agustin Barboza was born in Asuncion, in Paraguay. The country which has an ethnic group called the Mestizo. it is also the country where Spanish is spoken and which is led by Juan Afara.",
@@ -3471,7 +3698,8 @@
             "Asunci\u00f3n",
             "Paraguay",
             "Agust\u00edn Barboza"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The leader of Paraguay is called Juan Afara, and one ethnic group is the Mestizo people. Agustin Barboza was born in Paraguay and died in Asunci\u00f3n, a part of Gran Asunci\u00f3n.",
@@ -3486,7 +3714,8 @@
             "Asunci\u00f3n",
             "Paraguay",
             "Agust\u00edn Barboza"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Al Anderson plays the guitar in the rock music band NRBQ. Rock music originated from country music, which originated from blues music; The music Bhangra is part of the fusion genre, partly coming from Rock music.",
@@ -3501,7 +3730,8 @@
             "Bhangra (music)",
             "Rock music",
             "Country music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner plays the electric guitar and performed with Twilight, a black metal band, and House of Low Culture. Black metal is an element of the fusion genre death metal.",
@@ -3516,7 +3746,8 @@
             "House of Low Culture",
             "Aaron Turner",
             "Electric guitar"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alfredo Zitarrosa died in Montevideo, Uruguay. Daniel Martinez is a political leader in Montevideo, and Raul Fernando Sendic Rodriguez is a leader in Uruguay, where Spanish is spoken.",
@@ -3531,7 +3762,8 @@
             "Alfredo Zitarrosa",
             "Uruguay",
             "Daniel Mart\u00ednez (politician)"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Alfredo Zitarrosa died in Montevideo in Uruguay whose leader is Tabare Vazquez. Another politician in Montevideo is Daniel Martinez. Uruguayans live in Uruguay.",
@@ -3546,7 +3778,8 @@
             "Uruguay",
             "Uruguayans",
             "Daniel Mart\u00ednez (politician)"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The 11th Mississippi Infantry monument is located in the municipality of Gettysburg, Adams County, Pennsylvania. Adams County is east of Franklin County and south of Cumberland County. Maryland's Carroll county is located to the southeast.",
@@ -3561,7 +3794,8 @@
             "Adams County, Pennsylvania",
             "11th Mississippi Infantry Monument",
             "Gettysburg, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The capital of Azerbaijan is Baku and the leader and Prime Minister of Azerbaijan is called Artur Rasizade. The Baku Turkish Martyrs' Memorial is located in Azerbaijan and the legislature is known as the National Assembly.",
@@ -3576,7 +3810,8 @@
             "Azerbaijan",
             "Artur Rasizade",
             "National Assembly (Azerbaijan)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Baku Turkish Martyrs' Memorial in Azerbaijan is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku and was designed by Huseyin Butuner and Hilmi Guner. The monument is also known by the native name T\u00fcrk \u015eehitleri An\u0131t\u0131. Azerbaijan's leader is Artur Rasizade.",
@@ -3591,7 +3826,8 @@
             "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"@en",
             "\"Ottoman Army soldiers killed in the Battle of Baku\"@en",
             "Artur Rasizade"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Huseyin Butuner and Hilmi Guner designed the red granite and white marble Baku Turkish Martyrs memorial in Azerbaijan. It is also known as Turk Sehitleri Aniti and is dedicated to the soldiers of the Ottoman army killed in the Battle of Baku.",
@@ -3606,7 +3842,8 @@
             "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"@en",
             "Azerbaijan",
             "\"Ottoman Army soldiers killed in the Battle of Baku\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Baku Turkish Martyrs' Memorial, designed by Huseyin Butuner and Hilmi Guner and made of red granite and white marble, is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku. The memorial is found in Azerbaijan whose leader is the Prime Minister.",
@@ -3621,7 +3858,8 @@
             "Azerbaijan",
             "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"@en",
             "\"Ottoman Army soldiers killed in the Battle of Baku\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Bean was born on March 15, 1932 in Wheeler, Texas and is American. He worked as a test pilot and was a member of Apollo 12, which was run by NASA. Bean is retired.",
@@ -3638,7 +3876,8 @@
             "United States",
             "Wheeler, Texas",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Bean was born in Wheeler, Texas and attended UT Austin where he graduated in 1955 with a BS. Prior to his retirement he served as a test pilot and was selected by NASA to serve as a crew member on Apollo 12 alongside commander David Scott.",
@@ -3655,7 +3894,8 @@
             "Test pilot",
             "Wheeler, Texas",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born on Nov 18, 1923 in New Hampshire, US. He graduated from NWC in 1957 with an M.A. In 1959 he began working for NASA and was a member of Apollo 14. He died in California.",
@@ -3672,7 +3912,8 @@
             "\"\"1923/11/18\"\"^^xsd:date",
             "California",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born on Nov 18, 1923 in New Hampshire, USA. He graduated from NWC in 1957 with an M.A. He worked as a test pilot before passing away in California.",
@@ -3689,7 +3930,8 @@
             "\"\"1923/11/18\"\"^^xsd:date",
             "California",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born on November 18, 1923 in New Hampshire and died in California. He was a test pilot rewarded with the Medal of Distinguished Service from the Navy of the United States. The medal of the United States Navy is higher than the Department of Commerce Gold Medal.",
@@ -3706,7 +3948,8 @@
             "Test pilot",
             "\"\"1923/11/18\"\"^^xsd:date",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Retired American fighter pilot Buzz Aldrin, also known as Edwin E. Aldrin Jr., was born in Glen Ridge, New Jersey. He graduated from Massachusetts Institute of Technology in 1963 with a doctorate in Science and was a crew member on Apollo 11.",
@@ -3723,7 +3966,8 @@
             "Fighter pilot",
             "United States",
             "\"Edwin E. Aldrin, Jr.\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Buzz Aldrin was born in Glen Ridge, Essex County, New Jersey. He is a US national, who was a crew member of the NASA operated Apollo 11 program. William Anders was a backup pilot on the Apollo 11 mission. The US leader was Joe Biden.",
@@ -3740,7 +3984,8 @@
             "Apollo 11",
             "United States",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Buzz Aldrin was born on Jan 20, 1930 in Glen Ridge, New Jersey. He graduated from MIT with an Sc. D in 1963. He began working for NASA in 1963 was a member of Apollo 11 which was run by NASA. He is now retired.",
@@ -3757,7 +4002,8 @@
             "\"Retired\"@en",
             "\"Massachusetts Institute of Technology, Sc.D. 1963\"@en",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Fighter pilot Buzz Aldrin was born in Glen Ridge, New Jersey and graduated from Massachusetts Institute of Technology in 1963 with a doctorate in Science. He was a member of the Apollo 11 crew after being selected by NASA in 1963 with William Anders as a backup pilot on Apollo 11.",
@@ -3774,7 +4020,8 @@
             "Fighter pilot",
             "\"Massachusetts Institute of Technology, Sc.D. 1963\"@en",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born on July 23, 1927 in Dallas. He graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a test pilot before he died in St. Louis.",
@@ -3791,7 +4038,8 @@
             "University of Texas System",
             "Test pilot",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born in Dallas on the 23rd of July in 1927 before attending the University of Texas at Austin. Elliot was a test pilot before passing away in St Louis in 1966.",
@@ -3808,7 +4056,8 @@
             "Test pilot",
             "\"\"1966/02/28\"\"^^xsd:date",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "William Anders (born on the 17th of October 1933 in British Hong Kong) graduated from AFIT, M.S. in 1962. He was a US National and served as a Fighter pilot before he retired on the 1st of September in 1969.",
@@ -3825,7 +4074,8 @@
             "Fighter pilot",
             "\"\"1933/10/17\"\"^^xsd:date",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas is a pharmaceutical company which produces healthcare products. Located in Sao Paulo, they employ 10,252 people, and own the subsidiary Mantecorp. They make $1,800,000,000 a year and have a net income of 108,600,000.",
@@ -3842,7 +4092,8 @@
             "Mantecorp",
             "1.086E8",
             "Healthcare"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Acharya Institute of Technology's campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore, Karnataka, India \u2013 560090. The Institute (president B M Reddy) was established in 2000 and is affiliated with Visvesvaraya Technological University.",
@@ -3859,7 +4110,8 @@
             "Visvesvaraya Technological University",
             "Bangalore",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 is the location of the Acharya Institute of Technology in India which is affiliated with the Visvesvaraya Technological University. The motto of the Institute which was established in the year 2000 is \"Nurturing Excellence\" and there are 700 postgraduate students.",
@@ -3876,7 +4128,8 @@
             "Bangalore",
             "\"India\"@en",
             "\"Nurturing Excellence\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Acharya Institute of Technology in Bangalore, India was established in 2000 and is affiliated with Visvesvaraya Technological University. The school president is B. M. Reddy and its director is Dr. G. P. Prabhukumar. The school's full address is In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
@@ -3893,7 +4146,8 @@
             "Visvesvaraya Technological University",
             "Bangalore",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Acharya Institute of Technology (president B M Reddy) is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore, India \u2013 560090. The Institute was established in 2000, has 700 postgraduate students and is affiliated with Visvesvaraya Technological University of Belgaum.",
@@ -3911,7 +4165,8 @@
             "Visvesvaraya Technological University",
             "\"700\"^^xsd:nonNegativeInteger",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "AWH Engineering College in Kuttikkattoor, India is in the state of Kerala which has Mahe to its northwest. The school has 250 employees. India is home to the Ganges River and its largest city is Mumbai.",
@@ -3928,7 +4183,8 @@
             "Kerala",
             "AWH Engineering College",
             "Ganges"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "1 Decembrie 1918 University is located in the city of Alba Iulia, Romania. The country's capital is Bucharest and the leader (title Prime Minister of Romania) is Klaus Iohannis. An ethnic group of the country is The Germans of Romania and the country's national anthem is De\u0219teapt\u0103-te, rom\u00e2ne!",
@@ -3945,7 +4201,8 @@
             "Alba Iulia",
             "De\u0219teapt\u0103",
             "Klaus Iohannis"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "In the year 2000 the Acharya Institute of Technology was established in the state of Karnataka, India. The current location is \"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\" The Director is Dr G P Prabhukumar and it is affiliated with the Visvesvaraya Technological University in the city of Belgaum.",
@@ -3962,7 +4219,8 @@
             "2000",
             "Visvesvaraya Technological University",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Municipality of Gettysburg is located in Adams County, Pennsylvania which lies to the south of Cumberland County and to the northwest of Carroll County, Maryland. It is the location of the 11th Mississippi Infantry monument which was established in 2000 and categorised as a contributing property within the United States.",
@@ -3979,7 +4237,8 @@
             "Adams County, Pennsylvania",
             "11th Mississippi Infantry Monument",
             "Gettysburg, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The National Assembly is the official legislature of Azerbaijan which is led by a Prime Minister. The capital city is Baku which is the location of the Turkish Martyrs' memorial designed in red granite and white marble by Huseyin Butuner and Hilmi Guner. The memorial is dedicated to the Ottoman army soldiers who were killed in the Battle of Baku.",
@@ -3996,7 +4255,8 @@
             "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"@en",
             "\"Ottoman Army soldiers killed in the Battle of Baku\"@en",
             "National Assembly (Azerbaijan)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "American Alan Bean was a member of NASA's Apollo 12 which was commanded by David Scott. Bean, who was born in Wheeler, Texas, is now retired.",
@@ -4012,7 +4272,8 @@
             "United States",
             "Wheeler, Texas",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The American Alan Shepard was born on November 18, 1923, in New Hampshire. He graduated with an M.A. from NWC in 1957, and was hired by NASA in 1959. Shepard died in California.",
@@ -4028,7 +4289,8 @@
             "\"\"1923/11/18\"\"^^xsd:date",
             "California",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born on the 18th of November, 1923 in New Hampshire. He graduated from NWC with an M.A. in 1957 and was selected by NASA in 1959. His death place was California.",
@@ -4044,7 +4306,8 @@
             "\"NWC, M.A. 1957\"@en",
             "\"\"1923/11/18\"\"^^xsd:date",
             "California"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born on November 18, 1923, in New Hampshire. He served as a crew member on NASA's Apollo 14 mission before retiring on August 1, 1974. Shepard passed away in California.",
@@ -4060,7 +4323,8 @@
             "\"\"1923/11/18\"\"^^xsd:date",
             "California",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born in New Hampshire. He was won the American Defence Service Ribbon. The United States Navy also awarded him the Distinguished Service Medal, which is higher than the Department of Commerce Gold Medal. He died in California on July 21st, 1998.",
@@ -4076,7 +4340,8 @@
             "Distinguished Service Medal (United States Navy)",
             "California",
             "\"American Defense Service ribbon.svg\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Buzz Aldrin was a fighter pilot who was born in Glen Ridge, New Jersey om January 20th, 1930. His real name is Edwin E. Aldrin Jr. and after graduating from MIT with a doctorate in Science in 1963, he became a member of Apollo 11.",
@@ -4092,7 +4357,8 @@
             "Apollo 11",
             "Fighter pilot",
             "\"Edwin E. Aldrin, Jr.\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Buzz Aldrin was born in Glen Ridge New Jersey on 20 January, 1930. He graduated from MIT with a Doctor of Science in 1963 and was hired by NASA in the same year. He was a member of the Apollo 11 crew and is now retired.",
@@ -4108,7 +4374,8 @@
             "Apollo 11",
             "\"Retired\"@en",
             "\"Massachusetts Institute of Technology, Sc.D. 1963\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Buzz Aldrin graduated from Massachusetts Institute of Technology with a Sc.D in 1963 and became a fighter pilot. He was selected to work for NASA in 1963, and was chosen as a crew member of the NASA operated Apollo 11 mission. William Anders served there as a backup pilot.",
@@ -4124,7 +4391,8 @@
             "Fighter pilot",
             "\"Massachusetts Institute of Technology, Sc.D. 1963\"@en",
             "NASA"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born in Dallas as US national and graduated from the University of Texas at Austin. Elliot See has died on the 28th of February 1966 in St Louis.",
@@ -4140,7 +4408,8 @@
             "\"\"1966/02/28\"\"^^xsd:date",
             "United States",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Elliot See was born on 07/23/1927 in Dallas and died in St. Louis. He attended the University of Texas at Austin which is a part of the university of Texas system.",
@@ -4156,7 +4425,8 @@
             "\"Deceased\"@en",
             "University of Texas System",
             "Elliot See"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "William Anders was born on October 17, 1933, in British Hong Kong. He graduated from AFIT in 1962 with an M.S., and would go on to serve as a fighter pilot, and as a crew member on Apollo 8. Anders retired on September 1, 1969.",
@@ -4172,7 +4442,8 @@
             "Apollo 8",
             "Fighter pilot",
             "\"\"1933/10/17\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas (whose main product is drugs), an S.A pharmaceutical corporation managed by their CEO and located in Brazil, was founded on January 1, 2001.",
@@ -4188,7 +4459,8 @@
             "S.A. (corporation)",
             "Drugs",
             "Brazil"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "HVAC producer Trane, was founded in La Crosse, Wisconsin, on 1913-01-01. Trane employes 29000 people, and has a revenue of $10,264,000,000, and an operating income of 875.4 million USD.",
@@ -4204,7 +4476,8 @@
             "Trane",
             "\"1913/01/01\"",
             "HVAC"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The Accademia di Architettura di Mendrisio located in Ticino, Switzerland was established in 1996. It has 600 students. Switzerland's leader is Federal Chancellor Johann Schneider-Ammann.",
@@ -4220,7 +4493,8 @@
             "1996",
             "600",
             "Ticino"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Acharya Institute of Technology is in Bangalore, India in the state of Karnataka. The school was established in 2000 and its director is Dr. G. P. Prabhukumar. The full address of the school is In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
@@ -4236,7 +4510,8 @@
             "2000",
             "Bangalore",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology in Bangalore, India was established in 2000. It is affiliated with the Visvesvaraya Technological University. Its president is B.M. Reddy and its directore is Dr. G.P. Prabhukumar.",
@@ -4252,7 +4527,8 @@
             "Visvesvaraya Technological University",
             "Bangalore",
             "\"India\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology in Mumbai, Karnataka was given the \"Technological Campus\" status by the All India Council for Technical Education (located in Mumbai). The Acharya Institute offers tennis and the sports governing body is the International Tennis Federation. Karnataka has the Arabian Sea to its west.",
@@ -4268,7 +4544,8 @@
             "Mumbai",
             "All India Council for Technical Education",
             "Tennis"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Acharya Institute of Technology is affiliated with Visvesvaraya Technological University in Belgaum. The institute was given Technical Campus' status by the All India Council for Technical Education in Mumbai. The institute offers tennis which is governed by the International Tennis Federation.",
@@ -4284,7 +4561,8 @@
             "All India Council for Technical Education",
             "Visvesvaraya Technological University",
             "Tennis"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Bucharest is the capital of Romania where one of the country's ethnic groups are the Germans of Romania. The country's leader is Prime Minister Klaus Iohannis. The patron saint of the country is Andrew the Apostle and the country is the location of the 1 Decembrie 1918 University.",
@@ -4300,7 +4578,8 @@
             "Bucharest",
             "Romania",
             "Klaus Iohannis"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The School of Business and Social Sciences at the Aarhus University is located in Aarhus, Denmark was established in 1928. Its academic staff numbers 737 and it is affiliated to the European University Association. Denmark's leader is Lars Lokke Rasmussen.",
@@ -4316,7 +4595,8 @@
             "Denmark",
             "737",
             "Aarhus University, School of Business and Social Sciences"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The School of Business and Social Sciences at the Aarhus University at Aarhus, Denmark was established in 1928. It has 737 academic staff and 16,000 students. It is affiliated to the European University Association.",
@@ -4334,7 +4614,8 @@
             "\"737\"^^xsd:nonNegativeInteger",
             "737",
             "Aarhus University, School of Business and Social Sciences"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Ankara is the Turkish capital and the country's leader's name is Ahmet Davutoglu. The Atat\u00fcrk Monument (\u0130zmir) can be found in Turkey. Pietro Canonica designed the Monument and it is made of bronze. The Ataturk Monument was inaugurated on 27th July, 1932.",
@@ -4350,7 +4631,8 @@
             "\"Bronze\"@en",
             "Ankara",
             "Atat\u00fcrk Monument (\u0130zmir)"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The Baku Turkish Martyrs' Memorial (original name: T\u00fcrk \u015eehitleri An\u0131t\u0131) was designed by Huseyin Butuner and Hilmi Guner and is located in Azerbaijan. It is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku. The leader, the Prime Minister of Azerbaijan is Artur Rasizade.",
@@ -4366,7 +4648,8 @@
             "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"@en",
             "\"Ottoman Army soldiers killed in the Battle of Baku\"@en",
             "Artur Rasizade"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 14th New Jersey Volunteer Infantry Monument is located at the Monocacy National Battlefield near Frederick, Frederick County, Maryland. The monument was established 1907-07-11 and belongs to the category of Historic districts in the United States. The monument has been provided by the National Park Service.",
@@ -4382,7 +4665,8 @@
             "Frederick County, Maryland",
             "Historic districts in the United States",
             "14th New Jersey Volunteer Infantry Monument"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 14th New Jersey Volunteer Infantry Monument is located in the Monocacy National Battlefield, in Frederick County, Maryland, United States. The monument was established on July 11th, 1907. It is now categorized as a United States historic district and is owned by the National Park Service.",
@@ -4398,6 +4682,7 @@
             "Frederick County, Maryland",
             "Historic districts in the United States",
             "14th New Jersey Volunteer Infantry Monument"
-        ]
+        ],
+        "predicted_label1": "Tech"
     }
 ]

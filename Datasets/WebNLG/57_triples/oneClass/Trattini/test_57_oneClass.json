@@ -12,7 +12,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "185 centimetre tall Aleksandr Prudnikov played for the Otkrytiye Arena based FC Spartak, Moscow.",
@@ -25,7 +26,8 @@
             "\"185.0\"^^<http://dbpedia.org/datatype/centimetre>",
             "Aleksandr Prudnikov",
             "Otkrytiye Arena"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Ciudad Ayala is a city with population density and population of 1604 and 1777539 respectively, where the leader is called the City Manager. The government type in the city of Ciudad Ayala is council-manager.",
@@ -40,7 +42,8 @@
             "1777539",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ciudad Ayala in Mexico with population density of 1604.0 and elevated 1147.0 above sea level is in the PDT time zone. The leader here is called the governator.",
@@ -55,7 +58,8 @@
             "1147.0",
             "Pacific Daylight Time",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Pennsylvania's Franklin County is found to the west of Adams County, Pennsylvania and Pennsylvania's Cumberland County is to the north. A monument to the 11th Mississippi Infantry was erected in Adams County in the year 2000 in the municipality of Gettysburg and this monument is categorised as a contributing property.",
@@ -71,7 +75,8 @@
             "11th Mississippi Infantry Monument",
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Dr. G. P. Prabhukumar is the director of the Acharya Institute of Technology which is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090 in India and is affiliated with Visvesvaraya Technological University.",
@@ -85,7 +90,8 @@
             "\"Urban, ,\\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"@en",
             "Acharya Institute of Technology",
             "\"Dr. G. P. Prabhukumar\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abraham A. Ribicoff was born and died in the United States where African Americans are an ethnic group.",
@@ -97,7 +103,8 @@
             "Abraham A. Ribicoff",
             "United States",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Music group the Velvet Underground produced and released rock music album Bootleg Series Volume 1: The Quine Tapes under the Polydor Records record label. The album was recorded in St. Louis, Missouri, USA and has a run time of 230:05.",
@@ -113,7 +120,8 @@
             "United States",
             "Rock music",
             "Polydor Records"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Fellowship of the Ring was written by J.R.R. Tolkien and was released on July 29, 1954. The Fellowship of the Ring is considered fantasy and was published by George Allen & Unwin. The sequel to The Fellowship of the Ring was The Two Towers.",
@@ -128,7 +136,8 @@
             "George Allen & Unwin",
             "J. R. R. Tolkien",
             "Fantasy (genre)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina was an Israeli who attended the school of Applied Arts in Stuttgart. She was born in Karlsruhe, Germany. Israel's national language is Modern Hebrew.",
@@ -143,7 +152,8 @@
             "Modern Hebrew",
             "School of Applied Arts in Stuttgart",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Train song Mermaid, which is an example of the reggae genre, was released under the record labels of Columbia Records and Sony Music Entertainment. It was written by Espen Lind and Amund Bj\u00f8rklund and has a total runtime of 3 minutes and 16 seconds.",
@@ -159,7 +169,8 @@
             "Sony Music Entertainment",
             "Reggae",
             "Columbia Records"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Aaron Turner is a post-metal musician from Massachusetts who plays the electric guitar. He started performing in 1995 and is a musician in the Lotus Eaters band.",
@@ -174,7 +185,8 @@
             "Lotus Eaters (band)",
             "Massachusetts",
             "\"1995\"^^xsd:gYear"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Pennsylvania's Franklin County is found to the west of Adams County, Pennsylvania and Carroll County, Maryland is to the southeast. A monument to the 11th Mississippi Infantry was erected in 2000 in Adams County and this monument is classed as a contributing property.",
@@ -189,7 +201,8 @@
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The band Nord is a sludge metal band that releases post-metal. They have an album called the Year of No light that was released on June 9th 2006, and was under Crucial Blast Label.",
@@ -204,7 +217,8 @@
             "\"\"\"2006/09/06\"\"\"",
             "Sludge metal",
             "Crucial Blast"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Ciudad Ayala is a metropolitan city which has population of 1,777,539 with its population density of 1604.0 and it falls into UTC offset -6 time zone. One of the leaders of Ciudad Ayala is the City Manager which uses council-manager government.",
@@ -220,7 +234,8 @@
             "1777539",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Super Capers is a 98 minute film with a $2000000.0 budget. It stars Tom Sizemore and Michael Rooker, and was written and directed by Ray Griggs.",
@@ -235,7 +250,8 @@
             "Ray Griggs (director)",
             "98.0",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Mexicans, the inhabitants of Mexico, can use their peso currency to purchase a dessert called Bionico. Bionico can be found in Guadalajara, Mexico, and is made from sour cream, chopped fruits, condensed milk, granola, coconut and raisins. They can also buy cookies, another dessert.",
@@ -252,7 +268,8 @@
             "Mexico",
             "Cookie",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "ENAIRE, based in Madrid, Spain, is the operating organisation for Adolfo Suarez Madrid-Barajas airport which is in Alcobendas. The runway length at the airport is 3500.",
@@ -267,7 +284,8 @@
             "ENAIRE",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Bionico (a dish served for dessert) is a food found in Guadalajara in Mexico. The currency in Mexico is the Mexican peso inhabited by Mexicans.",
@@ -282,7 +300,8 @@
             "Guadalajara",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Nikolaevna Bondareva, (born April 27, 1937) died in Saint Petersburg. She was best known for the \"Bondareva-Shapley theorem.\"",
@@ -297,7 +316,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Train's hit Mermaid was put out by the Sony Music Entertainment record label, was written by Amund Bj\u00f8rklund with the producer Stargate. Train followed Mermaid with Imagine, a song by John Lennon where Mermaid was produced by the Espionage production team.",
@@ -312,7 +332,8 @@
             "Stargate (production team)",
             "Amund Bj\u00f8rklund",
             "Sony Music Entertainment"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Year of No Light produced an album called Nord on 6/9/2006 which is 58.41 minutes long. They came out with the Demo 2004 album first, followed by Nord, and then the album Live at Roadburn in 2008.",
@@ -327,7 +348,8 @@
             "58.416666666666664",
             "Year of No Light",
             "\"\"\"2006/09/06\"\"\""
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The 11th Mississippi Infantry Monument is placed in the municipality of Gettysburg in Pennsylvania, in Adams County, USA. Adams County has Carroll County, Maryland to its southeast and the 11th Mississippi Infantry Monument is categorized as a Contributing Property.",
@@ -342,7 +364,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Located in King of Prussia, Pennsylvania, AmeriGas is an energy company that serves the United States. AmeriGas has an operating income of $380,700,000 and net income of $211,200,000.",
@@ -357,7 +380,8 @@
             "3.807E8",
             "2.112E8",
             "AmeriGas"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The BBC (located in Broadcasting House in London) last aired creator Steve Bright's Bananaman, starring Bill Oddie, on April 15th, 1986.",
@@ -372,7 +396,8 @@
             "Bill Oddie",
             "Steve Bright",
             "Broadcasting House"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The sludge metal and post metal album Nord was produced and created by the artist Year of No Light and was released by the record label Crucial blast on 06-09-2006. It was followed by the album Live at Roadburn 2008.",
@@ -388,7 +413,8 @@
             "Year of No Light",
             "Sludge metal",
             "Crucial Blast"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Bootleg Series Volume I: The Quine Tapes, a rock music genre,with runtime of 230:05 was produced and released by Velvet Underground. It was recorded in the United States.",
@@ -402,7 +428,8 @@
             "13803.0",
             "United States",
             "Rock music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bionico (served at the dessert course) is a food found in Mexico. The currency in Mexico is the Mexican peso inhabited by the Mexicans. Honey can be added to bionico.",
@@ -417,7 +444,8 @@
             "Honey",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The train song Mermaid, released on Dec. 27th, 2012 and written by Amund Bjorklund and Espen Lind, was preceded by the song This'll Be My Year. Mermaid lasts 3.16 minutes.",
@@ -432,7 +460,8 @@
             "This'll Be My Year",
             "Amund Bj\u00f8rklund",
             "\"\"\"2012/12/27\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "US born Aaron Turner plays electric guitar for the post metal band Twilight.",
@@ -446,7 +475,8 @@
             "Aaron Turner",
             "Post-metal",
             "Twilight (band)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "BBC broadcast Bananaman, a show created by John Geering and starring Bill Oddie. Broadcasting House is a location owned by the BBC, the channel that broadcasts this show which first aired on 10/03/83.",
@@ -461,7 +491,8 @@
             "John Geering",
             "\"\"\"\"1983/10/03\"\"\"\"^^xsd:date",
             "Broadcasting House"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Construction on Alan B Miller Hall began on March 30th, 2007. The building was designed by Robert A. M. Stern. Alan B Miller Hall is located on 101 Ukrop Way in Williamsburg, Virginia, United States. The current tenant is the Mason School of Business.",
@@ -478,7 +509,8 @@
             "United States",
             "Mason School of Business",
             "\"30 March 2007\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Olga Bondareva (born Olga Nikolaevna Bondareva, on April 27, 1937, in Leningrad, USSR) graduated from Leningrad State University and is known for Bondareva-Shapley theorem.",
@@ -493,7 +525,8 @@
             "Olga Nikolaevna Bondareva",
             "Leningrad State University",
             "Olga Bondareva"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Located in Adams Country, Pennsylvania in the United States, the monument to the 11th Mississippi Infantry was erected in 2000. It is described as a contributing property. Cumberland County is to the north of Adams County.",
@@ -508,7 +541,8 @@
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania",
             "\"United States\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Terence Rattigan, who died in 1977, wrote the film English Without Tears in co-authorship with Anatole de Grunwald. The film was directed by Harold French, an actor whose career began in 1920.",
@@ -523,7 +557,8 @@
             "Anatole de Grunwald",
             "\"\"\"1977/01/01\"\"\"",
             "\"\"\"1920/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas is a drug maker in the pharmaceutical industry. They were founded in Brazil on January 1, 2001, and employ 10252 people. They are an S.A. corporation, and are managed by a CEO.",
@@ -540,7 +575,8 @@
             "Brazil",
             "\"\"\"2001/01/01\"\"\"",
             "Drugs"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "In the United States, one of the national ethnic groups are the African Americans. The United States is where Abraham A. Ribicoff, who was married to Casey Ribicoff, died.",
@@ -553,7 +589,8 @@
             "Casey Ribicoff",
             "United States",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument is located in Adams County, Pennsylvania and was erected in 2000. The monument is in the municipality of Gettysburg in Pennsylvania and is categorised as a contributing property. Southwest of Adams County lies Frederick County Maryland.",
@@ -568,7 +605,8 @@
             "Frederick County, Maryland",
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Robert A.M. Stern is the architect for Alan B. Miller Hall which is located in Virginia at 101 Ukrop Way. The Mason School of Business are the current tenants of the building which is owned by The College of William and Mary.",
@@ -583,7 +621,8 @@
             "Alan B. Miller Hall",
             "Mason School of Business",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Saint Petersburg has the area of 1439.0 sq/km where Olga Bondareva died.",
@@ -597,7 +636,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "1439000000.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The University of Burgundy in Dijon has 2,900 staff members along with 27,400 students, of which 9,400 are postgraduate students and 1,299 are PhD students.",
@@ -612,7 +652,8 @@
             "Dijon",
             "2900",
             "9400"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Agremia\u00e7\u00e3o Sportiva Arapiraquense club has 17000 members and played in the Campeonato Brasileiro S\u00e9rie C league in 2015 based in Brazil. The Agremiacao Sportiva Arapiraquense's ground is the Estadio Municipal Coaracy da Mata Fonseca located in Arapiraca.",
@@ -628,7 +669,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "2015"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Released on 2006-09-06, the Nord album was part of the post-metal genre of sludge metal. The Year of No Light produced the album and followed it up with Live at Roadburn 2008.",
@@ -643,7 +685,8 @@
             "Post-metal",
             "Year of No Light",
             "Sludge metal"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Year of No Light self-produced their sludge-metal album Nord, and released it on September 6th, 2006. The band's next album was Live at Roadburn 2008.",
@@ -657,7 +700,8 @@
             "Live at Roadburn 2008 (Year of No Light album)",
             "Year of No Light",
             "Sludge metal"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Aaron Turner is a post metal musician who started performing in 1995 and played with the post metal band, Twilight.",
@@ -670,7 +714,8 @@
             "Post-metal",
             "Twilight (band)",
             "\"1995\"^^xsd:gYear"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "English Without Tears is an 89 minute movie written by Terence Rattigan and released on July 28th, 1944. Alan Jaggs was the editor while Nicholas Brodszky wrote the music for the film.",
@@ -685,7 +730,8 @@
             "Terence Rattigan",
             "Nicholas Brodszky",
             "5340.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adams County Pennsylvania, which is to the east of Franklin County, Pennsylvania, is the location of the 11th Mississippi Infantry Monument, which was established there in the year 2000. The 11th Mississippi Infantry Monument stands in the municipality of Gettysburg and falls under the category of Contributing property. To the southeast of Adams County, lies Carroll County, Maryland.",
@@ -701,7 +747,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner is a black metal musician in the Lotus Eaters who plays electric guitar.",
@@ -714,7 +761,8 @@
             "Black metal",
             "Electric guitar",
             "Lotus Eaters (band)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Sarah Teale and Tom Simon directed the 83 minute movie Death on a Factory Farm which was edited by Geof Bartz. Jamie Lawrence composed the music for the movie which was released by HBO.",
@@ -730,7 +778,8 @@
             "Tom Simon",
             "Death on a Factory Farm",
             "Jamie Lawrence"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov was born on February 24, 1989 and is 185 cm tall. He currently plays for FC Amkar Perm and also played for FC Terek Grozny, which is located in Grozny.",
@@ -746,7 +795,8 @@
             "Grozny",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall at 101 Ukrop Way, which began construction on the 30th of March, 2007. The building was designed by Robert A M Stern and was completed on the 1st of June 2009. The Mason School of Business are the current tenants.",
@@ -764,7 +814,8 @@
             "\"30 March 2007\"",
             "\"1 June 2009\"",
             "\"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Death on a Factory Farm was produced and directed by Tom Simon and Sarah Teale. The film runs for 83 minutes.",
@@ -777,7 +828,8 @@
             "Death on a Factory Farm",
             "4980.0",
             "Sarah Teale"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Alan B. Miller Hall is located in Williamsburg, Virginia and is owned by The College of William and Mary. The building was designed by Robert A.M. Stern and has the address of 101 Ukrop Way. It is currently tenanted by The Mason School of Business.",
@@ -792,7 +844,8 @@
             "Williamsburg, Virginia",
             "Alan B. Miller Hall",
             "Mason School of Business"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Ciudad Ayala is a part of Morelos and located in the country of Mexico. Ciudad Ayala's elevation above the sea level is 1147.0 and the, the UTC offset is -6 and the time zone is PDT. The population of the metropolitan area of Ciudad Ayala is 1,777,539.",
@@ -808,7 +861,8 @@
             "1147.0",
             "Pacific Daylight Time",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina, born in Karlsruhe on May 2, 1908, was a professional photographer. She is an Israeli national who died in Israel on June 14, 1994.",
@@ -823,7 +877,8 @@
             "\"\"\"1908/05/02\"\"\"",
             "Photographer",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Expect a Miracle, a compilation album of instrumental music genre is of the easy listening genre and has a runtime of 54.56 minutes. It was followed by the album Afterplay.",
@@ -838,7 +893,8 @@
             "Easy listening",
             "Afterplay (Brian Kelly album)",
             "Instrumental music"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The US national Alan Shepard was born in New Hampshire in 1923 and died in California. He was awarded the Distinguished Service Medal by the United States Navy.",
@@ -853,7 +909,8 @@
             "United States",
             "New Hampshire",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall which was completed on 1st June 2009, address is \"101 Ukrop Way\". The Mason School of Business are the current tenants of Alan B Miller Hall.",
@@ -868,7 +925,8 @@
             "\"\"\"\"2009/06/01\"\"\"\"^^xsd:date",
             "Mason School of Business",
             "\"1 June 2009\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "John Mills and Cecil Parker starred in the 1956 movie It's Great to Be Young which runs 94 minutes and had Gilbert Taylor as the cinematographer. The movie costed \u00a3282,838.",
@@ -883,7 +941,8 @@
             "282838.0",
             "John Mills",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abraham A. Ribicoff\u2019s spouse was Ruth Ribicoff and he was in office during the John F. Kennedy presidency. Abraham A. Ribicoff was American and was a member of the Democratic Party in the United States His place of birth was Connecticut.",
@@ -898,7 +957,8 @@
             "Democratic Party (United States)",
             "Abraham A. Ribicoff",
             "\"American\"@en"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Abraham A. Ribicoff\u2019s spouse was Ruth Ribicoff and he was an American citizen who was born in Connecticut. Abraham A. Ribicoff was in office while John F. Kennedy was president and preceded John N. Dempsey in the office.",
@@ -913,7 +973,8 @@
             "John F. Kennedy",
             "Abraham A. Ribicoff",
             "\"American\"@en"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Aaron Turner starter performing in 1995 and began singing for a living. He performs under the genre of post-metal, and is noted to have played with the band Twilight.",
@@ -927,7 +988,8 @@
             "\"1995\"^^xsd:gYear",
             "Twilight (band)",
             "Singing"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Darinka Dentcheva is resident of new Jersey which has an area of water that is 3.544.04 meters squared and citizen of the United States where the motto is \"In God We Trust\".",
@@ -941,7 +1003,8 @@
             "\"In God we trust\"",
             "3544040000.0",
             "New Jersey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina was born in Karlsruhe within the German Empire on May 2, 1908 and died on June 14, 1994 in Israel.",
@@ -956,7 +1019,8 @@
             "\"\"\"1908/05/02\"\"\"",
             "German Empire",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson, an English national, resided in India with spouse George Monson. With Botany as her professional field, she died on 1776-02-18.",
@@ -971,7 +1035,8 @@
             "India",
             "Kingdom of England",
             "Lady Anne Monson"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Influenced by Andrzej Piotr Ruszczynski, Darinka Dentcheva (born Jan. 1st, 1958) has become widely known for her work in Stochastic Programming, working in the field of Mathematical Optimization; she is a citizen of the United States.",
@@ -986,7 +1051,8 @@
             "Mathematical optimization",
             "Stochastic programming",
             "\"\"\"1958/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Piotr Hallmann from Gdynia, Poland weights 70.308 kilograms and is 175.26 cm tall.",
@@ -1000,7 +1066,8 @@
             "Gdynia, Poland",
             "Piotr Hallmann",
             "70.308"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Born in Rochdale, the actor Bill Oddie starred in the Broadcasting House based BBC children's show Bananaman. The show aired in 1983.",
@@ -1015,7 +1082,8 @@
             "\"\"\"\"1983/10/03\"\"\"\"^^xsd:date",
             "Rochdale",
             "Broadcasting House"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Expect a Miracle, a compilation album by Brian Kelly with runtime of 54.56 minutes is of instrumental music genre. Produced by Brian Kelly Expect a Miracle was preceded by Pools of Light by Brian Kelly.",
@@ -1030,7 +1098,8 @@
             "Pools of Light (Brian Kelly album)",
             "Brian Kelly (composer & pianist)",
             "Instrumental music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Est\u00e1dio Municipal Coaracy da Mata Fonseca is located in Arapiraca. It is the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense who play in the Campeonato Brasileiro S\u00e9rie C league and have 17000 members. The full name of the club is \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\"",
@@ -1045,7 +1114,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The Alan B Miller Hall, which is built in a Georgian style, is located in Virginia and is owned by The College of William and Mary. The building is currently occupied by The Mason School of Business and can be found at 101 Ukrop Way. It was designed by Robert A.M. Stern and began construction on the 30th of March 2007.",
@@ -1063,7 +1133,8 @@
             "Mason School of Business",
             "\"30 March 2007\"",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "1147 Stavropolis is an asteroid that was discovered by Grigory Neujmin. It has a rotational period of 20378.5 and an orbital period of 1249.6 days. 1147 Stavropolis epoch is July 31, 2016, the apoapsis is 418476000000.0 and the periapsis is 260855000000.0.",
@@ -1079,7 +1150,8 @@
             "107965000.0",
             "4.184758084281966E8",
             "31 July 2016 (JD2457600.5)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ciudad Ayala city has a population density of 1604.0 and its population in metropolitan area is 1,777,539. The city has an elevation of 1147.0 above sea level and uses the UTC offset -6 time zone. Ciudad Ayala uses a type of government called council-manager government and one of the leaders is called City Manager.",
@@ -1096,7 +1168,8 @@
             "1147.0",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in Alcobendas and is operated by ENAIRE in which is in Madrid. The runway length of Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is 4,349 and is named 14R/32L, Adolfo Su\u00e1rez Madrid-Barajas Airport also has an elevation of 610.0 metres above sea level and a runway length of 4,349.",
@@ -1112,7 +1185,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Aleksandr Prudnikov plays for FC Amkar Perm, which is managed by Gadzhi Gadzhiyev. Prudnikov also played for FC Spartak Moscow's youth team. He is 185 cm. tall.",
@@ -1126,7 +1200,8 @@
             "FC Amkar Perm",
             "Aleksandr Prudnikov",
             "FC Spartak Moscow"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport in Alcobendas , Madrid, Spain operated by ENAIRE has a runway called 14R/32L with the length of 4,349.",
@@ -1142,7 +1217,8 @@
             "ENAIRE",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Acharya Institute of Technology is affiliated to Visvesvaraya Technological University, and offers Tennis as a sport. The All India Council for Technical Education which is located in Mumbai gave the institute Technical Campus status. The address for the campus is: Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -1157,7 +1233,8 @@
             "Mumbai",
             "Acharya Institute of Technology",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "After releasing their album Squeeze, music group the Velvet Underground produced and released rock music album Bootleg Series Volume 1: The Quine Tapes, which they recorded in St Louis Missouri, USA The album was released on 2001-10-16 under the Polydor and Universal Music Group record labels and has a total run time of 230:05 minutes.",
@@ -1174,7 +1251,8 @@
             "Universal Music Group",
             "Squeeze (The Velvet Underground album)",
             "Polydor Records"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "1147 Stavropolis discovered on June 11, 1929 with rotation period of 20378.5 has a periapsis of 260855000000.0 and apoapsis of 418476000000.0. The orbital period of the asteroid is 1249.6 days.",
@@ -1189,7 +1267,8 @@
             "20378.5",
             "2.608545551289435E8",
             "4.184758084281966E8"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Turn Me On by Honeymoon Killers, a noise rock and punk blues genre, has a runtime of 35.1 minutes. Its producers are Honeymoon Killers themselves and Wharton Tiers.",
@@ -1204,7 +1283,8 @@
             "Noise rock",
             "The Honeymoon Killers (American band)",
             "Turn Me On (album)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Pontiac Rageous, a coupe assembled in Michigan, was first and last produced in 1997. It had its assembly line in Detroit.",
@@ -1218,7 +1298,8 @@
             "Michigan",
             "Pontiac Rageous",
             "Detroit"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The construction of Alan B. Miller Hall lasted from March 30th, 2007 to June 1st, 2009. Robert A. M. Stern is the architect of the building. Alan B. Miller Hall is located at 101 Ukrop Way, Virginia, and the current tenant is the Mason School of Business.",
@@ -1236,7 +1317,8 @@
             "\"1 June 2009\"",
             "\"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "John Mills played the lead role and Cecil Parker had a main role in the movie It's Great to Be Young. The movie was released in 1956 and had a duration of 94 minutes. Cyril Frankel is the director and Louis Levy is the music composer of the movie.",
@@ -1251,7 +1333,8 @@
             "Louis Levy",
             "94.0",
             "Cecil Parker"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born in New Hampshire, U.S.A., on November 18, 1923. He served in the U.S. Navy and earned the Distinguished Service Medal. He died on July 12, 1998, in California.",
@@ -1267,7 +1350,8 @@
             "United States",
             "New Hampshire",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The HBO film Death on a Factory Farm running at 83 minutes is produced and directed by Sarah Teale. The music is composed by Jamie Lawrence.",
@@ -1281,7 +1365,8 @@
             "HBO",
             "Death on a Factory Farm",
             "Jamie Lawrence"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina was born in Karlsruhe and died on June 14, 1994 in Petah Tikva, Israel, which is home to the Arab ethnic group.",
@@ -1296,7 +1381,8 @@
             "\"\"\"1994/01/01\"\"\"",
             "Karlsruhe",
             "Arab citizens of Israel"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "\u201cSuper Capers\u201d is a 98-minute-long movie starring Tom Lister Jr. Distributed by Lionsgate, the film grossed $30,955. Ray Griggs was the director of the film.",
@@ -1311,7 +1397,8 @@
             "98.0",
             "Tom Lister, Jr.",
             "30955.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner was born in Massachusetts and is a post metal musician who plays electric guitar and played with the band Twilight.",
@@ -1325,7 +1412,8 @@
             "Post-metal",
             "Massachusetts",
             "Twilight (band)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The run time of the album Turn Me On is 35.1 minutes where the artist is the Honeymoon Killers with punk blues as the genre. Turn Me On album is self-produced by the American band Honeymoon Killers with noise rock as the genre of the album.",
@@ -1339,7 +1427,8 @@
             "Noise rock",
             "The Honeymoon Killers (American band)",
             "Turn Me On (album)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport in Alcobendas is operated by ENAIRE and is 610m above sea level. It has a runway length of 3,500 and the runway name is 18L/36R.",
@@ -1354,7 +1443,8 @@
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
             "\"18L/36R\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bangalore\u2018s Acharya Institute of Technology (affiliated with Visvesvaraya Technological University) has a tennis program.",
@@ -1367,7 +1457,8 @@
             "Visvesvaraya Technological University",
             "Tennis",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Est\u00e1dio Municipal Coaracy da Mata Fonseca is a sports ground which is based in Arapiraca and used by the team Agremia\u00e7\u00e3o Sportiva Arapiraquense. Agremia\u00e7\u00e3o Sportiva Arapiraquense played in the 2015 season of the Brazil based Campeonato Brasileiro S\u00e9rie C league. Vila Nova Futebol Clube have been previous champions of the Campeonato Brasileiro S\u00e9rie C league.",
@@ -1383,7 +1474,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "2015"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aleksandr Prudnikov was born on February 24, 1989. He played for FC Spartak Moscow's youth team and is now playing for FC Spartak Moscow.",
@@ -1395,7 +1487,8 @@
             "FC Spartak Moscow",
             "Aleksandr Prudnikov",
             "\"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Acharya Institute of Technology in Bangalore is affiliated to Visvesvaraya Technological University and its president is B.M. Reddy.",
@@ -1408,7 +1501,8 @@
             "Visvesvaraya Technological University",
             "\"B.M. Reddy\"@en",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan B. Miller Hall, at 101 Ukrop Way, was designed by Robert A.M. Stern and was completed on 01/06/2009. The building is in the USA and is currently occupied by The Mason School of Business.",
@@ -1424,7 +1518,8 @@
             "United States",
             "Mason School of Business",
             "\"1 June 2009\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Piotr Hallmann, who was born in Gdynia, Poland on the 25th of August 1987, is 175.26 cm tall and weighs 70.308 kg.",
@@ -1439,7 +1534,8 @@
             "Gdynia, Poland",
             "Piotr Hallmann",
             "70.308"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Released on 28th July 1944 the 89 minutes long film, \"English Without Tears, \" was directed by Harold French, produced by Anatole de Grunwald, while the songs in the film were composed by Nicholas Brodszky.",
@@ -1454,7 +1550,8 @@
             "Nicholas Brodszky",
             "5340.0",
             "Anatole de Grunwald"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bedford Aerodrome is located in Thurleigh, postal code MK44, and is operated by MotorSport Vision, founded by Peter Ogden. Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF.",
@@ -1469,7 +1566,8 @@
             "Bedford Aerodrome",
             "EGBF",
             "Thurleigh"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Alan Shepard was born on November 18th, 1923 in New Hampshire and later died in California. Shepard was the Chief of the Astronaut Office in 1963 and was awarded the Distinguished Service Medal by the United States Navy.",
@@ -1484,7 +1582,8 @@
             "New Hampshire",
             "1963",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "English Without Tears is an 89-minute film that was released on July 28th, 1944. It was written by Anatole de Grunwald and directed by Harold French. Nicholas Brodszky was the music composer while Alan Jaggs was the film editor.",
@@ -1500,7 +1599,8 @@
             "Nicholas Brodszky",
             "5340.0",
             "Anatole de Grunwald"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born and died in the United States. His 1923 birthplace was New Hampshire and the place of his 1998 death was California.",
@@ -1515,7 +1615,8 @@
             "California",
             "United States",
             "New Hampshire"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva's alma matter was Leningrad State University, however she died not in Leningrad, but rather in the city of Saint Petersburg. Saint Petersburg was founded May 27, 1703.",
@@ -1529,7 +1630,8 @@
             "\"\"\"\"\"\"1703/05/27\"\"\"\"\"\"",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "The runway length of the Bedford Aerodrome in Thurleigh, is 1095 and it is operated by MotorSport Vision. Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF and it serves the Bedford Autodrome.",
@@ -1544,7 +1646,8 @@
             "Thurleigh",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "McVeagh of the South Seas is a film directed by Cyril Bruce and Harry Carey. It\u2019s a film that is logged in the IMDb database with the ID of 0004319. Carey was born on 1878 and was the writer of the film while he played a major character in the movie too. This movie was distributed by Alliance Films Corporation.",
@@ -1558,7 +1661,8 @@
             "Alliance Films Corporation",
             "0004319",
             "Cyril Bruce"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport in Alcobendas (operated by ENAIRE in Madrid, Spain), that is located 610.0 metres above sea level, has a 4349.0 metres long runway named 14L/32R.",
@@ -1574,7 +1678,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The popular 1956 film, It's Great to Be Young, starred English actors John Mills and Cecil Parker, and was directed by Cyril Frankel. Cinematography was by Gilbert Taylor, with composition for the musical comedy by Louis Levy. The film's running time is 94 minutes, and, according to the Historical Journal of Film, Radio and Television, was produced for 282,838 pounds.",
@@ -1591,7 +1696,8 @@
             "John Mills",
             "Louis Levy",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born in New Hampshire, United States, on November 18th, 1923. He was selected by NASA in 1959. He was also awarded the Distinguished Service Medal by the United States Navy. Shepard died in California.",
@@ -1607,7 +1713,8 @@
             "New Hampshire",
             "Distinguished Service Medal (United States Navy)",
             "1959"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Mason School of Business are the current residents of the Alan B Miller Hall which was designed by Robert A M Stern in a Georgian architectural style. This business is located in the United States at 101 Ukrop Way in a building which began construction on the 30th of March, 2007. The College of William and Mary is the current owner of the building.",
@@ -1625,7 +1732,8 @@
             "United States",
             "Mason School of Business",
             "\"30 March 2007\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The All India Council for Technical Education which is located in Mumbai, was proud to give the Technical Campus status to the Acharya Institute of Technology. The president of the Acharya Institute of Technology is B. M. Reddy and it is affiliated with Visvesvaraya Technological University. The campus address for the Acharya Institute of Technology is: Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -1640,7 +1748,8 @@
             "Mumbai",
             "Acharya Institute of Technology",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva was born in Leningrad, USSR and died in Saint Petersburg. Saint Petersburg was founded on May 27, 1703 and is led by a governor.",
@@ -1655,7 +1764,8 @@
             "\"\"\"\"\"\"1703/05/27\"\"\"\"\"\"",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson was born on January 1, 1726 in Darlington located in the Kingdom of England. Her residence was in India and she later died on February 18, 1776.",
@@ -1670,7 +1780,8 @@
             "Kingdom of England",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The ENAIRE-operated Adolfo Suarez Madrid-Barajas Airport is located in Alcobendas, Spain, elevation 610.0 meters above sea level. 14R/32L, the runway, has a length of 4349.",
@@ -1686,7 +1797,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Est\u00e1dio Municipal Coaracy da Mata Fonseca, located in Arapiraca, is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense. They have 17000 members, play in the Campeonato Brasileiro S\u00e9rie C league, and competed in it in 2015. Other Campeonato Brasileiro S\u00e9rie C champions include Vila Nova Futebol Clube.",
@@ -1702,7 +1814,8 @@
             "Arapiraca",
             "2015 Campeonato Brasileiro S\u00e9rie C",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "B. M. Reddy is the president of The Acharya Institute of Technology, which is affiliated with Visvesvaraya Technological University and located in India at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -1716,7 +1829,8 @@
             "\"India\"@en",
             "\"Urban, ,\\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"@en",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Tom Simon and Sarah Teale produced the movie Death on a Factory Farm which was broadcasted by the Time Warner owned HBO which has headquarters in New York City, New York.",
@@ -1731,7 +1845,8 @@
             "HBO",
             "Tom Simon",
             "Death on a Factory Farm"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Mexico inhabited by Mexicans with peso as its currency has Silvano Aureoles Conejo as one of its leaders. Bionico is served as a dessert in Mexico and comes from Guadalajara. It has chopped fruits, sour cream, condensed milk, granola, shredded coconut and raisins as its main ingredients.",
@@ -1748,7 +1863,8 @@
             "Silvano Aureoles Conejo",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Discovered by Grigory Neujmin, the asteroid 1147 Stavropolis has an apoapsis of 418476000000.0, an orbital period of 1249.6 days, an absolute magnitude of 11.5 and a rotation period of 20378.5.",
@@ -1763,7 +1879,8 @@
             "1249.6",
             "20378.5",
             "Grigory Neujmin"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The song Mermaid, written by the pop-rock band Train, lasts 3.16 minutes. Columbia Records released the song on December 27, 2012.",
@@ -1778,7 +1895,8 @@
             "Train (band)",
             "\"\"\"2012/12/27\"\"\"",
             "Columbia Records"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Acharya Institute of Technology was established in 2000, is affiliated to Visvesvaraya Technological University and was given the Technical Campus status by the All India Council for Technical Education which is located in Mumbai. The Acharya Institute of Technology campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
@@ -1793,7 +1911,8 @@
             "Mumbai",
             "Acharya Institute of Technology",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The campus of the Acharya Institute of Technology is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090. Bangalore was founded by Kempe Gowda I, and the institute was established in 2000. The current director is Dr. G. P. Prabhukumar. The All India Council for Technical Education, which is located in Mumbai, gave the Acharya Institute of Technology the \"Technical Campus\" status.",
@@ -1810,7 +1929,8 @@
             "Bangalore",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Nie Haisheng was born in Zaoyang, in the Hubei province of the People's Republic of China, on October 13th, 1964. He was part of the Shenzhou 6 mission and the Shenzhou 10 mission.",
@@ -1826,7 +1946,8 @@
             "People's Republic of China",
             "Shenzhou 10",
             "\"\"\"1964/10/13\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The album Nord by the Year of No Light whose record label is Crucial Blast was released on E-Vinyl record label on September 6, 2006 with a runtime of 58 minutes and 41 seconds.",
@@ -1841,7 +1962,8 @@
             "Year of No Light",
             "Crucial Blast",
             "E-Vinyl"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Nurhan Atasoy was born in Turkey on January 1st, 1934. He is a Turkish citizen and resides in Istanbul, Turkey.",
@@ -1854,7 +1976,8 @@
             "Nurhan Atasoy",
             "Turkey",
             "Istanbul"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Operated by Enaire, the Adolfo Suarez Madrid-Barajas airport is based in the Alcobendas area of the Spanish city of Madrid. It is situated 610 metres above sea level.",
@@ -1869,7 +1992,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "A film named \"English Without Tears\" was released on July 28th, 1944. The film was edited by Alan Jaggs and produced by Anatole de Grunwald. Interestingly enough, the script was also written by Anatole de Grunwald. Finally, film buffs should know that Bernard Knowles was the cinematographer responsible for the beauty of this movie.",
@@ -1883,7 +2007,8 @@
             "English Without Tears",
             "Alan Jaggs",
             "Anatole de Grunwald"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Mason School of Business are the current tenants of Alan B Miller Hall, which is currently owned by the College of William and Mary and which was designed by Robert A.M. Stern and completed June 1, 2009.",
@@ -1898,7 +2023,8 @@
             "\"\"\"\"2009/06/01\"\"\"\"^^xsd:date",
             "Mason School of Business",
             "\"1 June 2009\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The American born Alan Shepard was a test pilot selected in 1959 by NASA, who was raised in New Hampshire. He was born in that state in November of 1923 and died in California.",
@@ -1914,7 +2040,8 @@
             "New Hampshire",
             "Test pilot",
             "1959"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument, erected in the year 2000, is in the municipality of Gettysburg in Pennsylvania. This municipality is in Adams County, Pennsylvania which has Carroll County Maryland to the southeast and Frederick County Maryland to the southwest. This monument is categorised as a contributing property.",
@@ -1930,7 +2057,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adams County, Pennsylvania has Cumberland County, Pennsylvania to its north. In Adams County stands the 11th Mississippi Infantry Monument, which was established in the year 2000. The monument falls under the category of contributing property.",
@@ -1945,7 +2073,8 @@
             "\"Pennsylvania\"@en",
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bedford Aerodrome has an operating organization that is called the MotorSport Vision. The aerodrome\u2019s runway length is 1,095, and it is made of concrete. The aerodrome is 83.2 meters above sea level, located in Thurleigh. The ICAO location identifier for Bedford Aerodrome is EGBF; the aerodrome serves the Bedford Autodrome.",
@@ -1962,7 +2091,8 @@
             "83.2104",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Mexico is a country, and its people are called Mexicans. If you wanted to buy food there you would have to use their currency, which is the peso. Mexico has yummy desserts such as bionico. Bionico is made from several ingredients including sour cream, and it can be found in Guadalajara as well as Mexico. If you don\u2019t like bionico, you can go for a sandesh, another dessert.",
@@ -1979,7 +2109,8 @@
             "Mexico",
             "Sour cream",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina of Israeli nationality (pop. density of Israel - 387.63) is a photographer born within the German Empire that was founded on the first of January 1871.",
@@ -1994,7 +2125,8 @@
             "Photographer",
             "387.63",
             "\"\"\"1871/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The band Train followed up \"This'll be my year\" with a 3 minutes, 16 seconds long pop rock song, entitled \"Mermaid.\" Mermaid, which is also considered an example of the reggae genre of music, was written by songwriter, Espen Lind and released on December, 27, 2012.",
@@ -2010,7 +2142,8 @@
             "This'll Be My Year",
             "Pop rock",
             "\"\"\"2012/12/27\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "GMA New Media, led by Felipe Gozon, is an entertainment company that is a subsidiary of GMA Network and owns Philippine Entertainment Portal and Digify, Inc.",
@@ -2025,7 +2158,8 @@
             "GMA New Media",
             "Entertainment",
             "Digify, Inc."
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe and he died on June 14,1994 in Israel , he born in the German Empire, he is an Israeli national and professional photographer.",
@@ -2041,7 +2175,8 @@
             "German Empire",
             "Photographer",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The College of William and Mary own the Alan B. Miller Hall which was built in the Georgian architectural style. The building was designed by Robert A.M. Stern and has the address of 101 Ukrop Way. The current tenants are The Mason School of Business.",
@@ -2056,7 +2191,8 @@
             "Alan B. Miller Hall",
             "Georgian architecture",
             "Mason School of Business"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Aleksandr Prudnikov was born on February 24th, 1989, played for FC Terek Grozny, managed by Rashid Rakhimov.",
@@ -2070,7 +2206,8 @@
             "Aleksandr Prudnikov",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Expect a Miracle is an instrumental song recorded by Brian Kelly. This easy listening song has a runtime of 54:56 and was followed by Afterplay, also by Brian Kelly.",
@@ -2085,7 +2222,8 @@
             "Brian Kelly (composer & pianist)",
             "Afterplay (Brian Kelly album)",
             "Instrumental music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "GMA New Media is located in Quezon, Philippines (a city dominated by the Liberal Party). Founded 12/06/1898, GMA New Media produces web services.",
@@ -2100,7 +2238,8 @@
             "GMA New Media",
             "World Wide Web",
             "\"\"\"1898/06/12\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The band Train\u2019s hit song Mermaid was released under the record label Columbia Records and also Sony Music Entertainment which is owned by the Sony Corporation.",
@@ -2113,7 +2252,8 @@
             "Columbia Records",
             "Sony Music Entertainment",
             "Mermaid (Train song)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Ciudad Ayala is a city located in Mexico with the population density of 1604.0 and its population of the metropolitan area is 1,777,539, where its UTC offset is -6.The government type of Ciudad Ayala is council-manager government and one of its leaders is called the City Manager.",
@@ -2130,7 +2270,8 @@
             "1777539",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abraham A. Ribicoff was born in Connecticut and died in the United States. He was an American citizen who was in office while John F. Kennedy was president and his wife was called Ruth Ribicoff.",
@@ -2145,7 +2286,8 @@
             "John F. Kennedy",
             "Abraham A. Ribicoff",
             "\"American\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Piotr Hallmann is 175.26 cm tall and weighs 70.308 kg.",
@@ -2159,7 +2301,8 @@
             "1.7526",
             "Piotr Hallmann",
             "70.308"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Death on a Factory Farm is an HBO film that runs for 83 minutes. It is produced by Sarah Teale and Tom Simon, who is the director of the film as well. Geof Bartz is the editor and Jamie Lawrence composed the music.",
@@ -2175,7 +2318,8 @@
             "Tom Simon",
             "Death on a Factory Farm",
             "Jamie Lawrence"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Established in 2000 The Acharya Institute of Technology is located in Bangalore and is affiliated with Visvesvaraya Technological University.",
@@ -2188,7 +2332,8 @@
             "Bangalore",
             "Visvesvaraya Technological University",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Nurhan Atasoy was born in Istanbul on January 1, 1934. He is a Turkish citizen who resides in Istanbul which falls in the Eastern European Summer Time time zone.",
@@ -2203,7 +2348,8 @@
             "Istanbul",
             "\"\"\"1934/01/01\"\"\"",
             "Turkey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Carroll County Maryland is southeast of Adams County Pennsylvania where the 11th Mississippi Infantry Monument is located in the municipality of Gettysburg. The 11th Mississippi Infantry Monument is categorised as a contributing property and Pennsylvania's Cumberland County is to the north of Adams County where the monument stands.",
@@ -2218,7 +2364,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The University of Burgundy in Dijon, France, has 2900 staff members that educate 27400 students: 16800 undergraduate students, 1299 PhD students, and 9400 postgraduate students.",
@@ -2234,7 +2381,8 @@
             "Dijon",
             "2900",
             "16800"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The movie English Without Tears release date was July 28th, 1944. Anatole de Grunwald was the producer and also the writer of the movie along with Terence Rattigan. The cinematography was done by Bernard Knowles, and the movie runs for 89 minutes.",
@@ -2249,7 +2397,8 @@
             "Terence Rattigan",
             "89.0",
             "Anatole de Grunwald"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument is in the United States and is categorised as a contributing property. The monument was erected in 2000, and it is located in Adams County, Pennsylvania. Pennsylvania's Franklin County is found to the west of Adams County, while Carroll County Maryland is southeast of Adams County Pennsylvania, which has Cumberland County to the north.",
@@ -2266,7 +2415,8 @@
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The All India Council for Technical Education which is located in Mumbai gave Technical Campus status to the Acharya Institute of Technology. The institute is based in Bangalore, a city founded by Kempe Gowda I, its director is Dr. G. P. Prabhukumar and it is affiliated with Visvesvaraya Technological University and its campus address is: Soldevanahalli , Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -2283,7 +2433,8 @@
             "Bangalore",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Agremia\u00e7\u00e3o Sportiva Arapiraquense has 17000 members and has the nickname Asa Gigante. They play in the Campeonato Brasileiro S\u00e9rie C league from Brazil, whose champions are Vila Nova Futebol Clube. The Est\u00e1dio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense and is located in Arapiraca.",
@@ -2300,7 +2451,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Aleksandr Prudnikov was born on 1989-02-24 and plays for FC Amkar Perm. He was also a member of the youth side of FC Spartak Moscow.",
@@ -2313,7 +2465,8 @@
             "Aleksandr Prudnikov",
             "\"\"\"\"\"\"\"1989/02/24\"\"\"\"\"\"\"^^xsd:date",
             "FC Amkar Perm"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The song Mermaid by Train, produced by the Espionage production team under Columbia Records and Sony Music Entertainment, is an example of the reggae genre and is 3 minutes and 16 seconds long. It the song after Imagine sung by John Lennon.",
@@ -2329,7 +2482,8 @@
             "Sony Music Entertainment",
             "Reggae",
             "Columbia Records"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Train song Mermaid from the album California 37 was written by Pat Monahan and Train and Espionage was its production team. The song was distributed digitally and was followed by the John Lennon song Imagine.",
@@ -2344,7 +2498,8 @@
             "Imagine (John Lennon song)",
             "California 37 (Train album)",
             "Mermaid (Train song)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is located in Alcobendas. This airport is operated by ENAIRE, which is located in Madrid, Spain. The runway is named 14L/32R and has a length of 4,349.",
@@ -2360,7 +2515,8 @@
             "ENAIRE",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva (born \"Olga Nikolaevna Bondareva\" in Leningrad, USSR) worked in the professional fields of economics and mathematics and died December 9, 1991.",
@@ -2375,7 +2531,8 @@
             "Olga Bondareva",
             "\"\"\"1991/12/09\"\"\"",
             "Economics"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "In the United States there is an ethnic group called the African Americans. This is also where Abraham A. Ribicoff was born and where he was married to his wife Ruth Ribicoff. In his career he was succeeded by Anthony J. Celebrezze.",
@@ -2389,7 +2546,8 @@
             "Anthony J. Celebrezze",
             "Abraham A. Ribicoff",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Stavropolis 1147 is an asteroid and has an apoapsis of 418476000000.0 AU and a rotation period of 20378.5. Its epoch is 31 July 2016 (JD2457600.5), its orbital period is 1249.6 and its periapsis is 260855000000.0.",
@@ -2405,7 +2563,8 @@
             "107965000.0",
             "4.184758084281966E8",
             "31 July 2016 (JD2457600.5)"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "1147 Stavropolis (discovered 11 June 1929) is an asteroid with an orbital period of 1249.6 and absolute magnitude of 11.5. The periapsis of this asteroid is 260855000000.0 and the epoch date is 31 July 2016 (JD2457600.5).",
@@ -2420,7 +2579,8 @@
             "2.608545551289435E8",
             "\"\"\"1929/06/11\"\"\"",
             "31 July 2016 (JD2457600.5)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport in Alcobendas (operated by ENAIRE in Madrid, Spain) has a runway named 18R/36L that is 4349 metres long.",
@@ -2436,7 +2596,8 @@
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
             "\"18R/36L\""
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Abraham A. Ribicoff was born in the USA, where African Americans are an ethnic group, and died in New York. He was married to Ruth Ribicoff.",
@@ -2450,7 +2611,8 @@
             "New York",
             "Abraham A. Ribicoff",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "McVeagh of the South Seas (IMDb id 0004319) was written by Harry Carey, born in 1878, who also had a role in the film. McVeagh of the South Seas was produced by the Progressive Motion Picture Company and distributed by the Alliance Films Corporation.",
@@ -2464,7 +2626,8 @@
             "Alliance Films Corporation",
             "0004319",
             "The Progressive Motion Picture Company"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The sludge and post-metal album Nord by Year of No Light was released September 6, 2006 after the album Demo (2004). It comprises of 58 minutes and 41 seconds of sound.",
@@ -2480,7 +2643,8 @@
             "Year of No Light",
             "\"\"\"2006/09/06\"\"\"",
             "Sludge metal"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology, established in 2000 and affiliated with Visvesvaraya Technological University, is located in Karnataka at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -2494,7 +2658,8 @@
             "2000",
             "Acharya Institute of Technology",
             "Karnataka"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Brandon Carter, best known for the Carter constant and the No-hair theorem, is a professional in the field of general relativity. He was born in England and studied at the University of Cambridge, where he was advised by Dennis William Sciama.",
@@ -2510,7 +2675,8 @@
             "University of Cambridge",
             "No-hair theorem",
             "Dennis William Sciama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "It\u2019s Great to Be Young is a 1956 film that lasts 94 minutes. It was directed by Cyril Frankel and its writer was Ted Willis. John Mills played in the film, and it collected 282,838 at the box office. The film music was written by Louis Levy, and Gilbert Taylor served as a cinematographer.",
@@ -2527,7 +2693,8 @@
             "Ted Willis",
             "Louis Levy",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The construction of Alan B. Miller Hall started on March 30th, 2007. Robert A. M. Stern is the architect of the building. Alan B. Miller Hall is located at 101 Ukrop Way, Virginia, and the current tenant is the Mason School of Business. The College of William and Mary owns the Hall.",
@@ -2544,7 +2711,8 @@
             "Mason School of Business",
             "\"30 March 2007\"",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Nie Haisheng was born in Zaoyang in Hubei. Haisheng was from the People's Republic of China and was a part of the Shenzhou 10 mission and also took part in the Shenzhou 6 mission.",
@@ -2559,7 +2727,8 @@
             "Zaoyang",
             "People's Republic of China",
             "Shenzhou 10"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Nie Haisheng was born in Zaoyang, Xiangyang, Hubei Province. He was a crew member on Shenzhou 6 and took part in the Shenzhou 10 mission.",
@@ -2574,7 +2743,8 @@
             "Zaoyang",
             "Shenzhou 10",
             "Xiangyang"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson was born in the Kingdom of England in Darlington, whose OS grid reference is NZ289147. Lady Anne Monson lived in the Kingdom of England, whose dissolution took place in 1707, and held British nationality.",
@@ -2588,7 +2758,8 @@
             "Darlington",
             "Kingdom of England",
             "Lady Anne Monson"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Brandon Carter was born on January 1, 1942 and worked professionally in the field of General Relativity. Brandon Carter was known for the Carter Constant and his contributions to the no-hair theorem. Dennis William Sciama was his doctoral advisor.",
@@ -2603,7 +2774,8 @@
             "\"\"\"1942/01/01\"\"\"",
             "No-hair theorem",
             "Dennis William Sciama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Ciudad Ayala city, a part of Morelos in Mexico with population density of 1604.0, has the leader called as the governator. Ciudad Ayala's with 1147.0 of elevation above sea level, follows Pacific Daylight Time Zone.",
@@ -2620,7 +2792,8 @@
             "1147.0",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Super Capers is a 98.0 minute long English-language film starring Michael Rooker and Tom Sizemore. The film was edited by Stacy Katzman and distributed by Roadside Attractions.",
@@ -2636,7 +2809,8 @@
             "Stacy Katzman",
             "5880.0",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Bootleg Series Volume 1: The Quine Tapes album with a run time of 230.05 minutes in the genre of Rock music was produced by Velvet Underground and released by the record label Polydor Records, preceded by album Squeeze.",
@@ -2651,7 +2825,8 @@
             "Rock music",
             "Squeeze (The Velvet Underground album)",
             "Polydor Records"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The University of Burgundy which is located in the city of Dijon has 27400 students, of which 16800 are undergraduates and 1299 are doctoral students. It has 2900 staff members.",
@@ -2666,7 +2841,8 @@
             "Dijon",
             "2900",
             "16800"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Produced by the Espionage production team and now available in digital format, Mermaid is a reggae inspired song on Train's \"California 37\" album. Train followed up Mermaid with the John Lennon song Imagine.",
@@ -2681,7 +2857,8 @@
             "California 37 (Train album)",
             "Mermaid (Train song)",
             "Reggae"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Aaron Turner, originally from the U.S., started performing in 1995 and played post-metal music with the band Twilight.",
@@ -2695,7 +2872,8 @@
             "Post-metal",
             "\"1995\"^^xsd:gYear",
             "Twilight (band)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "In 2000, the 11th Mississippi Infantry Monument, a contributing property was established in Adams County, Pennsylvania (United States). To its southwest is Frederick County, Maryland, with Carroll County, Maryland to the southeast, and Cumberland County, Pennsylvania to the north.",
@@ -2712,7 +2890,8 @@
             "Frederick County, Maryland",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "1147 Stavropolis has 418476000000.0 apoapsis, and it has an absolute magnitude of 11.5. It was discovered on June 11, 1929 by Grigory Neujmin. The asteroid has an orbital period of 1249.6 days. It has a periapsis of 260855000000.0.",
@@ -2728,7 +2907,8 @@
             "2.608545551289435E8",
             "Grigory Neujmin",
             "\"\"\"1929/06/11\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Grigory Neujmin discovered 1147 Stavropolis on June 11, 1929. 1147 Stavropolis has an apoapsis of 418476000000.0, a periapsis of 260855000000.0 and a rotation period of 20378.5.",
@@ -2743,7 +2923,8 @@
             "2.608545551289435E8",
             "Grigory Neujmin",
             "4.184758084281966E8"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov, who was born on Feb 24, 1989 and stands 185 cm tall, plays for FC Amkar Perm. Gadzhi Gadzhiyev is a manager of the club.",
@@ -2757,7 +2938,8 @@
             "\"185.0\"^^<http://dbpedia.org/datatype/centimetre>",
             "FC Amkar Perm",
             "Aleksandr Prudnikov"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The Year of No Light band released the sludge metal, post-metal album Nord on September 6, 2006 after its album Demo in 2004. The album is 58 minutes and 41 seconds long.",
@@ -2773,7 +2955,8 @@
             "Year of No Light",
             "\"\"\"2006/09/06\"\"\"",
             "Sludge metal"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The album entitled Nord, followed by Year of No Light's album Live at Roadburn 2008, was released by the artist Year of No Light on the Crucial Blast label on the date 2006-09-06 and produced by Year of No Light.",
@@ -2787,7 +2970,8 @@
             "Live at Roadburn 2008 (Year of No Light album)",
             "Year of No Light",
             "Crucial Blast"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Sandesh is a dessert, as is Bionico which contains granola and is from the Guadalajara region of Mexico. Mexico uses pesos as their currency and the people that live there are Mexicans.",
@@ -2804,7 +2988,8 @@
             "Granola",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina was born on May 2,1908 in Karlsruhe, German Empire and belongs to the Israeli nation. Liselotte Grschebina died on June 14, 1994 in Petah Tikva, Israel.",
@@ -2820,7 +3005,8 @@
             "German Empire",
             "Petah Tikva",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "George Allen & Unwin published The Fellowship of the Ring, a fantasy, on July 29th, 1954. The Fellowship of the Ring is preceded by the Hobbit and followed by The Two Towers.",
@@ -2835,7 +3021,8 @@
             "George Allen & Unwin",
             "The Hobbit",
             "Fantasy (genre)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Agremia\u00e7\u00e3o Sportiva Arapiraquense club are managed by Vica. They have 17000 members and played in the Campeonato Brasileiro S\u00e9rie C league based in Brazil on their ground the Estadio Municipal Coaracy da Mata Fonseca located in Arapiraca. The Vila Nova Futebol Clube are the champions.",
@@ -2852,7 +3039,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "A monument to the 11th Mississippi Infantry was erected in 2000 categorised as a contributing property and stands in the state of Pennsylvania in the municipality of Gettysburg in Pennsylvania located in Adams County, Pennsylvania. Carroll County Maryland is southeast and Pennsylvania's Cumberland County is to the north of the Adams County.",
@@ -2869,7 +3057,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Prior to his death in California, Alan Shepard was born on November 18, 1923 in New Hampshire, United States. He served as Chief of the Astronaut Office in 1963 and was awarded the Distinguished Service Medal by the United States Navy.",
@@ -2886,7 +3075,8 @@
             "1963",
             "\"Deceased\"@en",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Turkish citizen Nurhan Atasoy, resident of Istanbul, won the State Award for Superior Achievement.",
@@ -2900,7 +3090,8 @@
             "Istanbul",
             "Turkish people",
             "Turkey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "It's Great to Be Young is a 1956 film that stars Cecil Parker and John Mills. The length of the movie is 94 minutes and written by Ted Willis. It\u2019s edited by Max Benedict and the score is composed by Louis Levy.",
@@ -2916,7 +3107,8 @@
             "Louis Levy",
             "94.0",
             "Cecil Parker"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bedford Aerodrome is located in Thurleigh. This airport serves the Bedford Autodrome and is operated by MotorSport Vision. The runway is 1095 meters long and is made of concrete. The ICAO location identifier for Bedford Aerodrome is EGBF.",
@@ -2932,7 +3124,8 @@
             "Thurleigh",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The 11th Mississippi Infantry Monument is in the United States in a place called the municipality of Gettysburg in Adams County, Pennsylvania. This place has to its southeast Carroll County, Maryland and to its north Pennsylvania's Cumberland County. The 11th Mississippi Infantry Monument is classified as a contributing property.",
@@ -2948,7 +3141,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Owned by The College of William and Mary, Alan B. Miller Hall was completed on June 1st, 2009 and hosts tenants including the Mason School of Business.",
@@ -2962,7 +3156,8 @@
             "\"\"\"\"2009/06/01\"\"\"\"^^xsd:date",
             "Mason School of Business",
             "\"1 June 2009\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Mexico is inhabited by Mexican people and the currency is the peso. Bionico is a dessert containing raisins from the Mexican region of Guadalajara, which is served as a dessert course much like cookies.",
@@ -2979,7 +3174,8 @@
             "Mexico",
             "Cookie",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ciudad Ayala is a city which is part of Morelos in Mexico and the metropolitan area has a population of 1777539. Its government is council-manager and the city has a UTC offset of -6.",
@@ -2994,7 +3190,8 @@
             "Council-manager government",
             "1777539",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology which is in India, is affiliated with Visvesvaraya Technological University and was given the Technical Campus status by The All India Council for Technical Education which is in Mumbai. The campus address for the Acharya Institute of Technology is: Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -3009,7 +3206,8 @@
             "Mumbai",
             "Acharya Institute of Technology",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Carroll County, Maryland is southeast of Adams County, Pennsylvania and Pennsylvania's Cumberland County is to the north. Adams County is where stands the 11th Mississippi Infantry Monument, which is categorised as a contributing property. The monument is placed in the municipality of Gettysburg.",
@@ -3025,7 +3223,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas, located in Sao Paulo, Brazil, produces pharmaceutical drugs and healthcare products. One of the leaders in Brazil is President of the Supreme Federal Court.",
@@ -3040,7 +3239,8 @@
             "S\u00e3o Paulo",
             "\"President of the Supreme Federal Court\"",
             "Drugs"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Lancashire native Bill Oddie starred in Bananaman, a story created by Steve Bright filmed in London at Broadcasting House, the home of the BBC who also broadcast it.",
@@ -3055,7 +3255,8 @@
             "Bill Oddie",
             "Steve Bright",
             "Broadcasting House"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Released on October 16, 2001, The Bootleg Series Volume I: The Quine Tapes was recorded in St. Louis, Missouri, in the United States. The album, which follows the previous Velvet Underground release Squeeze, is 230:05 long.",
@@ -3070,7 +3271,8 @@
             "United States",
             "\"\"\"2001/10/16\"\"\"",
             "Squeeze (The Velvet Underground album)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The campus of the Acharya Institute of Technology, directed by Dr.G. Prabhukumar and affiliated with the Belgaum-located Visvesvaraya Technological University, may be found at at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090, India. It was given 'Technical Campus' status by the All India Council for Technical Education of Mumbai.",
@@ -3086,7 +3288,8 @@
             "Acharya Institute of Technology",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument, located in the municipality of Gettysburg in Adams County, Pennsylvania, United States, just south of Cumberland County, Pennsylvania, is categorized as a Contributing Property that was established in 2000.",
@@ -3103,7 +3306,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "\"United States\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Mason School of Business is located at the Alan B. Miller Hall in Virginia at 101 Ukrop Way. The architect of the building was Robert A M Stern and the building completion date was 01/06/2007.",
@@ -3119,7 +3323,8 @@
             "Mason School of Business",
             "\"1 June 2009\"",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Music group the Velvet Underground released their self-produced Rock music album Bootleg Series Volume 1: The Quine Tapes on 2001-10-16. The album has a total runtime of 230.05 minutes and was recorded in St. Louis Missouri, USA. It was preceded by the band\u2019s album Squeeze.",
@@ -3135,7 +3340,8 @@
             "Rock music",
             "\"\"\"2001/10/16\"\"\"",
             "Squeeze (The Velvet Underground album)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ankara is the capital of Turkey, whose official language is Turkish. Nurhan Atasoy is a citizen of turnkey who was born January 1, 1934. He has also won the State Award for Superior Achievement.",
@@ -3150,7 +3356,8 @@
             "\"\"\"1934/01/01\"\"\"",
             "Turkey",
             "Ankara"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Darinka Dentcheva was born on January 1st, 1958. She is a mathematician working in the field of mathematical optimization, and is known for her work with stochastic programming. One of her theories was influenced by Andrzej Piotr Ruszczy\u0144ski. She is a citizen of the United States and resides in New Jersey.",
@@ -3166,7 +3373,8 @@
             "Stochastic programming",
             "\"\"\"1958/01/01\"\"\"",
             "New Jersey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson, a British national was born in Darlington, Kingdom of England, on January 1, 1726. She resided in India for most of her life with spouse George Monson and died on February 18th, 1776.",
@@ -3182,7 +3390,8 @@
             "Kingdom of England",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Liselotte Grschebina, born May 2, 1908 in Karlsruhe studied at the School of Applied Arts in Stuttgart before her death in Israel on June 14, 1994.",
@@ -3197,7 +3406,8 @@
             "\"\"\"1908/05/02\"\"\"",
             "School of Applied Arts in Stuttgart",
             "Karlsruhe"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument falls under the category of Contributing Property in the USA where it is situated. The exact location of the monument is in Adams County, Pennsylvania, in the municipality of Gettysburg and the monument was built in the year 2000. To the southeast of Adams County, Pennsylvania lies Carroll County, Maryland.",
@@ -3213,7 +3423,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov, who was born on 1989-02-24, plays for FC Terek Grozny who have their ground at Grozny.",
@@ -3227,7 +3438,8 @@
             "Grozny",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Frederick County, Maryland is to the southwest of Adams County, Pennsylvania while Cumberland County is to its north. The 11th Mississippi Infantry Monument, established 2000, is in the municipality of Gettysburg, Pennsylvania which is in Adams County and this monument falls under the category of contributing property.",
@@ -3243,7 +3455,8 @@
             "Frederick County, Maryland",
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson was born in Darlington, in the Kingdom of England, on January 1st, 1726. Her nationality was with the Kingdom of England, but her residence was in India. She passed away on February 18th, 1776.",
@@ -3258,7 +3471,8 @@
             "Kingdom of England",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The album Turn me on was created by the honeymoon killers. This song lasts 35.1 minutes and was preceded by the album Let it Breed. Wharton Tiers produced it .",
@@ -3272,7 +3486,8 @@
             "Let It Breed",
             "Wharton Tiers",
             "Turn Me On (album)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Pontiac Rageous was a car with a coupe body style manufactured by Pontiac. Assembled in both Michigan and Detroit, it went into production in 1997, ending in the same year.",
@@ -3287,7 +3502,8 @@
             "Pontiac Rageous",
             "Pontiac",
             "Detroit"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument is not in Mississippi, as one might expect, but rather in Gettysburg, Pennsylvania. Part of Adams County in the U.S. state of Pennsylvania, this location is near the Maryland counties of Frederick, to the southwest, and Carroll, to the southeast. The monument was established in 2000 and is categorized as a Contributing Property.",
@@ -3304,7 +3520,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman. The budget was $2,000,000.",
@@ -3321,7 +3538,8 @@
             "Ray Griggs (director)",
             "Stacy Katzman",
             "5880.0"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "India's total population is 1,293,057,000 and the country\u2019s demonym is Indian. Lady Anne Monson, born January 1, 1726, known for her study of botany, resided here most of her life.",
@@ -3336,7 +3554,8 @@
             "1293057000",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner a Black metal musician in the Lotus Eaters band started performing in 1995.",
@@ -3349,7 +3568,8 @@
             "Black metal",
             "Lotus Eaters (band)",
             "\"1995\"^^xsd:gYear"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Alan Shepard is an American who was born on November 18, 1923 in New Hampshire, went to school at NWC and graduated with an MA in 1957, was selected by NASA in 1959, was the Chief of the Astronaut Office in 1963 and died in California.",
@@ -3366,7 +3586,8 @@
             "\"NWC, M.A. 1957\"@en",
             "1963",
             "1959"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "American Alan Shepard, who was the Chief of the Astronaut Office in 1963, and a member of the Apollo 14 crew, was awarded the Distinguished Service Medal in the United States Navy. He was born in New Hampshire on Nov 18, 1923 and died in California.",
@@ -3383,7 +3604,8 @@
             "1963",
             "Distinguished Service Medal (United States Navy)",
             "Apollo 14"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bionico (a dish served for dessert) is a food made with condensed milk found in Mexico. Mexicans are people in Mexico, the currency in Mexico is the Mexican peso.",
@@ -3398,7 +3620,8 @@
             "Mexico",
             "Bionico",
             "Condensed milk"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "After releasing their album Squeeze, music group the Velvet Underground produced and released rock music album Bootleg Series Volume 1: The Quine Tapes, which they recorded in St Louis Missouri, USA. The album has a total length of 230:05 minutes.",
@@ -3414,7 +3637,8 @@
             "United States",
             "Rock music",
             "Squeeze (The Velvet Underground album)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abraham A. Ribicoff, a member of the United States Democratic Party, was born in the United States where African Americans are an ethnic group. His wife is Ruth Ribicoff.",
@@ -3428,7 +3652,8 @@
             "Democratic Party (United States)",
             "Abraham A. Ribicoff",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "Bananaman starring Bill Oddie and created by Steve Bright was broadcasted by BBC. BBC was founded by 1st Baron, John Reith and has its home at Broadcasting House.",
@@ -3443,7 +3668,8 @@
             "Steve Bright",
             "John Reith, 1st Baron Reith",
             "Broadcasting House"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Liselotte Grschebina was an Israeli who attended the school of Applied Arts in Stuttgart and was born in the German Empire. One of the official languages of Israel Is Modern Standard Arabic and has a total area of 20,769 square kilometers.",
@@ -3458,7 +3684,8 @@
             "School of Applied Arts in Stuttgart",
             "Modern Standard Arabic",
             "20769100000.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Est\u00e1dio Municipal Coaracy da Mata Fonseca located in Arapiraca is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense. Agremia\u00e7\u00e3o Sportiva Arapiraquense with 17000 members, play in the 2015 Campeonato Brasileiro S\u00e9rie C league in Brazil.",
@@ -3474,7 +3701,8 @@
             "Arapiraca",
             "2015 Campeonato Brasileiro S\u00e9rie C",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The Mermaid song is a reggae song by Train that is 3:16 long. It was written by Amund Bjorklund and produced by Stargate. The song is followed by \u201cImagine\u201d by John Lennon.",
@@ -3489,7 +3717,8 @@
             "Stargate (production team)",
             "Amund Bj\u00f8rklund",
             "Reggae"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Acharya Institute of Technology is located in the state of Karnataka, its director is Dr. G.P. Prabhukumar and it is affiliated to Visvesvaraya Technological University. The All India Council for Technical Education is located in Mumbai and gave the institute Technical Campus status. The address for the campus is: Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -3505,7 +3734,8 @@
             "Karnataka",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva who was born on April 27, 1937 in Leningrad, USSR, died in Saint Petersburg.",
@@ -3519,7 +3749,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology has been given the status of Technical Campus by All India Council for Technical Education, which is located in Mumbai. The Institute's director is Dr. G. P. Prabhukumar. It is affiliated with Visvesvaraya Technological University and has about 700 post graduate students. The campus address for the Acharya Institute of Technology is: Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -3536,7 +3767,8 @@
             "Acharya Institute of Technology",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Train song Mermaid (a song on Train's \"California 37\" album) was written by Espen Lind and Amund Bj\u00f8rklund.Train followed Mermaid with Imagine, a song by John Lennon but was produced by the Espionage production team in the digital format.",
@@ -3552,7 +3784,8 @@
             "California 37 (Train album)",
             "Mermaid (Train song)",
             "Amund Bj\u00f8rklund"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was an American who was was born on November 18, 1923 in New Hampshire, graduated from NWC in 1957 with an M.A and died in California.",
@@ -3568,7 +3801,8 @@
             "United States",
             "New Hampshire",
             "\"NWC, M.A. 1957\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Peso is currency used by Mexicans in Mexico. Bionico is a dessert that can be found in Guadalajara, Mexico. Cookies are also a type of dessert.",
@@ -3584,7 +3818,8 @@
             "Mexico",
             "Cookie",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090, Karnataka, India and it is affiliated to Visvesvaraya Technological University.",
@@ -3598,7 +3833,8 @@
             "\"Urban, ,\\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"@en",
             "Acharya Institute of Technology",
             "Karnataka"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aaron Turner is a performer in the post metal genre, in particular he earns his living by singing. He is originally from Massachusetts and played with the band Twilight.",
@@ -3612,7 +3848,8 @@
             "Massachusetts",
             "Twilight (band)",
             "Singing"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "At a length of 98 minutes, the movie Super Capers starred Michael Rooker and Tom Sizemore. The film was distributed by both Roadside Attractions and Lionsgate.",
@@ -3627,7 +3864,8 @@
             "Roadside Attractions",
             "5880.0",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Expect a Miracle is a compilation album that is 54.56 minutes long. Brian Kelly wrote and produced it. The album was preceded by Pools of Light, by Brian Kelly.",
@@ -3641,7 +3879,8 @@
             "54.56666666666667",
             "Pools of Light (Brian Kelly album)",
             "Brian Kelly (composer & pianist)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Piotr Hallmann currently weighs 70.308 kg and was born on August 25, 1987 in Gdynia, Poland, which has a total area of 135,000,000.0 and was founded on February 10, 1926.",
@@ -3656,7 +3895,8 @@
             "Piotr Hallmann",
             "70.308",
             "\"\"\"1926/02/10\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Tom Simon directed and produced Death on a Factory Farm which was also produced by Sarah Teale. The movie was edited by Geof Bartz and released by HBO.",
@@ -3670,7 +3910,8 @@
             "HBO",
             "Tom Simon",
             "Death on a Factory Farm"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The 11th Mississippi Infantry Monument was established in 2000 and its location is Adams County, Pennsylvania. The 11th Mississippi Infantry Monument is categorized as a Contributing Property. Franklin County, PA, is to the west of it, Cumberland County, PA, is to the north, and Carroll County, Maryland, is to the southeast.",
@@ -3687,7 +3928,8 @@
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov played for the youth FC Spartak Moscow previously, as well as the FC Terek Grozny which is managed by Rashid Rakhimov.",
@@ -3701,7 +3943,8 @@
             "Aleksandr Prudnikov",
             "FC Spartak Moscow",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The population of the Morelos metropolitan city of Ciudad Ayala (leader: City Manager; government type: council-manager government) is 1,777,539, resulting in a population density of 1604.0.",
@@ -3717,7 +3960,8 @@
             "1777539",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Contributor to the no-hair theorem and developer of the Carter Constant, Brandon Carter, works in the field of General Relativity. He was born in England on January, 1 1942. He graduated from the University of Cambridge where he was under the doctoral advisement of Dennis William Sciama.",
@@ -3734,7 +3978,8 @@
             "\"\"\"1942/01/01\"\"\"",
             "No-hair theorem",
             "Dennis William Sciama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Bionico is a food found in Mexico, served at the dessert course. The leader of Mexico (currency: peso) is Silvano Aureoles Conejo.",
@@ -3748,7 +3993,8 @@
             "Silvano Aureoles Conejo",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Mexicans are people from Mexico, where the currency is the Mexican peso. Silvano Aureoles Conejo is the current leader of Mexico. Bionico, from the region Jalisco, is a food found in Mexico and served for dessert.",
@@ -3764,7 +4010,8 @@
             "Mexico",
             "Jalisco",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Cyril Frankel directed the 1956 film It's Great to Be Young which runs 94 minutes and costed \u00a3282,838. The movie is starring John Mills and in Gilbert Taylor's cinematography.",
@@ -3779,7 +4026,8 @@
             "282838.0",
             "John Mills",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "With its motto \u201cNurturing Excellence,\u201d its academic staff of about 500 directed by Dr. G.P. Prabhukumar, and its affiliation with Visvesvaraya Technological University, the Acharya Institute of Technology, located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090, was designated a Technical Campus by the All India Council for Technical Education of Mumbai.",
@@ -3796,7 +4044,8 @@
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education",
             "\"Nurturing Excellence\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Compilation album Expect a Miracle was produced by composer and pianist Brian Kelly following his earlier album Pools of Light. The album is an instrumental album with a total length of 54.56. Expect a Miracle was followed by Kelly\u2019s Afterplay album.",
@@ -3812,7 +4061,8 @@
             "Brian Kelly (composer & pianist)",
             "Afterplay (Brian Kelly album)",
             "Instrumental music"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Serving the Bedford Autodrome area, Bedford Aerodrome is located in Thurleigh, with an elevation of 83.2104 above sea level, a runway length of 1095.0 and is operated by MotorSport Vision.",
@@ -3827,7 +4077,8 @@
             "83.2104",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Pontiac Rageous was a car manufactured by Pontiac. It went into production in 1997 and ended the same year. It was assembled in Detroit, Michigan.",
@@ -3841,7 +4092,8 @@
             "Pontiac Rageous",
             "Pontiac",
             "Detroit"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Agremia\u00e7\u00e3o Sportiva Arapiraquense (full name \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\", 17,000 members) play in the Campeonato Brasileiro S\u00e9rie C league from Brazil & played in the 2015 season. Est\u00e1dio Municipal Coaracy da Mata Fonseca, located in Arapiraca, is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense.",
@@ -3858,7 +4110,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "2015"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Bionico (served at the dessert course) is a food made with granola found in Mexico. The currency in Mexico is the peso inhabited by the Mexicans. Cookie is a type of dessert.",
@@ -3874,7 +4127,8 @@
             "Mexico",
             "Cookie",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva, born in Leningrad of the USSR, is an economist and mathematician who died in Saint Petersburg on December 9, 1991.",
@@ -3889,7 +4143,8 @@
             "\"\"\"1991/12/09\"\"\"",
             "Economics",
             "Saint Petersburg"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Abraham A. Ribicoff was of American nationality and was a member of the United States Democratic Party. He was born in the United States and was married to Ruth Ribicoff. During John F. Kennedy\u2019s presidency, Abraham was also in office.",
@@ -3904,7 +4159,8 @@
             "Democratic Party (United States)",
             "Abraham A. Ribicoff",
             "\"American\"@en"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "George Allen & Unwin published the Fellowship of the Ring. The Fellowship of the Ring belongs to the fantasy literary genre and was followed by The Two Towers. The Fellowship author is J.R.R Tolkien, and it was released on July 29, 1954. But the Hobbit came before The Fellowship of the Ring.",
@@ -3920,7 +4176,8 @@
             "The Hobbit",
             "J. R. R. Tolkien",
             "Fantasy (genre)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "In the Pacific Daylight/Standard Time Zone, the city of Ciudad Ayala has a leader known as the Governator. Its population density is 1604 and it stands 1147 metres above sea level.",
@@ -3935,7 +4192,8 @@
             "1147.0",
             "Pacific Daylight Time",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bedford Aerodrome runway name is 08/26, it is 1095 long and the surface is made of concrete, it is also 83.2104 meters above sea level. The ICAO location identifier for the aerodrome is EGBF.",
@@ -3950,7 +4208,8 @@
             "EGBF",
             "83.2104",
             "1095.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Mason School of Business are the current tenants of Alan B Miller Hall which is a building in the Georgian architectural style. The building is owned by The College of William and Mary and was designed by Robert A.M. Stern. The address of the hall is 101 Ukrop Way and the construction start date was the 30th of March 2007.",
@@ -3967,7 +4226,8 @@
             "Georgian architecture",
             "Mason School of Business",
             "\"30 March 2007\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The architect of Alan B Miller Hall, owned by The College of William and Mary, is Robert A M Stern and it is situated at 101 Ukrop Way, Virginia, USA. They started to build the Alan B Miller Hall on the 30th of March, 2007 and The Mason School of Business are now its tenants.",
@@ -3985,7 +4245,8 @@
             "Mason School of Business",
             "\"30 March 2007\"",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Harry Carey, born in 1878, wrote, directed and starred in the movie McVeagh of the South Seas which was also directed by Cyril Bruce and registered in IMDb with the ID 0004319.",
@@ -3998,7 +4259,8 @@
             "0004319",
             "Harry Carey (actor born 1878)",
             "McVeagh of the South Seas"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The College of William and Mary is the owner of the Alan B. Miller Hall at 101 Ukrop Way in Virginia, which was the design of Robert A.M. Stern. The building of the hall started on the 30th of March 2007 and completed on the 1st of June 2009. The Mason School of Business are the current tenants of the building.",
@@ -4017,7 +4279,8 @@
             "\"1 June 2009\"",
             "\"\"\"\"\"\"\"2007/03/30\"\"\"\"\"\"\"^^xsd:date",
             "Virginia"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The Mason School of Business is located in the United States at the Alan B Miller Hall which is owned by The College of William and Mary. The hall is located at 101 Ukrop Way and its build began on the 30th of March, 2007 after being designed by architect Robert A M Stern.",
@@ -4034,7 +4297,8 @@
             "United States",
             "Mason School of Business",
             "\"30 March 2007\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "The University of Burgundy in Dijon has 2900 staff members that educate 16800 undergraduate students, 1299 doctoral students, and 9400 postgraduate students a total of 27400 students combined.",
@@ -4049,7 +4313,8 @@
             "Dijon",
             "2900",
             "16800"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Acharya Institute of Technology in Bangalore is affiliated to Visvesvaraya Technological University and has as its director Dr. G. P. Prabhukumar.",
@@ -4062,7 +4327,8 @@
             "\"Dr. G. P. Prabhukumar\"@en",
             "Visvesvaraya Technological University",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan B. Miller Hall, which is owned by The College of William and Mary, was designed by the architect Robert A.M. Stern. The address of the hall is 101 Ukrop Way and the current tenants are the Mason School of Business.",
@@ -4076,7 +4342,8 @@
             "\"101 Ukrop Way\"@en",
             "Alan B. Miller Hall",
             "Mason School of Business"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "John Mills, died in 2005, played leading role in the 1956 film It' Great to be young which was directed by Cyril Frankel. Cecil Parker also had a main role in the movie which was written by Ted Willis.",
@@ -4091,7 +4358,8 @@
             "Ted Willis",
             "\"\"\"2005/01/01\"\"\"",
             "Cecil Parker"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Tom Simon produced and directed the film Death on a Factory Farm whilst Jamie Lawrence composed the music. This film lasted for 83 minutes and was edited by Geof Bartz and broadcast by HBO.",
@@ -4106,7 +4374,8 @@
             "Tom Simon",
             "Death on a Factory Farm",
             "Jamie Lawrence"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Hypermarcas, a company that makes healthcare products and sells cosmetics, employs 10,252 people. Hypermarcas had a net income of $108,600,000 and its revenue is $1,800,000,000.",
@@ -4121,7 +4390,8 @@
             "Cosmetics",
             "1.086E8",
             "1.8E9"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Roadside Attractions and the public company Lionsgate distributed the English-language movie Super Capers with \"en\" as the ISO 639-1 code.",
@@ -4136,7 +4406,8 @@
             "English language",
             "en",
             "Public company"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Super Capers is a movie starring Tom Sizemore and Michael Rooker. It\u2019s 98 minutes and plays in English. It is distributed by Lionsgate and Roadside Attractions. Stacy Katzman was the film editor.",
@@ -4153,7 +4424,8 @@
             "Stacy Katzman",
             "5880.0",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The song Mermaid belongs to the musical band Train, has a length of 3 minutes and 16 seconds, and is an example of the reggae genre.. This'll be my year by Train was followed by Mermaid (and the song Imagine) but The Train song Mermaid has a length of 3 minutes and 16 seconds (produced by the Espionage production team).",
@@ -4169,7 +4441,8 @@
             "This'll Be My Year",
             "Train (band)",
             "Reggae"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Darinka Dentcheva was born January 1, 1958. She attended Humboldt University and is a US citizen. Darinka Dentcheva is a mathematician who developed a theory influenced by Andrzej Piotr Ruszczynski in the field of mathematical optimization.",
@@ -4184,7 +4457,8 @@
             "United States",
             "Mathematical optimization",
             "\"\"\"1958/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Nurhan Atasoy was born and currently resides in Turkey, a unitary state whose area is comprised by 1.3 percent water, where he currently resides in the city of Istanbul.",
@@ -4198,7 +4472,8 @@
             "Unitary state",
             "1.3",
             "Turkey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Operating as an S.A. corporation and parent to Mantecorp, Hypermarcas is a pharmaceutical company that makes healthcare products. Hypermarcas has 10,252 employees and a net income of $108,600,000.",
@@ -4214,7 +4489,8 @@
             "Pharmaceuticals",
             "1.086E8",
             "Mantecorp"
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Nie Haisheng was born in Zaoyang, Hubei on October 13, 1964, was part of the mission Shenzhou 10 and took part in the Shenzhou 6 mission.",
@@ -4229,7 +4505,8 @@
             "Zaoyang",
             "Shenzhou 10",
             "\"\"\"1964/10/13\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Construction on Alan B. Miller Hall, which was designed by Robert A. M. Stern, began on March 30th, 2007. The building is located at 101 Ukrop Way and is owned by the College of William and Mary. The Mason School of Business is the Alan B. Miller Hall's current tenant.",
@@ -4245,7 +4522,8 @@
             "Alan B. Miller Hall",
             "Mason School of Business",
             "\"30 March 2007\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Bionico, a dessert made of chopped Fruits, sour cream, condensed milk, granola, shredded coconut and raisins, is found in Mexico where the leader is Silvano Aureoles Conejo, and its inhabitants, the Mexicans, use peso as their currency.",
@@ -4261,7 +4539,8 @@
             "Silvano Aureoles Conejo",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Bondareva who was born in Leningrad, USSR on April 27, 1937 is known for Bondareva-Shapley theorem. She died in Saint Petersburg.",
@@ -4276,7 +4555,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The full name of Agremia\u00e7\u00e3o Sportiva Arapiraquense is \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\". They play in the Campeonato Brasileiro Serie C in 2015 based in Brazil on their ground called the Estadio Municipal Coaracy da Mata Fonseca located in Arapiraca. The Vila Nova Futebol Clube are the champions.",
@@ -4293,7 +4573,8 @@
             "Arapiraca",
             "2015 Campeonato Brasileiro S\u00e9rie C",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Approximately 500 employees make up the academic staff at Acharya Institute of Technology, a Technical Campus designated by the All India Council for Technical Education of Mumbai, affiliated with the Visvesvaraya Technological University of Belgaum, and directed by Dr. G.P. Prabhukumar at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
@@ -4310,7 +4591,8 @@
             "Acharya Institute of Technology",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "McVeagh of the South Seas, a film with the IMDb #0004319, was distributed by Alliance Films Corporation and produced by the Progressive Motion Picture Company. The film was directed by Cyril Bruce and Harry Carey, who was born in 1878 and also starred in and wrote the film.",
@@ -4325,7 +4607,8 @@
             "0004319",
             "The Progressive Motion Picture Company",
             "Cyril Bruce"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bedford Aerodrome serves the Bedford Autodrome and is 83.2104 meters above sea level. The ICAO location identifier for the aerodrome is EGBF and its concrete surfaced runway is named 08/26.",
@@ -4340,7 +4623,8 @@
             "EGBF",
             "83.2104",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Ruth Ribicoff was married to Abraham A. Ribicoff who was born and died in the USA, where African Americans are an ethnic group.",
@@ -4353,7 +4637,8 @@
             "Abraham A. Ribicoff",
             "\"Ruth Ribicoff\"@en",
             "African Americans"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Mexican city of Ciudad Ayala is run by a leader known as the governator. Its population density is 1604 and its UTC offset is -6.",
@@ -4368,7 +4653,8 @@
             "Governator",
             "City",
             "Ciudad Ayala"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "American national Alan Shepard was born in New Hampshire in November of 1923 and died in California in July of 1998. He was educated at NWC and graduated in 1957 with an MA.",
@@ -4384,7 +4670,8 @@
             "United States",
             "New Hampshire",
             "\"NWC, M.A. 1957\"@en"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Born on 24th February 1989, Aleksandr Prudnikov trained with the youth football club FC Spartak, Moscow. He now plays for the FC Amkar Perm team, which is managed by Gadzhi Gadzhiyev.",
@@ -4398,7 +4685,8 @@
             "FC Amkar Perm",
             "Aleksandr Prudnikov",
             "FC Spartak Moscow"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Agremia\u00e7\u00e3o Sportiva Arapiraquense, a club with 17,000 members, played in the Campeonato Brasileiro S\u00e9rie C league in 2015. Vila Nova Futebol Clube, another club, have been champions of Campeonato Brasileiro S\u00e9rie C. The home stadium for Agremia\u00e7\u00e3o Sportiva Arapiraquense is Est\u00e1dio Municipal Coaracy da Mata Fonseca, which is located in Arapiraca, Brazil.",
@@ -4414,7 +4702,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "2015"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "1147 Stavropolis is an asteroid with an absolute magnitude of 11.5 and orbital period of 1249.6 days. Also, this asteroid has an apoapsis of 418476000000.0, a periapsis of 260855000000.0 and the epoch date is 31 July 2016 (Julian Day 2457600.5).",
@@ -4429,7 +4718,8 @@
             "107965000.0",
             "4.184758084281966E8",
             "31 July 2016 (JD2457600.5)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born in New Hampshire on November 18, 1923 and later died in California. Shepard served as a crew member of Apollo 14 and served as Chief of the Astronaut Office in 1963.",
@@ -4444,7 +4734,8 @@
             "New Hampshire",
             "1963",
             "Apollo 14"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born November 18th, 1923 in New Hampshire and his nationality is United States. Shepard graduated from NWC with an M.A. in 1957 and was awarded the Distinguished Service Medal by The United States Navy.",
@@ -4459,7 +4750,8 @@
             "\"NWC, M.A. 1957\"@en",
             "New Hampshire",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was born November 18th, 1923 in New Hampshire and later died in California. Shepard graduated from NWC with an M.A. in 1957 and was also the Chief of the Astronaut Office in 1963.",
@@ -4474,7 +4766,8 @@
             "New Hampshire",
             "\"NWC, M.A. 1957\"@en",
             "1963"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Brandon Carter was born in England on January 1, 1942. He graduated from the University of Cambridge and the chancellor of the University was known as David Sainsbury. The doctoral advisor of Brandon Carter while he was at the University was Dennis William Sciama.",
@@ -4489,7 +4782,8 @@
             "\"\"\"1942/01/01\"\"\"",
             "David Sainsbury, Baron Sainsbury of Turville",
             "Dennis William Sciama"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "1147 Stavropolis, an asteroid with an orbital period of 1249.6 days with 11.5 absolute magnitude, was discovered by Grigory Neujmin. This asteroid has an apoapsis of 418476000000.0 and periapsis of 260855000000.0.",
@@ -4504,7 +4798,8 @@
             "1249.6",
             "2.608545551289435E8",
             "Grigory Neujmin"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The leader of Ciudad Ayala is Juan Nolasco and it uses a council-manager type of government. The population density of Ciudad Ayala is 1604.0 and the time zone of Ciudad Ayala is the Pacific Standard Time Zone or Pacific Daylight Time depending on months of the year.",
@@ -4519,7 +4814,8 @@
             "Pacific Daylight Time",
             "Ciudad Ayala",
             "Juan Nolasco"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard is an American who was born on November 18th, 1923 in New Hampshire, graduated from NWC with an M.A. in 1957, was the Chief of the Astronaut Office in 1963 and died in California.",
@@ -4535,7 +4831,8 @@
             "New Hampshire",
             "\"NWC, M.A. 1957\"@en",
             "1963"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Massachusetts-born musician Aaron Turner began performing in 1995. Turner is a post-metal musician who played with the band Twilight.",
@@ -4549,7 +4846,8 @@
             "Massachusetts",
             "\"1995\"^^xsd:gYear",
             "Twilight (band)"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The Acharya Institute of Technology which is affiliated to Visvesvaraya Technological University has 700 postgraduate students.",
@@ -4562,7 +4860,8 @@
             "Visvesvaraya Technological University",
             "\"~700\"@en",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard was an American who was born on November 18, 1923 in New Hampshire, served as a crew member of Apollo 14 and died in California.",
@@ -4577,7 +4876,8 @@
             "United States",
             "New Hampshire",
             "Apollo 14"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "\"Agremia\u00e7\u00e3o Sportiva Arapiraquense\" is the full name of the Agremia\u00e7\u00e3o Sportiva Arapiraquense club, which has 17000 members. They play in the Campeonato Brasileiro S\u00e9rie C league on their ground Estadio Municipal Coaracy da Mata Fonseca located in Arapiraca. The championship is based in Brazil and Vila Nova Futebol Clube are the champions.",
@@ -4594,7 +4894,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Bedford Aerodrome is located in Thurleigh, 83.2 meters above sea level. This airport serves the Bedford Autodrome and is operated by MotorSport Vision. The runway is 1095 meters long. The ICAO location identifier for Bedford Aerodrome is EGBF.",
@@ -4610,7 +4911,8 @@
             "83.2104",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Leningrad State University is the alma mater of Olga Bondareva. Olga Bondareva died in Saint Petersburg. St Petersburg is a city in Russia and Georgy Poltavchenko is the current leader there.",
@@ -4625,7 +4927,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adolfo Su\u00e1rez Madrid Barajas Airport, located in Alcobendas, which is part of the community of Madrid, Spain and operated by ENAIRE, is 610 metres above sea level and has a runway that is 4349 metres long.",
@@ -4641,7 +4944,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Death on a Factory Farm, produced and directed by Tom Simon and edited by Geof Bartz was broadcast by HBO. The music was composed by Jamie Lawrence and Sarah Teale was co-producer.",
@@ -4656,7 +4960,8 @@
             "Tom Simon",
             "Death on a Factory Farm",
             "Jamie Lawrence"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Super Capers is a 98 minute movie starring Michael Rooker and Tom Sizemore. Stacy Katzman edited Super Capers which was filmed in English.",
@@ -4671,7 +4976,8 @@
             "Stacy Katzman",
             "5880.0",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bootleg Series Volume 1: The Quine Tapes by Velvet Underground, a rock music genre, was released on October, 16, 2001 by Universal Music Group and Polydor Records.The Quine Tapes was preceded by Squeeze by The Velvet Underground.",
@@ -4687,7 +4993,8 @@
             "Universal Music Group",
             "Squeeze (The Velvet Underground album)",
             "Polydor Records"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The location that the Bootleg Series Volume 1: The Quine Tapes was recorded in was St. Louis, Missouri, and San Francisco, which is in the Pacific Time Zone.",
@@ -4701,7 +5008,8 @@
             "Pacific Time Zone",
             "Bootleg Series Volume 1: The Quine Tapes",
             "Pacific Daylight Time"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Agremia\u00e7\u00e3o Sportiva Arapiraquense has 17000 members and their ground is Estadio Municipal Coaracy da Mata Fonseca located in Arapiraca. Their group is also known as \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\". Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league with Vila Nova Futebol Clube as the champion.",
@@ -4717,7 +5025,8 @@
             "Campeonato Brasileiro S\u00e9rie C",
             "Arapiraca",
             "Est\u00e1dio Municipal Coaracy da Mata Fonseca"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Alan Shepard was a United States national, born on November 18th, 1923 in New Hampshire. He was the Chief of the Astronaut Office in 1963. The United States Navy awarded him the Distinguished Service Medal, which is higher than the Department of Commerce gold medal. He died in California.",
@@ -4734,7 +5043,8 @@
             "1963",
             "Department of Commerce Gold Medal",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Super Capers is a film starring Michael Rooker and Tom Sizemore, who began his career in 1989. The language of the movie Super Capers is English, which is the spoken language in Great Britain.",
@@ -4749,7 +5059,8 @@
             "English language",
             "Great Britain",
             "Michael Rooker"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Mexico is inhabited by Mexicans and the currency used there is the Mexican peso. Bionico is a dish served for dessert there and sour cream is used to make this dish.",
@@ -4764,7 +5075,8 @@
             "Mexico",
             "Sour cream",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Mexicans are people from Mexico, which is a country from the Guadalajara region that is led by Silvano Aureoles Conejo. The Mexican peso is the currency used to buy such dishes as Bionico, a dessert found in Mexico that contains raisins,.",
@@ -4781,7 +5093,8 @@
             "Silvano Aureoles Conejo",
             "Mexico",
             "Bionico"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Acharya Institute of Technology campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 in the state of Karnataka, and it's affiliated to Visvesvaraya Technological University.",
@@ -4794,7 +5107,8 @@
             "Karnataka",
             "Visvesvaraya Technological University",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov plays for FC Terek Grozny (based at Grozny) and managed by Rashid Rakhimov.Aleksandr Prudnikov played for FC Spartak Moscow's youth team an his current club is FC Amkar Perm.",
@@ -4810,7 +5124,8 @@
             "Grozny",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The album Bootleg Series Volume 1: The Quine Tapes was released and produced by the Velvet Underground. The album was recorded in St. Louis, Missouri, United States and has a run time of 230:05.",
@@ -4824,7 +5139,8 @@
             "The Velvet Underground",
             "13803.0",
             "United States"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "John N Dempsey was preceded in office by American citizen Abraham A Ribicoff. Abraham A Ribicoff was born in the United States and was married to Ruth Ribicoff. He was in office at the same time that John F. Kennedy was president.",
@@ -4839,7 +5155,8 @@
             "John F. Kennedy",
             "Abraham A. Ribicoff",
             "\"American\"@en"
-        ]
+        ],
+        "predicted_label1": "Politics"
     },
     {
         "story": "John Mills had a main role in the 94 minute movie It's Great to Be Young which took 282838 pounds at the box office. Louis Levy composed the music for the movie which had Gilbert Taylor as the cinematographer.",
@@ -4854,7 +5171,8 @@
             "John Mills",
             "Louis Levy",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Alan Shepard, a United States citizen, who graduated from NWC with an M.A. in 1957, was the Chief of the Astronaut Office in 1963. Shepard was awarded the Distinguished Service Medal by the United States Navy. He was born on November 18th, 1923 in New Hampshire and died in California.",
@@ -4871,7 +5189,8 @@
             "\"NWC, M.A. 1957\"@en",
             "1963",
             "Distinguished Service Medal (United States Navy)"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Bedford Aerodrome has an operating organization that is called the MotorSport Vision. It is located in Thurleigh. Its runway is named as \"08/26\" and its length is 1095. The ICAO location identifier is EGBF, and this aerodrome serves the Bedford Autodrome.",
@@ -4887,7 +5206,8 @@
             "Thurleigh",
             "1095.0",
             "Bedford Autodrome"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Located in Bangalore, the Acharya Institute of Technology is affiliated with the Visvesvaraya Technological University. B. M. Reddy is the President of Acharya Institute of Technology. Its campus is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.",
@@ -4901,7 +5221,8 @@
             "\"Urban, ,\\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"@en",
             "Bangalore",
             "Acharya Institute of Technology"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Death metal is a musical fusion of black metal which itself is a genre of Aaron Turner's music. Aaron Turner played for Old Man Gloom.",
@@ -4914,7 +5235,8 @@
             "Black metal",
             "Aaron Turner",
             "Old Man Gloom"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The 11th Mississippi Infantry Monument was established in 2000 and categorized as a contributing Property. It is placed in the municipality of Gettysburg, Adams County, Pennsylvania. To the west of Adams County, Pennsylvania, is Franklin County, Pennsylvania, and it has Carroll County, Maryland to its southeast.",
@@ -4931,7 +5253,8 @@
             "Gettysburg, Pennsylvania",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov, height 185 cm., a member of the youth side of FC Spartak Moscow, and who plays for FC Amkar Perm is in the FC Terek Grozny club based at Grozny.",
@@ -4947,7 +5270,8 @@
             "Grozny",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The University of Burgundy has 27400 students, of which 9400 are postgraduates. The University is located in Dijon, France, and is a campus university.",
@@ -4961,7 +5285,8 @@
             "27400",
             "Dijon",
             "9400"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The film \"It's Great to Be Young\" starring John Mills was released in 1956. It was directed by Cyril Frankel and music was composed by Louis Levy. Cinematography is taken care by Gilbert Taylor, and duration of the film is 94 minutes. The film collected 282,838 pounds.",
@@ -4977,7 +5302,8 @@
             "John Mills",
             "Louis Levy",
             "5640.0"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Aleksandr Prudnikov who is 185.0 (centimetres) tall currently plays for FC Amkar Perm managed by Gadzhi Gadzhiyev. He played at FC Terek Grozny's ground in Grozny.",
@@ -4993,7 +5319,8 @@
             "Grozny",
             "FC Terek Grozny",
             "\"\u2192 Terek Grozny\"@en"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "Nurhan Atasoy a Turkish national, residing in Tesvikiye, Turkey was born on January 1, 1934 in Turkey. He won the State Award for Superior Achievement.",
@@ -5008,7 +5335,8 @@
             "\"\"\"1934/01/01\"\"\"",
             "Turkish people",
             "Turkey"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The address of Alan B. Miller Hall is 101 Ukrop Way and the property was designed by architect Robert A M Stern. The current owner of the building is the College of William and Mary and the building was completed on 01/06/2009. The Mason School of Business are currently based at the Hall and are current tenants.",
@@ -5024,7 +5352,8 @@
             "\"\"\"\"2009/06/01\"\"\"\"^^xsd:date",
             "Mason School of Business",
             "\"1 June 2009\""
-        ]
+        ],
+        "predicted_label1": "Business"
     },
     {
         "story": "Olga Bondareva-born as Olga Nikolaevna Bondareva-was a student at Leningrad State University. She was known for the Bondareva-Shapley theorem and later died in Saint Petersburg.",
@@ -5039,7 +5368,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The Train song Mermaid, of the reggae genre, written by Espen Lind and Amund Bj\u00f8rklund with runtime of 3 minutes and 16 seconds was produced by the Espionage production team. It was followed with Imagine, a song by John Lennon.",
@@ -5056,7 +5386,8 @@
             "Amund Bj\u00f8rklund",
             "Train (band)",
             "Reggae"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Adolfo Su\u00e1rez Madrid-Barajas Airport in Alcobendas has an elevation of 610.0 metres above sea level and has a runway length of 4,349. It is operated by ENAIRE, which is in the city of Madrid.",
@@ -5071,7 +5402,8 @@
             "\"609.6\"^^xsd:double",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "Olga Bondareva, also known as Olga Nikolaevna Bondareva, was born on April 27, 1937 and died in Saint Petersburg.",
@@ -5085,7 +5417,8 @@
             "Olga Bondareva",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The All India Council for Technical Education, located in Mumbai, was proud to give Technical Campus status to the Acharya Institute of Technology, located in Bangalore, India, a city founded by Kempe Gowda I. Dr. G. P. Prabhukumar is the director of the Acharya Institute of Technology. The campus address is Acharya Institute of Technology, Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.",
@@ -5102,7 +5435,8 @@
             "Bangalore",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Botanist Lady Anne Monson was born in Darlington in the Kingdom of England. She lived from January 1st, 1726 to February 18th, 1776.",
@@ -5117,7 +5451,8 @@
             "Kingdom of England",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Piotr Hallmann was born in Gdynia, Poland, which is in Central European summer time. He is 175.26 cm. tall.",
@@ -5132,7 +5467,8 @@
             "Gdynia, Poland",
             "Piotr Hallmann",
             "Central European Summer Time"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Adolfo Suarez Madrid-Barajas Airport in Alcobendas, Spain, is operated by ENAIRE which is based in Madrid. The airport's runway length is 3500.",
@@ -5147,7 +5483,8 @@
             "ENAIRE",
             "Alcobendas",
             "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     },
     {
         "story": "The 11th Mississippi Infantry Monument, established in the year 2000, is located in the state of Pennsylvania, in a place called Adams County. Adams County, Pennsylvania has Carroll County, Maryland to its southeast and Cumberland county, Pennsylvania to its north. The monument is categorized as a Contributing Property.",
@@ -5163,7 +5500,8 @@
             "11th Mississippi Infantry Monument",
             "Adams County, Pennsylvania",
             "Carroll County, Maryland"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Lady Anne Monson was born in Darlington in the Kingdom of England on January 1, 1726. She was the spouse of George Monson. Lady Anne Monson died on 1776-02-18.",
@@ -5178,7 +5516,8 @@
             "Kingdom of England",
             "Lady Anne Monson",
             "\"\"\"1726/01/01\"\"\""
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "Olga Nikolaevna Bondareva, was born on April 27 1937 and died in St Petersburg on December 9 1991. A student of Leningrad State University, she was known for the Bondareva-Shapley theorem.",
@@ -5195,7 +5534,8 @@
             "\"\"\"\"\"\"1991/12/09\"\"\"\"\"\"",
             "Saint Petersburg",
             "Saint Petersburg, USSR"
-        ]
+        ],
+        "predicted_label1": "Tech"
     },
     {
         "story": "The campus of the Acharya Institute of Technology is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090. The Institute was founded by Kempe Gowda I and the current director is Dr. G. P. Prabhukumar. Tennis is one of the sports offered. The status of Technical Campus was given to the Institute by All India Council for Technical Education, located in Mumbai.",
@@ -5212,7 +5552,8 @@
             "Bangalore",
             "\"Dr. G. P. Prabhukumar\"@en",
             "All India Council for Technical Education"
-        ]
+        ],
+        "predicted_label1": "Sport"
     },
     {
         "story": "The song Mermaid by Train was written by Espen Lind and Amund Bjorklund and released on December 27, 2017. The song Mermaid is three minutes and sixteen seconds long. Mermaid is preceded by the song \"This'll Be My Year\" then after by John Lennon's \"Imagine\".",
@@ -5228,6 +5569,7 @@
             "This'll Be My Year",
             "Amund Bj\u00f8rklund",
             "\"\"\"2012/12/27\"\"\""
-        ]
+        ],
+        "predicted_label1": "Entertainment"
     }
 ]
