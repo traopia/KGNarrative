@@ -207,7 +207,7 @@ def main(argv, argc):
 
     
     for d in ["train","test","val"]:
-        data = pd.read_json(f"./Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
+        data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
 
         data=data.head(4)#REMOVE THIS LINE
         
