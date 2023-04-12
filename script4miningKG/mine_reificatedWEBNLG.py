@@ -160,8 +160,8 @@ def extract_triples_from_tuples(df):
 
 def get_final_kg(df):
     df["final_triples"] = df["final_triples"].apply(lambda x: x[1:-1])
-    #df["semantic_of_news"] = "news - type - " + df["predicted_label1"] + " | " + df["final_triples"] # <------ THIS IS THE GOOD ONE BUT THERE IS NO LABEL
-    df["semantic_of_news"] =  df["final_triples"]
+    df["semantic_of_news"] = "news - type - " + df["predicted_label1"] + " | " + df["final_triples"] # <------ THIS IS THE GOOD ONE BUT THERE IS NO LABEL
+    #df["semantic_of_news"] =  df["final_triples"]
 
 
     return df
@@ -220,7 +220,7 @@ def main(argv, argc):
         df3['entities_list'] = df3['triple_column'].apply(extract_entities)
         #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
         #to_json_format("./train_complete.json", "./train_complete.csv")
-        dump_json_with_mined_semantic(df3, f"./Datasets/withSummaryNotFinal/{d}_summary_with_mined_kg.json")
+        dump_json_with_mined_semantic(df3, f"./Datasets/WebNLG/57_triples/oneClass/Trattin/oneClass_{d}.json")
 
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))
