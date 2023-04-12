@@ -220,7 +220,7 @@ def main(argv, argc):
         df3['entities_list'] = df3['triple_column'].apply(extract_entities)
         #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
         #to_json_format("./train_complete.json", "./train_complete.csv")
-        dump_json_with_mined_semantic(df3, f"./Datasets/WebNLG/57_triples/oneClass/Trattin/oneClass_{d}.json")
+        dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattin/oneClass_{d}.json")
 
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))

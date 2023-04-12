@@ -166,6 +166,7 @@ def main(argv, arc):
 
     bleurt = evaluate.load("bleurt")
     result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
+    result_bleurt['scores']=np.mean(result_bleurt['scores'])
     print(f'{result_bleurt=}')
 
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)

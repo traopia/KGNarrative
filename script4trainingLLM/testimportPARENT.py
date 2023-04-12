@@ -5,6 +5,7 @@ from utils import *
 #sys.path.append("parent/parent")
 
 import evaluate
+import numpy as np
 
 
 
@@ -33,9 +34,9 @@ for d in data:
 
 bleurt = evaluate.load("bleurt")
 result_bleurt = bleurt.compute(predictions=predictions, references=reference)
+result_bleurt['scores']=np.mean(result_bleurt['scores'])
 print(f'{result_bleurt=}')
 
 
 
 
-print(bleurt_metric(predictions,reference))
