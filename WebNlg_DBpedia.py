@@ -336,9 +336,21 @@ def trattini(file_to_preprocess, output_file):
         data[i]['Subclasses_KG'] = data[i]['Subclasses_KG'].replace(' - ','|').replace(' | ','-')
         data[i]['Subclasses_KG'] = data[i]['Subclasses_KG'].replace('-',' - ').replace('|',' | ')
         data[i]['story'] = data[i]['story'].replace('"',' ')
-    
-    with open(output_file, 'w') as f:
-        json.dump(data, f, indent = 4)
+
+    import re
+
+    dates = []
+    for i in range(len(data)):
+        s = data[i]["Instances_KG"]
+        date = re.findall(r'\d{4} - \d{2} - \d{2}', s)
+        if date != []:
+            dates.append(date)
+            for j in date:
+                data[i]["Instances_KG"] = data[i]["Instances_KG"].replace(j, j.replace(" - ", "/").replace('"'))
+                print(data[i]["Instances_KG"])    
+        
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent = 4)
 
 
 
@@ -357,13 +369,13 @@ def main(file_to_preprocess, output_file):
     #     json.dump(data, f, indent = 4)
 
     #get one class
-    with open(file_to_preprocess, "r") as jsonFile:
-        data = json.load(jsonFile)
-    # get_onec_class(data, output_file)
-    #get multiple class
-    get_multiple_class(data, output_file)
+    # with open(file_to_preprocess, "r") as jsonFile:
+    #     data = json.load(jsonFile)
+    # # get_onec_class(data, output_file)
+    # #get multiple class
+    # get_multiple_class(data, output_file)
 
-    #trattini(file_to_preprocess, output_file)
+    trattini(file_to_preprocess, output_file)
 
 
 
@@ -381,6 +393,6 @@ if __name__ == "__main__":
 
     #main("Datasets/WebNLG/57_triples/dev_57.json", "Datasets/WebNLG/57_triples/dev_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
-    main("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/train_57_MultipleClass.json")
+    main("Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json")
 
 
