@@ -1,0 +1,76 @@
+[
+    {
+        "story": "Baymax is a character from the film Big Hero 6 starring Scott Adsit. He was created by Steven T Seagle and the American, Duncan Rouleau.",
+        "Types_KG": "Scott Adsit - type - person | Americans - type - ethnic group | Steven T. Seagle - type - person | Duncan Rouleau - type - person | Big Hero 6 (film) - type - person",
+        "Instances_KG": "Duncan Rouleau - nationality - Americans | Baymax - creators - Duncan Rouleau | Baymax - creator - Steven T. Seagle | Baymax - series - Big Hero 6 (film) | Big Hero 6 (film) - starring - Scott Adsit | Baymax - creator - Duncan Rouleau | Duncan Rouleau - nationality - Americans | Baymax - creators - Steven T. Seagle | Baymax - series - Big Hero 6 (film) | Big Hero 6 (film) - starring - Scott Adsit",
+        "Subclasses_KG": "person - subclass - animal | ethnic group - subclass - Thing",
+        "core_description": "Baymax is a character from the film Big Hero 6",
+        "Instances_list": [
+            "Big Hero 6 (film)",
+            "Baymax",
+            "Steven T. Seagle",
+            "Duncan Rouleau",
+            "Scott Adsit",
+            "Americans"
+        ],
+        "semantic_of_news": "news - type - Entertainment | news - has actor - Duncan Rouleau  | Duncan Rouleau  - type - person | news - has item - Big Hero 6  | Big Hero 6  - type - work of art | news - has actor - Baymax  | Baymax  - type - person | news - has actor - Steven T Seagle  | Steven T Seagle  - type - person | news - has actor - American  | American  - type - Nationalities or Religious or Political Groups | news - has actor - Scott Adsit  | Scott Adsit  - type - person",
+        "entities_list": [
+            "Duncan Rouleau ",
+            "Big Hero 6 ",
+            "Baymax ",
+            "Steven T Seagle ",
+            "American ",
+            "Scott Adsit "
+        ]
+    },
+    {
+        "story": "Alan Bean was an American born in Wheeler, Texas. He served as a test pilot and became a crew member of Apollo 12, which was operated by NASA.",
+        "Types_KG": "United States - type - person | Wheeler, Texas - type - place | NASA - type - company | Test pilot - type - person | Apollo 12 - type - societal event | Alan Bean - type - person",
+        "Instances_KG": "Alan Bean - mission - Apollo 12 | Alan Bean - nationality - United States | Apollo 12 - operator - NASA | Alan Bean - occupation - Test pilot | Alan Bean - birthPlace - Wheeler, Texas",
+        "Subclasses_KG": "place - subclass - Thing | person - subclass - animal | societal event - subclass - event | company - subclass - organisation",
+        "core_description": "Alan Bean was an American test pilot and crew member of Apollo 12, which was operated by NASA",
+        "Instances_list": [
+            "Apollo 12",
+            "Alan Bean",
+            "Test pilot",
+            "United States",
+            "Wheeler, Texas",
+            "NASA"
+        ],
+        "semantic_of_news": "news - type - Tech | news - has item - Apollo 12  | Apollo 12  - type - product | news - has actor - NASA  | NASA  - type - organization | news - has actor - American  | American  - type - Nationalities or Religious or Political Groups | news - has actor - Alan Bean  | Alan Bean  - type - person",
+        "entities_list": [
+            "Wheeler ",
+            "Apollo 12 ",
+            "Texas ",
+            "NASA ",
+            "American ",
+            "Alan Bean "
+        ]
+    },
+    {
+        "story": "Alan Shepard, born in New Hampshire on November 18, 1923, graduated from NWC in 1957 with an M.A. He died in California on July 21, 1998.",
+        "Types_KG": "Alan Shepard - type - person | California - type - place | New Hampshire - type - place",
+        "Instances_KG": "Alan Shepard - almaMater - \"NWC, M.A. 1957\"@en | Alan Shepard - deathPlace - California | Alan Shepard - birthPlace - New Hampshire | Alan Shepard - deathDate - \"\"1998/07/21\"\"^^xsd:date | Alan Shepard - birthDate - \"\"1923/11/18\"\"^^xsd:date",
+        "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
+        "core_description": "Alan Shepard, 88, died in California on July 21, 1998",
+        "Instances_list": [
+            "\"\"1998/07/21\"\"^^xsd:date",
+            "New Hampshire",
+            "Alan Shepard",
+            "\"NWC, M.A. 1957\"@en",
+            "\"\"1923/11/18\"\"^^xsd:date",
+            "California"
+        ],
+        "semantic_of_news": "news - type - Tech | news - has actor - NWC  | NWC  - type - organization | news - has time - 1957  | 1957  - type - time | news - has time - November 18, 1923  | November 18, 1923  - type - time | news - has item - M.A  | M.A  - type - work of art | news - has actor - Alan Shepard  | Alan Shepard  - type - person | news - has time - July 21, 1998  | July 21, 1998  - type - time",
+        "entities_list": [
+            "NWC ",
+            "1957 ",
+            "November 18, 1923 ",
+            "M.A ",
+            "California ",
+            "New Hampshire ",
+            "Alan Shepard ",
+            "July 21, 1998 "
+        ]
+    }
+]

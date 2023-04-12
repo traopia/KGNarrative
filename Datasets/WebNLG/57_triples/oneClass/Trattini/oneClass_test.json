@@ -1,0 +1,61 @@
+[
+    {
+        "story": "185 centimetre tall Aleksandr Prudnikov played for the Otkrytiye Arena based FC Spartak, Moscow.",
+        "Types_KG": "Otkrytiye Arena - type - stadium | Aleksandr Prudnikov - type - person | FC Spartak Moscow - type - agent",
+        "Instances_KG": "Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | FC Spartak Moscow - ground - Otkrytiye Arena | Aleksandr Prudnikov - team - FC Spartak Moscow | Aleksandr Prudnikov - Person/height - \"185.0\"^^<http://dbpedia.org/datatype/centimetre> | FC Spartak Moscow - ground - Otkrytiye Arena | Aleksandr Prudnikov - clubs - FC Spartak Moscow",
+        "Subclasses_KG": "person - subclass - animal | agent - subclass - Thing | stadium - subclass - venue",
+        "core_description": "Aleksandr Prudnikov, 185 cm tall, played for Spartak in the Otkrytiy",
+        "Instances_list": [
+            "FC Spartak Moscow",
+            "\"185.0\"^^<http://dbpedia.org/datatype/centimetre>",
+            "Aleksandr Prudnikov",
+            "Otkrytiye Arena"
+        ],
+        "semantic_of_news": "news - type - Sport | news - has actor - FC Spartak  | FC Spartak  - type - organization | news - has actor - Aleksandr Prudnikov  | Aleksandr Prudnikov  - type - person | news - has item - Otkrytiye Arena  | Otkrytiye Arena  - type - facility",
+        "entities_list": [
+            "Moscow ",
+            "FC Spartak ",
+            "Aleksandr Prudnikov ",
+            "Otkrytiye Arena "
+        ]
+    },
+    {
+        "story": "Ciudad Ayala is a city with population density and population of 1604 and 1777539 respectively, where the leader is called the City Manager. The government type in the city of Ciudad Ayala is council-manager.",
+        "Types_KG": "City - type - administrative region | Ciudad Ayala - type - place | City Manager - type - person function",
+        "Instances_KG": "Ciudad Ayala - populationMetro - 1777539 | Ciudad Ayala - leaderTitle - City Manager | Ciudad Ayala - type - City | Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - governmentType - Council-manager government",
+        "Subclasses_KG": "place - subclass - Thing | administrative region - subclass - region | person function - subclass - Thing",
+        "core_description": "Ciudad Ayala is a city in the United Arab Emirates",
+        "Instances_list": [
+            "1604.0",
+            "City Manager",
+            "Council-manager government",
+            "1777539",
+            "City",
+            "Ciudad Ayala"
+        ],
+        "semantic_of_news": "news - type - Tech | ",
+        "entities_list": [
+            "Ciudad Ayala "
+        ]
+    },
+    {
+        "story": "Ciudad Ayala in Mexico with population density of 1604.0 and elevated 1147.0 above sea level is in the PDT time zone. The leader here is called the governator.",
+        "Types_KG": "Mexico - type - person | Ciudad Ayala - type - place",
+        "Instances_KG": "Ciudad Ayala - populationDensity - 1604.0 | Ciudad Ayala - leaderTitle - Governator | Ciudad Ayala - country - Mexico | Ciudad Ayala - elevation - 1147.0 | Ciudad Ayala - timeZone - Pacific Daylight Time",
+        "Subclasses_KG": "place - subclass - Thing | person - subclass - animal",
+        "core_description": "Ciudad Ayala in Mexico is in the PDT time zone",
+        "Instances_list": [
+            "1604.0",
+            "Mexico",
+            "Governator",
+            "1147.0",
+            "Pacific Daylight Time",
+            "Ciudad Ayala"
+        ],
+        "semantic_of_news": "news - type - Tech | ",
+        "entities_list": [
+            "Mexico ",
+            "Ciudad Ayala "
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "story": "Alan Bean is a US national, who was born in Wheeler, Texas. He received a B.S. degree from UT at Austin in 1955. He performed as a test pilot. He was selected by NASA in 1963 and became a crew member of Apollo 12. He retired in June 1981.",
+        "Types_KG": "Alan Bean - type - person | Test pilot - type - person | United States - type - person | Wheeler, Texas - type - place | Apollo 12 - type - societal event | 1963 - type - time period",
+        "Instances_KG": "Alan Bean - nationality - United States | Alan Bean - occupation - Test pilot | Alan Bean - almaMater - \"UT Austin, B.S. 1955\"@en | Alan Bean - mission - Apollo 12 | Alan Bean - birthPlace - Wheeler, Texas | Alan Bean - dateOfRet - \"June 1981\"@en | Alan Bean - selection - 1963",
+        "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal | time period - subclass - Thing",
+        "core_description": "Alan Bean is a US national and retired in 1981",
+        "Instances_list": [
+            "United States",
+            "\"UT Austin, B.S. 1955\"@en",
+            "Wheeler, Texas",
+            "\"June 1981\"@en",
+            "Test pilot",
+            "1963",
+            "Alan Bean",
+            "Apollo 12"
+        ],
+        "semantic_of_news": "news - type - Tech | news - has time - June 1981  | June 1981  - type - time | news - has actor - UT at Austin  | UT at Austin  - type - organization | news - has item - Apollo 12  | Apollo 12  - type - product | news - has time - 1955  | 1955  - type - time | news - has actor - NASA  | NASA  - type - organization | news - has item - B.S.  | B.S.  - type - work of art | news - has actor - Alan Bean  | Alan Bean  - type - person | news - has time - 1963  | 1963  - type - time",
+        "entities_list": [
+            "US ",
+            "Wheeler ",
+            "June 1981 ",
+            "UT at Austin ",
+            "Texas ",
+            "Apollo 12 ",
+            "1955 ",
+            "NASA ",
+            "B.S. ",
+            "Alan Bean ",
+            "1963 "
+        ]
+    },
+    {
+        "story": "Retired American test pilot Alan Bean, born in Wheeler, Texas was a member of the Apollo 12 crew who spent 100305 minutes in space. His Alma Mater is UT Austin, B.S. 1955.",
+        "Types_KG": "Alan Bean - type - person | Test pilot - type - person | United States - type - person | Wheeler, Texas - type - place | Apollo 12 - type - societal event",
+        "Instances_KG": "Alan Bean - nationality - United States | Alan Bean - occupation - Test pilot | Alan Bean - almaMater - \"UT Austin, B.S. 1955\"@en | Alan Bean - mission - Apollo 12 | Alan Bean - birthPlace - Wheeler, Texas | Alan Bean - timeInSpace - \"100305.0\"^^<http://dbpedia.org/datatype/minute> | Alan Bean - status - \"Retired\"@en",
+        "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal",
+        "core_description": "Alan Bean, Ph.D., Ph.D., Ph.D., UT Austin",
+        "Instances_list": [
+            "United States",
+            "\"UT Austin, B.S. 1955\"@en",
+            "Wheeler, Texas",
+            "Test pilot",
+            "Alan Bean",
+            "\"100305.0\"^^<http://dbpedia.org/datatype/minute>",
+            "\"Retired\"@en",
+            "Apollo 12"
+        ],
+        "semantic_of_news": "news - type - Tech | news - has actor - UT Austin  | UT Austin  - type - organization | news - has item - Apollo 12  | Apollo 12  - type - product | news - has time - 1955  | 1955  - type - time | news - has time - 100305 minutes  | 100305 minutes  - type - time | news - has actor - Alan Bean  | Alan Bean  - type - person",
+        "entities_list": [
+            "Wheeler ",
+            "UT Austin ",
+            "Apollo 12 ",
+            "Texas ",
+            "1955 ",
+            "100305 minutes ",
+            "Alan Bean "
+        ]
+    },
+    {
+        "story": "The American test pilot Alan Bean was born in Wheeler, Texas, and attended the UT Austin, gaining a BS in 1955. He was chosen by NASA in 1963 and spent 100305 minutes in space as a crew member of Apollo 12.",
+        "Types_KG": "Alan Bean - type - person | Test pilot - type - person | United States - type - person | Wheeler, Texas - type - place | Apollo 12 - type - societal event | 1963 - type - time period",
+        "Instances_KG": "Alan Bean - nationality - United States | Alan Bean - occupation - Test pilot | Alan Bean - almaMater - \"UT Austin, B.S. 1955\"@en | Alan Bean - mission - Apollo 12 | Alan Bean - birthPlace - Wheeler, Texas | Alan Bean - timeInSpace - \"100305.0\"^^<http://dbpedia.org/datatype/minute> | Alan Bean - selection - 1963",
+        "Subclasses_KG": "place - subclass - Thing | societal event - subclass - event | person - subclass - animal | time period - subclass - Thing",
+        "core_description": "Alan Bean (Also Test Pilot): NASA's Test Pilot of the Year",
+        "Instances_list": [
+            "United States",
+            "\"UT Austin, B.S. 1955\"@en",
+            "Wheeler, Texas",
+            "Test pilot",
+            "1963",
+            "Alan Bean",
+            "\"100305.0\"^^<http://dbpedia.org/datatype/minute>",
+            "Apollo 12"
+        ],
+        "semantic_of_news": "news - type - Tech | news - has actor - the UT Austin  | the UT Austin  - type - organization | news - has item - Apollo 12  | Apollo 12  - type - product | news - has time - 1955  | 1955  - type - time | news - has actor - NASA  | NASA  - type - organization | news - has item - BS  | BS  - type - work of art | news - has actor - Alan Bean  | Alan Bean  - type - person | news - has time - 100305 minutes  | 100305 minutes  - type - time | news - has time - 1963  | 1963  - type - time",
+        "entities_list": [
+            "Wheeler ",
+            "the UT Austin ",
+            "Texas ",
+            "Apollo 12 ",
+            "1955 ",
+            "NASA ",
+            "BS ",
+            "Alan Bean ",
+            "100305 minutes ",
+            "1963 "
+        ]
+    }
+]
