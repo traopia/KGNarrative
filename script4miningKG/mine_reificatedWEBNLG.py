@@ -179,7 +179,7 @@ def get_csv_with_mined_semantic(df, path):
     df.to_csv(path, index=False)
 
 def dump_json_with_mined_semantic(df, path):
-    df.drop(['core_description', 'mined_kg_entities', 'triple_column', 'new_triples', #predicted_label
+    df.drop(['predicted_label1', 'mined_kg_entities', 'triple_column', 'new_triples', #Here there was also core_description but not sure i wanna dumpit
         'final_triples'], axis = 1, inplace = True) 
     with open(path, "w") as f:
             json.dump(df.to_dict('records'), f, indent=4)
