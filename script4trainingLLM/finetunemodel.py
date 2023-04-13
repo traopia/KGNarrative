@@ -174,14 +174,6 @@ def main(argv, arc):
 
 
 
-
-
-    #PARENT METRIC CALL IMPLEMENTATION
-    parent_path = experiment_name+'/parent'
-    os.mkdir(parent_path,exist_ok=True)
-
-
-
     gpuUSED={'gpu':print_gpu_utilization()}#this has a print instruction alredy
 
     outpath=experiment_name+'/'

@@ -1,6 +1,7 @@
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 import json
 from parent import parent
+import numpy as np
 
 
 def process_data_BART(data_to_process,tokenizer,max_input,max_target,typeKG ):
