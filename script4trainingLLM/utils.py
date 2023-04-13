@@ -182,16 +182,11 @@ def convert_graph_to_table(graph):
 
 
 
-def bleurt_metric(predictions,references):
-    checkpoint = "bleurt/bleurt/test_checkpoint"
-    scorer = score.BleurtScorer(checkpoint)
-    scores = scorer.score(references=references, candidates=predictions)
-    assert isinstance(scores, list) and len(scores) == len(predictions)
-    return {"BLEURT":scores}
-
 
 def parent_metric(predictions,references,tables):
-
+    """This functions calculate the parent metric with the implementation from https://github.com/KaijuML/parent
+    Inputs are just list of strings. They then get converted according to the format required in the module.
+    """
     predictions=[p.split() for p in predictions]
     references=[r.split() for r in references]
     tables =[[[p.split() for p in x.split(" - ")] for x in t.strip().split(" | ")] for t in tables]#THIS makes a list of lists of lists from triples. Removing the last element because it is hasCore.

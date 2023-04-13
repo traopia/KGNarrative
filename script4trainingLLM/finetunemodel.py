@@ -57,6 +57,7 @@ def main(argv, arc):
     #We need to add the references for the evaluation in parent score (a table-to-text generation metric )
     graph_for_parent=dataset['test']['Instances_KG']
 
+
     print("Loading tokenizer")
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint,add_eos_token=True)
 
@@ -169,6 +170,9 @@ def main(argv, arc):
     result_bleurt['scores']=np.mean(result_bleurt['scores'])
     print(f'{result_bleurt=}')
 
+    
+    graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
+    print("len of graph for parent", len(graph_for_parent))
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
     print(f'{parent_score=}')
 

@@ -9,11 +9,11 @@ import numpy as np
 
 
 
-with open('Datasets/WebNLG/57_triples/oneClass/Trattini/test_57_oneClass.json','r') as f:
+with open('Datasets/WebNLG/4experiment/full_test.json','r') as f:
     data = json.load(f)
 
 print(len(data))
-data=data[2:5]
+#data=data[2:5]
 #print(data)
 predictions=[]
 reference=[]
@@ -24,7 +24,7 @@ for d in data:
     
     predictions.append(d['story'])
 
-    reference.append(d['story'])
+    reference.append(d['core_description'])
 
     graph.append(d['Instances_KG'])
 
@@ -37,5 +37,7 @@ result_bleurt = bleurt.compute(predictions=predictions, references=reference)
 result_bleurt['scores']=np.mean(result_bleurt['scores'])
 print(f'{result_bleurt=}')"""
 
+graph=[g.split('[TRIPLES]')[1] for g in graph]
+#print(graph)
 
 print(parent_metric(predictions,reference,graph))
