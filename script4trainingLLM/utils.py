@@ -206,7 +206,7 @@ def parent_metric(predictions,references,tables):
     references,
     tables,
     avg_results=True,
-    n_jobs=32,
+    n_jobs=1,
     use_tqdm='notebook'
     )
     return {"PARENT":{'precision':precision,'recall':recall,'f_score':f_score}}

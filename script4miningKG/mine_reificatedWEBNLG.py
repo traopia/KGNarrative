@@ -209,7 +209,7 @@ def main(argv, argc):
     for d in ["train","test","dev"]:
         data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
 
-        data=data.head(4)#REMOVE THIS LINE
+        #data=data.head(4)#REMOVE THIS LINE
         
         df3 = mining_entites(data)
         df3["mined_kg_entities"] = df3["mined_kg_entities"] # .apply(lambda x: x[1:-1]) <= fixed a problem, if create problems add it again
