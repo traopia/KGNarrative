@@ -36,9 +36,9 @@ def main(argv, arc):
     experiment_name = args.experiment_name
     learning_rate = args.learning_rate
 
-    if arc!=6:
-        print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
-        exit()
+    #if arc!=6:
+    #    print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
+    #   exit()
 
 
     #CUDA CHECK
