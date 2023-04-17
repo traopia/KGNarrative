@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer,AutoModelForSeq2SeqLM,DataCollatorForSeq2Seq,Seq2SeqTrainingArguments,Seq2SeqTrainer
 import os
-from datasets import load_dataset, load_metric
+from datasets import load_dataset
 import numpy as np
 from utils import *
 import torch
@@ -8,22 +8,38 @@ import evaluate
 import sys
 import json
 import time
+import argparse
 os.environ['TQDM_DISABLE'] = 'true'
 
 max_target = 512
 max_input = 512
 
+parser = argparse.ArgumentParser(description='Finetune model for content planning')
+parser.add_argument('datapath', type=str, help='Path to the data directory')
+parser.add_argument('dataset', type=str, help='prefix of the dataset')
+parser.add_argument('graph_kind', type=str, help='Kind of graph')
+parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
+parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
+parser.add_argument('--learning_rate', type=float, default=2e-5, help='Learning rate for the optimizer (default: 2e-5)')
+
+
 def main(argv, arc):
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    # Access the argument values
+    datapath = args.datapath
+    dataprefix = args.dataset
+    typeKG = args.graph_kind
+    model_checkpoint = args.model_checkpoint
+    experiment_name = args.experiment_name
+    learning_rate = args.learning_rate
 
     if arc!=6:
         print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
         exit()
 
-    dataprefix = argv[2]
-    datapath = argv[1] 
-    typeKG = argv[3]
-    model_checkpoint=argv[4]
-    experiment_name=argv[5]
 
     #CUDA CHECK
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -32,9 +48,12 @@ def main(argv, arc):
     if model_checkpoint=="led":
         print("Model selected: LED")
         model_checkpoint="allenai/led-base-16384"
-    elif model_checkpoint=="bart":
-        print("Model selected: BART")
+    elif model_checkpoint=="bart-base":
+        print("Model selected: BART-base")
         model_checkpoint="facebook/bart-base"
+    elif model_checkpoint=="bart-large":
+        print("Model selected: BART-large")
+        model_checkpoint="facebook/bart-large"
     elif os.path.exists(model_checkpoint):
         print(f"Model checkpoint selected from {model_checkpoint} ")
     else:
@@ -95,7 +114,7 @@ def main(argv, arc):
     args = Seq2SeqTrainingArguments(
         experiment_name,
         evaluation_strategy='epoch',
-        learning_rate=2e-5, #[2e-5, 3e-5, 5e-5]
+        learning_rate=learning_rate, 
         per_device_train_batch_size=3,
         per_device_eval_batch_size= 3,
         gradient_accumulation_steps=3, #compute gradient on 2 examples KG story 
