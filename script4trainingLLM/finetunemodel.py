@@ -49,7 +49,7 @@ def main(argv, arc):
     test_file = datapath +'/' + dataprefix + '_test'+ '.json'
 
 
-    print("Loading dataset from",train_file)
+    print("Loading dataset from ",datapath)
     dataset = load_dataset('json', data_files={'train': train_file, 'valid': dev_file, 'test': test_file})
     
     todrop=list(set(dataset['test'].column_names)-set([typeKG,'story'])) #This line returns a list of all the columns to drop (all columns minus the ones we need (input typeKG and story))
@@ -95,7 +95,7 @@ def main(argv, arc):
     args = Seq2SeqTrainingArguments(
         experiment_name,
         evaluation_strategy='epoch',
-        learning_rate=2e-5,
+        learning_rate=2e-5, #[2e-5, 3e-5, 5e-5]
         per_device_train_batch_size=3,
         per_device_eval_batch_size= 3,
         gradient_accumulation_steps=3, #compute gradient on 2 examples KG story 
@@ -165,9 +165,9 @@ def main(argv, arc):
     results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
     print(f'{results_bert=}')
 
-    bleurt = evaluate.load("bleurt")
+    bleurt = evaluate.load("bleurt",'bleurt-large-512',module_type="metric")
     result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
-    result_bleurt['Bleurt']=np.mean(result_bleurt.pop(['scores']))
+    result_bleurt['scores']=np.mean(result_bleurt['scores'])
     print(f'{result_bleurt=}')
 
     
@@ -184,6 +184,9 @@ def main(argv, arc):
     print(f'Writing  score report in {outpath}output_metrics.txt')
     score_to_print=[metrics,result_bleu,result_google_bleu,result_meteor,results_bert,result_bleurt,parent_score,training_duration,gpuUSED]
     write_scores_outputfile(outpath,score_to_print)
+    write_scores_outputfile_json(outpath,score_to_print)
+
+
 
     print(f"Writing predicted text in {outpath}stories.json")
     write_predictions(outpath,predicted_text,golden_labels)
