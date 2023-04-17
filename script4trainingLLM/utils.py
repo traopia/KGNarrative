@@ -119,7 +119,7 @@ def write_scores_outputfile(outpath,score_list):
 
     outfile.close()
 
-def write_predictions(outpath,preds,labels):
+def write_predictions(outpath,preds,labels):#OBSOLETE
 
     outfile = open(outpath + 'stories.json', "a", encoding='utf-8')
 
