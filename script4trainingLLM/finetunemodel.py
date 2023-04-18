@@ -14,13 +14,16 @@ os.environ['TQDM_DISABLE'] = 'true'
 max_target = 512
 max_input = 512
 
-parser = argparse.ArgumentParser(description='Finetune model for content planning')
-parser.add_argument('datapath', type=str, help='Path to the data directory')
-parser.add_argument('dataset', type=str, help='prefix of the dataset')
-parser.add_argument('graph_kind', type=str, help='Kind of graph')
-parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
-parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
-parser.add_argument('--learning_rate', type=float, default=2e-5, help='Learning rate for the optimizer (default: 2e-5)')
+
+def add_args(parser):
+    parser.add_argument('datapath', type=str, help='Path to the data directory')
+    parser.add_argument('dataset', type=str, help='prefix of the dataset')
+    parser.add_argument('graph_kind', type=str, help='Kind of graph')
+    parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
+    parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
+    parser.add_argument('--learning_rate', type=float, default=2e-5, help='Learning rate for the optimizer (default: 2e-5)')
+    return parser
+
 
 
 def main(argv, arc):
@@ -95,17 +98,6 @@ def main(argv, arc):
     rouge = evaluate.load('rouge')
 
 
-    def compute_rouge(pred): 
-        predictions, labels = pred
-        #decode the predictions
-        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-        #decode labels
-        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-
-        #compute results
-        res = rouge.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
-        #get %
-        return res
     
 
     print("\nPREPARING FOR TRAINING...")
@@ -219,4 +211,9 @@ def main(argv, arc):
 
 
 if __name__ == '__main__':
-    main(sys.argv, len(sys.argv))
+
+    parser = argparse.ArgumentParser(description='Finetune model for content planning')
+    parser = add_args(parser)
+    args = parser.parse_args()
+
+    main(args)
