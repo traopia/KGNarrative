@@ -89,7 +89,7 @@ def main(args):
     model.to(device)
 
     print("Collator for batches")
-    collator = DataCollatorForSeq2Seq(tokenizer, model=model,shuffle=True) #this is necessary for diving in batch for training
+    collator = DataCollatorForSeq2Seq(tokenizer, model=model) #this is necessary for diving in batch for training
 
     print('Loading rouge')
     rouge = evaluate.load('rouge')
@@ -182,7 +182,7 @@ def main(args):
     results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
     print(f'{results_bert=}')
 
-    bleurt = evaluate.load("bleurt",'bleurt-large-512',module_type="metric")
+    bleurt = evaluate.load("bleurt",'BLEURT-20',module_type="metric")
     result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
     result_bleurt["bleurt_score"] = np.mean(result_bleurt.pop("scores"))
     print(f"{result_bleurt=}")
