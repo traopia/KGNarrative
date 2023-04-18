@@ -22,6 +22,8 @@ def add_args(parser):
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
     parser.add_argument('--learning_rate', type=float, default=2e-5, help='Learning rate for the optimizer (default: 2e-5)')
+    parser.add_argument('--batch_size', type=int, default=4, help='Batch size (default: 4)')
+    parser.add_argument('--epochs', type=int, default=3, help='Number of epochs (default: 3)')
     return parser
 
 
@@ -38,7 +40,8 @@ def main(argv, arc):
     model_checkpoint = args.model_checkpoint
     experiment_name = args.experiment_name
     learning_rate = args.learning_rate
-
+    batch_size = args.batch_size
+    epochs = args.epochs
     #if arc!=6:
     #    print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
     #   exit()
@@ -98,7 +101,17 @@ def main(argv, arc):
     rouge = evaluate.load('rouge')
 
 
-    
+    def compute_rouge(pred): 
+        predictions, labels = pred
+        #decode the predictions
+        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+        #decode labels
+        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+        #compute results
+        res = rouge.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
+        #get %
+        return res
 
     print("\nPREPARING FOR TRAINING...")
 
@@ -107,12 +120,12 @@ def main(argv, arc):
         experiment_name,
         evaluation_strategy='epoch',
         learning_rate=learning_rate, 
-        per_device_train_batch_size=3,
-        per_device_eval_batch_size= 3,
+        per_device_train_batch_size= batch_size,
+        per_device_eval_batch_size= batch_size,
         gradient_accumulation_steps=3, #compute gradient on n examples KG story 
         weight_decay=0.01, #regularization
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
-        num_train_epochs=3,
+        num_train_epochs=epochs, #number of epochs
         predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
         generation_max_length = 512, #max number of tokens per generation 
         generation_num_beams=5, #decoding strategy! greedy search, beam search 
