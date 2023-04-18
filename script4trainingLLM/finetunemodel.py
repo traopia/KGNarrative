@@ -30,9 +30,6 @@ def add_args(parser):
 
 def main(argv, arc):
 
-    # Parse the arguments
-    args = parser.parse_args()
-
     # Access the argument values
     datapath = args.datapath
     dataprefix = args.dataset
@@ -42,9 +39,6 @@ def main(argv, arc):
     learning_rate = args.learning_rate
     batch_size = args.batch_size
     epochs = args.epochs
-    #if arc!=6:
-    #    print(" ARGUMENT USAGE IS WRONG, RUN FILE LIKE: finetune_bart.py [datapath] [dataset] [graph_kind] [model checkpoint (folder)] [Experiment_name]")
-    #   exit()
 
 
     #CUDA CHECK
@@ -165,7 +159,6 @@ def main(argv, arc):
 
     predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
-    
 
     print("\nRESULT SCORES:")
 
