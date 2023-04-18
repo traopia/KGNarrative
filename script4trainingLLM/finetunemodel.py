@@ -117,7 +117,7 @@ def main(argv, arc):
         learning_rate=learning_rate, 
         per_device_train_batch_size=3,
         per_device_eval_batch_size= 3,
-        gradient_accumulation_steps=3, #compute gradient on 2 examples KG story 
+        gradient_accumulation_steps=3, #compute gradient on n examples KG story 
         weight_decay=0.01, #regularization
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
         num_train_epochs=3,
@@ -191,7 +191,7 @@ def main(argv, arc):
 
     
     graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
-    print("len of graph for parent", len(graph_for_parent))
+    #print("len of graph for parent", len(graph_for_parent))
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
     print(f'{parent_score=}')
 
@@ -208,7 +208,7 @@ def main(argv, arc):
 
 
     print(f"Writing predicted text in {outpath}stories.json")
-    write_predictions(outpath,predicted_text,golden_labels)
+    #write_predictions(outpath,predicted_text,golden_labels)
     write_predictions_andGraph(outpath,predicted_text,golden_labels,dataset['test'][typeKG])
 
 
