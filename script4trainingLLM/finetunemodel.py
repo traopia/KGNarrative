@@ -186,8 +186,9 @@ def main(argv, arc):
 
     bleurt = evaluate.load("bleurt",'bleurt-large-512',module_type="metric")
     result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
-    result_bleurt['scores']=np.mean(result_bleurt['scores'])
-    print(f'{result_bleurt=}')
+    result_bleurt["bleurt_score"] = np.mean(result_bleurt.pop("scores"))
+    print(f"{result_bleurt=}")
+
 
     
     graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
