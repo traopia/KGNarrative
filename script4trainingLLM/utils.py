@@ -123,6 +123,9 @@ def write_scores_outputfile_json(outpath,score_list):
     with open(outpath + 'output_metrics.json', "a", encoding='utf-8') as f:
         json.dump(score_list, f, indent=4)
    
+def write_scores_outputfile_json_Paramtune(outpath,params,score_list):
+    with open(outpath + f'{params}_output_metrics.json', "a", encoding='utf-8') as f:
+        json.dump(score_list, f, indent=4)
 
 def write_predictions(outpath,preds,labels):#OBSOLETE
 

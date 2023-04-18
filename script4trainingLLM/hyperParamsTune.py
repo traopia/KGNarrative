@@ -42,7 +42,7 @@ def main(args):
     epochs = args.epochs
     save_model = args.save_model
 
-
+    hyperparams=str(learning_rate)+"_"+str(batch_size)+"_"+str(epochs)
     #CUDA CHECK
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Device in use is ", device)
@@ -205,8 +205,8 @@ def main(args):
     print(f'Writing  score report in {outpath}output_metrics.txt')
     score_to_print=[metrics,result_bleu,result_google_bleu,result_meteor,results_bert,result_bleurt,parent_score,training_duration,gpuUSED]
     #write_scores_outputfile(outpath,score_to_print)
-    write_scores_outputfile_json(outpath,score_to_print)
-
+    #write_scores_outputfile_json(outpath,score_to_print)
+    write_scores_outputfile_json_Paramtune(outpath,hyperparams,score_to_print)
 
 
     print(f"Writing predicted text in {outpath}stories.json")
