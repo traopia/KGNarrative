@@ -226,6 +226,8 @@ def main(args):
 
                 predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
+                os.makedirs(experiment_name, exist_ok=True)
+
                 eval_pipeline(predicted_text,golden_labels,hyperparams,experiment_name,metrics,graph_for_parent,training_duration)
                 
                 print("DONE")
