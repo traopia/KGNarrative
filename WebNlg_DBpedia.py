@@ -370,6 +370,13 @@ def instance_list(input_file):
             json.dump(data, f, indent = 4)            
 
 
+def pop_stupid_boys(input_file, output_file):
+    with open(input_file, "r") as f:
+        data = json.load(f)
+    result = [data[i] for i in range(len(data)) if ' | aoh' not in (data[i]["semantic_of_news"]+'aoh')]
+    with open(output_file, 'w') as f:
+        json.dump(result, f, indent = 4) 
+
 
 def main(file_to_preprocess, output_file):
     # set up the SPARQL endpoint for DBpedia
@@ -412,5 +419,7 @@ if __name__ == "__main__":
     #main("Datasets/WebNLG/57_triples/dev_57.json", "Datasets/WebNLG/57_triples/dev_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json")
-    instance_list("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json")
-
+    #instance_list("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json")
+    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_dev.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_dev.json")
+    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_test.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_test.json")
+    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_train.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_train.json")
