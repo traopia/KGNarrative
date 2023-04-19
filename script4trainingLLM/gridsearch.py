@@ -185,7 +185,7 @@ def main(args):
                     gradient_accumulation_steps=3, #compute gradient on n examples KG story 
                     weight_decay=0.01, #regularization
                     save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
-                    num_train_epochs=epochs, #number of epochs
+                    num_train_epochs=epoch, #number of epochs
                     predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
                     generation_max_length = 512, #max number of tokens per generation 
                     generation_num_beams=5, #decoding strategy! greedy search, beam search 
