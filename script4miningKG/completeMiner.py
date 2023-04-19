@@ -367,8 +367,8 @@ def main(argv, argc):
 
     
     for d in ["train","test","dev"]:
-        data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
-
+        #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
+        data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
         #data=data.head(4)#REMOVE THIS LINE
         df1 = mining_type_of_news(data)
         clean_gpu()
@@ -383,7 +383,8 @@ def main(argv, argc):
         df3['entities_list'] = df3['triple_column'].apply(extract_entities)
         #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
         #to_json_format("./train_complete.json", "./train_complete.csv")
-        dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
+        #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
+        dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
 
 if __name__ == '__main__':
     main(sys.argv, len(sys.argv))
