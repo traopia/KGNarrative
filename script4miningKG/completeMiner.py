@@ -357,7 +357,8 @@ def to_json_format(json_filename, csv_filename):
 # ===========================================
 
 
-def main(argv, argc):
+#def main(argv, argc):
+def main():
 
     # CHECK IF GPU IS UP
     check_gpu_availability()
@@ -387,4 +388,5 @@ def main(argv, argc):
         dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
 
 if __name__ == '__main__':
-    main(sys.argv, len(sys.argv))
+    #main(sys.argv, len(sys.argv))
+    main()
