@@ -39,7 +39,7 @@ for d in data:
 #reference=['A cat is hunting a bird on a tree', 'A cat is trying to eat a bird on a tree']
 #predictions = ["Apple cake", "horse camel"]
 #references = ["hello there", "general kenobi"]
-bleurt = evaluate.load("bleu")
+bleurt = evaluate.load("bleurt",'BLEURT-20',module_type="metric")
 #print(predictions,reference)
 result_bleurt = bleurt.compute(predictions=predictions, references=reference)
 #result_bleurt['scores']=np.mean(result_bleurt['scores'])
