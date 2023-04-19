@@ -374,8 +374,61 @@ def pop_stupid_boys(input_file, output_file):
     with open(input_file, "r") as f:
         data = json.load(f)
     result = [data[i] for i in range(len(data)) if ' | aoh' not in (data[i]["semantic_of_news"]+'aoh')]
+    index_pop = [i for i in range(len(data)) if ' | aoh' in (data[i]["semantic_of_news"]+'aoh')]
+    print(index_pop)
     with open(output_file, 'w') as f:
         json.dump(result, f, indent = 4) 
+
+    return index_pop
+
+def pop_stupid_boys_multiple(input_file, output_file, index_pop):
+    with open(input_file, "r") as f:
+        data = json.load(f)
+    result = [data[i] for i in range(len(data)) if i not in index_pop]
+    with open(output_file, 'w') as f:
+        json.dump(result, f, indent = 4)    
+
+def format(input_file,input_file_subclasses, output_file):
+    with open(input_file, 'r') as f:
+        d = json.load(f)
+    with open(input_file_subclasses, 'r') as f:
+            d_s = json.load(f)    
+    
+    # Define the keys whose values should be merged
+    instances = ['Instances_KG']
+
+    typeKG = ['Instances_KG', 'Types_KG']
+
+    subClassKG = ['Instances_KG', 'Types_KG','Subclasses_KG']
+    print(d)
+    #for d,d_s in zip(data,data_subclass):
+    for i in range(len(d)):  
+        #print(d[i])
+        print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
+
+        #MERGE CGRAPHS AND ADD CORE
+
+        merged_types = "[CORE] "+ d[i]['core_description'] +" [TRIPLES] "+' | '.join([d[i][k] for k in typeKG])
+
+        merged_subClasse = "[CORE] "+d[i]['core_description'] + " [TRIPLES] " + ' | '.join([d[i][k] for k in subClassKG])
+
+        merged_instances = "[CORE] "+d[i]['core_description'] + " [TRIPLES] " + ' | '.join([d[i][k] for k in instances])
+
+        d[i]['multi_Subclasses_KG'] = "[CORE] "+ d[i]['core_description'] +" [TRIPLES] "+' | '.join([d[i][k] for k in typeKG]) + d_s[i]['Subclasses_KG']
+
+
+        d[i]['Types_KG'] = merged_types
+        d[i]['Subclasses_KG'] = merged_subClasse
+        d[i]['Instances_KG'] = merged_instances
+
+        #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
+
+        d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
+        d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
+
+        d[i]['semantic_of_news'] = "[CORE] "+d[i]['core_description']+ " [TRIPLES] " + d[i]['semantic_of_news']
+    with open(output_file, 'w') as f:
+        json.dump(d,f,indent=4,ensure_ascii = False)        
 
 
 def main(file_to_preprocess, output_file):
@@ -420,6 +473,17 @@ if __name__ == "__main__":
     #main("Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json","Datasets/WebNLG/57_triples/oneClass/test_57_oneClass.json")
     #main("Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json","Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json")
     #instance_list("Datasets/WebNLG/57_triples/oneClass/Trattini/train_57_oneClass.json")
-    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_dev.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_dev.json")
-    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_test.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_test.json")
-    pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_train.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_train.json")
+
+
+
+    # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_dev.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_dev.json")
+    # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/dev_57_MultipleClass.json', index_pop)
+    # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_test.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_test.json")
+    # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/test_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/test_57_MultipleClass.json', index_pop)
+    # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_train.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_train.json")
+    # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/train_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/train_57_MultipleClass.json', index_pop)
+
+    split = splits=['train','dev','test']
+    for split in splits:
+        format(f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{split}.json',f'Datasets/WebNLG/57_triples/Multiple_Classes/{split}_57_MultipleClass.json',f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{split}.json')
+
