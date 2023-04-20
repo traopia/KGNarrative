@@ -160,8 +160,8 @@ def main(args):
 
     #lrs = [0.003,0.005,0.0001,0.0003,0.0005,0.00001,0.00003,0.00005,0.000003]
     lrs = [1e-4 , 3e-4 , 5e-4 , 1e-5 , 3e-5 , 5e-5 , 3e-6]
-    batch_sizes = [1,2,3,4,5,6]
-    epochs = [2,3,4]
+    batch_sizes = [1,3,5]
+    epochs = [3]
 
     for learning_rate in lrs:
         for batch_size in batch_sizes:
