@@ -17,3 +17,5 @@ finetuned_models/
 ouput_runs/
 finetunedDWIE_BART/
 EventNarrative/
+saved_model/
+runs/
