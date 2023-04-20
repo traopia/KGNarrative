@@ -171,7 +171,7 @@ def main(args):
                 print("Batch size: ",batch_size)
                 print("Epochs: ",epoch)
 
-                hyperparams=str(learning_rate)+"_"+str(batch_size)+"_"+str(epochs)
+                hyperparams=str(learning_rate)+"_"+str(batch_size)+"_"+str(epoch)
 
 
 
