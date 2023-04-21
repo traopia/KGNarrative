@@ -356,6 +356,26 @@ def to_json_format(json_filename, csv_filename):
 # ||                                       ||
 # ===========================================
 
+def wrap(d):
+    #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
+    data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
+    #data=data.head(4)#REMOVE THIS LINE
+    df1 = mining_type_of_news(data)
+    clean_gpu()
+    df2 = mining_summary(df1)
+    clean_gpu()
+    df3 = mining_entites(df2)
+    df3["mined_kg_entities"] = df3["mined_kg_entities"] # .apply(lambda x: x[1:-1]) <= fixed a problem, if create problems add it again
+    df3 = column_extracting_triples(df3)
+    df3 = extract_triples_from_tuples(df3)
+    df3 = get_final_kg(df3)
+    df3 = df3.drop(df3.index[0])
+    df3['entities_list'] = df3['triple_column'].apply(extract_entities)
+    #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
+    #to_json_format("./train_complete.json", "./train_complete.csv")
+    #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
+    dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
+    print('done with ', d)
 
 #def main(argv, argc):
 def main():
@@ -368,24 +388,26 @@ def main():
 
     
     for d in ["train","test","dev"]:
-        #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
-        data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
-        #data=data.head(4)#REMOVE THIS LINE
-        df1 = mining_type_of_news(data)
-        clean_gpu()
-        df2 = mining_summary(df1)
-        clean_gpu()
-        df3 = mining_entites(df2)
-        df3["mined_kg_entities"] = df3["mined_kg_entities"] # .apply(lambda x: x[1:-1]) <= fixed a problem, if create problems add it again
-        df3 = column_extracting_triples(df3)
-        df3 = extract_triples_from_tuples(df3)
-        df3 = get_final_kg(df3)
-        df3 = df3.drop(df3.index[0])
-        df3['entities_list'] = df3['triple_column'].apply(extract_entities)
-        #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
-        #to_json_format("./train_complete.json", "./train_complete.csv")
-        #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
-        dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
+        wrap(d)
+
+        # #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
+        # data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
+        # #data=data.head(4)#REMOVE THIS LINE
+        # df1 = mining_type_of_news(data)
+        # clean_gpu()
+        # df2 = mining_summary(df1)
+        # clean_gpu()
+        # df3 = mining_entites(df2)
+        # df3["mined_kg_entities"] = df3["mined_kg_entities"] # .apply(lambda x: x[1:-1]) <= fixed a problem, if create problems add it again
+        # df3 = column_extracting_triples(df3)
+        # df3 = extract_triples_from_tuples(df3)
+        # df3 = get_final_kg(df3)
+        # df3 = df3.drop(df3.index[0])
+        # df3['entities_list'] = df3['triple_column'].apply(extract_entities)
+        # #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
+        # #to_json_format("./train_complete.json", "./train_complete.csv")
+        # #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
+        # dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
 
 if __name__ == '__main__':
     #main(sys.argv, len(sys.argv))
