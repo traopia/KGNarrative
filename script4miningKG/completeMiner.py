@@ -387,7 +387,8 @@ def main():
     device = getting_device(gpu_prefence=True)
 
     
-    for d in ["train","test","dev"]:
+    #for d in ["train","test","dev"]:
+    for d in ["validation"]: 
         wrap(d)
 
         # #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
