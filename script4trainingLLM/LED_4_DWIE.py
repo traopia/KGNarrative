@@ -11,8 +11,8 @@ import time
 import argparse
 os.environ['TQDM_DISABLE'] = 'true'
 
-max_target = 512
-max_input = 512
+max_target = 1024
+max_input = 4096
 
 
 def add_args(parser):
@@ -21,8 +21,8 @@ def add_args(parser):
     parser.add_argument('graph_kind', type=str, help='Kind of graph')
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
-    parser.add_argument('--learning_rate', type=float, default=3e-5, help='Learning rate for the optimizer (default: 2e-5)')
-    parser.add_argument('--batch_size', type=int, default=4, help='Batch size (default: 4)')
+    parser.add_argument('--learning_rate', type=float, default=2e-5, help='Learning rate for the optimizer (default: 2e-5)')
+    parser.add_argument('--batch_size', type=int, default=2, help='Batch size (default: 4)')
     parser.add_argument('--epochs', type=int, default=3, help='Number of epochs (default: 3)')
     parser.add_argument('--save_model', type=bool, default=False, help='Save the model (default: False)')
     return parser
@@ -158,7 +158,7 @@ def main(args):
 
 
     print("\nPREDICTING..")
-    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=512, no_repeat_ngram_size=2, early_stopping=True)
+    preds, labels, metrics = trainer.predict(tokenized_dataset['test'], num_beams=5, min_length=50, max_length=max_target, no_repeat_ngram_size=2, early_stopping=True)
 
     predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
