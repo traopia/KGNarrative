@@ -356,7 +356,8 @@ def instance_list(input_file):
     with open(input_file, "r") as f:
         data = json.load(f)
     for i in range(len(data)):
-        input_string = data[i]['Instances_KG']
+        #input_string = data[i]['Instances_KG']
+        input_string = data[i]['Instances']
         triples = input_string.split(' | ')
 
         # Loop through each triple and extract the first and third elements using the '-' delimiter
@@ -367,7 +368,29 @@ def instance_list(input_file):
             list_instances.append(elements[2])
         data[i]['Instances_list']  = list(set(list_instances))
     with open(input_file, 'w') as f:
-            json.dump(data, f, indent = 4)            
+            json.dump(data, f, indent = 4)         
+
+def in_ist_DWIE(input_file):
+    with open(input_file, "r") as f:
+        data = json.load(f)
+
+    for i in range(len(data)):
+            #input_string = data[i]['Instances_KG']
+            input_string = data[i]['Instances']
+            triples = input_string.split(' | ')
+
+            # Loop through each triple and extract the first and third elements using the '-' delimiter
+            list_instances = []
+            for triple in triples:
+                elements = triple.split(' - ')
+                if len(elements) == 3:
+                    list_instances.append(elements[0])
+                    list_instances.append(elements[2])
+            data[i]['Instances_list']  = list(set(list_instances))
+            print(data[i]['Instances_list'])
+        
+    with open(input_file, 'w') as f:
+        json.dump(data, f, indent = 4)                    
 
 
 def pop_stupid_boys(input_file, output_file):
@@ -375,7 +398,8 @@ def pop_stupid_boys(input_file, output_file):
         data = json.load(f)
     result = [data[i] for i in range(len(data)) if ' | aoh' not in (data[i]["semantic_of_news"]+'aoh')]
     index_pop = [i for i in range(len(data)) if ' | aoh' in (data[i]["semantic_of_news"]+'aoh')]
-    print(index_pop)
+    #print(index_pop)
+    print(len(index_pop))
     with open(output_file, 'w') as f:
         json.dump(result, f, indent = 4) 
 
@@ -476,14 +500,18 @@ if __name__ == "__main__":
 
 
 
-    # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_dev.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_dev.json")
+    #index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_dev.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_dev.json")
     # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/dev_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/dev_57_MultipleClass.json', index_pop)
     # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_test.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_test.json")
     # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/test_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/test_57_MultipleClass.json', index_pop)
     # index_pop = pop_stupid_boys("Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_train.json", "Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_train.json")
     # pop_stupid_boys_multiple('Datasets/WebNLG/57_triples/Multiple_Classes/train_57_MultipleClass.json', 'Datasets/WebNLG/57_triples/Multiple_Classes/poppati_stupidi/train_57_MultipleClass.json', index_pop)
 
-    split = splits=['train','dev','test']
-    for split in splits:
-        format(f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{split}.json',f'Datasets/WebNLG/57_triples/Multiple_Classes/{split}_57_MultipleClass.json',f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{split}.json')
+    #splits =['train','dev','test']
+    splits = ['train','validation','test']
 
+    for d in splits:
+        #print(d , pop_stupid_boys(f"Datasets/WebNLG/57_triples/oneClass/Trattini/final/oneClass_{d}.json", f"Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{d}.json"))
+
+        #format(f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{d}.json',f'Datasets/WebNLG/57_triples/Multiple_Classes/{d}_57_MultipleClass.json',f'Datasets/WebNLG/57_triples/oneClass/Trattini/final/poppati_stupidi/oneClass_{d}.json')
+        in_ist_DWIE(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
