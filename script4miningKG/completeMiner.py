@@ -382,6 +382,7 @@ def main(argv, argc):
 
     # CHECK IF GPU IS UP
     check_gpu_availability()
+    print("STARTING..")
 
     # SAVE THE DEVICE WE ARE WORKING WITH
     device = getting_device(gpu_prefence=True)
@@ -418,4 +419,5 @@ def main(argv, argc):
         # dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
 
 if __name__ == '__main__':
+    print("BEFORE MAIN")
     main(sys.argv, len(sys.argv))
