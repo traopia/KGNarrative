@@ -164,46 +164,55 @@ def main(args):
 
 
     print("\nRESULT SCORES:")
+    score_to_print=[]
 
     scores = metrics.items()
     print(f'Results: {scores}')
+    score_to_print.append(scores)
 
     bleu = evaluate.load("bleu")
     result_bleu= bleu.compute(predictions=predicted_text, references=golden_labels)
     print(f'{result_bleu=}')
+    score_to_print.append(result_bleu)
 
     google_bleu = evaluate.load("google_bleu")
     result_google_bleu = google_bleu.compute(predictions=predicted_text, references=golden_labels)
     print(f'{result_google_bleu=}')
+    score_to_print.append(result_google_bleu)
 
     meteor = evaluate.load("meteor")
     result_meteor= meteor.compute(predictions=predicted_text, references=golden_labels)
     print(f'{result_meteor=}')
+    score_to_print.append(result_meteor)
 
     bertscore = evaluate.load("bertscore")
     results_bert = bertscore.compute(predictions=predicted_text, references=golden_labels, model_type="distilbert-base-uncased")
     results_bert={"Bert_Score":{i:np.mean(results_bert[i]) for i in list(results_bert.keys())[:-1]}}#this line is bc there is an hashvalue in results_bert that we dont need thus we only take first 3 elemnts of dictionary and avg 
     print(f'{results_bert=}')
+    score_to_print.append(results_bert)
 
     bleurt = evaluate.load("bleurt",'BLEURT-20',module_type="metric")
     result_bleurt = bleurt.compute(predictions=predicted_text, references=golden_labels)
     result_bleurt["bleurt_score"] = np.mean(result_bleurt.pop("scores"))
     print(f"{result_bleurt=}")
+    score_to_print.append(result_bleurt)
 
 
     """    
     graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
     #print("len of graph for parent", len(graph_for_parent))
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
-    print(f'{parent_score=}')"""
+    print(f'{parent_score=}')
+    score_to_print.append(parent_score)"""
 
 
 
     gpuUSED={'gpu':print_gpu_utilization()}#this has a print instruction alredy
-
+    score_to_print.append(training_duration)
+    score_to_print.append(gpuUSED)
+    
     outpath=experiment_name+'/'
     print(f'Writing  score report in {outpath}output_metrics.txt')
-    score_to_print=[metrics,result_bleu,result_google_bleu,result_meteor,results_bert,result_bleurt,parent_score,training_duration,gpuUSED]
     #write_scores_outputfile(outpath,score_to_print)
     write_scores_outputfile_json(outpath,score_to_print)
 
