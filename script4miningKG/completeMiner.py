@@ -356,10 +356,11 @@ def to_json_format(json_filename, csv_filename):
 # ||                                       ||
 # ===========================================
 
-def wrap(d):
+def wrap(filename):
     #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
-    data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
+    data = pd.read_json(filename)
     #data=data.head(4)#REMOVE THIS LINE
+    print("data loaded from json" + filename)
     df1 = mining_type_of_news(data)
     clean_gpu()
     df2 = mining_summary(df1)
@@ -374,11 +375,10 @@ def wrap(d):
     #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     #to_json_format("./train_complete.json", "./train_complete.csv")
     #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
-    dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
-    print('done with ', d)
+    dump_json_with_mined_semantic(df3, filename)
+    print('done with ', filename)
 
-#def main(argv, argc):
-def main():
+def main(argv, argc):
 
     # CHECK IF GPU IS UP
     check_gpu_availability()
@@ -386,10 +386,17 @@ def main():
     # SAVE THE DEVICE WE ARE WORKING WITH
     device = getting_device(gpu_prefence=True)
 
-    
-    #for d in ["train","test","dev"]:
-    for d in ["validation"]: 
-        wrap(d)
+    path=argv[1]
+    if not os.path.isdir(path): 
+        print("The path doesn't exist")
+        raise Exception("The path doesn't exist")
+
+    for d in ["train","test","validation"]:
+
+        filename=f'{path}/EN_{d}.json'
+
+        print("Working on ", filename)
+        wrap(filename)
 
         # #data = pd.read_json(f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/{d}_57_oneClass.json")
         # data = pd.read_json(f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned.json')
@@ -411,5 +418,4 @@ def main():
         # dump_json_with_mined_semantic(df3, f'Datasets/DWIE/DWIE_cleaned/{d}_cleaned_mined.json')
 
 if __name__ == '__main__':
-    #main(sys.argv, len(sys.argv))
-    main()
+    main(sys.argv, len(sys.argv))
