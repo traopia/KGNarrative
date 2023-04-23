@@ -159,7 +159,7 @@ def main(args):
     print("\nStarting gridsearch...\n")
 
     #lrs = [0.003,0.005,0.0001,0.0003,0.0005,0.00001,0.00003,0.00005,0.000003]
-    lrs = [5e-4 , 1e-5 , 3e-5 , 5e-5 , 3e-6]
+    lrs = [5e-3, 1e-4, 3e-4, 5e-4 , 1e-5 , 3e-5 , 5e-5]
     batch_sizes = [1,2,3]
     epochs = [3,4]
 
