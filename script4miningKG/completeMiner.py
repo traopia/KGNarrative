@@ -34,8 +34,7 @@ flair
 # IMPORTING
 print("IMPORTING")
 import transformers
-from datasets import load_dataset, load_metric
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoConfig, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import numpy as np
 import os
 import nltk
