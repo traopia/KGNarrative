@@ -212,8 +212,10 @@ def main(args):
     score_to_print.append(gpuUSED)
     
     outpath=experiment_name+'/'
-    print(f'Writing  score report in {outpath}output_metrics.txt')
+    print(f'Writing  score report in {outpath}output_metrics.json')
     #write_scores_outputfile(outpath,score_to_print)
+    print(score_to_print)
+    print(type(score_to_print))
     write_scores_outputfile_json(outpath,score_to_print)
 
 
