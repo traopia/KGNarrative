@@ -168,7 +168,7 @@ def main(args):
 
     scores = metrics.items()
     print(f'Results: {scores}')
-    score_to_print.append(scores)
+    score_to_print.append(metrics)
 
     bleu = evaluate.load("bleu")
     result_bleu= bleu.compute(predictions=predicted_text, references=golden_labels)
@@ -214,8 +214,7 @@ def main(args):
     outpath=experiment_name+'/'
     print(f'Writing  score report in {outpath}output_metrics.json')
     #write_scores_outputfile(outpath,score_to_print)
-    print(score_to_print)
-    print(type(score_to_print))
+ 
     write_scores_outputfile_json(outpath,score_to_print)
 
 
