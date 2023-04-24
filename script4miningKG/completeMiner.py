@@ -34,6 +34,7 @@ flair
 # IMPORTING
 print("IMPORTING")
 import transformers
+from transformers import pipeline 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import numpy as np
 import os
@@ -50,7 +51,7 @@ import gc
 from flair.models import SequenceTagger
 from flair.data import Sentence
 import csv, json
-from transformers import pipeline
+#from transformers import pipeline
 
 # IMPORT DATAFRAME run with each of the file here "KGNarrative2\Datasets\withSummaryNotFinal"
 
