@@ -388,7 +388,9 @@ def main(argv, argc):
 
     # SAVE THE DEVICE WE ARE WORKING WITH
     device = getting_device(gpu_prefence=True)
-
+    if argc != 2:
+        print("Usage: python3 main.py path")
+        raise Exception("Usage: python3 main.py path")
     path=argv[1]
     if not os.path.isdir(path): 
         print("The path doesn't exist")
