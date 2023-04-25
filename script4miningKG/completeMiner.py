@@ -136,7 +136,7 @@ def clean_gpu():
 
 # FUNCTIONS FOR MINING
 
-def mining_type_of_news(df,model_name ='facebook/bart-large-mnli'):
+def mining_type_of_news(df,model_name ='facebook/bart-large-mnli'): 
 
   # import pipeline on gpu
   classifier = pipeline("zero-shot-classification", model = model_name, device = 0)
@@ -374,7 +374,8 @@ def wrap(filename):
     df3 = extract_triples_from_tuples(df3)
     df3 = get_final_kg(df3)
     df3 = df3.drop(df3.index[0])
-    df3['entities_list'] = df3['triple_column'].apply(extract_entities)
+    df3['entities_list1'] = df3['triple_column'].apply(extract_entities)
+    df3['entities_list2'] =  " | ".join([x.strip() for x in df3['entities_list1']])
     #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     #to_json_format("./train_complete.json", "./train_complete.csv")
     #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")
@@ -394,7 +395,7 @@ def main(argv, argc):
         raise Exception("Usage: python3 main.py path")
     path=argv[1]
     if not os.path.isdir(path): 
-        print(path,"<---The path doesn't exist")
+        print("The path doesn't exist")
         raise Exception("The path doesn't exist")
 
     for d in ["train","test","validation"]:
