@@ -394,7 +394,7 @@ def main(argv, argc):
         raise Exception("Usage: python3 main.py path")
     path=argv[1]
     if not os.path.isdir(path): 
-        print("The path doesn't exist")
+        print(path,"<---The path doesn't exist")
         raise Exception("The path doesn't exist")
 
     for d in ["train","test","validation"]:
