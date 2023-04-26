@@ -145,9 +145,9 @@ def main(args):
     def compute_rouge(pred): 
         predictions, labels = pred
         #decode the predictions
-        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=False)
+        decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
         #decode labels
-        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=False)
+        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
         #compute results
         res = rouge.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
