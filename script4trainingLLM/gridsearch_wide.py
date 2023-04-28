@@ -230,7 +230,7 @@ def main(args):
 
                 info=[{'typeKG':typeKG},{'hyper_Params':hyperparams_list}]
 
-                score_to_print = eval_pipeline(predicted_text,golden_labels,hyperparams,experiment_name,metrics,graph_for_parent)
+                score_to_print = eval_pipeline(predicted_text,golden_labels,metrics,graph_for_parent)
 
                 gpuUSED={'gpu':print_gpu_utilization()}#this has a print instruction alredy
                 score_to_print.append(training_duration)
