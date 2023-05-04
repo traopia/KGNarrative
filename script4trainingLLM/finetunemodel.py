@@ -21,7 +21,7 @@ def add_args(parser):
     parser.add_argument('graph_kind', type=str, help='Kind of graph')
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
-    parser.add_argument('--learning_rate', type=float, default=3e-5, help='Learning rate for the optimizer (default: 2e-5)')
+    parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer (default: 2e-5)')
     parser.add_argument('--batch_size', type=int, default=1, help='Batch size (default: 1)')
     parser.add_argument('--epochs', type=int, default=3, help='Number of epochs (default: 3)')
     parser.add_argument('--save_model', type=bool, default=False, help='Save the model (default: False)')
@@ -102,7 +102,7 @@ def main(args):
         #decode the predictions
         decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
         #decode labels
-        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+        decode_labels = tokenizer.batch_decode(labels, skip_special_tokens=True,clean_up_tokenization_spaces=True)
 
         #compute results
         res = rouge.compute(predictions=decode_predictions, references=decode_labels, use_stemmer=True)
