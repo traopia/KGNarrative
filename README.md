@@ -2,6 +2,8 @@
 The goal of this research project is to combine Large Language Models with Knowledge Graphs on the downstream task of Text generation, to research if infused knowledge enhance the quality and coherence of the generated text.
 
 
+To run finetunemodel.py it is necessary to install bleurt from sourcecode as well as Parent from https://github.com/KaijuML/parent . Can also just comment out the scores. 
+
 # DATASETS :
 Two datasets are used in this project and can be found in /Dataset folder. 
 
