@@ -31,7 +31,7 @@ cols=('Instances_KG'  'Types_KG' 'Subclasses_KG' 'Instances_list')
 for element in "${cols[@]}"
 do
     echo FINETUNIING_NOW_ON_$element
-    python3  KGNarrative2/script4trainingLLM/finetunemodel.py KGNarrative2/Datasets/WebNLG/4experiment pop $element bart-large webnlg_scripts/Semantic_results/$element
+    python3  KGNarrative2/script4trainingLLM/finetunemodel.py KGNarrative2/Datasets/WebNLG/4experiment pop $element bart-base webnlg_scripts/Semantic_results/$element
     echo DONE
 done
 #python3 KGNarrative2/script4trainingLLM/2ndfinetune_BART.py KGNarrative2/Datasets/DWIE/DWIE_semantics DWIE 'Instances Knowledge Graph' megaBART/finetuned_BART_EventNarrative DWIE_InstanceKG
