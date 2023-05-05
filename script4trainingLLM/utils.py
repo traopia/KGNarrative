@@ -127,24 +127,6 @@ def write_scores_outputfile_json_Paramtune(outpath,params,score_list):
     with open(outpath + f'{params}_output_metrics.json', "a", encoding='utf-8') as f:
         json.dump(score_list, f, indent=4)
 
-def write_predictions(outpath,preds,labels):#OBSOLETE
-
-    outfile = open(outpath + 'stories.json', "a", encoding='utf-8')
-
-    outfile.write('[')
-
-    for gen, gold in zip(preds, labels):
-        #print(f'Generated text: {gen}')
-        outfile.write('{')
-        outfile.write(f'"Generated_text":"{gen}"\n')
-        outfile.write(',')
-        outfile.write(f'"Reference_text":"{gold}"\n\n')
-        outfile.write('}')
-        outfile.write(',')
-
-    outfile.write(']')
-    outfile.close()
-
 def write_predictions_andGraph(outpath,preds,labels,test_data):
 
     output=[]
