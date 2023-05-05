@@ -1,256 +1,33 @@
+/var/spool/slurm/slurmd/job11715760/slurm_script: line 22: /home/ghoogerw/.bashrc: Permission denied
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/var/spool/slurm/slurmd/job11715760/slurm_script: line 27: cd: /home/ghoogerw/kg2Narrative/: Permission denied
 FINETUNIING_NOW_ON_Instances_KG
-2023-04-29 11:45:56.494504: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:45:56.611021: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:45:56.612051: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-04-29 11:45:57.963717: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Found cached dataset json (/home/ghoogerw/.cache/huggingface/datasets/json/default-3a969de3c75e41fe/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Device in use is  cuda
-Model selected: BART-large
-Loading dataset from  KGNarrative2/Datasets/WebNLG/4experiment
-  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 230.99it/s]
-Loading tokenizer
-
-Processing Dataset
-Map (num_proc=4):   0%|          | 0/1250 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 313/1250 [00:00<00:01, 737.19 examples/s]                                                                            Map (num_proc=4):   0%|          | 0/267 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 67/267 [00:00<00:00, 304.03 examples/s]                                                                          Map (num_proc=4):   0%|          | 0/334 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 84/334 [00:00<00:00, 338.39 examples/s]                                                                          /home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-You're using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
-  warnings.warn('Was asked to gather along dimension 0, but all '
-
-Loading MODEL
-Collator for batches
-Loading rouge
-
-PREPARING FOR TRAINING...
-Training TIME..
-Traceback (most recent call last):
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 226, in <module>
-    main(args)
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 149, in main
-    trainer.train()
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 1662, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2022, in _inner_training_loop
-    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2288, in _maybe_log_save_evaluate
-    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer_seq2seq.py", line 159, in evaluate
-    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2994, in evaluate
-    output = eval_loop(
-             ^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 3283, in evaluation_loop
-    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 103, in compute_rouge
-    decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3456, in batch_decode
-    return [
-           ^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3457, in <listcomp>
-    self.decode(
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3496, in decode
-    return self._decode(
-           ^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 549, in _decode
-    text = self._tokenizer.decode(token_ids, skip_special_tokens=skip_special_tokens)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OverflowError: out of range integral type conversion attempted
+python3: can't open file 'KGNarrative2/script4trainingLLM/finetunemodel.py': [Errno 2] No such file or directory
 DONE
 FINETUNIING_NOW_ON_Types_KG
-2023-04-29 11:49:58.644767: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:49:58.694304: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:49:58.695512: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-04-29 11:49:59.841065: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Found cached dataset json (/home/ghoogerw/.cache/huggingface/datasets/json/default-3a969de3c75e41fe/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Device in use is  cuda
-Model selected: BART-large
-Loading dataset from  KGNarrative2/Datasets/WebNLG/4experiment
-  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 760.62it/s]
-Loading tokenizer
-
-Processing Dataset
-Map (num_proc=4):   0%|          | 0/1250 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 313/1250 [00:00<00:01, 753.01 examples/s]Map (num_proc=4): 100%|##########| 1250/1250 [00:00<00:00, 2912.82 examples/s]                                                                              Map (num_proc=4):   0%|          | 0/267 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 67/267 [00:00<00:00, 276.93 examples/s]                                                                          Map (num_proc=4):   0%|          | 0/334 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 84/334 [00:00<00:00, 323.21 examples/s]                                                                          /home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-You're using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
-  warnings.warn('Was asked to gather along dimension 0, but all '
-
-Loading MODEL
-Collator for batches
-Loading rouge
-
-PREPARING FOR TRAINING...
-Training TIME..
-Traceback (most recent call last):
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 226, in <module>
-    main(args)
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 149, in main
-    trainer.train()
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 1662, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2022, in _inner_training_loop
-    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2288, in _maybe_log_save_evaluate
-    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer_seq2seq.py", line 159, in evaluate
-    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2994, in evaluate
-    output = eval_loop(
-             ^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 3283, in evaluation_loop
-    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 103, in compute_rouge
-    decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3456, in batch_decode
-    return [
-           ^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3457, in <listcomp>
-    self.decode(
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3496, in decode
-    return self._decode(
-           ^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 549, in _decode
-    text = self._tokenizer.decode(token_ids, skip_special_tokens=skip_special_tokens)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OverflowError: out of range integral type conversion attempted
+python3: can't open file 'KGNarrative2/script4trainingLLM/finetunemodel.py': [Errno 2] No such file or directory
 DONE
 FINETUNIING_NOW_ON_Subclasses_KG
-2023-04-29 11:53:54.817203: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:53:54.866198: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:53:54.867439: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-04-29 11:53:55.984251: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Found cached dataset json (/home/ghoogerw/.cache/huggingface/datasets/json/default-3a969de3c75e41fe/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Device in use is  cuda
-Model selected: BART-large
-Loading dataset from  KGNarrative2/Datasets/WebNLG/4experiment
-  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 851.81it/s]
-Loading tokenizer
-
-Processing Dataset
-Map (num_proc=4):   0%|          | 0/1250 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 313/1250 [00:00<00:01, 712.36 examples/s]Map (num_proc=4): 100%|##########| 1250/1250 [00:00<00:00, 2791.35 examples/s]                                                                              Map (num_proc=4):   0%|          | 0/267 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 67/267 [00:00<00:00, 266.91 examples/s]                                                                          Map (num_proc=4):   0%|          | 0/334 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 84/334 [00:00<00:00, 326.15 examples/s]                                                                          /home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-You're using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
-  warnings.warn('Was asked to gather along dimension 0, but all '
-
-Loading MODEL
-Collator for batches
-Loading rouge
-
-PREPARING FOR TRAINING...
-Training TIME..
-Traceback (most recent call last):
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 226, in <module>
-    main(args)
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 149, in main
-    trainer.train()
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 1662, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2022, in _inner_training_loop
-    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2288, in _maybe_log_save_evaluate
-    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer_seq2seq.py", line 159, in evaluate
-    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2994, in evaluate
-    output = eval_loop(
-             ^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 3283, in evaluation_loop
-    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 103, in compute_rouge
-    decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3456, in batch_decode
-    return [
-           ^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3457, in <listcomp>
-    self.decode(
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3496, in decode
-    return self._decode(
-           ^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 549, in _decode
-    text = self._tokenizer.decode(token_ids, skip_special_tokens=skip_special_tokens)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OverflowError: out of range integral type conversion attempted
+python3: can't open file 'KGNarrative2/script4trainingLLM/finetunemodel.py': [Errno 2] No such file or directory
 DONE
 FINETUNIING_NOW_ON_Instances_list
-2023-04-29 11:57:53.433106: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:57:53.482905: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-04-29 11:57:53.484144: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-04-29 11:57:54.609719: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Found cached dataset json (/home/ghoogerw/.cache/huggingface/datasets/json/default-3a969de3c75e41fe/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Device in use is  cuda
-Model selected: BART-large
-Loading dataset from  KGNarrative2/Datasets/WebNLG/4experiment
-  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 816.59it/s]
-Loading tokenizer
-
-Processing Dataset
-Map (num_proc=4):   0%|          | 0/1250 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 313/1250 [00:00<00:01, 814.58 examples/s]                                                                            Map (num_proc=4):   0%|          | 0/267 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 67/267 [00:00<00:00, 288.47 examples/s]                                                                          Map (num_proc=4):   0%|          | 0/334 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 84/334 [00:00<00:00, 354.27 examples/s]                                                                          /home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-You're using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
-  warnings.warn('Was asked to gather along dimension 0, but all '
-
-Loading MODEL
-Collator for batches
-Loading rouge
-
-PREPARING FOR TRAINING...
-Training TIME..
-Traceback (most recent call last):
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 226, in <module>
-    main(args)
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 149, in main
-    trainer.train()
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 1662, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2022, in _inner_training_loop
-    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2288, in _maybe_log_save_evaluate
-    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer_seq2seq.py", line 159, in evaluate
-    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 2994, in evaluate
-    output = eval_loop(
-             ^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/trainer.py", line 3283, in evaluation_loop
-    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/kg2Narrative/KGNarrative2/script4trainingLLM/finetunemodel.py", line 103, in compute_rouge
-    decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3456, in batch_decode
-    return [
-           ^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3457, in <listcomp>
-    self.decode(
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3496, in decode
-    return self._decode(
-           ^^^^^^^^^^^^^
-  File "/home/ghoogerw/.conda/envs/kg2Narrative/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 549, in _decode
-    text = self._tokenizer.decode(token_ids, skip_special_tokens=skip_special_tokens)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OverflowError: out of range integral type conversion attempted
+python3: can't open file 'KGNarrative2/script4trainingLLM/finetunemodel.py': [Errno 2] No such file or directory
 DONE
