@@ -65,11 +65,13 @@ def eval_pipeline(predicted_text,golden_labels,metrics,graph_for_parent):
     score_to_print.append(result_bleurt)
 
         
+    """
     graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
     #print("len of graph for parent", len(graph_for_parent))
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
     print(f'{parent_score=}')
     score_to_print.append(parent_score)
+    """
     
     return score_to_print
 
