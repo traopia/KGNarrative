@@ -10,6 +10,7 @@ import json
 import time
 import argparse
 os.environ['TQDM_DISABLE'] = 'true'
+os.environ["WANDB_SILENT"] = "true"
 
 max_target = 1024
 max_input = 4096
