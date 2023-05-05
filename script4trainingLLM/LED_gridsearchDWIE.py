@@ -157,7 +157,7 @@ def main(args):
     print("starting gridsearch")
 
     lrs = [ 1e-4, 3e-4, 5e-5, 1e-5]
-    batch_sizes = [1,2,3,]
+    batch_sizes = [1,2,3]
     epochs = [3]
     
     for learning_rate in lrs:
