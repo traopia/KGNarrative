@@ -63,13 +63,13 @@ def eval_pipeline(predicted_text,golden_labels,metrics,graph_for_parent):
     print(f"{result_bleurt=}")
     score_to_print.append(result_bleurt)
 
-    """    
+        
     graph_for_parent=[g.split('[TRIPLES]')[1] for g in graph_for_parent] #this because the isntance graph has a the core
     #print("len of graph for parent", len(graph_for_parent))
     parent_score=parent_metric(predicted_text,golden_labels,graph_for_parent)
     print(f'{parent_score=}')
     score_to_print.append(parent_score)
-    """
+    
     return score_to_print
 
 
@@ -157,8 +157,8 @@ def main(args):
     print("starting gridsearch")
 
     lrs = [ 1e-3 , 1e-4 , 1e-5]
-    batch_sizes = [1]
-    epochs = [3,4]
+    batch_sizes = [1,2,3,]
+    epochs = [3]
     
     for learning_rate in lrs:
         for batch_size in batch_sizes:
@@ -169,7 +169,7 @@ def main(args):
                 print("Epochs: ",epoch)
 
                 hyperparams_list=[learning_rate,batch_size,epoch]
-                hyperparams=str(learning_rate)+"_"+str(batch_size)+"_"+str(epoch)
+                hyperparamstring=str(learning_rate)+"_"+str(batch_size)+"_"+str(epoch)
 
 
                 print("\nPREPARING FOR TRAINING...")
@@ -241,7 +241,7 @@ def main(args):
 
                 print(f'Writing  score report in {outpath}output_metrics.json')
                     
-                write_scores_outputfile_json(outpath,score_to_print)
+                write_scores_outputfile_json_Paramtune(outpath,hyperparamstring,score_to_print)
 
                 print("DONE")
 

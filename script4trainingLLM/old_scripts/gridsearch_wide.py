@@ -171,7 +171,7 @@ def main(args):
                 print("Epochs: ",epoch)
 
                 hyperparams_list=[learning_rate,batch_size,epoch]
-                hyperparams=str(learning_rate)+"_"+str(batch_size)+"_"+str(epoch)
+                hyperparamstring=str(learning_rate)+"_"+str(batch_size)+"_"+str(epoch)
 
 
 
@@ -242,7 +242,7 @@ def main(args):
 
                 print(f'Writing  score report in {outpath}output_metrics.json')
                     
-                write_scores_outputfile_json(outpath,score_to_print)
+                write_scores_outputfile_json_Paramtune(outpath,hyperparamstring,score_to_print)
 
                 
                 print("DONE")
