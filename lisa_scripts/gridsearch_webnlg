@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=gridsearch
+#SBATCH --job-name=gridsearch_webnlg_SECOND
 #SBATCH --time=20:00:00
 #SBATCH -N 1
 ## #SBATCH --ntasks-per-node=1
 #SBATCH --partition=gpu_titanrtx_shared
 #SBATCH --gpus-per-task=4
-#SBATCH --output=gridsearch.out
+#SBATCH --output=gridsearch_webnlg_SECOND
 ## in the list above, the partition name depends on where you are running your job. 
 ## On DAS5 the default would be `defq` on Lisa the default would be `gpu` or `gpu_shared`
 ## Typing `sinfo` on the server command line gives a column called PARTITION.  There, one can find the name of a specific node, the state (down, alloc, idle etc), the availability and how long is the ti$
