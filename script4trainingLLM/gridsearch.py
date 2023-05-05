@@ -158,9 +158,9 @@ def main(args):
     print("\nStarting gridsearch...\n")
 
     #lrs = [0.003,0.005,0.0001,0.0003,0.0005,0.00001,0.00003,0.00005,0.000003]
-    lrs = [ 1e-5 , 3e-5 , 5e-5]
+    lrs = [ 1e-3 ,1e-4 , 1e-5]
     batch_sizes = [1,2,3]
-    epochs = [3,4]
+    epochs = [3]
 
     for learning_rate in lrs:
         for batch_size in batch_sizes:
@@ -226,7 +226,6 @@ def main(args):
 
                 predicted_text,golden_labels=tokenize_for_evaluation(tokenizer,preds,labels)
 
-                os.makedirs(experiment_name, exist_ok=True)
 
                 info=[{'typeKG':typeKG},{'hyper_Params':hyperparams_list}]
 
@@ -243,6 +242,10 @@ def main(args):
                 print(f'Writing  score report in {outpath}output_metrics.json')
                     
                 write_scores_outputfile_json(outpath,score_to_print)
+
+                print(f"Writing predicted text in {outpath}stories.json")
+                write_predictions_andGraph(outpath,predicted_text,golden_labels,dataset['test'][typeKG])
+
 
                 
                 print("DONE")
