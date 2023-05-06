@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from src_preprocessing.completeMiner import *
 from src_preprocessing.utils_webnlg_preprocess import *
 
