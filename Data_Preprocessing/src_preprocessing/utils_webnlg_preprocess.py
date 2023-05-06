@@ -187,7 +187,7 @@ def create_dict_file(tree):
         # Join the otriples list into a single string, with each triple separated by '-'
         
         entry_dict['story'] = entry.find('.//lex').text
-        entry_dict['Instances_KG'] = ' - '.join(otriples)
+        entry_dict['Instances_KG'] = ' | '.join(otriples)
         entities = [triple.split(' | ')[2] for triple in otriples]
         entities.append(str(otriples[0].split(' | ')[0]))
         entry_dict['Instances_list'] = ' | '.join(set(entities))
@@ -202,8 +202,8 @@ def create_dict_file(tree):
         
         
 
-        entry_dict['Types_KG'] = ' - '.join(set([f"{entity.replace('_', ' ')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None]))
-        entry_dict['Subclasses_KG'] =  ' - '.join(set([f"{i} | subclass | {get_entity_subclass(j)}" for i,j in zip(classes, classes_uri)]))
+        entry_dict['Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None]))
+        entry_dict['Subclasses_KG'] =  ' | '.join(set([f"{i} - subclass - {get_entity_subclass(j)}" for i,j in zip(classes, classes_uri)]))
         entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace('_', ' ')
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
@@ -215,8 +215,8 @@ def create_dict_file(tree):
         multi_classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity ]
         multi_classes_uri = list(filter(lambda item: item is not None, classes_uri))
 
-        entry_dict['multi_Types_KG'] = ' - '.join(set([f"{entity.replace('_', ' ')} | type | {get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)[i]}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None for i in range(len(get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)))]))
-        entry_dict['multi_Subclasses_KG'] =  ' - '.join(set([f"{i} | subclass | {get_entity_subclass(j)}" for i,j in zip(multi_classes, multi_classes_uri) ]))
+        entry_dict['multi_Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)[i]}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None for i in range(len(get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)))]))
+        entry_dict['multi_Subclasses_KG'] =  ' | '.join(set([f"{i} - subclass - {get_entity_subclass(j)}" for i,j in zip(multi_classes, multi_classes_uri) ]))
 
         dates = []
         s = entry_dict["Instances_KG"]
@@ -226,7 +226,7 @@ def create_dict_file(tree):
             for j in date:
                 entry_dict["Instances_KG"] = entry_dict["Instances_KG"].replace(j, j.replace(" - ", "/").replace('"'))
 
-        
+        """
         #change trattini format
         entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace(' - ','|').replace(' | ','-')
         entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace('-',' - ').replace('|',' | ')
@@ -238,7 +238,7 @@ def create_dict_file(tree):
         entry_dict['multi_Types_KG'] = entry_dict['multi_Types_KG'].replace('-',' - ').replace('|',' | ')
         entry_dict['multi_Subclasses_KG'] = entry_dict['multi_Subclasses_KG'].replace(' - ','|').replace(' | ','-')
         entry_dict['multi_Subclasses_KG'] = entry_dict['multi_Subclasses_KG'].replace('-',' - ').replace('|',' | ')
-
+        """
 
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
