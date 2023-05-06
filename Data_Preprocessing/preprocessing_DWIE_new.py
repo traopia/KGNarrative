@@ -162,17 +162,17 @@ def create_linearized_KG(directory,outdir):
             try:
                 data = json.load(g) 
                 if 'test' in data['tags']:
-                    print(path)
+                    print(f'{path} is test')
                     new_KG = create_experiment_linearized(data)
                     test.append(new_KG)
                 elif 'train' in data['tags']:
-                    print(path)
+                    print(f'{path} is train')
                     new_KG = create_experiment_linearized(data)
                     train.append(new_KG)
 
             except BaseException as e:
-                print('The file contains invalid JSON')
-                print(path)
+                print(f'The {path} file contains invalid JSON')
+                
 
     return train, test
 
