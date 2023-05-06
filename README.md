@@ -14,16 +14,15 @@ For each dataset the steps are:
 Downaloding (clones and dowloads the full dataset):
 ```
 git clone https://github.com/klimzaporojets/DWIE
-Python dwie_download.py
+python dwie_download.py
 ```
 Preprocessing (GPU is necessary):
 ```
-Python Data_Preprocessing preprocessing_DWIE.py
+python Data_Preprocessing preprocessing_DWIE.py
 
 ```
 
-
-##WebNlg
+## WebNlg
 
 Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
 Release 3.0 in English is required
@@ -31,15 +30,26 @@ Preprocessing:
 #### PROCESSING and DATA AUGMENTATION:
 To preprocess the DWIE dataset (A GPU is necessary)
 ```
-Python Data_Preprocessing/preprocessing_WebNLG.py
+python Data_Preprocessing/preprocessing_WebNLG.py
 ```
 
-
-
-
-
 # MODELS
-FOR THE FIRST FINETUNING ON EVENT NARRATIVE (parallel training not implemented yet)
+For the results, Bart-large was utilized with WebNLG and LongFormer (led) for DWIE.
+For finetuning model on a specific content planner: ($element is one of 'Types_KG' 'Instances_KG' 'Subclasses_KG' 'Instances_list' 'multi_Subclasses_KG' 'entities_list' 'semantic_of_news')
+
+```
+#WebNLG
+python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+#DWIE
+python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+
+```
+
+```
+
+```
+python3 script4trainingLLM/LED_4_DWIE.py Datasets/DWIE/4experiment full $element led KGNarrative/FINAL_RESULTS/DWIE/$element --learning_rate 0.0001 --batch 1 --epochs 3
+
 python3 finetune_BART.py Datasets/EventNarrative EN Instance_Knowledge_Graph nonparallel megaBART2
 
 FOR THE SECOND FINETUNING 
