@@ -192,7 +192,8 @@ def create_dict_file(tree):
         #entities = [triple.split(' | ')[2] for triple in otriples]
         #entities.append(str(otriples[0].split(' | ')[0]))
 
-        entities=[str(otriples[0].split(' - ')[0])]+[[triple.split(' - ')[2] for triple in otriples]]
+        entities=[str(otriples[0].split(' - ')[0])]+[triple.split(' - ')[2] for triple in otriples]
+        #print(type(entities),entities)
         entry_dict['Instances_list'] = ' | '.join(set(entities))
         #entities = [entity.replace(" ", "_") for entity in entities]
 
@@ -258,19 +259,30 @@ def create_file_format():
     It does the preprocessing of the data and it creates the file in the format we want
     '''
 
-    # set up the SPARQL endpoint for DBpedia
-    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    
     #load the WebNLG Dataset from the XML file
-    for i in ['dev_57triples','train_57triples','test_triples']:
-        tree = ET.parse(f"WebNLG/release_v3.0/en/selected/{i}.xml")
-        root = tree.getroot()
-        data = create_dict_file(tree)
+    tree = ET.parse(f"WebNLG/release_v3.0/en/selected/dev_57triples.xml")
+    root = tree.getroot()
+    data = create_dict_file(tree)
+    with open(f"Dataset/WebNLG/validation.json", 'w') as f:
+        json.dump(data, f, indent = 4)
+    
+    tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
+    root = tree.getroot()
+    data = create_dict_file(tree)
+    with open(f"Dataset/WebNLG/train.json", 'w') as f:
+        json.dump(data, f, indent = 4)
 
-        if not os.path.exists('Dataset/WebNLG'):
-            os.makedirs('Dataset/WebNLG')
-        for j in ['validation','training','test']:
-            with open(f"Dataset/WebNLG/{j}.json", 'w') as f:
-                json.dump(data, f, indent = 4)
+    tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
+    root = tree.getroot()
+    data = create_dict_file(tree)
+    with open(f"Dataset/WebNLG/test.json", 'w') as f:
+        json.dump(data, f, indent = 4)
+
+
+   
+  
+
 
 
 ##ADD SPECIFIC STUFF TO THE JSON FILE
@@ -320,7 +332,7 @@ def remove_if_not_reification():
 
 
 def format():
-    ''' This function formats the JSON file in the format we want'''
+    ''' This function formats the JSON file in the chosen format want'''
 
     for Dataset in ['test','training','validation']:
         with open(f"Dataset/WebNLG/{Dataset}.json", 'w') as f:
