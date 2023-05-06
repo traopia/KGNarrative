@@ -158,11 +158,12 @@ def create_linearized_KG(directory,outdir):
     test=[]
     for filename in os.listdir(directory):
         path = os.path.join(directory, filename)
-        with open(path) as g:
+        with open(path,'r') as g:
             try:
                 data = json.load(g) 
                 if 'test' in data['tags']:
                     print(f'{path} is test')
+                    print(data)
                     new_KG = create_experiment_linearized(data)
                     test.append(new_KG)
                 elif 'train' in data['tags']:
