@@ -88,17 +88,20 @@ def create_experiment_linearized(data):
     """
     This function creates a dictionary that contains the story and the linearized KG
     """
-    dict = {}
+    dict1 = {}
     print("creating story")
-    dict['story'] = data['content'].replace('\n', ' ')
+    dict1['story'] = data['content'].replace('\n', ' ')
+    print(dict1['story'])
     print("creating KG")
-    dict['Instances Knowledge Graph'] = create_linearized_KG(data)
+    dict1['Instances Knowledge Graph'] = create_linearized_KG(data)
+    print(dict1['Instances Knowledge Graph'])
     print("creating types")
     types, concepts = create_types_KG(data)
-    dict['Types Knowledge Graph'] = types + create_linearized_KG(data)
+    dict1['Types Knowledge Graph'] = types + create_linearized_KG(data)
     print("creating subclass")
-    dict['Subclass Knowledge Graph'] = create_subclass_KG(data) + types + create_linearized_KG(data)
-    return dict
+    dict1['Subclass Knowledge Graph'] = create_subclass_KG(data) + types + create_linearized_KG(data)
+    print(f'Final dict {dict1}')
+    return dict1
 
 
 def dict_into_json(data):
