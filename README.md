@@ -18,7 +18,7 @@ python dwie_download.py
 ```
 Preprocessing (GPU is required):
 ```
-python Data_Preprocessing preprocessing_DWIE.py
+python Data_Preprocessing/preprocessing_DWIE.py
 
 ```
 
