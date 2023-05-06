@@ -188,8 +188,11 @@ def create_dict_file(tree):
         
         entry_dict['story'] = entry.find('.//lex').text
         entry_dict['Instances_KG'] = ' | '.join(otriples)
-        entities = [triple.split(' | ')[2] for triple in otriples]
-        entities.append(str(otriples[0].split(' | ')[0]))
+
+        #entities = [triple.split(' | ')[2] for triple in otriples]
+        #entities.append(str(otriples[0].split(' | ')[0]))
+
+        entities=[str(otriples[0].split(' - ')[0])]+[[triple.split(' - ')[2] for triple in otriples]]
         entry_dict['Instances_list'] = ' | '.join(set(entities))
         #entities = [entity.replace(" ", "_") for entity in entities]
 
