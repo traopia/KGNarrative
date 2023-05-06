@@ -165,7 +165,7 @@ def create_linearized_KG(directory,outdir):
                     print(f'{path} is test')
                     print(data)
                     new_KG = create_experiment_linearized(data)
-                    print(f'{new_KG=}')
+                    print(f'\n{new_KG=}')
                     test.append(new_KG)
                 elif 'train' in data['tags']:
                     print(f'{path} is train')
