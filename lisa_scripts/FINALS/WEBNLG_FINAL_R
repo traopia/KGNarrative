@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=DWIE_semantic
+#SBATCH --job-name=WEBNLG_FINAL_R
 #SBATCH --time=10:00:00
 #SBATCH -N 1
 ## #SBATCH --ntasks-per-node=1
 #SBATCH --partition=gpu_titanrtx_shared
 #SBATCH --gpus-per-task=4
-#SBATCH --output=DWIESemantic2.out
+#SBATCH --output=WEBNLG_FINAL_R.out
 ## in the list above, the partition name depends on where you are running your job. 
 ## On DAS5 the default would be `defq` on Lisa the default would be `gpu` or `gpu_shared`
 ## Typing `sinfo` on the server command line gives a column called PARTITION.  There, one can find the name of a specific node, the state (down, alloc, idle etc), the availability and how long is the ti$
@@ -19,24 +19,18 @@
 # This loads the anaconda virtual environment with our packages
 ###export CUDA_VISIBLE_DEVICES=0,1,2,3
 
-source /home/ghoogerw/.bashrc
-
 conda activate kg2Narrative
 
 # Base directory for the experiment. This should be your outer folder, actually where this script is 
-cd /home/ghoogerw/kg2Narrative/
+cd /home/tliberatore/KGNarrative
 
 
-cols=('Types_KG' 'Instances_KG' 'Subclasses_KG' 'Instances_list' 'multi_Subclasses_KG')
+cols=('semantic_of_news' 'entities_list')
 for element in "${cols[@]}"
 do
     echo FINETUNIING_NOW_ON_$element
-   python3 KGNarrative2/script4trainingLLM/LED_4_DWIE.py KGNarrative2/Datasets/DWIE/4experiment full $element led DWIE_scripts/dwie_semantic_results/$element
+    python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment full $element bart-large KGNarrative/FINAL_RESULTS/WEBNLG/$element --learning_rate 0.0001 --batch 1 --epochs 3
     echo DONE
 done
-#python3 KGNarrative2/script4trainingLLM/2ndfinetune_BART.py KGNarrative2/Datasets/DWIE/DWIE_semantics DWIE 'Instances Knowledge Graph' megaBART/finetuned_BART_EventNarrative DWIE_InstanceKG
 
-
-
-# run the script
 

@@ -26,12 +26,16 @@ conda activate kg2Narrative
 cd /home/tliberatore/KGNarrative
 
 
-
+#semantics
 python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'Instances_KG' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
 python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'Types_KG' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
 python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'Instances_list' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
 python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'Subclasses_KG' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
+python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'multi_Subclasses_KG' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
 
+#reification
+python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'entities_list' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
+python3 KGNarrative/script4trainingLLM/finetunemodel_webnlg.py KGNarrative/Datasets/WebNLG/4experiment 'semantic_of_news' bart-large --learning_rate 0.0001 --batch 1 --epochs 3
 
 
 
