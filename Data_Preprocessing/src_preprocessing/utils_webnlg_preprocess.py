@@ -182,7 +182,7 @@ def create_dict_file(tree):
         for otriple in entry.findall('.//originaltripleset/otriple'):
 
             # Extract the text content of the otriple element and append it to the otriples list
-            otriples.append(otriple.text)
+            otriples.append(otriple.text.replace('|', '-'))
 
         # Join the otriples list into a single string, with each triple separated by '-'
         
