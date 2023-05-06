@@ -188,6 +188,7 @@ def create_dict_file(tree):
         
         entry_dict['story'] = entry.find('.//lex').text
         entry_dict['Instances_KG'] = ' | '.join(otriples)
+        print(f'{entry_dict=}')
 
         #entities = [triple.split(' | ')[2] for triple in otriples]
         #entities.append(str(otriples[0].split(' | ')[0]))
