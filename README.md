@@ -1,48 +1,50 @@
-# Knowledge Graph enhanced News Generation
-The goal of this research project is to combine Large Language Models with Knowledge Graphs on the downstream task of Text generation, to research if infused knowledge enhance the quality and coherence of the generated text.
-
-
-To run finetunemodel.py it is necessary to install bleurt from sourcecode as well as Parent from https://github.com/KaijuML/parent . Can also just comment out the scores. 
+# Using Semantics for Content Planning: Lessons Learnt
+This repo contains the code for "Using Semantics for Content Planning: Lessons Learnt", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
 
 # DATASETS :
-Two datasets are used in this project and can be found in /Dataset folder. 
-
-
+Two newly augmented are introduced based on the Existing WebNLG and DWIE. The enhanced version of these datasets can be found in the Datasets folder. 
+The addition was done by either mining from text or scraping large knowledge bases. 
+Recreating the augmentation can be done by running the scripts in Data_Preprocessing after the orginial dataset has been downloaded in the main folder. 
+For each dataset the steps are:
 
 ## DWIE:
-To download the dataset [DWIE](https://www.sciencedirect.com/science/article/pii/S0306457321000662):
+Downaloding (clones and dowloads the full dataset):
 ```
+git clone https://github.com/klimzaporojets/DWIE
 python dwie_download.py
 ```
-
-##WebNlg
-To downloas the dataset [WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
-
-
-#### PROCESSING and DATA AUGMENTATION:
-To preprocess the DWIE dataset (A GPU is necessary)
+Preprocessing (GPU is required):
 ```
 python Data_Preprocessing/preprocessing_DWIE.py
+
 ```
 
-To preprocess WebNLG dataset: (GPU and Internet connection are necessary):
+## WebNlg
+
+Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
+Release 3.0 in English is required
+Preprocessing (GPU is required):
 ```
 python Data_Preprocessing/preprocessing_WebNLG.py
 ```
 
-
-
-
 # MODELS
-FOR THE FIRST FINETUNING ON EVENT NARRATIVE (parallel training not implemented yet)
-python3 finetune_BART.py Datasets/EventNarrative EN Instance_Knowledge_Graph nonparallel megaBART2
+For the results, Bart-large was utilized with WebNLG and LongFormer (led) for DWIE.
+For finetuning model on a specific content planner: ($element is one of 'Types_KG' 'Instances_KG' 'Subclasses_KG' 'Instances_list' 'multi_Subclasses_KG' 'entities_list' 'semantic_of_news')
 
-FOR THE SECOND FINETUNING 
+```
+#WebNLG
+python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+#DWIE
+python3 script4trainingLLM/LED_$_DWIE.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+```
 
+# RESULTS
+To reproduce the results from the paper use the scripts in the scripts folder by running for example:
+```
+./scripts/webnlg_Semantic
 
-config deepspeed model parallelism : #https://github.com/pacman100/accelerate-deepspeed-test/blob/main/src/modeling/configs/zero2_config_accelerate.json
-
-
+```
 
 
 ### Citations
