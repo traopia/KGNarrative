@@ -1,8 +1,5 @@
 # Knowledge Graph enhanced News Generation
-The goal of this research project is to combine Large Language Models with Knowledge Graphs on the downstream task of Text generation, to research if infused knowledge enhance the quality and coherence of the generated text.
-
-
-To run finetunemodel.py it is necessary to install bleurt from sourcecode as well as Parent from https://github.com/KaijuML/parent . Can also just comment out the scores. 
+This repo contains the code for "Using Semantics for Content Planning: Lessons Learnt", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
 
 # DATASETS :
 Two newly augmented are introduced based on the Existing WebNLG and DWIE. The enhanced version of these datasets can be found in the Datasets folder. 
