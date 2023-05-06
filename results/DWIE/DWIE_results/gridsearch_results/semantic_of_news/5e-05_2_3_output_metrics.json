@@ -1,0 +1,57 @@
+[
+    {
+        "typeKG": "semantic_of_news"
+    },
+    {
+        "hyper_Params": [
+            5e-05,
+            2,
+            3
+        ]
+    },
+    {
+        "test_loss": 5.121029853820801,
+        "test_rouge1": 0.1358011500299413,
+        "test_rouge2": 0.0027747296168908094,
+        "test_rougeL": 0.06951826065403,
+        "test_rougeLsum": 0.06931400532473701,
+        "test_runtime": 45.349,
+        "test_samples_per_second": 1.874,
+        "test_steps_per_second": 0.243
+    },
+    {
+        "bleu": 0.0,
+        "precisions": [
+            0.7308301289301063,
+            0.0426660516605166,
+            0.0002352387673488591,
+            0.0
+        ],
+        "brevity_penalty": 0.00010818753253084601,
+        "length_ratio": 0.09870066083229148,
+        "translation_length": 4421,
+        "reference_length": 44792
+    },
+    {
+        "google_bleu": 0.019120790572224773
+    },
+    {
+        "meteor": 0.03808893536346113
+    },
+    {
+        "Bert_Score": {
+            "precision": 0.694165624590481,
+            "recall": 0.6265943260753856,
+            "f1": 0.6585581323679756
+        }
+    },
+    {
+        "bleurt_score": 0.1160104298416306
+    },
+    {
+        "time(s)": 645.6044552326202
+    },
+    {
+        "gpu": 23994
+    }
+]

@@ -1,0 +1,2972 @@
+FINETUNIING_NOW_ON_semantic_of_news
+2023-05-05 16:47:25.966786: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-05-05 16:47:26.084467: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-05-05 16:47:26.085209: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-05 16:47:27.455880: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Found cached dataset json (/home/tliberatore/.cache/huggingface/datasets/json/default-10864ffecf41665e/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
+Device in use is  cuda
+Model selected: LED
+Loading dataset from  KGNarrative/Datasets/DWIE/4experiment
+  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 220.99it/s]Loading tokenizer
+
+Processing Dataset
+
+Map (num_proc=4):   0%|          | 0/526 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 132/526 [00:00<00:02, 177.66 examples/s]Map (num_proc=4): 100%|##########| 526/526 [00:00<00:00, 769.55 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/92 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 23/92 [00:00<00:00, 78.92 examples/s]                                                                        Map (num_proc=4):   0%|          | 0/85 [00:00<?, ? examples/s]Map (num_proc=4):  26%|##5       | 22/85 [00:00<00:00, 70.77 examples/s]                                                                        Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+/home/tliberatore/.local/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 12
+  Gradient Accumulation steps = 3
+  Total optimization steps = 132
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+You're using a LEDTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+The following columns in the test set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 85
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/tliberatore/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading file vocab.txt from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/vocab.txt
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer_config.json
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading weights file pytorch_model.bin from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/pytorch_model.bin
+All the weights of DistilBertModel were initialized from the model checkpoint at distilbert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertModel for predictions without further training.
+
+Loading MODEL
+Collator for batches
+Loading rouge
+starting gridsearch
+
+
+
+Learning rate:  0.0001
+Batch size:  1
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+{'eval_loss': 2.038850784301758, 'eval_rouge1': 0.18964765366794725, 'eval_rouge2': 0.04339668881882275, 'eval_rougeL': 0.15062810871299523, 'eval_rougeLsum': 0.1507325683520831, 'eval_runtime': 166.7197, 'eval_samples_per_second': 0.552, 'eval_steps_per_second': 0.138, 'epoch': 1.0}
+{'eval_loss': 1.6998775005340576, 'eval_rouge1': 0.21555481183523892, 'eval_rouge2': 0.05098500032066211, 'eval_rougeL': 0.16755578434428797, 'eval_rougeLsum': 0.16763210566729186, 'eval_runtime': 167.0392, 'eval_samples_per_second': 0.551, 'eval_steps_per_second': 0.138, 'epoch': 2.0}
+{'eval_loss': 1.6804407835006714, 'eval_rouge1': 0.23401588368159582, 'eval_rouge2': 0.057868184557195015, 'eval_rougeL': 0.1728285534782835, 'eval_rougeLsum': 0.1726960522998471, 'eval_runtime': 172.102, 'eval_samples_per_second': 0.535, 'eval_steps_per_second': 0.134, 'epoch': 3.0}
+{'train_runtime': 763.5921, 'train_samples_per_second': 2.067, 'train_steps_per_second': 0.173, 'train_loss': 2.7502679535836885, 'epoch': 3.0}
+tranining time was: {'time(s)': 763.6093912124634}
+
+PREDICTING..
+
+RESULT SCORES:
+Results: dict_items([('test_loss', 1.6454123258590698), ('test_rouge1', 0.42888239587288024), ('test_rouge2', 0.130790210886323), ('test_rougeL', 0.16888381582544149), ('test_rougeLsum', 0.16890280186751344), ('test_runtime', 263.1519), ('test_samples_per_second', 0.323), ('test_steps_per_second', 0.084)])
+result_bleu={'bleu': 0.06040377975808572, 'precisions': [0.5278089437409841, 0.15978784956605593, 0.048058017727639, 0.018778280542986425], 'brevity_penalty': 0.6467010588655198, 'length_ratio': 0.6964413288087158, 'translation_length': 31195, 'reference_length': 44792}
+result_google_bleu={'google_bleu': 0.12450875501837866}
+result_meteor={'meteor': 0.21531599073319596}
+results_bert={'Bert_Score': {'precision': 0.7937662776778726, 'recall': 0.7812027531511644, 'f1': 0.7868802603553323}}
+Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.98s/it]Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.98s/it]2023-05-05 17:05:13.153234: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1956] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+/home/tliberatore/.local/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 2
+  Total train batch size (w. parallel, distributed & accumulation) = 24
+  Gradient Accumulation steps = 3
+  Total optimization steps = 66
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+The following columns in the test set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 85
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/tliberatore/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading file vocab.txt from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/vocab.txt
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer_config.json
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading weights file pytorch_model.bin from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/pytorch_model.bin
+All the weights of DistilBertModel were initialized from the model checkpoint at distilbert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertModel for predictions without further training.
+result_bleurt={'bleurt_score': 0.3508086893488379}
+GPU memory occupied: 14278 MB.
+Writing  score report in DWIE/DWIE_results/gridsearch_results/semantic_of_news/output_metrics.json
+DONE
+
+
+
+Learning rate:  0.0001
+Batch size:  2
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+{'eval_loss': 1.6960079669952393, 'eval_rouge1': 0.23978573432678338, 'eval_rouge2': 0.060570454097102586, 'eval_rougeL': 0.17278631624811536, 'eval_rougeLsum': 0.17265223164285298, 'eval_runtime': 163.29, 'eval_samples_per_second': 0.563, 'eval_steps_per_second': 0.073, 'epoch': 1.0}
+{'eval_loss': 1.6998414993286133, 'eval_rouge1': 0.2745393944074629, 'eval_rouge2': 0.07197668874932174, 'eval_rougeL': 0.17841387355726335, 'eval_rougeLsum': 0.1784624720278108, 'eval_runtime': 161.6464, 'eval_samples_per_second': 0.569, 'eval_steps_per_second': 0.074, 'epoch': 2.0}
+{'eval_loss': 1.7060883045196533, 'eval_rouge1': 0.2725179370104065, 'eval_rouge2': 0.07599566831208349, 'eval_rougeL': 0.17634968657857902, 'eval_rougeLsum': 0.1769880058520174, 'eval_runtime': 163.4065, 'eval_samples_per_second': 0.563, 'eval_steps_per_second': 0.073, 'epoch': 3.0}
+{'train_runtime': 694.5124, 'train_samples_per_second': 2.272, 'train_steps_per_second': 0.095, 'train_loss': 1.4231221748120857, 'epoch': 3.0}
+tranining time was: {'time(s)': 694.5283944606781}
+
+PREDICTING..
+
+RESULT SCORES:
+Results: dict_items([('test_loss', 1.662943720817566), ('test_rouge1', 0.4404772964037787), ('test_rouge2', 0.13273210411479866), ('test_rougeL', 0.17423057727602775), ('test_rougeLsum', 0.17412756973305166), ('test_runtime', 271.0911), ('test_samples_per_second', 0.314), ('test_steps_per_second', 0.041)])
+result_bleu={'bleu': 0.05920928370152093, 'precisions': [0.547815429461062, 0.1646625033218177, 0.04893567407308704, 0.019275739961248078], 'brevity_penalty': 0.6164862650845315, 'length_ratio': 0.6739819610644758, 'translation_length': 30189, 'reference_length': 44792}
+result_google_bleu={'google_bleu': 0.12736017485581969}
+result_meteor={'meteor': 0.21658835952214534}
+results_bert={'Bert_Score': {'precision': 0.7986205928465899, 'recall': 0.7855201307465048, 'f1': 0.7915407650610979}}
+Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.53s/it]Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.53s/it]
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: semantic_of_news, story. If semantic_of_news, story are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 3
+  Total train batch size (w. parallel, distributed & accumulation) = 36
+  Gradient Accumulation steps = 3
+  Total optimization steps = 42
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+result_bleurt={'bleurt_score': 0.35021415212575124}
+GPU memory occupied: 23994 MB.
+Writing  score report in DWIE/DWIE_results/gridsearch_results/semantic_of_news/output_metrics.json
+DONE
+
+
+
+Learning rate:  0.0001
+Batch size:  3
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+Traceback (most recent call last):
+  File "KGNarrative/script4trainingLLM/LED_gridsearchDWIE.py", line 260, in <module>
+    main(args)
+  File "KGNarrative/script4trainingLLM/LED_gridsearchDWIE.py", line 215, in main
+    trainer.train()
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1543, in train
+    return inner_training_loop(
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1791, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2539, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2571, in compute_loss
+    outputs = model(**inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 172, in forward
+    return self.gather(outputs, self.output_device)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 184, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 86, in gather
+    res = gather_map(outputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in gather_map
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "<string>", line 13, in __init__
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/utils/generic.py", line 248, in __post_init__
+    for idx, element in enumerate(iterator):
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in <genexpr>
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 71, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/comm.py", line 235, in gather
+    return torch._C._gather(tensors, dim, destination)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.30 GiB (GPU 0; 23.65 GiB total capacity; 19.05 GiB already allocated; 193.56 MiB free; 22.36 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+DONE
+FINETUNIING_NOW_ON_entities_list
+2023-05-05 17:25:57.133087: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-05-05 17:25:57.182238: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-05-05 17:25:57.182914: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-05 17:25:58.363985: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Found cached dataset json (/home/tliberatore/.cache/huggingface/datasets/json/default-10864ffecf41665e/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
+Device in use is  cuda
+Model selected: LED
+Loading dataset from  KGNarrative/Datasets/DWIE/4experiment
+  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 681.93it/s]Loading tokenizer
+
+Processing Dataset
+
+Map (num_proc=4):   0%|          | 0/526 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 132/526 [00:00<00:01, 207.27 examples/s]Map (num_proc=4): 100%|##########| 526/526 [00:00<00:00, 887.20 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/92 [00:00<?, ? examples/s]Map (num_proc=4):  25%|##5       | 23/92 [00:00<00:00, 82.78 examples/s]                                                                        Map (num_proc=4):   0%|          | 0/85 [00:00<?, ? examples/s]Map (num_proc=4):  26%|##5       | 22/85 [00:00<00:00, 83.89 examples/s]                                                                        Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+/home/tliberatore/.local/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 12
+  Gradient Accumulation steps = 3
+  Total optimization steps = 132
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+You're using a LEDTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+The following columns in the test set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 85
+  Batch size = 4
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/tliberatore/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading file vocab.txt from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/vocab.txt
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer_config.json
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading weights file pytorch_model.bin from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/pytorch_model.bin
+All the weights of DistilBertModel were initialized from the model checkpoint at distilbert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertModel for predictions without further training.
+
+Loading MODEL
+Collator for batches
+Loading rouge
+starting gridsearch
+
+
+
+Learning rate:  0.0001
+Batch size:  1
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+{'eval_loss': 2.005805730819702, 'eval_rouge1': 0.20682585594072006, 'eval_rouge2': 0.050709573248136235, 'eval_rougeL': 0.15488124386085814, 'eval_rougeLsum': 0.15483385582401438, 'eval_runtime': 170.6478, 'eval_samples_per_second': 0.539, 'eval_steps_per_second': 0.135, 'epoch': 1.0}
+{'eval_loss': 1.684810757637024, 'eval_rouge1': 0.21762144799059202, 'eval_rouge2': 0.05500464691733767, 'eval_rougeL': 0.16715503761173994, 'eval_rougeLsum': 0.16660484493104585, 'eval_runtime': 169.5387, 'eval_samples_per_second': 0.543, 'eval_steps_per_second': 0.136, 'epoch': 2.0}
+{'eval_loss': 1.6663390398025513, 'eval_rouge1': 0.22323305494128132, 'eval_rouge2': 0.05820929667154191, 'eval_rougeL': 0.16435319649585628, 'eval_rougeLsum': 0.16427963531555395, 'eval_runtime': 167.8109, 'eval_samples_per_second': 0.548, 'eval_steps_per_second': 0.137, 'epoch': 3.0}
+{'train_runtime': 765.0057, 'train_samples_per_second': 2.063, 'train_steps_per_second': 0.173, 'train_loss': 2.8947062636866714, 'epoch': 3.0}
+tranining time was: {'time(s)': 765.0209648609161}
+
+PREDICTING..
+
+RESULT SCORES:
+Results: dict_items([('test_loss', 1.6317031383514404), ('test_rouge1', 0.4327326318575725), ('test_rouge2', 0.13450484674094118), ('test_rougeL', 0.17012871446785746), ('test_rougeLsum', 0.17024284708317475), ('test_runtime', 269.5814), ('test_samples_per_second', 0.315), ('test_steps_per_second', 0.082)])
+result_bleu={'bleu': 0.06501405096225372, 'precisions': [0.5270022670103413, 0.16334537302279237, 0.0497330710873841, 0.01993989857885181], 'brevity_penalty': 0.6763715650723328, 'length_ratio': 0.7189006965529559, 'translation_length': 32201, 'reference_length': 44792}
+result_google_bleu={'google_bleu': 0.12794263882346785}
+result_meteor={'meteor': 0.22100607134350742}
+results_bert={'Bert_Score': {'precision': 0.7972516908365137, 'recall': 0.7841884935603423, 'f1': 0.7899574623388402}}
+Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.49s/it]Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.49s/it]2023-05-05 17:43:47.896751: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1956] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+/home/tliberatore/.local/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 2
+  Total train batch size (w. parallel, distributed & accumulation) = 24
+  Gradient Accumulation steps = 3
+  Total optimization steps = 66
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+The following columns in the evaluation set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 92
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+The following columns in the test set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 85
+  Batch size = 8
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "pad_token_id": 1,
+  "transformers_version": "4.26.1"
+}
+
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/tliberatore/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading file vocab.txt from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/vocab.txt
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer_config.json
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading configuration file config.json from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30522
+}
+
+loading weights file pytorch_model.bin from cache at /home/tliberatore/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/pytorch_model.bin
+All the weights of DistilBertModel were initialized from the model checkpoint at distilbert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertModel for predictions without further training.
+result_bleurt={'bleurt_score': 0.3543133761952905}
+GPU memory occupied: 14278 MB.
+Writing  score report in DWIE/DWIE_results/gridsearch_results/entities_list/output_metrics.json
+DONE
+
+
+
+Learning rate:  0.0001
+Batch size:  2
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+{'eval_loss': 1.6828689575195312, 'eval_rouge1': 0.2356496062592247, 'eval_rouge2': 0.06481422188984062, 'eval_rougeL': 0.16951273170830722, 'eval_rougeLsum': 0.1692079825030689, 'eval_runtime': 161.5041, 'eval_samples_per_second': 0.57, 'eval_steps_per_second': 0.074, 'epoch': 1.0}
+{'eval_loss': 1.686875343322754, 'eval_rouge1': 0.27259632878382634, 'eval_rouge2': 0.07815647177472211, 'eval_rougeL': 0.17466265787640825, 'eval_rougeLsum': 0.17445781497135865, 'eval_runtime': 162.1315, 'eval_samples_per_second': 0.567, 'eval_steps_per_second': 0.074, 'epoch': 2.0}
+{'eval_loss': 1.6944589614868164, 'eval_rouge1': 0.2769139831377341, 'eval_rouge2': 0.07809348506042996, 'eval_rougeL': 0.17698449005417247, 'eval_rougeLsum': 0.1763718896425766, 'eval_runtime': 162.9487, 'eval_samples_per_second': 0.565, 'eval_steps_per_second': 0.074, 'epoch': 3.0}
+{'train_runtime': 690.9963, 'train_samples_per_second': 2.284, 'train_steps_per_second': 0.096, 'train_loss': 1.4087152192086885, 'epoch': 3.0}
+tranining time was: {'time(s)': 691.0130467414856}
+
+PREDICTING..
+
+RESULT SCORES:
+Results: dict_items([('test_loss', 1.6486059427261353), ('test_rouge1', 0.45417974118036797), ('test_rouge2', 0.13671441126254724), ('test_rougeL', 0.1788123163304069), ('test_rougeLsum', 0.1787804639096358), ('test_runtime', 281.4985), ('test_samples_per_second', 0.302), ('test_steps_per_second', 0.039)])
+result_bleu={'bleu': 0.06578313683839013, 'precisions': [0.5453413054309916, 0.16676554157429668, 0.05068561768204871, 0.01971309288382459], 'brevity_penalty': 0.6737689963973299, 'length_ratio': 0.7169137345954635, 'translation_length': 32112, 'reference_length': 44792}
+result_google_bleu={'google_bleu': 0.13484329168054496}
+result_meteor={'meteor': 0.22755250223663587}
+results_bert={'Bert_Score': {'precision': 0.795970143290127, 'recall': 0.7899510334519779, 'f1': 0.7925995917881237}}
+Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.48s/it]Computing checksums: 100%|##########| 1/1 [00:05<00:00,  5.48s/it]
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+Using cuda_amp half precision backend
+The following columns in the training set don't have a corresponding argument in `LEDForConditionalGeneration.forward` and have been ignored: story, entities_list. If story, entities_list are not expected by `LEDForConditionalGeneration.forward`,  you can safely ignore this message.
+***** Running training *****
+  Num examples = 526
+  Num Epochs = 3
+  Instantaneous batch size per device = 3
+  Total train batch size (w. parallel, distributed & accumulation) = 36
+  Gradient Accumulation steps = 3
+  Total optimization steps = 42
+  Number of trainable parameters = 161844480
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+result_bleurt={'bleurt_score': 0.35110775810830736}
+GPU memory occupied: 23994 MB.
+Writing  score report in DWIE/DWIE_results/gridsearch_results/entities_list/output_metrics.json
+DONE
+
+
+
+Learning rate:  0.0001
+Batch size:  3
+Epochs:  3
+
+PREPARING FOR TRAINING...
+Training TIME..
+Traceback (most recent call last):
+  File "KGNarrative/script4trainingLLM/LED_gridsearchDWIE.py", line 260, in <module>
+    main(args)
+  File "KGNarrative/script4trainingLLM/LED_gridsearchDWIE.py", line 215, in main
+    trainer.train()
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1543, in train
+    return inner_training_loop(
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1791, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2539, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2571, in compute_loss
+    outputs = model(**inputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 172, in forward
+    return self.gather(outputs, self.output_device)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 184, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 86, in gather
+    res = gather_map(outputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in gather_map
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "<string>", line 13, in __init__
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/transformers/utils/generic.py", line 248, in __post_init__
+    for idx, element in enumerate(iterator):
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in <genexpr>
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 71, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+  File "/home/tliberatore/.local/lib/python3.8/site-packages/torch/nn/parallel/comm.py", line 235, in gather
+    return torch._C._gather(tensors, dim, destination)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.30 GiB (GPU 0; 23.65 GiB total capacity; 19.05 GiB already allocated; 193.56 MiB free; 22.36 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+DONE

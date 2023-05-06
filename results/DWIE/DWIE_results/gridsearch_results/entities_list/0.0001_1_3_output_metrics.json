@@ -1,0 +1,113 @@
+[
+    {
+        "typeKG": "entities_list"
+    },
+    {
+        "hyper_Params": [
+            0.0001,
+            1,
+            3
+        ]
+    },
+    {
+        "test_loss": 1.6317031383514404,
+        "test_rouge1": 0.4327326318575725,
+        "test_rouge2": 0.13450484674094118,
+        "test_rougeL": 0.17012871446785746,
+        "test_rougeLsum": 0.17024284708317475,
+        "test_runtime": 269.5814,
+        "test_samples_per_second": 0.315,
+        "test_steps_per_second": 0.082
+    },
+    {
+        "bleu": 0.06501405096225372,
+        "precisions": [
+            0.5270022670103413,
+            0.16334537302279237,
+            0.0497330710873841,
+            0.01993989857885181
+        ],
+        "brevity_penalty": 0.6763715650723328,
+        "length_ratio": 0.7189006965529559,
+        "translation_length": 32201,
+        "reference_length": 44792
+    },
+    {
+        "google_bleu": 0.12794263882346785
+    },
+    {
+        "meteor": 0.22100607134350742
+    },
+    {
+        "Bert_Score": {
+            "precision": 0.7972516908365137,
+            "recall": 0.7841884935603423,
+            "f1": 0.7899574623388402
+        }
+    },
+    {
+        "bleurt_score": 0.3543133761952905
+    },
+    {
+        "time(s)": 765.0209648609161
+    },
+    {
+        "gpu": 14278
+    }
+][
+    {
+        "typeKG": "entities_list"
+    },
+    {
+        "hyper_Params": [
+            0.0001,
+            1,
+            3
+        ]
+    },
+    {
+        "test_loss": 7.290737628936768,
+        "test_rouge1": 0.14673212238035954,
+        "test_rouge2": 0.0010685805894007554,
+        "test_rougeL": 0.04814770304580354,
+        "test_rougeLsum": 0.04827377311454226,
+        "test_runtime": 593.5624,
+        "test_samples_per_second": 0.143,
+        "test_steps_per_second": 0.037
+    },
+    {
+        "bleu": 0.0,
+        "precisions": [
+            0.13039003807759597,
+            0.00507954516153985,
+            0.0005168225748100677,
+            0.0
+        ],
+        "brevity_penalty": 0.858633337429382,
+        "length_ratio": 0.8677442400428648,
+        "translation_length": 38868,
+        "reference_length": 44792
+    },
+    {
+        "google_bleu": 0.02654418338339143
+    },
+    {
+        "meteor": 0.0968714700836909
+    },
+    {
+        "Bert_Score": {
+            "precision": 0.6133611181203057,
+            "recall": 0.6507216748069314,
+            "f1": 0.6313954710960388
+        }
+    },
+    {
+        "bleurt_score": 0.09468222523436827
+    },
+    {
+        "time(s)": 699.6579737663269
+    },
+    {
+        "gpu": 23994
+    }
+]
