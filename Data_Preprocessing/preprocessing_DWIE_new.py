@@ -165,6 +165,7 @@ def create_linearized_KG(directory,outdir):
                     print(f'{path} is test')
                     print(data)
                     new_KG = create_experiment_linearized(data)
+                    print(f'{new_KG=}')
                     test.append(new_KG)
                 elif 'train' in data['tags']:
                     print(f'{path} is train')
@@ -201,17 +202,20 @@ def main():
 
     print("Creating json for train...")
     with open(f'{out_directory}train.json', 'w') as f:
-        train = remove_long_stories(train)
+        train = remove_long_stories(train) 
+        print(train)
         json.dump(train, f,indent=4)
     
     print("Creating json for validation...")
     with open(f'{out_directory}validation.json', 'w') as f:
         validation = remove_long_stories(validation)
+        print(validation)
         json.dump(validation, f,indent=4)
     
     print("Creating json for test...")
     with open(f'{out_directory}test.json', 'w') as f:
         test = remove_long_stories(test)
+        print(test)
         json.dump(test, f,indent=4)
     
     print("DONE WITH CREATING THE GRAPHS")
