@@ -1,0 +1,57 @@
+[
+    {
+        "typeKG": "Instances_list"
+    },
+    {
+        "hyper_Params": [
+            0.0005,
+            2,
+            3
+        ]
+    },
+    {
+        "test_loss": 5.049803733825684,
+        "test_rouge1": 0.20722333670231452,
+        "test_rouge2": 0.0008076727038949191,
+        "test_rougeL": 0.1288589559092541,
+        "test_rougeLsum": 0.12870795499246135,
+        "test_runtime": 93.5473,
+        "test_samples_per_second": 3.57,
+        "test_steps_per_second": 0.449
+    },
+    {
+        "bleu": 0.0,
+        "precisions": [
+            0.242455006922012,
+            0.000857061232263594,
+            0.0,
+            0.0
+        ],
+        "brevity_penalty": 0.7675795537309154,
+        "length_ratio": 0.7908181884533976,
+        "translation_length": 10835,
+        "reference_length": 13701
+    },
+    {
+        "google_bleu": 0.04791681814876754
+    },
+    {
+        "meteor": 0.08255212482922168
+    },
+    {
+        "Bert_Score": {
+            "precision": 0.6618263619745562,
+            "recall": 0.6398418313728835,
+            "f1": 0.6504908960736441
+        }
+    },
+    {
+        "bleurt_score": -0.0037055335002031155
+    },
+    {
+        "time(s)": 1031.805888414383
+    },
+    {
+        "gpu": 22112
+    }
+]

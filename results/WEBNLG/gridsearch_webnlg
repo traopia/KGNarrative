@@ -1,0 +1,51 @@
+#!/bin/bash
+#SBATCH --job-name=gridsearch_webnlg_SECOND
+#SBATCH --time=20:00:00
+#SBATCH -N 1
+## #SBATCH --ntasks-per-node=1
+#SBATCH --partition=gpu_titanrtx_shared
+#SBATCH --gpus-per-task=4
+#SBATCH --output=gridsearch_webnlg.out
+## in the list above, the partition name depends on where you are running your job. 
+## On DAS5 the default would be `defq` on Lisa the default would be `gpu` or `gpu_shared`
+## Typing `sinfo` on the server command line gives a column called PARTITION.  There, one can find the name of a specific node, the state (down, alloc, idle etc), the availability and how long is the ti$
+
+
+# Load GPU drivers
+## For Lisa modules are usually not needed, so remove the previous 2 lines. https://userinfo.surfsara.nl/systems/shared/modules 
+
+
+
+# This loads the anaconda virtual environment with our packages
+###export CUDA_VISIBLE_DEVICES=0,1,2,3
+
+
+conda activate kg2Narrative
+
+# Base directory for the experiment. This should be your outer folder, actually where this script is 
+cd /home/tliberatore/KGNarrative
+
+
+##SEMANTICS EXPERIMENTS
+echo FINETUNIING_NOW_LIST_INSTANCES
+python3 KGNarrative/script4trainingLLM/gridsearch_webnlg.py KGNarrative/Datasets/WebNLG/4experiment pop Instances_list bart-large WEBNLG/webnlg_gridsearch/Instances_list
+
+# echo FINETUNIING_NOW_INSTANCE_KG
+# python3 KGNarrative2/script4trainingLLM/gridsearch_webnlg.py KGNarrative2/Datasets/WebNLG/4experiment full Instances_KG bart-large webnlg_gridsearch/Instances_KG
+
+# echo FINETUNIING_NOW_INSTANCE_KG
+# python3 KGNarrative2/script4trainingLLM/gridsearch_webnlg.py KGNarrative/Datasets/WebNLG/4experiment full Types_KG bart-large webnlg_gridsearch/Types_KG
+
+echo FINETUNIING_NOW_SUBCLASSES
+python3 KGNarrative/script4trainingLLM/gridsearch_webnlg.py KGNarrative/Datasets/WebNLG/4experiment pop Subclasses_KG bart-large WEBNLG/webnlg_gridsearch/Subclasses_KG
+
+
+
+
+
+##REIFICATION EXPERIMENTS
+echo FINETUNIING_NOW_SEMANTIC_NEWS
+python3 KGNarrative/script4trainingLLM/gridsearch_webnlg.py KGNarrative/Datasets/WebNLG/4experiment pop semantic_of_news bart-large WEBNLG/webnlg_gridsearch/reification
+
+echo FINETUNIING_NOW_REIFICATION
+python3 KGNarrative/script4trainingLLM/gridsearch_webnlg.py KGNarrative/Datasets/WebNLG/4experiment pop entities_list bart-large WEBNLG/webnlg_gridsearch/entities_list
