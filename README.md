@@ -5,30 +5,35 @@ The goal of this research project is to combine Large Language Models with Knowl
 To run finetunemodel.py it is necessary to install bleurt from sourcecode as well as Parent from https://github.com/KaijuML/parent . Can also just comment out the scores. 
 
 # DATASETS :
-Two datasets are used in this project and can be found in /Dataset folder. 
-
-
+Two newly augmented are introduced based on the Existing WebNLG and DWIE. The enhanced version of these datasets can be found in the Datasets folder. 
+The addition was done by either mining from text or scraping large knowledge bases. 
+Recreating the augmentation can be done by running the scripts in Data_Preprocessing after the orginial dataset has been downloaded in the main folder. 
+For each dataset the steps are:
 
 ## DWIE:
-To download the dataset [DWIE](https://www.sciencedirect.com/science/article/pii/S0306457321000662):
+Downaloding (clones and dowloads the full dataset):
 ```
-python dwie_download.py
+git clone https://github.com/klimzaporojets/DWIE
+Python dwie_download.py
 ```
+Preprocessing (GPU is necessary):
+```
+Python Data_Preprocessing preprocessing_DWIE.py
+
+```
+
 
 ##WebNlg
-To downloas the dataset [WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
 
-
+Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
+Release 3.0 in English is required
+Preprocessing:
 #### PROCESSING and DATA AUGMENTATION:
 To preprocess the DWIE dataset (A GPU is necessary)
 ```
-python Data_Preprocessing/preprocessing_DWIE.py
+Python Data_Preprocessing/preprocessing_WebNLG.py
 ```
 
-To preprocess WebNLG dataset: (GPU and Internet connection are necessary):
-```
-python Data_Preprocessing/preprocessing_WebNLG.py
-```
 
 
 
