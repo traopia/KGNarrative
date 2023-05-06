@@ -9,7 +9,7 @@ sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 from tqdm import tqdm
 import re
 import shutil
-from script4preprocessing.mine_reificatedWEBNLG import *
+#from script4preprocessing.mine_reificatedWEBNLG import *
 from src_preprocessing.completeMiner import *
 
 
