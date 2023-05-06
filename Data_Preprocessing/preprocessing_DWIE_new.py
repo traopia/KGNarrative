@@ -157,7 +157,7 @@ def reification():
 
 
 
-def create_linearized_KG(directory,outdir):
+def prepare_KG(directory,outdir):
     train=[]
     test=[]
     for filename in os.listdir(directory):
@@ -199,7 +199,7 @@ def main():
     out_directory = 'Dataset/DWIE/'
 
 
-    train_val, test = create_linearized_KG(directory,out_directory)
+    train_val, test = prepare_KG(directory,out_directory)
 
     validation= train_val[:100]
     train = train_val[100:-1]
