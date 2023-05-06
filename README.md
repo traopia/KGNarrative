@@ -1,4 +1,4 @@
-# Knowledge Graph enhanced News Generation
+# Using Semantics for Content Planning: Lessons Learnt
 This repo contains the code for "Using Semantics for Content Planning: Lessons Learnt", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
 
 # DATASETS :
