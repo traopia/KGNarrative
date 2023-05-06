@@ -16,7 +16,7 @@ Downaloding (clones and dowloads the full dataset):
 git clone https://github.com/klimzaporojets/DWIE
 python dwie_download.py
 ```
-Preprocessing (GPU is necessary):
+Preprocessing (GPU is required):
 ```
 python Data_Preprocessing preprocessing_DWIE.py
 
@@ -26,9 +26,7 @@ python Data_Preprocessing preprocessing_DWIE.py
 
 Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
 Release 3.0 in English is required
-Preprocessing:
-#### PROCESSING and DATA AUGMENTATION:
-To preprocess the DWIE dataset (A GPU is necessary)
+Preprocessing (GPU is required):
 ```
 python Data_Preprocessing/preprocessing_WebNLG.py
 ```
@@ -42,22 +40,14 @@ For finetuning model on a specific content planner: ($element is one of 'Types_K
 python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
 #DWIE
 python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
-
 ```
 
+# RESULTS
+To reproduce the results from the paper use the scripts in the scripts folder by running for example:
 ```
+./scripts/webnlg_Semantic
 
 ```
-python3 script4trainingLLM/LED_4_DWIE.py Datasets/DWIE/4experiment full $element led KGNarrative/FINAL_RESULTS/DWIE/$element --learning_rate 0.0001 --batch 1 --epochs 3
-
-python3 finetune_BART.py Datasets/EventNarrative EN Instance_Knowledge_Graph nonparallel megaBART2
-
-FOR THE SECOND FINETUNING 
-
-
-config deepspeed model parallelism : #https://github.com/pacman100/accelerate-deepspeed-test/blob/main/src/modeling/configs/zero2_config_accelerate.json
-
-
 
 
 ### Citations
