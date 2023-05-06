@@ -242,7 +242,7 @@ def create_dict_file(tree):
 
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
-        print(entry_dict,encoding='utf-8')     
+        print(entry_dict)     
 
         # Append the entry dictionary to the results list   
         results.append(entry_dict)
