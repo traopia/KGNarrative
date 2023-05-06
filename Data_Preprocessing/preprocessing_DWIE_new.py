@@ -89,10 +89,14 @@ def create_experiment_linearized(data):
     This function creates a dictionary that contains the story and the linearized KG
     """
     dict = {}
+    print("creating story")
     dict['story'] = data['content'].replace('\n', ' ')
+    print("creating KG")
     dict['Instances Knowledge Graph'] = create_linearized_KG(data)
+    print("creating types")
     types, concepts = create_types_KG(data)
     dict['Types Knowledge Graph'] = types + create_linearized_KG(data)
+    print("creating subclass")
     dict['Subclass Knowledge Graph'] = create_subclass_KG(data) + types + create_linearized_KG(data)
     return dict
 
