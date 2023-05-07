@@ -99,7 +99,6 @@ def create_experiment_linearized(data):
 
 
 
-
 def frequency_of_types(data):
     '''   This function returns a dictionary that contains the frequency of each type in the KG'''
     dict = {}
@@ -156,7 +155,6 @@ def prepare_KG(directory,outdir):
             except BaseException as e:
                 print(f'The {path} file contains invalid JSON')
                 
-
     return train, test
 
 def remove_long_stories(data):
