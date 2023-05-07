@@ -283,7 +283,7 @@ def create_file_format():
     print("Creating Train File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
     root = tree.getroot()
-    data = create_dict_file(tree)
+    data = create_dict_file(tree,verbose=True)
     print("Train data:",data)
     with open(f"Dataset/WebNLG/train.json", 'w') as f:
         json.dump(data, f, indent = 4)
