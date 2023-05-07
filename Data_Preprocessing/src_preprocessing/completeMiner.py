@@ -375,9 +375,9 @@ def wrap(filename):
     df3 = get_final_kg(df3)
     df3 = df3.drop(df3.index[0])
     df3['entities_list1'] = df3['triple_column'].apply(extract_entities)
-    print(df3['entities_list1'])
+    #print(df3['entities_list1'])
     #df3['entities_list2'] =  " | ".join([x.strip() for x in df3['entities_list1']])
-    df3['entities_list3'] = df3['entities_list1'].apply(lambda x: " | ".join(map(str.strip, map(str, x))))
+    df3['entities_list3'] = df3['entities_list1'].apply(lambda x: " | ".join(x))
     #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     #to_json_format("./train_complete.json", "./train_complete.csv")
     #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")

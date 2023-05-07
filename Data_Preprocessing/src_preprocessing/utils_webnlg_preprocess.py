@@ -279,7 +279,16 @@ def create_file_format():
         json.dump(data, f, indent = 4)
     print("Validation File Created\n\n")
     """
+    print("Creating Test File\n")
+    tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
+    root = tree.getroot()
+    data = create_dict_file(tree)
+    print("Test data:",data)
+    with open(f"Dataset/WebNLG/test.json", 'w') as f:
+        json.dump(data, f, indent = 4)
+    print("Test File Created\n\n")
 
+    
     print("Creating Train File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
     root = tree.getroot()
@@ -289,14 +298,7 @@ def create_file_format():
         json.dump(data, f, indent = 4)
     print("Train File Created\n\n")
 
-    print("Creating Test File\n")
-    tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
-    root = tree.getroot()
-    data = create_dict_file(tree)
-    print("Test data:",data)
-    with open(f"Dataset/WebNLG/test.json", 'w') as f:
-        json.dump(data, f, indent = 4)
-    print("Test File Created\n\n")
+
 
 
    
