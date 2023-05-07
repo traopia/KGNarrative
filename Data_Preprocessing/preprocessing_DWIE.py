@@ -98,10 +98,10 @@ def create_experiment_linearized(data):
     instances= create_linearized_KG(data)
     d['Instances_KG'] = instances
     types, concepts = create_types_KG(data)
-    print(instances)
+    #print(instances)
 
     instance_list=instances.split('|')
-    print(instance_list)
+    #print(instance_list)
     instance_list=[x.split(' - ')[a].strip() for x in instance_list if x != '' for a in [0,2] if x[a] != '']
     #instance_list=[x[a].strip() for x in d['Instances_KG'].split('') for a in [0,2] if x[a] != '']
     instance_list = " | ".join(list(set(instance_list)))
