@@ -90,18 +90,18 @@ def create_experiment_linearized(data):
     This function creates a dictionary that contains the story and the linearized KG
     """
     d = {}
-    print('creating story')
+    #print('creating story')
     d['story'] = data['content'].replace('\n', ' ')
     #print(f'{d}')
     instances= create_linearized_KG(data)
     d['Instances_KG'] = instances
     types, concepts = create_types_KG(data)
     d['Types_KG'] = types + instances
-    print("Created Instance_KG and TYPES ",d.keys())
+    #print("Created Instance_KG and TYPES ",d.keys())
     subclasses = create_subclass_KG(data)
-    print(f'{subclasses=}')
+    #print(f'{subclasses=}')
     d['Subclasses_KG'] = subclasses + types + instances
-    print("Created Subclasses_KG ",d.keys())
+    #print("Created Subclasses_KG ",d.keys())
     return d
 
 def frequency_of_types(data):
@@ -139,15 +139,13 @@ def prepare_KG(directory,outdir):
     '''  This function creates a linearized KG for each file in the directory and saves it in the outdir'''
     train=[]
     test=[]
-    for filename in os.listdir(directory)[:3]:
+    for filename in os.listdir(directory):
         path = os.path.join(directory, filename)
         with open(path,'r') as g:
             #try:
                 data = json.load(g) 
                 if 'test' in data['tags']:
-                    print(f'{path} is test')
                     new_KG = create_experiment_linearized(data)
-                    print(f'\n{new_KG=}')
                     test.append(new_KG)
                 elif 'train' in data['tags']:
                     #print(f'{path} is train')
