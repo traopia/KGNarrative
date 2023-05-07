@@ -23,7 +23,7 @@ def add_args(parser):
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer (default: 1e-4)')
-    parser.add_argument('--batch_size', type=int, default=1, help='Batch size (default: 1)')
+    parser.add_argument('--batch_size', type=int, default=2, help='Batch size (default: 2)')
     parser.add_argument('--epochs', type=int, default=3, help='Number of epochs (default: 3)')
     parser.add_argument('--save_model', type=bool, default=False, help='Save the model (default: False)')
     return parser
