@@ -15,7 +15,6 @@ python src/dwie_download.py
 
 if not os.path.exists('Dataset/DWIE'):
         os.makedirs('Dataset/DWIE')
-
 def create_linearized_KG(data): 
     """
     This function creates a linearized KG from the KG in the json file
@@ -30,7 +29,7 @@ def create_linearized_KG(data):
             concept_text[data['concepts'][i]['concept']] = data['concepts'][i]['link']
         else:    #if the concept is not a link and it doesn't have text we map it to an empty string
             concept_text[data['concepts'][i]['concept']] = ''
-            print(data['concepts'][i]['concept'])
+            #print(data['concepts'][i]['concept'])
             
     for i,j in zip(range(len(data['relations'])),range(len(concept_text))):
         str += concept_text[data['relations'][i]['s']]+' - '+data['relations'][i]['p']+' - '+concept_text[data['relations'][i]['o']]+' | '
@@ -69,7 +68,7 @@ def create_types_KG(data):
 def create_subclass_KG(data):
     ''' This function creates a linearized KG that contains the subclass of the entities in the KG'''
     a, concept = create_types_KG(data)
-    f = open("data/schema/ner.rdf", "r")
+    f = open("DWIE/data/schema/ner.rdf", "r")
     subclass_triples = []
     for line in f:
         line_split = line.split()
@@ -102,7 +101,7 @@ def create_experiment_linearized(data):
 
 
 def frequency_of_types(data):
-    ''' This function returns a dictionary that contains the frequency of each type in the KG'''
+    '''   This function returns a dictionary that contains the frequency of each type in the KG'''
     dict = {}
     for i in range(len(data['concepts'])):
         types = [j for j in data['concepts'][i]['tags'] if 'type' in j]
@@ -114,7 +113,7 @@ def frequency_of_types(data):
     return dict
 
 def overall_frequency_of_types(directory= 'DWIE/data/annos_with_content/'):
-    ''' This function returns a dictionary that contains the frequency of each type in the KG of all the files in the directory'''
+    '''  This function returns a dictionary that contains the frequency of each type in the KG'''
     big_dict = {}
     for filename in os.listdir(directory):
         path = os.path.join(directory, filename)
@@ -126,28 +125,16 @@ def overall_frequency_of_types(directory= 'DWIE/data/annos_with_content/'):
                 big_dict = Counter(big_dict) + Counter(dicts)
 
             except BaseException as e:
-<<<<<<< HEAD
-                print('The file contains invalid JSON')
-                print(path)
-=======
                 print('Some files contain invalid JSON')
-
->>>>>>> ba1db5e (Update preprocessing_DWIE.py)
+                # print('The file contains invalid JSON')
+                # print(path)
     big_dict = sorted(big_dict.items(), key=lambda x:x[1], reverse=True)
     return big_dict
 
-def remove_long_stories(data):
-    ''' Remove data with stories longer than 1024 tokens'''
-    selected_data = []
-    for d in data:
-        if len(word_tokenize(d['story'])) < 1024:
-            selected_data.append(d)       
-    print(f'From len {len(data)} only {len(selected_data)} selected ')  
-    return selected_data
 
 
 def prepare_KG(directory,outdir):
-    '''This function creates a json file that contains the linearized KG and the story for each file in the directory'''
+    '''  This function creates a linearized KG for each file in the directory and saves it in the outdir'''
     train=[]
     test=[]
     for filename in os.listdir(directory):
@@ -157,6 +144,7 @@ def prepare_KG(directory,outdir):
                 data = json.load(g) 
                 if 'test' in data['tags']:
                     #print(f'{path} is test')
+
                     new_KG = create_experiment_linearized(data)
                     #print(f'\n{new_KG=}')
                     test.append(new_KG)
@@ -171,6 +159,14 @@ def prepare_KG(directory,outdir):
 
     return train, test
 
+def remove_long_stories(data):
+    '''  This function removes the stories that are longer than 1024 tokens'''
+    selected_data = []
+    for d in data:
+        if len(word_tokenize(d['story'])) < 1024:
+            selected_data.append(d)       
+    print(f'From len {len(data)} only {len(selected_data)} selected ')  
+    return selected_data
 
 def main():
     """
@@ -178,92 +174,11 @@ def main():
     """
 
     directory = 'DWIE/data/annos_with_content/'
-<<<<<<< HEAD
-    with open('DWIE_test.json', 'w') as f:
-        f.write('[')
-        for filename in os.listdir(directory):
-            path = os.path.join(directory, filename)
-=======
     out_directory = 'Dataset/DWIE/'
->>>>>>> ba1db5e (Update preprocessing_DWIE.py)
 
 
     train_val, test = prepare_KG(directory,out_directory)
 
-<<<<<<< HEAD
-            with open(path) as g:
-                try:
-                    data = json.load(g) 
-                    if 'test' in data['tags']:
-                        print(path)
-                        new_KG = create_experiment_linearized(data)
-                        json.dump(new_KG, f, indent="") 
-                        f.write(',\n')
-
-                except BaseException as e:
-                    print('The file contains invalid JSON')
-                    print(path)
-        f.write('{}')            
-        f.write(']')
-        f.close()
-
-    with open('DWIE_train_val.json', 'w') as f:
-        f.write('[')
-        for filename in os.listdir(directory):
-            path = os.path.join(directory, filename)
-
-
-
-            with open(path) as g:
-                try:
-                    data = json.load(g) 
-                    if 'train' in data['tags']:
-                        new_KG = create_experiment_linearized(data)
-                        json.dump(new_KG, f, indent="") 
-                        f.write(',\n')
-
-                except BaseException as e:
-                    print('The file contains invalid JSON')
-                    print(path)
-        f.write('{}')            
-        f.write(']')
-        f.close()    
-
-
-
-    with open('Dataset/DWIE/validation.json', 'w') as f:
-        with open('DWIE_train_val.json') as g:
-            data = json.load(g)
-            data = data[:100]
-            selected_data = []
-
-            for d in data:
-                if len(word_tokenize(d['story'])) < 1024:
-                    selected_data.append(d)
-            print(f'test len {len(data)} versus selected data len {len(selected_data)}')  
-            
-            json.dump(selected_data, f,indent="")  
-
-    with open('Dataset/DWIE/train.json', 'w') as f:
-        with open('DWIE_train_val.json') as g:
-            data = json.load(g)
-            data = data[100:-1]
-            for d in data:
-                if len(word_tokenize(d['story'])) < 1024:
-                    selected_data.append(d)
-            print(f'train len {len(data)} versus selected data len {len(selected_data)}')  
-            json.dump(data, f,indent="")  
-
-    with open('Dataset/DWIE/test.json', 'w') as f:
-        with open('DWIE_test.json') as g:
-            data = json.load(g)
-            data = data[:-1]
-            for d in data:
-                if len(word_tokenize(d['story'])) < 1024:
-                    selected_data.append(d)
-            print(f'test len {len(data)} versus selected data len {len(selected_data)}') 
-            json.dump(data, f,indent="")      
-=======
     validation= train_val[:100]
     train = train_val[100:-1]
 
@@ -284,8 +199,7 @@ def main():
     
     print("DONE WITH CREATING THE GRAPHS")
 
-   
->>>>>>> ba1db5e (Update preprocessing_DWIE.py)
+  
 
 def reification():
         check_gpu_availability()
@@ -302,4 +216,4 @@ def reification():
 
 if __name__ == "__main__":
     main()
-    reification()
+    #reification()
