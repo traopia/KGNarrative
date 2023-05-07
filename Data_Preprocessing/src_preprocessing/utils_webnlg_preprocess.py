@@ -247,7 +247,7 @@ def create_dict_file(tree):
 
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
-        print(entry_dict)     
+        #print(entry_dict)     
 
         # Append the entry dictionary to the results list   
         results.append(entry_dict)
@@ -266,6 +266,7 @@ def create_file_format():
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/dev_57triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
+    print("Validation data:",data)
     with open(f"Dataset/WebNLG/validation.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Validation File Created\n\n")
@@ -275,6 +276,7 @@ def create_file_format():
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
+    print("Train data:",data)
     with open(f"Dataset/WebNLG/train.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Train File Created\n\n")
@@ -283,6 +285,7 @@ def create_file_format():
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
+    print("Test data:",data)
     with open(f"Dataset/WebNLG/test.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Test File Created\n\n")
