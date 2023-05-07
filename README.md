@@ -11,7 +11,7 @@ For each dataset the steps are:
 Downaloding (clones and dowloads the full dataset):
 ```
 git clone https://github.com/klimzaporojets/DWIE
-python dwie_download.py
+python3 Data_Preprocessing/dwie_download.py
 ```
 Preprocessing (GPU is required):
 ```
