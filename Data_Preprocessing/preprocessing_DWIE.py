@@ -97,8 +97,6 @@ def create_experiment_linearized(data):
     dict['Subclasses_KG'] = create_subclass_KG(data) + types + create_linearized_KG(data)
     return dict
 
-
-
 def frequency_of_types(data):
     '''   This function returns a dictionary that contains the frequency of each type in the KG'''
     dict = {}
@@ -129,8 +127,6 @@ def overall_frequency_of_types(directory= 'DWIE/data/annos_with_content/'):
                 # print(path)
     big_dict = sorted(big_dict.items(), key=lambda x:x[1], reverse=True)
     return big_dict
-
-
 
 def prepare_KG(directory,outdir):
     '''  This function creates a linearized KG for each file in the directory and saves it in the outdir'''
@@ -166,8 +162,6 @@ def remove_long_stories(data):
     print(f'From len {len(data)} only {len(selected_data)} selected ')  
     return selected_data
 
-
-
 def format():
     ''' This function formats the JSON file in the chosen format want'''
 
@@ -175,8 +169,6 @@ def format():
         with open(f"Dataset/DWIE/{Dataset}.json", 'w') as f:
             d = json.load(f)
 
- 
-    
             # Define the keys whose values should be merged
             instances = ['Instances_KG']
 
