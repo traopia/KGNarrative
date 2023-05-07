@@ -202,7 +202,12 @@ def format():
                 #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
 
                 d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
-                d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
+                #d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
+
+                
+                #d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
+                d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + d[i]['entities_list']
+
 
                 d[i]['semantic_of_news'] = "[CORE] "+d[i]['core_description']+ " [TRIPLES] " + d[i]['semantic_of_news']
                 with open(f"Dataset/DWIE/{Dataset}.json", 'w') as f:
@@ -255,6 +260,6 @@ def reification():
 
 
 if __name__ == "__main__":
-    #main()
+    main()
     reification()
     format()

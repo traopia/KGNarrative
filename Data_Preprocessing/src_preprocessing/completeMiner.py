@@ -332,7 +332,7 @@ def get_csv_with_mined_semantic(df, path):
 
 def dump_json_with_mined_semantic(df, path):
     df.drop(['predicted_label1', 'mined_kg_entities', 'triple_column', 'new_triples', #Here there was also core_description but not sure i wanna dumpit
-        'final_triples'], axis = 1, inplace = True) 
+        'final_triples','entities_list1'], axis = 1, inplace = True) 
     with open(path, "w") as f:
             json.dump(df.to_dict('records'), f, indent=4)
   
@@ -377,7 +377,7 @@ def wrap(filename):
     df3['entities_list1'] = df3['triple_column'].apply(extract_entities)
     #print(df3['entities_list1'])
     #df3['entities_list2'] =  " | ".join([x.strip() for x in df3['entities_list1']])
-    df3['entities_list3'] = df3['entities_list1'].apply(lambda x: " | ".join(x))
+    df3['entities_list'] = df3['entities_list1'].apply(lambda x: " | ".join((map(str.strip,x))))
     #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     #to_json_format("./train_complete.json", "./train_complete.csv")
     #dump_json_with_mined_semantic(df3, f"./KGNarrative2/Datasets/WebNLG/57_triples/oneClass/Trattini/oneClass_{d}.json")

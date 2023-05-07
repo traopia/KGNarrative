@@ -70,8 +70,7 @@ def get_entity_class(entity, subclass=False,multiple=False):
     :param multiple: if True, retrieve all classes of the entity
     :return: the class of the entity'''
 
-
-
+    print(f'Inside get_entity_class: {entity=}')
     query = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -122,6 +121,7 @@ def get_entity_subclass(entity):
     :return: the class of the entity'''
 
     clas = entity
+    print(f'Inside query trying with {clas}')
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
     # construct the SPARQL query to retrieve the class of the entity
     query = """
@@ -279,16 +279,17 @@ def create_file_format():
         json.dump(data, f, indent = 4)
     print("Validation File Created\n\n")
     """
+
     print("Creating Test File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
     root = tree.getroot()
-    data = create_dict_file(tree)
+    data = create_dict_file(tree,verbose=True)
     print("Test data:",data)
     with open(f"Dataset/WebNLG/test.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Test File Created\n\n")
 
-    
+
     print("Creating Train File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
     root = tree.getroot()
