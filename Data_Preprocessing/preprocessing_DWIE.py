@@ -37,7 +37,7 @@ def create_linearized_KG(data):
         str += concept_text[data['relations'][i]['s']]+' - '+data['relations'][i]['p']+' - '+concept_text[data['relations'][i]['o']]+' | '
         #KG.append(concept_text[data['relations'][i]['s']]+' - '+data['relations'][i]['p']+' - '+concept_text[data['relations'][i]['o']] )
 
-    return str
+    return str.strip(' | ')
 
 
 
@@ -98,6 +98,19 @@ def create_experiment_linearized(data):
     instances= create_linearized_KG(data)
     d['Instances_KG'] = instances
     types, concepts = create_types_KG(data)
+    print(instances)
+
+    instance_list=instances.split('|')
+    print(instance_list)
+    instance_list=[x.split(' - ')[a].strip() for x in instance_list if x != '' for a in [0,2] if x[a] != '']
+    #instance_list=[x[a].strip() for x in d['Instances_KG'].split('') for a in [0,2] if x[a] != '']
+    instance_list = " | ".join(list(set(instance_list)))
+
+    d['Instances_list'] = instance_list
+    #print(d['Instances_list'])
+
+    #print("Created Instance_KG and TYPES ",d.keys())
+   
     d['Types_KG'] = types + instances
     #print("Created Instance_KG and TYPES ",d.keys())
     subclasses = create_subclass_KG(data)
