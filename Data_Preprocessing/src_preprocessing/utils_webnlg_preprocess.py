@@ -188,7 +188,7 @@ def create_dict_file(tree):
         
         entry_dict['story'] = entry.find('.//lex').text
         entry_dict['Instances_KG'] = ' | '.join(otriples)
-        print(f'{entry_dict=}')
+        #print(f'{entry_dict=}')
 
         #entities = [triple.split(' | ')[2] for triple in otriples]
         #entities.append(str(otriples[0].split(' | ')[0]))
@@ -262,23 +262,30 @@ def create_file_format():
 
     
     #load the WebNLG Dataset from the XML file
+    print("Creating Validation File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/dev_57triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
     with open(f"Dataset/WebNLG/validation.json", 'w') as f:
         json.dump(data, f, indent = 4)
+    print("Validation File Created\n\n")
     
+
+    print("Creating Train File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
     with open(f"Dataset/WebNLG/train.json", 'w') as f:
         json.dump(data, f, indent = 4)
+    print("Train File Created\n\n")
 
+    print("Creating Test File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
     root = tree.getroot()
     data = create_dict_file(tree)
     with open(f"Dataset/WebNLG/test.json", 'w') as f:
         json.dump(data, f, indent = 4)
+    print("Test File Created\n\n")
 
 
    

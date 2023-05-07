@@ -181,7 +181,6 @@ def prepare_KG(directory,outdir):
 
             except BaseException as e:
                 print(f'The {path} file contains invalid JSON')
-                
 
     return train, test
 
