@@ -254,5 +254,5 @@ def reification():
 
 if __name__ == "__main__":
     main()
-    #reification()
-    #format()
+    reification()
+    format()
