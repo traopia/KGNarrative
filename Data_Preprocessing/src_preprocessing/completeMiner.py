@@ -375,6 +375,7 @@ def wrap(filename):
     df3 = get_final_kg(df3)
     df3 = df3.drop(df3.index[0])
     df3['entities_list1'] = df3['triple_column'].apply(extract_entities)
+    print(df3['entities_list1'])
     df3['entities_list2'] =  " | ".join([x.strip() for x in df3['entities_list1']])
     #get_csv_with_mined_semantic(df3, "./train_complete.csv")  # here the path where to save
     #to_json_format("./train_complete.json", "./train_complete.csv")

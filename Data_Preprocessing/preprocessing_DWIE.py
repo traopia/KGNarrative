@@ -247,7 +247,7 @@ def reification():
 
         # SAVE THE DEVICE WE ARE WORKING WITH
         device = getting_device(gpu_prefence=True)
-        for d in ["train","test","validation"]:
+        for d in ["test","train","validation"]:
 
             print("Working on ", d)
             wrap(f"Dataset/DWIE/{d}.json")
