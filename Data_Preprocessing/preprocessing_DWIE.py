@@ -91,10 +91,10 @@ def create_experiment_linearized(data):
     """
     dict = {}
     dict['story'] = data['content'].replace('\n', ' ')
-    dict['Instances Knowledge Graph'] = create_linearized_KG(data)
+    dict['Instances_KG'] = create_linearized_KG(data)
     types, concepts = create_types_KG(data)
-    dict['Types Knowledge Graph'] = types + create_linearized_KG(data)
-    dict['Subclass Knowledge Graph'] = create_subclass_KG(data) + types + create_linearized_KG(data)
+    dict['Types_KG'] = types + create_linearized_KG(data)
+    dict['Subclasses_KG'] = create_subclass_KG(data) + types + create_linearized_KG(data)
     return dict
 
 
@@ -166,6 +166,50 @@ def remove_long_stories(data):
     print(f'From len {len(data)} only {len(selected_data)} selected ')  
     return selected_data
 
+
+
+def format():
+    ''' This function formats the JSON file in the chosen format want'''
+
+    for Dataset in ['test','training','validation']:
+        with open(f"Dataset/DWIE/{Dataset}.json", 'w') as f:
+            d = json.load(f)
+
+ 
+    
+            # Define the keys whose values should be merged
+            instances = ['Instances_KG']
+
+            typeKG = ['Instances_KG', 'Types_KG']
+
+            subClassKG = ['Instances_KG', 'Types_KG','Subclasses_KG']
+            #for d,d_s in zip(data,data_subclass):
+            for i in range(len(d)):  
+                #print(d[i])
+                print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
+
+                #MERGE CGRAPHS AND ADD CORE
+
+                merged_types = "[CORE] "+ d[i]['core_description'] +" [TRIPLES] "+' | '.join([d[i][k] for k in typeKG])
+
+                merged_subClasse = "[CORE] "+d[i]['core_description'] + " [TRIPLES] " + ' | '.join([d[i][k] for k in subClassKG])
+
+                merged_instances = "[CORE] "+d[i]['core_description'] + " [TRIPLES] " + ' | '.join([d[i][k] for k in instances])
+
+
+                d[i]['Types_KG'] = merged_types
+                d[i]['Subclasses_KG'] = merged_subClasse
+                d[i]['Instances_KG'] = merged_instances
+
+                #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
+
+                d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
+                d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
+
+                d[i]['semantic_of_news'] = "[CORE] "+d[i]['core_description']+ " [TRIPLES] " + d[i]['semantic_of_news']
+                with open(f"Dataset/DWIE/{Dataset}.json", 'w') as f:
+                    json.dump(d,f,indent=4,ensure_ascii = False)    
+
 def main():
     """
     This function creates a json file that contains the linearized KG and the story
@@ -215,3 +259,4 @@ def reification():
 if __name__ == "__main__":
     main()
     #reification()
+    #format()
