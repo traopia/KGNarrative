@@ -157,7 +157,7 @@ def prepare_KG(directory,outdir):
     for filename in os.listdir(directory):
         path = os.path.join(directory, filename)
         with open(path,'r') as g:
-            #try:
+            try:
                 data = json.load(g) 
                 if 'test' in data['tags']:
                     new_KG = create_experiment_linearized(data)
@@ -167,8 +167,8 @@ def prepare_KG(directory,outdir):
                     new_KG = create_experiment_linearized(data)
                     train.append(new_KG)
 
-            #except BaseException as e:
-            #    print(f'The {path} file contains invalid JSON')
+            except BaseException as e:
+                print(f'The {path} file contains invalid JSON')
                 
     return train, test
 
@@ -214,11 +214,11 @@ def format():
 
                 #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
 
-                d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
+                #d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
                 #d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
 
                 
-                #d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
+                d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + d[i]['Instances_list']
                 d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + d[i]['entities_list']
 
 
