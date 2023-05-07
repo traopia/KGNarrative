@@ -151,7 +151,7 @@ def get_entity_subclass(entity):
     else:
         return None  
 
-def create_dict_file(tree):
+def create_dict_file(tree,verbose=False):
     '''Create a dictionary file from the XML file:
     :param tree: the ElementTree object representing the XML file
     :return: a list of dictionaries, where each dictionary represents an entry in the XML file designed according to oor format
@@ -192,12 +192,14 @@ def create_dict_file(tree):
 
         #entities = [triple.split(' | ')[2] for triple in otriples]
         #entities.append(str(otriples[0].split(' | ')[0]))
-
+        
         entities=[str(otriples[0].split(' - ')[0])]+[triple.split(' - ')[2] for triple in otriples]
         #print(type(entities),entities)
         entry_dict['Instances_list'] = ' | '.join(set(entities))
         #entities = [entity.replace(" ", "_") for entity in entities]
 
+        if verbose==True:
+            print(f'{entry_dict=}')
         #classes
         classes = [get_entity_class('http://dbpedia.org/resource/'+entity)for entity in entities if '"' not in entity ]
         classes = list(filter(lambda item: item is not None, classes))
@@ -205,13 +207,17 @@ def create_dict_file(tree):
         classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True)for entity in entities if '"' not in entity ]
         classes_uri = list(filter(lambda item: item is not None, classes_uri))
         
-        
+        if verbose==True:
+            print(f'{classes=}')
+            print(f'{classes_uri=}')
 
         entry_dict['Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None]))
         entry_dict['Subclasses_KG'] =  ' | '.join(set([f"{i} - subclass - {get_entity_subclass(j)}" for i,j in zip(classes, classes_uri)]))
         entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace('_', ' ')
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
+        if verbose==True:
+            print(f'Inst-sub-types DONE:{entry_dict=}')
 
         # MULTI classes
         multi_classes = [get_entity_class('http://dbpedia.org/resource/'+entity,multiple=True)for entity in entities if '"' not in entity ]
@@ -223,6 +229,8 @@ def create_dict_file(tree):
         entry_dict['multi_Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)[i]}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None for i in range(len(get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)))]))
         entry_dict['multi_Subclasses_KG'] =  ' | '.join(set([f"{i} - subclass - {get_entity_subclass(j)}" for i,j in zip(multi_classes, multi_classes_uri) ]))
 
+        if verbose==True:
+            print(f'Multi Inst-sub-types and MULTI DONE:{entry_dict=}')
         dates = []
         s = entry_dict["Instances_KG"]
         date = re.findall(r'\d{4} - \d{2} - \d{2}', s)
@@ -261,7 +269,7 @@ def create_file_format():
     '''
 
     
-    #load the WebNLG Dataset from the XML file
+    """ #load the WebNLG Dataset from the XML file
     print("Creating Validation File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/dev_57triples.xml")
     root = tree.getroot()
@@ -270,7 +278,7 @@ def create_file_format():
     with open(f"Dataset/WebNLG/validation.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Validation File Created\n\n")
-    
+    """
 
     print("Creating Train File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/train_57triples.xml")

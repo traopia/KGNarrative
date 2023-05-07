@@ -15,6 +15,8 @@ python src/dwie_download.py
 
 if not os.path.exists('Dataset/DWIE'):
         os.makedirs('Dataset/DWIE')
+
+        
 def create_linearized_KG(data): 
     """
     This function creates a linearized KG from the KG in the json file
