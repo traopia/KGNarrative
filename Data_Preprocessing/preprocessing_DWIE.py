@@ -138,10 +138,10 @@ def prepare_KG(directory,outdir):
             try:
                 data = json.load(g) 
                 if 'test' in data['tags']:
-                    #print(f'{path} is test')
+                    print(f'{path} is test')
 
                     new_KG = create_experiment_linearized(data)
-                    #print(f'\n{new_KG=}')
+                    print(f'\n{new_KG=}')
                     test.append(new_KG)
                 elif 'train' in data['tags']:
                     #print(f'{path} is train')
