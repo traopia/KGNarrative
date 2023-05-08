@@ -216,7 +216,7 @@ def create_dict_file(tree,verbose=False):
             print(f'{classes=}')
             print(f'{classes_uri=}')
 
-        entry_dict['Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity and  '<' not in entity  if get_entity_class('http://dbpedia.org/resource/'+entity) != None]))
+        entry_dict['Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity)}" for entity in entities if '"' not in entity and '<' not in entity  if get_entity_class('http://dbpedia.org/resource/'+entity) != None]))
         entry_dict['Subclasses_KG'] =  ' | '.join(set([f"{i} - subclass - {get_entity_subclass(j)}" for i,j in zip(classes, classes_uri)]))
         entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace('_', ' ')
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
