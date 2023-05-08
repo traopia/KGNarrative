@@ -184,9 +184,11 @@ def remove_long_stories(data):
 def format():
     ''' This function formats the JSON file in the chosen format want'''
 
-    for Dataset in ['test','training','validation']:
-        with open(f"Dataset/DWIE/{Dataset}.json", 'w') as f:
+    for Dataset in ['test','train','validation']:
+        with open(f"Dataset/DWIE/{Dataset}.json", 'r') as f:
             d = json.load(f)
+
+            print(f'Loaded {Dataset} dataset. Formatting...')
 
             # Define the keys whose values should be merged
             instances = ['Instances_KG']
@@ -197,7 +199,7 @@ def format():
             #for d,d_s in zip(data,data_subclass):
             for i in range(len(d)):  
                 #print(d[i])
-                print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
+                #print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
 
                 #MERGE CGRAPHS AND ADD CORE
 
@@ -240,6 +242,11 @@ def main():
     validation= train_val[:100]
     train = train_val[100:-1]
 
+    print("Creating json for test...")
+    with open(f'{out_directory}test.json', 'w') as f:
+        test = remove_long_stories(test)
+        json.dump(test, f,indent=4)
+        
     print("Creating json for train...")
     with open(f'{out_directory}train.json', 'w') as f:
         train = remove_long_stories(train) 
@@ -250,10 +257,7 @@ def main():
         validation = remove_long_stories(validation)
         json.dump(validation, f,indent=4)
     
-    print("Creating json for test...")
-    with open(f'{out_directory}test.json', 'w') as f:
-        test = remove_long_stories(test)
-        json.dump(test, f,indent=4)
+
     
     print("DONE WITH CREATING THE GRAPHS")
 

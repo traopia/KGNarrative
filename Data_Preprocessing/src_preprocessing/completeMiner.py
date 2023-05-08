@@ -195,7 +195,7 @@ def mining_summary(df,model_name = "deep-learning-analytics/automatic-title-gene
       summaries.append(summary)
     
   # Add the summaries to the dataframe
-  df["core description"] = summaries
+  df["core_description"] = summaries
 
   # REMOVE IF IT CREATES PROBLEM WITH YOUR PARTICULAR DATASET
   # df["core description"] = df["core description"].apply(lambda x: x[1:])
