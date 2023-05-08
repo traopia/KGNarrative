@@ -220,7 +220,7 @@ def create_dict_file(tree,verbose=False):
             print(f'Inst-sub-types DONE:{entry_dict=}')
 
         # MULTI classes
-        multi_classes = [get_entity_class('http://dbpedia.org/resource/'+entity,multiple=True)for entity in entities if '"' not in entity ]
+        multi_classes = [get_entity_class('http://dbpedia.org/resource/'+entity,multiple=True)for entity in entities if '"' not in entity or "http" not in entity ]
         multi_classes = list(filter(lambda item: item is not None, classes))
 
         multi_classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity ]
