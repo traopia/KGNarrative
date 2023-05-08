@@ -220,10 +220,10 @@ def create_dict_file(tree,verbose=False):
             print(f'Inst-sub-types DONE:{entry_dict=}')
 
         # MULTI classes
-        multi_classes = [get_entity_class('http://dbpedia.org/resource/'+entity,multiple=True)for entity in entities if '"' not in entity or "http" not in entity ]
+        multi_classes = [get_entity_class('http://dbpedia.org/resource/'+entity,multiple=True)for entity in entities if '"' not in entity or "http" not in entity or '@' not in entity]
         multi_classes = list(filter(lambda item: item is not None, classes))
 
-        multi_classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity ]
+        multi_classes_uri = [get_entity_class('http://dbpedia.org/resource/'+entity, subclass=True, multiple=True)for entity in entities if '"' not in entity or "http" not in entity or '@' not in entity]
         multi_classes_uri = list(filter(lambda item: item is not None, classes_uri))
 
         entry_dict['multi_Types_KG'] = ' | '.join(set([f"{entity.replace('_', ' ')} - type - {get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)[i]}" for entity in entities if '"' not in entity if get_entity_class('http://dbpedia.org/resource/'+entity) != None for i in range(len(get_entity_class('http://dbpedia.org/resource/'+entity, multiple=True)))]))
