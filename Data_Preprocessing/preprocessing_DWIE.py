@@ -246,7 +246,8 @@ def main():
     with open(f'{out_directory}test.json', 'w') as f:
         test = remove_long_stories(test)
         json.dump(test, f,indent=4)
-        
+
+    """    
     print("Creating json for train...")
     with open(f'{out_directory}train.json', 'w') as f:
         train = remove_long_stories(train) 
@@ -256,6 +257,7 @@ def main():
     with open(f'{out_directory}validation.json', 'w') as f:
         validation = remove_long_stories(validation)
         json.dump(validation, f,indent=4)
+    """
     
 
     
@@ -269,7 +271,8 @@ def reification():
 
         # SAVE THE DEVICE WE ARE WORKING WITH
         device = getting_device(gpu_prefence=True)
-        for d in ["test","train","validation"]:
+        #for d in ["test","train","validation"]:
+        for d in ['test']:
 
             print("Working on ", d)
             wrap(f"Dataset/DWIE/{d}.json")
@@ -277,6 +280,6 @@ def reification():
 
 
 if __name__ == "__main__":
-    #main()
-    #reification()
+    main()
+    reification()
     format()
