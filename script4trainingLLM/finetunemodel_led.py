@@ -18,7 +18,7 @@ max_input = 4096
 
 def add_args(parser):
     parser.add_argument('datapath', type=str, help='Path to the data directory')
-    parser.add_argument('dataset', type=str, help='prefix of the dataset')
+    parser.add_argument('dataset', type=str, default='', help='prefix of the dataset')
     parser.add_argument('graph_kind', type=str, help='Kind of graph')
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
@@ -113,9 +113,9 @@ def main(args):
 
 
 
-    train_file = datapath +'/' + dataprefix + '_train' + '.json'
-    dev_file = datapath +'/'+ dataprefix + '_dev' + '.json'
-    test_file = datapath +'/' + dataprefix + '_test'+ '.json'
+    train_file = datapath +'/' + 'train.json'
+    dev_file = datapath +'/'+ 'validation.json'
+    test_file = datapath +'/' + 'test.json'
 
 
     print("Loading dataset from ",datapath)
@@ -132,7 +132,7 @@ def main(args):
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
-    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=todrop)
+    tokenized_dataset = dataset.map(lambda example: process_data_LED(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=todrop)
 
     print("\nLoading MODEL")
     model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
@@ -171,7 +171,7 @@ def main(args):
         save_total_limit=1, #this is the max amount of checkpoint saved, after which previous checpoints are removed
         num_train_epochs=epochs, #number of epochs
         predict_with_generate=True, #since we use validation (bc during validation we generate and compare to gold ) - backprpop error on rouge
-        generation_max_length = 512, #max number of tokens per generation 
+        generation_max_length = max_target, #max number of tokens per generation 
         generation_num_beams=5, #decoding strategy! greedy search, beam search 
         eval_accumulation_steps=1, #backprop  
         fp16=True, #memory management
