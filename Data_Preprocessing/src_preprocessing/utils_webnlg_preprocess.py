@@ -203,6 +203,7 @@ def create_dict_file(tree,verbose=False):
         #classes
         if verbose==True:
             print('now querying classes:')
+            print(f'{entities=}')
         classes = [get_entity_class('http://dbpedia.org/resource/'+entity) for entity in entities if '"' not in entity or 'http' not in entity or '@' not in entity or ',' not in entity]
         classes = list(filter(lambda item: item is not None, classes))
         #classes uri
