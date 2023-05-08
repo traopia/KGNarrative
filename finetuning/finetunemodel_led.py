@@ -13,15 +13,16 @@ os.environ['TQDM_DISABLE'] = 'true'
 os.environ["WANDB_SILENT"] = "true"
 
 max_target = 1024
-max_input = 4096
+max_input = 8192
 
 
 def add_args(parser):
+    
     parser.add_argument('datapath', type=str, help='Path to the data directory')
-    parser.add_argument('dataset', type=str, default='', help='prefix of the dataset')
     parser.add_argument('graph_kind', type=str, help='Kind of graph')
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
     parser.add_argument('experiment_name', type=str, help='Name of the experiment (outputfolder)')
+    parser.add_argument('--dataset', type=str, default='', help='prefix of the dataset')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer (default: 1e-4)')
     parser.add_argument('--batch_size', type=int, default=2, help='Batch size (default: 2)')
     parser.add_argument('--epochs', type=int, default=3, help='Number of epochs (default: 3)')
