@@ -22,14 +22,13 @@ python3 Data_Preprocessing/dwie_download.py
 Preprocessing (GPU is required):
 ```
 python Data_Preprocessing/preprocessing_DWIE.py
-
 ```
 
 ## WebNlg
 
 Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
 Release 3.0 in English is required
-Preprocessing (GPU is required):
+Preprocessing (GPU is required) [takes considerable time]:
 ```
 python Data_Preprocessing/preprocessing_WebNLG.py
 ```
@@ -40,16 +39,15 @@ For finetuning model on a specific content planner: ($element is one of 'Types_K
 
 ```
 #WebNLG
-python3 script4trainingLLM/finetunemodel_webnlg.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+python3 finetuning/finetunemodel_webnlg.py Datasets/WebNLG/4experiment $element bart-large path/to/results/$element
 #DWIE
-python3 script4trainingLLM/LED_$_DWIE.py Datasets/WebNLG/4experiment full $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+python3 finetuning/finetunemodel_led.py Datasets/WebNLG/4experiment $element led path/to/results/$element
 ```
 
 # RESULTS
 To reproduce the results from the paper use the scripts in the scripts folder by running for example:
 ```
 ./scripts/webnlg_Semantic
-
 ```
 ### Dependencies
 A working enviroment is provided in enviroment.yml. Both for the dataset generation and finetuning, minumal requirement file is provided in each folder. 
