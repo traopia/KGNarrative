@@ -198,8 +198,6 @@ def format():
             subClassKG = ['Instances_KG', 'Types_KG','Subclasses_KG']
             #for d,d_s in zip(data,data_subclass):
             for i in range(len(d)):  
-                #print(d[i])
-                #print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
 
                 #MERGE CGRAPHS AND ADD CORE
 
@@ -215,9 +213,6 @@ def format():
                 d[i]['Instances_KG'] = merged_instances
 
                 #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
-
-                #d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
-                #d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
 
                 
                 d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + d[i]['Instances_list']
