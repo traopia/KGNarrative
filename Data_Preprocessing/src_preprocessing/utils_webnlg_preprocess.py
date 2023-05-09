@@ -244,19 +244,7 @@ def create_dict_file(tree,verbose=False):
             for j in date:
                 entry_dict["Instances_KG"] = entry_dict["Instances_KG"].replace(j, j.replace(" - ", "/").replace('"'))
 
-        """
-        #change trattini format
-        entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace(' - ','|').replace(' | ','-')
-        entry_dict['Instances_KG'] = entry_dict['Instances_KG'].replace('-',' - ').replace('|',' | ')
-        entry_dict['Types_KG'] = entry_dict['Types_KG'].replace(' - ','|').replace(' | ','-')
-        entry_dict['Types_KG'] = entry_dict['Types_KG'].replace('-',' - ').replace('|',' | ')
-        entry_dict['Subclasses_KG'] = entry_dict['Subclasses_KG'].replace(' - ','|').replace(' | ','-')
-        entry_dict['Subclasses_KG'] = entry_dict['Subclasses_KG'].replace('-',' - ').replace('|',' | ')
-        entry_dict['multi_Types_KG'] = entry_dict['multi_Types_KG'].replace(' - ','|').replace(' | ','-')
-        entry_dict['multi_Types_KG'] = entry_dict['multi_Types_KG'].replace('-',' - ').replace('|',' | ')
-        entry_dict['multi_Subclasses_KG'] = entry_dict['multi_Subclasses_KG'].replace(' - ','|').replace(' | ','-')
-        entry_dict['multi_Subclasses_KG'] = entry_dict['multi_Subclasses_KG'].replace('-',' - ').replace('|',' | ')
-        """
+
 
         entry_dict['story'] = entry_dict['story'].replace('"',' ')
 
@@ -285,7 +273,7 @@ def create_file_format():
         json.dump(data, f, indent = 4)
     print("Train File Created\n\n")
 
-    """
+    
     print("Creating Test File\n")
     tree = ET.parse(f"WebNLG/release_v3.0/en/selected/test_triples.xml")
     root = tree.getroot()
@@ -304,7 +292,7 @@ def create_file_format():
     with open(f"Dataset/WebNLG/validation.json", 'w') as f:
         json.dump(data, f, indent = 4)
     print("Validation File Created\n\n")
-    """
+    
     
 
 
