@@ -1,6 +1,12 @@
 # Semantic Enhanced Content Planning: A Preliminary Exploration
 This repo contains the code for "Semantic Enhanced Content Planning: A Preliminary Exploration", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
 
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/91601166/237033206-ff9cb1dc-3f0e-4011-abc7-cc9e1c082e1d.png" alt="Pipe">
+</p>
+
+
 # DATASETS :
 Two newly augmented are introduced based on the Existing WebNLG and DWIE. The enhanced version of these datasets can be found in the Datasets folder. 
 The addition was done by either mining from text or scraping large knowledge bases. 
