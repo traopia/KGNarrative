@@ -47,7 +47,7 @@ python3 finetuning/finetunemodel_led.py Datasets/WebNLG/4experiment $element led
 # RESULTS
 To reproduce the results from the paper use the scripts in the scripts folder by running for example:
 ```
-./scripts/webnlg_Semantic
+./experiment_scripts/webnlg_Semantic.sh
 ```
 ### Dependencies
 A working enviroment is provided in enviroment.yml. Both for the dataset generation and finetuning, minumal requirement file is provided in each folder. 
