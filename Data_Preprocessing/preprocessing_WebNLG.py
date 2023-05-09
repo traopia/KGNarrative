@@ -4,7 +4,7 @@ from src_preprocessing.utils_webnlg_preprocess import *
 
 def main():
 
-    """   
+      
     #1 merge files
     print("Merging files...")
     merge_of_merge()
@@ -24,7 +24,7 @@ def main():
     #5 Remove data points for which the reification didnt work
     print("Removing data points for which the reification didnt work...\n")
     remove_if_not_reification()
-    """
+    
     #5 Format the file in final experimental format
     print("Formatting the file in final experimental format...\n")
     format()
