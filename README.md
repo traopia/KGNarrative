@@ -39,9 +39,9 @@ For finetuning model on a specific content planner: ($element is one of 'Types_K
 
 ```
 #WebNLG
-python3 finetuning/finetunemodel_webnlg.py Datasets/WebNLG/4experiment $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+python3 finetuning/finetunemodel_webnlg.py Datasets/WebNLG/4experiment $element bart-large path/to/results/$element
 #DWIE
-python3 finetuning/finetunemodel_led.py Datasets/WebNLG/4experiment $element bart-large path/to/results/$element --learning_rate 0.0001 --batch 1 --epochs 3
+python3 finetuning/finetunemodel_led.py Datasets/WebNLG/4experiment $element bart-large path/to/results/$element
 ```
 
 # RESULTS
