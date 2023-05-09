@@ -23,5 +23,5 @@ __pycache__
 roba_che_non_serve?
 ./DWIE
 ./WebNLG
-./results_OLD
-results/DWIE_exp
+results_OLD
+FINAL_RESULTS/DWIE_exp
