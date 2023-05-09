@@ -263,7 +263,31 @@ def main():
     
     print("DONE WITH CREATING THE GRAPHS")
 
-  
+def remove_long_inputs():
+    """
+    This function removes the stories that have Subclasses longer than 4096 tokens
+    """
+
+    print("STARTING with removal..")
+
+    for d in ["test","train","validation"]:
+        print("Working on ", d)
+
+        l=[]
+
+        with open(f"Dataset/DWIE/{d}.json", 'r') as f:
+            data = json.load(f)
+            print("Working on ", d)
+
+            for i in data:
+                if len(word_tokenize(i['Subclasses_KG']))<4096:
+                    l.append(i)
+        
+        with open(f"Dataset/DWIE/{d}.json", 'w') as f:
+            json.dump(l,f,indent=4,ensure_ascii = False)
+
+        print("DONE with removing shorts for ", d)
+
 
 def reification():
         check_gpu_availability()
@@ -282,3 +306,4 @@ if __name__ == "__main__":
     main()
     reification()
     format()
+    remove_long_inputs()

@@ -13,11 +13,10 @@ os.environ['TQDM_DISABLE'] = 'true'
 os.environ["WANDB_SILENT"] = "true"
 
 max_target = 1024
-max_input = 8192
+max_input = 4096
 
 
 def add_args(parser):
-    
     parser.add_argument('datapath', type=str, help='Path to the data directory')
     parser.add_argument('graph_kind', type=str, help='Kind of graph')
     parser.add_argument('model_checkpoint', type=str, help='HF MODELS OR Path to the directory containing the model checkpoint files')
@@ -111,7 +110,6 @@ def main(args):
         print("Model checkpoint is not valid")
         exit()
        
-
 
 
     train_file = datapath +'/' + 'train.json'
