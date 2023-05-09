@@ -22,14 +22,13 @@ python3 Data_Preprocessing/dwie_download.py
 Preprocessing (GPU is required):
 ```
 python Data_Preprocessing/preprocessing_DWIE.py
-
 ```
 
 ## WebNlg
 
 Download WebNLG from orginial repo (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)
 Release 3.0 in English is required
-Preprocessing (GPU is required):
+Preprocessing (GPU is required) [takes considerable time]:
 ```
 python Data_Preprocessing/preprocessing_WebNLG.py
 ```
@@ -49,7 +48,6 @@ python3 script4trainingLLM/LED_$_DWIE.py Datasets/WebNLG/4experiment full $eleme
 To reproduce the results from the paper use the scripts in the scripts folder by running for example:
 ```
 ./scripts/webnlg_Semantic
-
 ```
 ### Dependencies
 A working enviroment is provided in enviroment.yml. Both for the dataset generation and finetuning, minumal requirement file is provided in each folder. 
