@@ -2,13 +2,9 @@
 
 cols=('Instances_list' 'Instances_KG' 'Types_KG' 'Subclasses_KG'  'multi_Subclasses_KG')
 
-    for element in "${cols[@]}"
-    do
-        echo "FINETUNIING NOW ON $element"
-        python3 KGNarrative/finetuning/finetunemodel_bart.py KGNarrative/Dataset/WEBNLG  $element led KGNarrative/FINAL_RESULTS/DWIE_full/$element
-        echo "DONE"
-
-    echo DONE
+for element in "${cols[@]}"
+do
+    echo "FINETUNIING NOW ON $element"
+    python3 KGNarrative/finetuning/finetunemodel_bart.py KGNarrative/Dataset/WebNLG $element bart-large KGNarrative/FINAL_RESULTS/WEBNLG/$element
+    echo "DONE"
 done
-
-

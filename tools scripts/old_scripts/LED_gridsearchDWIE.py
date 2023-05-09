@@ -132,7 +132,7 @@ def main(args):
 
     print("\nProcessing Dataset")
     #the processing of the data is done batches for make it faster,number of processes 4
-    tokenized_dataset = dataset.map(lambda example: process_data_BART(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=todrop)
+    tokenized_dataset = dataset.map(lambda example: process_data_LED(example, tokenizer,max_input,max_target,typeKG), batched=True, num_proc=4,remove_columns=todrop)
 
     print("\nLoading MODEL")
     model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
