@@ -1,5 +1,11 @@
-# Using Semantics for Content Planning: Lessons Learnt
-This repo contains the code for "Using Semantics for Content Planning: Lessons Learnt", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
+# Semantic Enhanced Content Planning: A Preliminary Exploration
+This repo contains the code for "Semantic Enhanced Content Planning: A Preliminary Exploration", where different and deeper levels of semantic in a content planner are tested for textual generation. Two dataset are augmented with semantic information and tested on popular transformer models for language generation.
+
+
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/91601166/237034800-852eec89-d2be-4090-9279-b1e3bb6bb18f.png" alt="Pipe">
+</p>
+
 
 # DATASETS :
 Two newly augmented are introduced based on the Existing WebNLG and DWIE. The enhanced version of these datasets can be found in the Datasets folder. 
