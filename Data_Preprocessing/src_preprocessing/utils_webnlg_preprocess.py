@@ -353,10 +353,11 @@ def remove_if_not_reification():
 def format():
     ''' This function formats the JSON file in the chosen format want'''
 
-    for Dataset in ['test','training','validation']:
-        with open(f"Dataset/WebNLG/{Dataset}.json", 'w') as f:
+    for Dataset in ['train']:
+        with open(f"Dataset/WebNLG/{Dataset}.json", 'r') as f:
             d = json.load(f)
 
+            print("loaded from", Dataset)
  
     
             # Define the keys whose values should be merged
@@ -368,7 +369,7 @@ def format():
             #for d,d_s in zip(data,data_subclass):
             for i in range(len(d)):  
                 #print(d[i])
-                print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
+                #print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
 
                 #MERGE CGRAPHS AND ADD CORE
 
@@ -386,9 +387,6 @@ def format():
                 d[i]['Instances_KG'] = merged_instances
 
                 #ADD CORE TO ENTITIES LIST AND SEMANTIC OF NEWS
-
-                #d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['Instances_list'])
-                #d[i]['entities_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + " | ".join(d[i]['entities_list'])
 
 
                 d[i]['Instances_list'] = "[CORE] "+d[i]['core_description']+ " [ENTITIES] " + d[i]['Instances_list']

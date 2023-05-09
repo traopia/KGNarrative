@@ -16,7 +16,7 @@ def main():
     #3 remove short test instances
     print("Removing short test instances...\n")
     remove_short_test()
-    """
+    
     #4 Add the reification of the triples - this takes a while because 
     print("Adding reification...\n")
     reification()
@@ -24,7 +24,7 @@ def main():
     #5 Remove data points for which the reification didnt work
     print("Removing data points for which the reification didnt work...\n")
     remove_if_not_reification()
-
+    """
     #5 Format the file in final experimental format
     print("Formatting the file in final experimental format...\n")
     format()

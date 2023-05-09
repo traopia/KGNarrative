@@ -1,0 +1,14 @@
+inltk
+nltk.tokenizer
+transformers
+datasets
+pynvml
+evaluate
+sentencepiece
+flair
+SPARQLWrapper
+xml.etree
+json
+re
+shutil
+
