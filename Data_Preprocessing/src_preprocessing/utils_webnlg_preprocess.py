@@ -353,7 +353,7 @@ def remove_if_not_reification():
 def format():
     ''' This function formats the JSON file in the chosen format want'''
 
-    for Dataset in ['train']:
+    for Dataset in ['test','validation','train']:
         with open(f"Dataset/WebNLG/{Dataset}.json", 'r') as f:
             d = json.load(f)
 
@@ -366,10 +366,8 @@ def format():
             typeKG = ['Instances_KG', 'Types_KG']
 
             subClassKG = ['Instances_KG', 'Types_KG','Subclasses_KG']
-            #for d,d_s in zip(data,data_subclass):
+            
             for i in range(len(d)):  
-                #print(d[i])
-                #print("[CORE] "+ d[i]['core_description'] +" [TRIPLES]")
 
                 #MERGE CGRAPHS AND ADD CORE
 
@@ -410,8 +408,7 @@ def reification():
 
         # SAVE THE DEVICE WE ARE WORKING WITH
         device = getting_device(gpu_prefence=True)
-        #for d in ["train","test","validation"]:
-        for d in ["validation"]:
+        for d in ["train","test","validation"]:
 
             print("Working on ", d)
             wrap(f"Dataset/WebNLG/{d}.json")
