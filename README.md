@@ -51,8 +51,9 @@ To reproduce the results from the paper use the scripts in the scripts folder by
 ./scripts/webnlg_Semantic
 
 ```
-
-
+### Dependencies
+A working enviroment is provided in enviroment.yml. Both for the dataset generation and finetuning, minumal requirement file is provided in each folder. 
+Parent metric was installed from source (https://github.com/KaijuML/parent). Same for Bleurt (https://github.com/google-research/bleurt)
 ### Citations
 Should you use this code/dataset for your own research, please cite: 
 ```
