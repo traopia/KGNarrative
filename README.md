@@ -3,7 +3,7 @@ This repo contains the code for "Semantic Enhanced Content Planning: A Prelimina
 
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/91601166/237033206-ff9cb1dc-3f0e-4011-abc7-cc9e1c082e1d.png" alt="Pipe">
+  <img width="500" src="https://user-images.githubusercontent.com/91601166/237034285-a096897b-6fce-482b-ae9a-f9eaae0863c4.png" alt="Pipe">
 </p>
 
 
